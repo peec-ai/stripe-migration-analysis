@@ -1,0 +1,463 @@
+{
+  "indexes": [
+    {
+      "indexId": "organizations-COLLECTION/hasSentTrialEndingEmail-ASCENDING/status-ASCENDING/trialEndsAt-ASCENDING",
+      "collectionGroup": "organizations",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "hasSentTrialEndingEmail",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "trialEndsAt",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION/status-ASCENDING/completedAt-ASCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "completedAt",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION/status-ASCENDING/createdAt-ASCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION_GROUP/browser-ASCENDING/modelId-ASCENDING/status-ASCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "browser",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "modelId",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION_GROUP/status-ASCENDING/startedAt-ASCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "startedAt",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION_GROUP/status-ASCENDING/startedProcessingAt-ASCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "startedProcessingAt",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION_GROUP/status-ASCENDING/createdAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION_GROUP/status-ASCENDING/startedChatCompletionAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "startedChatCompletionAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION_GROUP/status-ASCENDING/completedChatCompletionAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "completedChatCompletionAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION_GROUP/status-ASCENDING/startedProcessingAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "startedProcessingAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION_GROUP/status-ASCENDING/completedProcessingAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "completedProcessingAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION/citationDomainIds-ARRAY_CONTAINS/createdAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "citationDomainIds",
+          "mode": "ARRAY_CONTAINS"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION/citationDomainIds-ARRAY_CONTAINS/modelId-ASCENDING/createdAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "citationDomainIds",
+          "mode": "ARRAY_CONTAINS"
+        },
+        {
+          "fieldPath": "modelId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION/promptId-ASCENDING/createdAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "promptId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION_GROUP/modelId-ASCENDING/completedChatCompletionAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "modelId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "completedChatCompletionAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION_GROUP/browser-ASCENDING/modelId-ASCENDING/completedChatCompletionAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "browser",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "modelId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "completedChatCompletionAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION_GROUP/proxyProvider-ASCENDING/modelId-ASCENDING/completedChatCompletionAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "modelId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "proxyProvider",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "completedChatCompletionAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION/modelId-ASCENDING/promptId-ASCENDING/createdAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "modelId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "promptId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION/mentionedKeywordIds-ARRAY_CONTAINS/modelId-ASCENDING/promptId-ASCENDING/createdAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "mentionedKeywordIds",
+          "mode": "ARRAY_CONTAINS"
+        },
+        {
+          "fieldPath": "modelId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "promptId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION/mentionedKeywordIds-ARRAY_CONTAINS/promptId-ASCENDING/createdAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "mentionedKeywordIds",
+          "mode": "ARRAY_CONTAINS"
+        },
+        {
+          "fieldPath": "promptId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION/status-ASCENDING/createdAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION/mentionedKeywordIds-ARRAY_CONTAINS/status-ASCENDING/createdAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "mentionedKeywordIds",
+          "mode": "ARRAY_CONTAINS"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION/modelId-ASCENDING/status-ASCENDING/createdAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "modelId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "chats-COLLECTION/mentionedKeywordIds-ARRAY_CONTAINS/modelId-ASCENDING/status-ASCENDING/createdAt-DESCENDING",
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "mentionedKeywordIds",
+          "mode": "ARRAY_CONTAINS"
+        },
+        {
+          "fieldPath": "modelId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "indexId": "keywordSuggestions-COLLECTION/status-ASCENDING/chatCount-DESCENDING",
+      "collectionGroup": "keywordSuggestions",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status", "order": "ASCENDING" },
+        { "fieldPath": "chatCount", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "indexId": "keywords-COLLECTION_GROUP/daysToProcessLength-ASCENDING/lastDayProcessedAt-ASCENDING",
+      "collectionGroup": "keywords",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "daysToProcessLength",
+          "order": "ASCENDING"
+        },
+        { "fieldPath": "lastDayProcessedAt", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "indexId": "exports-COLLECTION_GROUP/status-ASCENDING/requestedAt-DESCENDING",
+      "collectionGroup": "exports",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        { "fieldPath": "requestedAt", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "indexId": "chats-COLLECTION_GROUP/externalRequestId-ASCENDING",
+      "collectionGroup": "chats",
+      "fieldPath": "externalRequestId",
+      "ttl": false,
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "COLLECTION_GROUP"
+        }
+      ]
+    }
+  ]
+}

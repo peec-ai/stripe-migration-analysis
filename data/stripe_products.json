@@ -1,0 +1,232 @@
+[
+  {
+    "id": "prod_T62Qa3TDUIgPG6",
+    "name": "Enterprise Workspace • 750 Prompts",
+    "description": "750 Prompts, tracked across ChatGPT, Perplexity and AI Overviews"
+  },
+  {
+    "id": "prod_T3t3JRZv3GELfL",
+    "name": "Pro Workspace • 75 Prompts",
+    "description": "75 prompts tracked across ChatGPT, Perplexity and Google's AI Overviews"
+  },
+  {
+    "id": "prod_T1py7RrHAcrCKu",
+    "name": "Enterprise Add-on (300 Prompts) • Model • claude-sonnet-4",
+    "description": null
+  },
+  {
+    "id": "prod_T1pxVl9Xsrlh5b",
+    "name": "Pro Add-on (100 Prompts) • Model • claude-sonnet-4",
+    "description": null
+  },
+  {
+    "id": "prod_T1pvCsW2anSuCq",
+    "name": "Pro Add-on (50 Prompts) • Model • claude-sonnet-4",
+    "description": null
+  },
+  {
+    "id": "prod_T1orZHVGAyU99g",
+    "name": "Starter Add-on (25 Prompts) • Model • Gemini",
+    "description": null
+  },
+  {
+    "id": "prod_T1opnRr4qwq3sR",
+    "name": "Enterprise Add-on (300 Prompts) • Model • Gemini",
+    "description": null
+  },
+  {
+    "id": "prod_T1on9fdRsw0mZX",
+    "name": "Pro Add-on (50 Prompts) • Model • Gemini",
+    "description": null
+  },
+  {
+    "id": "prod_T1ok2hNJSpbziZ",
+    "name": "Pro Add-on (100 Prompts) • Model • Gemini",
+    "description": null
+  },
+  {
+    "id": "prod_T1oiLETs1CRTDj",
+    "name": "Enterprise Add-on (300 Prompts) • Model • Google AI Mode",
+    "description": null
+  },
+  {
+    "id": "prod_T1oeQjXn8ql5A6",
+    "name": "Pro Add-on (50 Prompts) • Model • Google AI Mode",
+    "description": null
+  },
+  {
+    "id": "prod_T1oWZF5YPSr19e",
+    "name": "Pro Add-on (100 Prompts) • Model • Google AI Mode",
+    "description": null
+  },
+  {
+    "id": "prod_T1ABr4linMlSmm",
+    "name": "Starter Add-on (25 Prompts) • Model • Google AI Mode",
+    "description": null
+  },
+  {
+    "id": "prod_SzhPtsFbmH0W3E",
+    "name": "Enterprise Workspace • 2000 Prompts",
+    "description": null
+  },
+  {
+    "id": "prod_SzGUmLVdXEWA8R",
+    "name": "Enterprise Workspace • 1000 Prompts",
+    "description": null
+  },
+  {
+    "id": "prod_Sql0y7zJXWldun",
+    "name": "Pro Workspace • 150 Prompts",
+    "description": "150 prompts tracked across ChatGPT, Perplexity and Google's AI Overviews"
+  },
+  {
+    "id": "prod_SmABO5IG6phHoV",
+    "name": "Pro Workspace • 200 Prompts",
+    "description": "200 prompts tracked across ChatGPT, Perplexity and Google's AI Overviews"
+  },
+  {
+    "id": "prod_Sm9pu60ql8rxtF",
+    "name": "Pro Workspace • 200 Prompts",
+    "description": "200 Prompts"
+  },
+  {
+    "id": "prod_SlqESsyVgNIFbH",
+    "name": "Pro Workspace • 20 Prompts (Legacy)",
+    "description": null
+  },
+  {
+    "id": "prod_Sez7xgL08Jhkg7",
+    "name": "Pro Add-on • Model • gemini-2.5-flash",
+    "description": null
+  },
+  {
+    "id": "prod_SeOvFm8Xb5tr8e",
+    "name": "Pro Add-on • Model • gpt-4o-search",
+    "description": null
+  },
+  {
+    "id": "prod_SYHXLu24LZYdxB",
+    "name": "Starter Add-on (25 Prompts) • Model • claude-sonnet-4",
+    "description": null
+  },
+  {
+    "id": "prod_SWY4FWxmXENFFo",
+    "name": "Enterprise Workspace (300 Prompts for 2 months)",
+    "description": null
+  },
+  {
+    "id": "prod_SUtELfflvBk07Z",
+    "name": "Starter Add-on • Model • gemini-2.5-flash",
+    "description": null
+  },
+  {
+    "id": "prod_SRfFIFqKBnTrlh",
+    "name": "Custom Agency Plan",
+    "description": null
+  },
+  {
+    "id": "prod_SRaYlS3opxeI2p",
+    "name": "Enterprise Add-on • Model • claude-3.5-haiku",
+    "description": null
+  },
+  {
+    "id": "prod_SKqlMsBclqktsp",
+    "name": "Medium Workspace • 60 Prompts (Legacy)",
+    "description": null
+  },
+  {
+    "id": "prod_SKq9Tp4hL1g6NN",
+    "name": "Small Workspace • 15 Prompts (Legacy)",
+    "description": null
+  },
+  {
+    "id": "prod_SKpzkS9DLNPKRT",
+    "name": "Small Workspace • 10 Prompts (Legacy)",
+    "description": null
+  },
+  {
+    "id": "prod_SKpOqCIx9aYydY",
+    "name": "Starter Add-on • Model • gpt-4o",
+    "description": null
+  },
+  {
+    "id": "prod_SKjjWEnxjSeydd",
+    "name": "Pro Add-on • 25 Prompts",
+    "description": null
+  },
+  {
+    "id": "prod_SKi4o4QdFTxJ7Q",
+    "name": "Starter Add-on • Model • grok-2-1212",
+    "description": null
+  },
+  {
+    "id": "prod_SKi2SF26D5egyB",
+    "name": "Starter Add-on • Model • deepseek-r1",
+    "description": null
+  },
+  {
+    "id": "prod_SKhzbGprP34iUy",
+    "name": "Starter Add-on • Model • claude-3.5-haiku",
+    "description": null
+  },
+  {
+    "id": "prod_SKhxmyPjblETIH",
+    "name": "Starter Add-on • Model • llama-3.3-70b-instruct",
+    "description": null
+  },
+  {
+    "id": "prod_SKhJypClzwG1K6",
+    "name": "Starter Add-on • Model • gemini-1.5-flash",
+    "description": null
+  },
+  {
+    "id": "prod_SJLngGx2JOogoI",
+    "name": "Enterprise Workspace • 300 Prompts",
+    "description": "300 prompts tracked across ChatGPT, Perplexity and Google's AI Overviews"
+  },
+  {
+    "id": "prod_SF88MEged9XbuX",
+    "name": "Enterprise Workspace • 500 Prompts",
+    "description": "500 Prompts, tracked across ChatGPT, Perplexity and AI Overviews"
+  },
+  {
+    "id": "prod_SErKcnshqCiQth",
+    "name": "Starter Add-on • Model • gpt-4o-search",
+    "description": null
+  },
+  {
+    "id": "prod_SAzUvCNnzl6n71",
+    "name": "Pro Workspace • 50 Prompts",
+    "description": null
+  },
+  {
+    "id": "prod_S6Vr6mr8BJrWGc",
+    "name": "Pro Workspace • 100 Prompts",
+    "description": "Designed for agile SMEs"
+  },
+  {
+    "id": "prod_S6Vq3DJcPoXe3i",
+    "name": "Starter Workspace • 25 Prompts",
+    "description": "Ideal for growing startups"
+  },
+  {
+    "id": "prod_S3sBpiBbq9OrSb",
+    "name": "Small Workspace • 20 Prompts (Legacy)",
+    "description": null
+  },
+  {
+    "id": "prod_RvMv8m7QtsNKgr",
+    "name": "Pro Add-on • Model • gemini-1.5-flash",
+    "description": null
+  },
+  {
+    "id": "prod_RqqyVXMa6yfVvs",
+    "name": "Medium Workspace • 40 Prompts (Legacy)",
+    "description": null
+  },
+  {
+    "id": "prod_RfyjDqozRtX8Lp",
+    "name": "Small Workspace • 30 Prompts (Legacy)",
+    "description": "Perfect for marketing teams who want to dominate AI search"
+  }
+]
