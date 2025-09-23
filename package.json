@@ -12,6 +12,8 @@
   "dependencies": {
     "@streamparser/json": "^0.0.22",
     "firebase-admin": "^13.5.0",
-    "stripe": "^18.5.0"
+    "stripe": "^18.5.0",
+    "vitest": "^3.2.4",
+    "zod": "^4.1.11"
   }
 }

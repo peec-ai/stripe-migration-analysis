@@ -1,16 +1,37 @@
 import { JSONParser } from "@streamparser/json";
+import { z } from "zod";
 
-export interface Organization {
-  id: string;
-  promptLimit: number;
-  chatIntervalInHours: number;
-  domain?: string;
-  name: string;
-  status: string;
-  modelIds: string[];
-  companyName: string;
-  promptsCount: number;
-}
+export const ModelId = z.enum([
+  "gpt-4o",
+  "chatgpt",
+  "sonar",
+  "google-ai-overview",
+  "llama-3-3-70b-instruct",
+  "gpt-4o-search",
+  "claude-sonnet-4",
+  "claude-3-5-haiku",
+  "gemini-1-5-flash",
+  "deepseek-r1",
+  "gemini-2-5-flash",
+  "google-ai-mode",
+  "grok-2-1212",
+  "gpt-3-5-turbo",
+]);
+export type ModelId = z.infer<typeof ModelId>;
+
+export const Organization = z.object({
+  id: z.string(),
+  promptLimit: z.number(),
+  chatIntervalInHours: z.number(),
+  domain: z.string().optional(),
+  name: z.string(),
+  status: z.string(),
+  modelIds: z.array(ModelId),
+  companyName: z.string(),
+  promptsCount: z.number(),
+  companyId: z.string(),
+});
+export type Organization = z.infer<typeof Organization>;
 
 export async function processOrganizations() {
   console.log("Starting to process organizations stream...");
@@ -39,6 +60,7 @@ export async function processOrganizations() {
       modelIds: org.modelIds,
       companyName: org.companyName,
       promptsCount: org.promptsCount,
+      companyId: org.companyId,
     };
 
     // Here you can do something with the processed object
@@ -62,16 +84,19 @@ export async function processOrganizations() {
   console.log(`Successfully processed ${count} organizations.`);
 }
 
-export interface Company {
-  id: string;
-  name: string;
-  domain?: string;
-  type: string;
-  leadType?: string;
-  stripeCustomerId?: string;
-  stripeSubscriptionStatus?: string;
-  stripeSubscriptionId?: string;
-}
+export const Company = z.object({
+  id: z.string(),
+  name: z.string(),
+  domain: z.string().optional(),
+  type: z.enum(["IN_HOUSE", "AGENCY"]),
+  leadType: z.enum(["SALES", "SELF_SERVICE"]).optional(),
+  stripeCustomerId: z.string().optional(),
+  stripeSubscriptionStatus: z
+    .enum(["canceled", "past_due", "active", "trialing"])
+    .optional(),
+  stripeSubscriptionId: z.string().optional(),
+});
+export type Company = z.infer<typeof Company>;
 
 export async function processCompanies() {
   console.log("Starting to process organizations stream...");

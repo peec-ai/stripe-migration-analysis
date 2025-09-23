@@ -1,23 +1,25 @@
 import Stripe from "stripe";
-
-const stripe = new Stripe(process.env.STRIPE_API_KEY!, {
-  apiVersion: "2025-08-27.basil",
-});
+import z from "zod";
 
 // 2. Define a clear type for the data we want to save
-interface SubscriptionItemRecord {
-  customerId: string;
-  subscriptionId: string;
-  subscriptionItemId: string;
-  planId: string;
-  mrrCents: number;
-  quantity: number;
-}
+export const SubscriptionItemRecord = z.object({
+  customerId: z.string(),
+  subscriptionId: z.string(),
+  subscriptionItemId: z.string(),
+  planId: z.string(),
+  mrrCents: z.number(),
+  quantity: z.number(),
+});
+export type SubscriptionItemRecord = z.infer<typeof SubscriptionItemRecord>;
 
-export async function fetchStripeData() {
+export async function fetchStripeSubscriptionItems() {
   console.log("Connecting to Stripe to fetch all active subscription items...");
 
   const allItems: SubscriptionItemRecord[] = [];
+
+  const stripe = new Stripe(process.env.STRIPE_API_KEY!, {
+    apiVersion: "2025-08-27.basil",
+  });
 
   try {
     // 3. Use the auto-paging iterator. This is the key to handling pagination.
@@ -53,7 +55,10 @@ export async function fetchStripeData() {
     const outputDir = "data";
     const outputFilename = "stripe_subscription_items.json";
     // JSON.stringify with a space argument of 2 makes the file readable (pretty-print)
-    await Bun.write(`${outputDir}/${outputFilename}`, JSON.stringify(allItems, null, 2));
+    await Bun.write(
+      `${outputDir}/${outputFilename}`,
+      JSON.stringify(allItems, null, 2)
+    );
 
     console.log(`✅ Data saved to ${outputFilename}`);
   } catch (error) {
@@ -65,11 +70,26 @@ export async function fetchStripeData() {
   }
 }
 
+export const ProductRecord = z.object({
+  id: z.string(),
+  name: z.string(),
+  description: z.string().nullable(),
+});
+export type ProductRecord = z.infer<typeof ProductRecord>;
+
 export async function fetchProducts() {
   console.log("Connecting to Stripe to fetch all active products...");
+
+  const stripe = new Stripe(process.env.STRIPE_API_KEY!, {
+    apiVersion: "2025-08-27.basil",
+  });
+
   const allProducts = [];
   try {
-    for await (const product of stripe.products.list({ active: true, limit: 100 })) {
+    for await (const product of stripe.products.list({
+      active: true,
+      limit: 100,
+    })) {
       allProducts.push({
         id: product.id,
         name: product.name,
@@ -93,11 +113,23 @@ export async function fetchProducts() {
   }
 }
 
+export const PriceRecord = z.object({
+  id: z.string(),
+  product_id: z.string(),
+  currency: z.string(),
+  unit_amount: z.number(),
+  type: z.string(),
+});
+export type PriceRecord = z.infer<typeof PriceRecord>;
+
 export async function fetchPrices() {
   console.log("Connecting to Stripe to fetch all active prices...");
   const allPrices = [];
   try {
-    for await (const price of stripe.prices.list({ active: true, limit: 100 })) {
+    for await (const price of stripe.prices.list({
+      active: true,
+      limit: 100,
+    })) {
       allPrices.push({
         id: price.id,
         product_id: price.product as string,
