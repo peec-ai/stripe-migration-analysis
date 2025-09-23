@@ -90,9 +90,11 @@ export function calculateMigrationScenarios(
 
   // 1. Corrected Least cost scenario
   const leastCostOptions = planEntries.map(([planName, plan]) => {
-    const extraCreditsNeeded = Math.max(0, creditsAllocated - plan.credits);
-    const cost = plan.price + extraCreditsNeeded * plan.pricePerCredit;
-    const totalCredits = plan.credits + extraCreditsNeeded;
+    const annualPlanCredits = plan.credits * 12;
+    const extraCreditsNeeded = Math.max(0, creditsAllocated - annualPlanCredits);
+    const annualPlanPrice = plan.price * 12;
+    const cost = annualPlanPrice + extraCreditsNeeded * plan.pricePerCredit;
+    const totalCredits = annualPlanCredits + extraCreditsNeeded;
     return {
       planName,
       cost,
@@ -111,7 +113,7 @@ export function calculateMigrationScenarios(
   const leastArrLeftover = bestLeastCostOption.leftover;
 
   // 2. Matched ARR scenario
-  const suitablePlans = planEntries.filter(([, plan]) => plan.price < currArr * 100);
+  const suitablePlans = planEntries.filter(([, plan]) => plan.price * 12 < currArr * 100);
   const bestMatchPlanEntry = suitablePlans.reduce((best, current) => {
     return (best && best[1].price > current[1].price) ? best : current;
   }, null as [string, (typeof brandPlans[keyof typeof brandPlans]) | (typeof agencyPlans[keyof typeof agencyPlans])] | null);
@@ -124,10 +126,10 @@ export function calculateMigrationScenarios(
   if (bestMatchPlanEntry) {
     matchPlanName = bestMatchPlanEntry[0] as keyof typeof plans;
     const bestMatchPlan = bestMatchPlanEntry[1];
-    const remainingArr = currArr * 100 - bestMatchPlan.price;
+    const remainingArr = currArr * 100 - (bestMatchPlan.price * 12);
     matchQuantity = Math.ceil(remainingArr / bestMatchPlan.pricePerCredit);
-    matchArr = (bestMatchPlan.price + matchQuantity * bestMatchPlan.pricePerCredit) / 100;
-    matchLeftOverCredits = (bestMatchPlan.credits + matchQuantity) - creditsAllocated;
+    matchArr = ((bestMatchPlan.price * 12) + matchQuantity * bestMatchPlan.pricePerCredit) / 100;
+    matchLeftOverCredits = ((bestMatchPlan.credits * 12) + matchQuantity) - creditsAllocated;
   }
 
   return {

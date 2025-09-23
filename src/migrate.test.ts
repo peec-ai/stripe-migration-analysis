@@ -7,73 +7,52 @@ describe("calculateMigrationScenarios", () => {
   it("should calculate the least cost scenario for a brand (IN_HOUSE)", () => {
     const company = { name: "Test Brand", domain: "test.com", type: "IN_HOUSE" as const };
     const orgs = [{ modelIds: ["gpt-4o"] as ModelId[], promptsCount: 5000 }];
-    const subscriptionItems = [{ mrrCents: 10000 }]; // $100/mo -> $1200 ARR
+    const subscriptionItems = [{ mrrCents: 10000 }] as SubscriptionItemRecord[]; // $100/mo -> $1200 ARR
 
     const result = calculateMigrationScenarios(company, orgs, subscriptionItems);
 
-    // starter plan (4450 credits) + 550 extra credits
-    // cost = 8900 + 550 * 2 = 8900 + 1100 = 10000
-    expect(result.leastArr).toBe(100);
+    // starter plan is $89/mo for 4450 credits/mo. Annual: $1068 for 53400 credits.
+    // Credits needed (5000) is less than annual credits. No extra credits needed.
+    expect(result.leastArr).toBe(1068);
     expect(result.leastArrPlan).toBe("starter");
-    expect(result.leastArrCreditsQuantity).toBe(550);
-    expect(result.leastArrLeftover).toBe(0);
+    expect(result.leastArrCreditsQuantity).toBe(0);
+    expect(result.leastArrLeftover).toBe(48400); // 53400 - 5000
   });
 
   it("should calculate the least cost scenario by choosing a larger plan", () => {
     const company = { name: "Test Brand", domain: "test.com", type: "IN_HOUSE" as const };
-    // Needs 18000 credits
-    const orgs = [{ modelIds: ["gpt-4o", "chatgpt"] as ModelId[], promptsCount: 9000 }];
+    // Needs 150,000 credits
+    const orgs = [{ modelIds: ["gpt-4o", "chatgpt"] as ModelId[], promptsCount: 75000 }];
     const subscriptionItems = [] as SubscriptionItemRecord[];
 
     const result = calculateMigrationScenarios(company, orgs, subscriptionItems);
 
-    // Cheaper to buy 'pro' (18675 credits @ $249) than 'starter' (4450 credits) + 13550 extra credits.
-    // Cost of starter + extra: 8900 + 13550 * 2 = 36000
-    // Cost of pro: 24900
-    expect(result.leastArr).toBe(249);
+    // Cost of starter + extra: (8900*12) + (150000 - 53400) * 2 = 106800 + 193200 = 300000 cents ($3000)
+    // Cost of pro: 24900 * 12 = 298800 cents ($2988)
+    // Pro is cheaper
+    expect(result.leastArr).toBe(2988);
     expect(result.leastArrPlan).toBe("pro");
     expect(result.leastArrCreditsQuantity).toBe(0);
-    expect(result.leastArrLeftover).toBe(675);
+    expect(result.leastArrLeftover).toBe(224100 - 150000); // 74100
   });
 
   it("should calculate the matched ARR scenario for an agency", () => {
     const company = { name: "Test Agency", domain: "agency.com", type: "AGENCY" as const };
     const orgs = [{ modelIds: ["gpt-4o"] as ModelId[], promptsCount: 10000 }]; // 10k credits needed
-    const subscriptionItems = [{ mrrCents: 30000 }]; // $300/mo -> $3600 ARR
+    const subscriptionItems = [{ mrrCents: 30000 }] as SubscriptionItemRecord[]; // $300/mo -> $3600 ARR
 
     const result = calculateMigrationScenarios(company, orgs, subscriptionItems);
 
     // Current ARR is $3600.
-    // Smallest plan under is 'intro' at $299.
-    // Remaining ARR to match: 3600 - 299 = $3301
+    // Best plan under is 'intro' at $299/mo -> $3588/yr.
+    // Remaining ARR to match: 360000 - 358800 = 1200 cents
     // Price per credit on intro is 2.
-    // Extra credits to buy: ceil(3301 / 2) = 1651
-    // New ARR: 29900 + 1651 * 2 = 29900 + 3302 = 33202 cents = $332.02 -> THIS IS WRONG.
-    // Ah, price per credit is price / credits. Let's re-calculate.
-    // intro pricePerCredit = 29900 / 14950 = 2
-    // matchQuantity = ceil((360000 - 29900) / 2) = ceil(330100 / 2) = 165050
-    // matchArr = (29900 + 165050 * 2) / 100 = (29900 + 330100) / 100 = 3600
-    // This seems off. Let's re-read the code.
-    // `currArr` is in dollars. `plan.price` is in cents.
-    // remainingArr = 3600 * 100 - 29900 = 330100
-    // matchQuantity = Math.ceil(330100 / 2) = 165050. This is a huge number of credits.
-    // Let me check my understanding of the `match` scenario.
-    // "match the exact arr they're currently paying (or the smallest number over that)"
-    // Okay, the `matchQuantity` is credits, not cents.
-    
-    // Let's re-calculate based on the logic in the function.
-    // currArr = 3600
-    // suitable plan is 'intro' at 29900 cents.
-    // remainingArr = 3600 * 100 - 29900 = 330100 cents
-    // pricePerCredit for intro is 2.
-    // matchQuantity = ceil(330100 / 2) = 165050 credits.
-    // matchArr = (29900 + 165050 * 2) / 100 = (29900 + 330100) / 100 = 3600.
-    // Okay the ARR matches.
-    // Leftover credits = (14950 + 165050) - 10000 = 180000 - 10000 = 170000
-
+    // Extra credits to buy: ceil(1200 / 2) = 600
+    // New ARR: (358800 + 600 * 2) / 100 = 3600
+    // Leftover credits: (14950 * 12 + 600) - 10000 = 179400 + 600 - 10000 = 170000
     expect(result.matchArr).toBe(3600);
     expect(result.matchPlan).toBe("intro");
-    expect(result.matchQuantity).toBe(165050);
+    expect(result.matchQuantity).toBe(600);
     expect(result.matchLeftOverCredits).toBe(170000);
   });
 });
