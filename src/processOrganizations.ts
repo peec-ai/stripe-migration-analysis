@@ -1,14 +1,14 @@
 import { JSONParser } from "@streamparser/json";
 
-interface Organization {
+export interface Organization {
   id: string;
-  promptLimit?: number;
-  chatIntervalInHours?: number;
+  promptLimit: number;
+  chatIntervalInHours: number;
   domain?: string;
-  name?: string;
-  status?: string;
-  modelIds?: string[];
-  companyName?: string;
+  name: string;
+  status: string;
+  modelIds: string[];
+  companyName: string;
   promptsCount: number;
 }
 
@@ -58,6 +58,6 @@ export async function processOrganizations() {
   writer.write("\n]\n");
   writer.flush();
   writer.end();
-  
+
   console.log(`Successfully processed ${count} organizations.`);
 }
