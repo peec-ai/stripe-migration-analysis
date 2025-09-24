@@ -239,5 +239,99 @@ def main():
     print("Migration analysis complete.")
 
 
+def data_integrity_checks():
+    """
+    Perform data integrity checks on the DataFrame.
+    """
+    base_path = Path(__file__).parent.parent.parent
+    data_path = base_path / "data"
+
+    def load_df(file_path: Path) -> pd.DataFrame:
+        """Helper to load JSON into a DataFrame."""
+        return pd.read_json(file_path)
+
+    # Load data using the robust helper
+    print("Loading source data for integrity checks...")
+    companies_df = load_df(data_path / "processed_companies.json")
+
+    # --- Perform Checks ---
+    print("\n--- Data Integrity Checks ---")
+
+    # Companies with a stripeSubscriptionId
+    companies_with_sub = companies_df[companies_df["stripeSubscriptionId"].notna()]
+    print(f"Companies with a Stripe Subscription ID: {len(companies_with_sub)}")
+
+    # Companies with a stripeCustomerId
+    companies_with_cust = companies_df[companies_df["stripeCustomerId"].notna()]
+    print(f"Companies with a Stripe Customer ID: {len(companies_with_cust)}")
+
+    # Companies with both
+    companies_with_both = companies_df[
+        companies_df["stripeSubscriptionId"].notna()
+        & companies_df["stripeCustomerId"].notna()
+    ]
+    print(f"Companies with both IDs: {len(companies_with_both)}")
+
+    # Companies with neither
+    companies_with_neither = companies_df[
+        companies_df["stripeSubscriptionId"].isna()
+        & companies_df["stripeCustomerId"].isna()
+    ]
+    print(f"Companies with neither ID: {len(companies_with_neither)}")
+
+    # Companies with a stripeSubscriptionId but no stripeCustomerId
+    sub_not_cust = companies_df[
+        companies_df["stripeSubscriptionId"].notna()
+        & companies_df["stripeCustomerId"].isna()
+    ]
+    print(
+        "Companies with Subscription ID but no Customer ID: "
+        f"\n{len(sub_not_cust)}"
+    )
+
+    # Companies with a stripeCustomerId but no stripeSubscriptionId
+    cust_not_sub = companies_df[
+        companies_df["stripeCustomerId"].notna()
+        & companies_df["stripeSubscriptionId"].isna()
+    ]
+    print(
+        "Companies with Customer ID but no Subscription ID: "
+        f"{len(cust_not_sub)}"
+    )
+
+    # Non-unique stripeCustomerIds
+    # We only consider non-null customer IDs for duplication checks
+    non_null_customer_ids = companies_with_cust["stripeCustomerId"]
+    duplicated_customer_ids = non_null_customer_ids[
+        non_null_customer_ids.duplicated(keep=False)
+    ]
+    if not duplicated_customer_ids.empty:
+        print("\nFound non-unique Stripe Customer IDs:")
+        print(duplicated_customer_ids.value_counts())
+    else:
+        print("\nAll Stripe Customer IDs are unique.")
+
+    # Non-unique stripeSubscriptionIds
+    # We only consider non-null subscription IDs for duplication checks
+    non_null_subscription_ids = companies_with_sub["stripeSubscriptionId"]
+    duplicated_subscription_ids = non_null_subscription_ids[
+        non_null_subscription_ids.duplicated(keep=False)
+    ]
+    if not duplicated_subscription_ids.empty:
+        print("\nFound non-unique Stripe Subscription IDs:")
+        print(duplicated_subscription_ids.value_counts())
+        print(duplicated_subscription_ids)
+    else:
+        print("\nAll Stripe Subscription IDs are unique.")
+
+    print("\n--- Integrity Checks Complete ---\n")
+
+
+def main():
+    """Main"""
+    # data_integrity_checks()
+    etl_pipeline()
+
+
 if __name__ == "__main__":
     main()
