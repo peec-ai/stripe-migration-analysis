@@ -40,7 +40,7 @@ class MigrationOutput(BaseModel):
     company_domain: Optional[str]
     company_type: Literal["IN_HOUSE", "AGENCY"]
     current_annual_revenue: float
-    required_credits_annual: float
+    required_credits: float
     
     least_cost_plan_name: str
     least_cost_annual_revenue: float
