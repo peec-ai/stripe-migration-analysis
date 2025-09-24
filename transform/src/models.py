@@ -24,7 +24,8 @@ class Company(CamelCaseModel):
     name: str
     type: Literal["IN_HOUSE", "AGENCY"]
     domain: Optional[str] = None
-    stripe_customer_id: Optional[str] = None
+    stripe_customer_id: str
+    stripe_subscription_id: str
 
 class SubscriptionItem(CamelCaseModel):
     customer_id: str
