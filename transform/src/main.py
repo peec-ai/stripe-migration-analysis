@@ -138,7 +138,7 @@ def calculate_scenarios_for_company(company_data: pd.Series) -> pd.Series:
         "least_cost_arr_change": (best_least_cost["cost"] / 100)
         - current_annual_revenue,
         "least_cost_extra_credits_purchased": int(best_least_cost["extra_credits"]),
-        "least_cost_surplus_credits": best_least_cost["surplus_credits"],
+        "least_cost_surplus_credits": int(best_least_cost["surplus_credits"]),
         "match_arr_plan_name": match_arr_plan_name,
         "match_arr_annual_revenue": match_arr_annual_revenue,
         "match_arr_extra_credits_purchased": match_arr_extra_credits_purchased,
@@ -150,7 +150,7 @@ def calculate_scenarios_for_company(company_data: pd.Series) -> pd.Series:
 # --- 3. Main ETL and Execution Block ---
 
 
-def main():
+def etl_pipeline():
     """
     Main function to run the ETL pipeline.
     """
@@ -159,20 +159,32 @@ def main():
     data_path = base_path / "data"
     output_path = data_path / "migrate.csv"
 
-    def load_and_validate(file_path: Path, model):
+    def load(file_path: Path):
         """Helper to load, clean NaN values, and validate data."""
         df_raw = pd.read_json(file_path)
         # Replace NaN with None, which Pydantic understands as a valid optional value
-        records = df_raw.replace({float('nan'): None}).to_dict("records")
-        return [model.model_validate(r) for r in records]
+        records = df_raw.replace({float("nan"): None}).to_dict("records")
+        return records
 
     # Load data using the robust helper
     print("Loading source data...")
-    companies = load_and_validate(data_path / "processed_companies.json", Company)
-    orgs = load_and_validate(data_path / "processed_organizations.json", Organization)
-    subs = load_and_validate(data_path / "stripe_subscription_items.json", SubscriptionItem)
-    
-    print(f"Loaded {len(companies)} companies, {len(orgs)} organizations, {len(subs)} subscription items.")
+    companies = load(data_path / "processed_companies.json")
+    orgs = load(data_path / "processed_organizations.json")
+    subs = load(data_path / "stripe_subscription_items.json")
+
+    # Filter
+    companiesSC = [
+        c for c in companies if c["stripeSubscriptionId"] and c["stripeCustomerId"]
+    ]
+
+    # Validate
+    companies = [Company.model_validate(c) for c in companiesSC]
+    orgs = [Organization.model_validate(o) for o in orgs]
+    subs = [SubscriptionItem.model_validate(s) for s in subs]
+
+    print(
+        f"Loaded {len(companies)} companies, {len(orgs)} organizations, {len(subs)} subscription items."
+    )
 
     # Convert to Pandas DataFrames
     companies_df = pd.DataFrame([c.model_dump() for c in companies])
@@ -200,14 +212,14 @@ def main():
 
     # Merge all data into a single DataFrame
     merged_df = pd.merge(
-        companies_df, company_credits, left_on="id", right_on="company_id", how="left"
+        companies_df, company_credits, left_on="id", right_on="company_id", how="inner"
     )
     merged_df = pd.merge(
         merged_df,
         customer_arr,
         left_on="stripe_customer_id",
         right_on="customer_id",
-        how="left",
+        how="inner",
     )
 
     # Fill missing values for companies with no subs or orgs
@@ -216,16 +228,24 @@ def main():
     )
     merged_df["current_annual_revenue"] = merged_df["current_annual_revenue"].fillna(0)
 
+    # export csv
+    merged_df.to_csv(data_path / "merged_df.csv", index=False)
+
     # --- Apply Calculation Logic ---
     print("Calculating migration scenarios for each company...")
     scenarios_df = merged_df.apply(calculate_scenarios_for_company, axis=1)
+
 
     # Combine initial data with calculated scenarios
     final_df = pd.concat([merged_df, scenarios_df], axis=1)
 
     # Select and rename columns to match our final desired output
     final_df = final_df.rename(
-        columns={"name": "company_name", "domain": "company_domain"}
+        columns={
+            "name": "company_name",
+            "domain": "company_domain",
+            "type": "company_type",
+        }
     )
 
     # Use the Pydantic model to define the final column order and selection
