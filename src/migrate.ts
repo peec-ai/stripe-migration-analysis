@@ -69,8 +69,85 @@ export async function migrate() {
     res.push(row);
   }
 
+  analyzeMigrationScenarios(res);
+
   Bun.write("data/migrate.json", JSON.stringify(res, null, 2));
 }
+
+type MigrationResult = ReturnType<typeof calculateMigrationScenarios>;
+
+function analyzeMigrationScenarios(data: MigrationResult[]) {
+  console.log("\n--- Migration Analysis ---\n");
+
+  // Helper functions
+  const calculateMean = (arr: number[]) => arr.reduce((a, b) => a + b, 0) / arr.length;
+  const calculateMedian = (arr: number[]) => {
+    const sorted = [...arr].sort((a, b) => a - b);
+    const mid = Math.floor(sorted.length / 2);
+    return sorted.length % 2 !== 0 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
+  };
+
+  // 1. ARR Difference (Current vs. Cheapest)
+  const payingCustomers = data.filter(d => d.currArr > 0);
+  const arrDiffs = payingCustomers.map(d => d.leastArrDiff);
+  const meanArrDiff = calculateMean(arrDiffs);
+  const medianArrDiff = calculateMedian(arrDiffs);
+
+  console.log("Insight: ARR Change (Current vs. Cheapest Plan)");
+  console.log(`- Mean ARR Change: $${meanArrDiff.toFixed(2)}`);
+  console.log(`- Median ARR Change: $${medianArrDiff.toFixed(2)}`);
+  console.log("  (Negative values indicate an average saving for the customer)\n");
+
+  const totalArrBefore = payingCustomers.reduce((sum, d) => sum + d.currArr, 0);
+  const totalArrAfter = payingCustomers.reduce((sum, d) => sum + d.leastArr, 0);
+  console.log(`- Total ARR Before: $${totalArrBefore.toFixed(2)}`);
+  console.log(`- Total ARR with Cheapest Plan: $${totalArrAfter.toFixed(2)}`);
+  console.log(`- Net ARR Change: $${(totalArrAfter - totalArrBefore).toFixed(2)}\n`);
+
+
+  // 2. Leftover Credits (Matched ARR Scenario)
+  const matchScenarioCustomers = data.filter(d => d.matchPlan !== null);
+  const leftoverCredits = matchScenarioCustomers.map(d => d.matchLeftOverCredits);
+  const meanLeftoverCredits = calculateMean(leftoverCredits);
+  const medianLeftoverCredits = calculateMedian(leftoverCredits);
+  
+  console.log("Insight: Leftover Credits (Matched ARR Scenario)");
+  console.log(`- Mean Leftover Credits: ${meanLeftoverCredits.toFixed(0)}`);
+  console.log(`- Median Leftover Credits: ${medianLeftoverCredits.toFixed(0)}\n`);
+
+  // 3. Plan Distribution
+  const leastPlanCounts = data.reduce((acc, d) => {
+    acc[d.leastArrPlan] = (acc[d.leastArrPlan] || 0) + 1;
+    return acc;
+  }, {} as Record<string, number>);
+  
+  const matchPlanCounts = matchScenarioCustomers.reduce((acc, d) => {
+    const plan = d.matchPlan!;
+    acc[plan] = (acc[plan] || 0) + 1;
+    return acc;
+  }, {} as Record<string, number>);
+
+  console.log("Insight: New Plan Distribution");
+  console.log("- Cheapest Plan Choices:", leastPlanCounts);
+  console.log("- Matched ARR Plan Choices:", matchPlanCounts, "\n");
+
+  // 4. Segmentation: Brands vs. Agencies
+  const brands = data.filter(d => d.type === 'IN_HOUSE');
+  const agencies = data.filter(d => d.type === 'AGENCY');
+  
+  const brandArrDiffs = brands.filter(b => b.currArr > 0).map(b => b.leastArrDiff);
+  const agencyArrDiffs = agencies.filter(a => a.currArr > 0).map(a => a.leastArrDiff);
+
+  console.log("Insight: Brand vs. Agency Analysis (Cheapest Plan)");
+  if (brandArrDiffs.length > 0) {
+    console.log(`- Brands Mean ARR Change: $${calculateMean(brandArrDiffs).toFixed(2)}`);
+  }
+  if (agencyArrDiffs.length > 0) {
+    console.log(`- Agencies Mean ARR Change: $${calculateMean(agencyArrDiffs).toFixed(2)}`);
+  }
+  console.log("\n--------------------------\n");
+}
+
 
 export function calculateMigrationScenarios(
   company: Pick<Company, 'type' | 'name' | 'domain'>,
@@ -135,6 +212,7 @@ export function calculateMigrationScenarios(
   return {
     name: company.name,
     domain: company.domain,
+    type: company.type,
     currArr,
     creditsAllocated,
 
@@ -157,6 +235,7 @@ export const brandPlans = {
   starter: {
     price: 8900,
     credits: 4450,
+    
     pricePerCredit: 8900 / 4450,
   },
   pro: {
