@@ -1,13 +1,13 @@
 from typing import List, Optional, Literal
 from pydantic import BaseModel, ConfigDict
-from pydantic.alias_generators import to_snake
+from pydantic.alias_generators import to_camel
 
 # This is a base configuration we can reuse.
 # It tells Pydantic to automatically convert camelCase JSON fields
 # to snake_case Python attributes.
 class CamelCaseModel(BaseModel):
     model_config = ConfigDict(
-        alias_generator=to_snake,
+        alias_generator=to_camel,
         populate_by_name=True,
     )
 

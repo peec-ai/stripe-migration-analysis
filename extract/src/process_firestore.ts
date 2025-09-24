@@ -101,12 +101,12 @@ export type Company = z.infer<typeof Company>;
 export async function processCompanies() {
   console.log("Starting to process organizations stream...");
 
-  const inputFile = "data/firestore_companies.json";
+  const inputFile = "../data/firestore_companies.json";
   const parser = new JSONParser({
     paths: ["$.*"], // This emits each element of the root array
   });
 
-  const outputFile = "data/processed_companies.json";
+  const outputFile = "../data/processed_companies.json";
   const writer = Bun.file(outputFile).writer();
   writer.write("[\n");
 

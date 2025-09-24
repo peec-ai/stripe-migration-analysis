@@ -11,8 +11,8 @@ async function main() {
   // await fetchCompanies();
   // await fetchOrganizations();
   // await processOrganizations();
-  // await processCompanies();
-  await migrate();
+  await processCompanies();
+  // await migrate();
 }
 
 main();
