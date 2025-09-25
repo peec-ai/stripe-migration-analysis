@@ -1,232 +1,1303 @@
 [
   {
     "id": "prod_T62Qa3TDUIgPG6",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1758472956,
+    "default_price": "price_1S9qLQKojVEYZPlXP1crumR9",
+    "description": "750 Prompts, tracked across ChatGPT, Perplexity and AI Overviews",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfaVFwcE5idGdKcVkwaHhEeWlXQnNTRG1W00MK3QgOb9"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "750",
+      "type": "WORKSPACE"
+    },
     "name": "Enterprise Workspace • 750 Prompts",
-    "description": "750 Prompts, tracked across ChatGPT, Perplexity and AI Overviews"
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1758472957,
+    "url": null
   },
   {
     "id": "prod_T3t3JRZv3GELfL",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1757976850,
+    "default_price": "price_1S7lHiKojVEYZPlXzanb7JSo",
+    "description": "75 prompts tracked across ChatGPT, Perplexity and Google's AI Overviews",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfaFRTUkpXTlhKMGw0WEhIQXBueWdVdFZC007QUyZQXV"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "75",
+      "type": "WORKSPACE"
+    },
     "name": "Pro Workspace • 75 Prompts",
-    "description": "75 prompts tracked across ChatGPT, Perplexity and Google's AI Overviews"
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1757976851,
+    "url": null
   },
   {
     "id": "prod_T1py7RrHAcrCKu",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1757504103,
+    "default_price": "price_1S5mImKojVEYZPlXvjcg1cFK",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfeTdmZHRoVWpmQXpTRUtDb3FMbVJ6eWtR008PNyS3fE"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "claude-sonnet-4",
+      "type": "MODELS"
+    },
     "name": "Enterprise Add-on (300 Prompts) • Model • claude-sonnet-4",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1757504133,
+    "url": null
   },
   {
     "id": "prod_T1pxVl9Xsrlh5b",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1757504031,
+    "default_price": "price_1S5mHcKojVEYZPlXKMXmYC4q",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfc0dWcUNJblhGVzduQ0tNYVZjWDU4TGls00w0b5rg88"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "claude-sonnet-4",
+      "type": "MODELS"
+    },
     "name": "Pro Add-on (100 Prompts) • Model • claude-sonnet-4",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1757504062,
+    "url": null
   },
   {
     "id": "prod_T1pvCsW2anSuCq",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1757503908,
+    "default_price": "price_1S5mFdKojVEYZPlX1vI4oM1b",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfV2FyV1JDTzdYTHJRckFJTXQzNEpieE9U00wa5OQMU1"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "claude-sonnet-4",
+      "type": "MODELS"
+    },
     "name": "Pro Add-on (50 Prompts) • Model • claude-sonnet-4",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1757503949,
+    "url": null
   },
   {
     "id": "prod_T1orZHVGAyU99g",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1757499928,
+    "default_price": "price_1S5lDQKojVEYZPlX10Ua2ziM",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfYmpXem84eTE4NVRkZEVFV2RkUEx3b2lw00TokqJLQU"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "gemini-2-5-flash",
+      "type": "MODELS"
+    },
     "name": "Starter Add-on (25 Prompts) • Model • Gemini",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1758031518,
+    "url": null
   },
   {
     "id": "prod_T1opnRr4qwq3sR",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1757499842,
+    "default_price": "price_1S5lC2KojVEYZPlXnLIsonYd",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfbGRMdDFpdERsM050ZWthSlZaWmZlMGV4006DwOcZO6"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "gemini-2-5-flash",
+      "type": "MODELS"
+    },
     "name": "Enterprise Add-on (300 Prompts) • Model • Gemini",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1758031747,
+    "url": null
   },
   {
     "id": "prod_T1on9fdRsw0mZX",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1757499695,
+    "default_price": "price_1S5l9gKojVEYZPlXGfkB4S4X",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfUXNHbnh0YjlvbFhiV3piTm1qYjI3ck9400fvtUqDtk"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "gemini-2-5-flash",
+      "type": "MODELS"
+    },
     "name": "Pro Add-on (50 Prompts) • Model • Gemini",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1758030126,
+    "url": null
   },
   {
     "id": "prod_T1ok2hNJSpbziZ",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1757499544,
+    "default_price": "price_1S5l7EKojVEYZPlXcN4LGS0r",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfRlh3WDJ3OXVGQTNlbXBqTGM3UzNkZXJY00pOuq4oQz"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "gemini-2-5-flash",
+      "type": "MODELS"
+    },
     "name": "Pro Add-on (100 Prompts) • Model • Gemini",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1758031449,
+    "url": null
   },
   {
     "id": "prod_T1oiLETs1CRTDj",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1757499396,
+    "default_price": "price_1S5l4qKojVEYZPlXb43w1wQk",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfSkN0Rk5aMU42aUhVQmtaZ1JoMHVLTW1200HDCKCuhU"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "google-ai-mode",
+      "type": "MODELS"
+    },
     "name": "Enterprise Add-on (300 Prompts) • Model • Google AI Mode",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1757499449,
+    "url": null
   },
   {
     "id": "prod_T1oeQjXn8ql5A6",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1757499164,
+    "default_price": "price_1S5l16KojVEYZPlX1VTLgtnY",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfeWNhNWptUVNET2R0WHVXd1hiS2hXc3h100XIQbGncr"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "google-ai-mode",
+      "type": "MODELS"
+    },
     "name": "Pro Add-on (50 Prompts) • Model • Google AI Mode",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1757499234,
+    "url": null
   },
   {
     "id": "prod_T1oWZF5YPSr19e",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1757498665,
+    "default_price": "price_1S5kt3KojVEYZPlXWUtgiOf0",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfQzZGZ2JSRWI4YXVyTkdpaXJ0cFp0Q2Z000bzjBQ3e8"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "google-ai-mode",
+      "type": "MODELS"
+    },
     "name": "Pro Add-on (100 Prompts) • Model • Google AI Mode",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1757499048,
+    "url": null
   },
   {
     "id": "prod_T1ABr4linMlSmm",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1757348644,
+    "default_price": "price_1S57rMKojVEYZPlXdcoFQi3W",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfQ2R2aWRZczU5MlprTHBmeEZ2S0xTN3VS00zPrfn9wA"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "google-ai-mode",
+      "type": "MODELS"
+    },
     "name": "Starter Add-on (25 Prompts) • Model • Google AI Mode",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1757498682,
+    "url": null
   },
   {
     "id": "prod_SzhPtsFbmH0W3E",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1757010923,
+    "default_price": "price_1S3i0GKojVEYZPlX5MFwFPQN",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfZXU4Y0VFMFNTbmh0VzI3U1BsMWh0Tmt3000Lg1GIb8"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "2000",
+      "type": "WORKSPACE"
+    },
     "name": "Enterprise Workspace • 2000 Prompts",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1757011157,
+    "url": null
   },
   {
     "id": "prod_SzGUmLVdXEWA8R",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1756910788,
+    "default_price": "price_1S3HxAKojVEYZPlXzCrGCZLM",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfZWViaUt2Sk14aVVXem9qeHRSazM3eTFh00VssmxbXK"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "1000",
+      "type": "WORKSPACE"
+    },
     "name": "Enterprise Workspace • 1000 Prompts",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1757010667,
+    "url": null
   },
   {
     "id": "prod_Sql0y7zJXWldun",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1754948574,
+    "default_price": "price_1Rv3UYKojVEYZPlXor0g3fdu",
+    "description": "150 prompts tracked across ChatGPT, Perplexity and Google's AI Overviews",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfejBOODI1S3pjTWl1Y2Mxa1U1WkZTSDNP00QZJL1vVr"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "150",
+      "type": "WORKSPACE"
+    },
     "name": "Pro Workspace • 150 Prompts",
-    "description": "150 prompts tracked across ChatGPT, Perplexity and Google's AI Overviews"
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1754948575,
+    "url": null
   },
   {
     "id": "prod_SmABO5IG6phHoV",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1753889048,
+    "default_price": "price_1RqbrQKojVEYZPlXR07jyTQd",
+    "description": "200 prompts tracked across ChatGPT, Perplexity and Google's AI Overviews",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfQ0RxTXIyVVZIcnkzMVNiQWs4a2lPRFZ000h2NorHic"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "200",
+      "type": "WORKSPACE"
+    },
     "name": "Pro Workspace • 200 Prompts",
-    "description": "200 prompts tracked across ChatGPT, Perplexity and Google's AI Overviews"
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1753889049,
+    "url": null
   },
   {
     "id": "prod_Sm9pu60ql8rxtF",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1753887705,
+    "default_price": "price_1RqbVmKojVEYZPlXgN3y5QEb",
+    "description": "200 Prompts",
+    "images": [],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {},
     "name": "Pro Workspace • 200 Prompts",
-    "description": "200 Prompts"
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1753887768,
+    "url": null
   },
   {
     "id": "prod_SlqESsyVgNIFbH",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1753814794,
+    "default_price": "price_1RqIXmKojVEYZPlXasWKoA8p",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfSGxMSEo3NFk5WUZRWVJoMkYzYVdWbFNM00P4BuqLmU"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "20",
+      "type": "WORKSPACE"
+    },
     "name": "Pro Workspace • 20 Prompts (Legacy)",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1756322355,
+    "url": null
   },
   {
     "id": "prod_Sez7xgL08Jhkg7",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1752233413,
+    "default_price": "price_1Rjf9dKojVEYZPlXtin87u84",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfbnExVDhEVHM3RXpiSTRjUEdNbG9KOG9300Roe0AMoz"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "gemini-2-5-flash",
+      "type": "MODELS"
+    },
     "name": "Pro Add-on • Model • gemini-2.5-flash",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1752233457,
+    "url": null
   },
   {
     "id": "prod_SeOvFm8Xb5tr8e",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1752098777,
+    "default_price": "price_1Rj686KojVEYZPlX4LSvuub3",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfaVZWa2hJYzNjbG1SdjRXT00wdFdBdFhF00rrMzproG"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "gpt-4o-search",
+      "type": "MODELS"
+    },
     "name": "Pro Add-on • Model • gpt-4o-search",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1752133857,
+    "url": null
   },
   {
     "id": "prod_SYHXLu24LZYdxB",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1750687444,
+    "default_price": "price_1S5mBtKojVEYZPlXUrmoYjPb",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfZU45QTlOc0F2eXJkM3hDbEVKNUJLTTFV00HpeLMrav"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "claude-sonnet-4",
+      "type": "MODELS"
+    },
     "name": "Starter Add-on (25 Prompts) • Model • claude-sonnet-4",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1757503721,
+    "url": null
   },
   {
     "id": "prod_SWY4FWxmXENFFo",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1750287639,
+    "default_price": "price_1RbUyBKojVEYZPlXgdYj4zYC",
+    "description": null,
+    "images": [],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {},
     "name": "Enterprise Workspace (300 Prompts for 2 months)",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1750287641,
+    "url": null
   },
   {
     "id": "prod_SUtELfflvBk07Z",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1749905066,
+    "default_price": "price_1RZtReKojVEYZPlXBby4X9Dz",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfU0pMWURPazJPZjVqdWN3bndCU2xTaDl600Qy9vcdhv"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "gemini-2-5-flash",
+      "type": "MODELS"
+    },
     "name": "Starter Add-on • Model • gemini-2.5-flash",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1749912427,
+    "url": null
   },
   {
     "id": "prod_SRfFIFqKBnTrlh",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1749161123,
+    "default_price": "price_1RWluaKojVEYZPlXRvln5K7z",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfNDlnY1VSQWthajB2Q25TS3FKam9EQUxM00PUDOl9pz"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {},
     "name": "Custom Agency Plan",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1749161124,
+    "url": null
   },
   {
     "id": "prod_SRaYlS3opxeI2p",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1749143717,
+    "default_price": "price_1RWhNpKojVEYZPlXuAJnkOaL",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfeDBhbmRCR1ZrOHNjYXNLMHkybktDMXh600kSYs0prt"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "claude-3-5-haiku",
+      "type": "MODELS"
+    },
     "name": "Enterprise Add-on • Model • claude-3.5-haiku",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1749912867,
+    "url": null
   },
   {
     "id": "prod_SKqlMsBclqktsp",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1747589486,
+    "default_price": "price_1RQB3bKojVEYZPlXsnDuTMuy",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfTW5JMEFEOHVlSjgxMzF1cUNKZnRrYTEz00vtpCagL0"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "60",
+      "type": "WORKSPACE"
+    },
     "name": "Medium Workspace • 60 Prompts (Legacy)",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1747639467,
+    "url": null
   },
   {
     "id": "prod_SKq9Tp4hL1g6NN",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1747587202,
+    "default_price": "price_1RQASkKojVEYZPlXvY1tLcE7",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfY29Cd2piM2IzZUpNVUt1OVZNRld3T1Mw00rJzcV0iR"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "15",
+      "type": "WORKSPACE"
+    },
     "name": "Small Workspace • 15 Prompts (Legacy)",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1747639453,
+    "url": null
   },
   {
     "id": "prod_SKpzkS9DLNPKRT",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1747586634,
+    "default_price": "price_1RQAJbKojVEYZPlXwSSL3qyA",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfY05TVXIyV1pHNW53ZElDSzdsbkwxR3Nj00AHUTA7l6"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "10",
+      "type": "WORKSPACE"
+    },
     "name": "Small Workspace • 10 Prompts (Legacy)",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1754422269,
+    "url": null
   },
   {
     "id": "prod_SKpOqCIx9aYydY",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1747584409,
+    "default_price": "price_1RQ9jhKojVEYZPlXgll1IH1B",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfU1ZxbWV2VnFKSGpacHE2OTMyem9mdXY100fLSqlKuC"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "gpt-4o",
+      "type": "MODELS"
+    },
     "name": "Starter Add-on • Model • gpt-4o",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1747635821,
+    "url": null
   },
   {
     "id": "prod_SKjjWEnxjSeydd",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1747563328,
+    "default_price": "price_1RQ4FhKojVEYZPlXlWbmUoRZ",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfd3FPaEtYcTVwZGowU2p3REZRRjVvQ1JR00uTzWL2sw"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "promptLimit": "25",
+      "type": "PROMPTS"
+    },
     "name": "Pro Add-on • 25 Prompts",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1747577388,
+    "url": null
   },
   {
     "id": "prod_SKi4o4QdFTxJ7Q",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1747557153,
+    "default_price": "price_1RQ2e5KojVEYZPlXOq9wWLaU",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfOGZpc2YxeWk5SGpMTVRhOUtqQ1lmbTN600JWx1viJ3"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "grok-2-1212",
+      "type": "MODELS"
+    },
     "name": "Starter Add-on • Model • grok-2-1212",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1747577414,
+    "url": null
   },
   {
     "id": "prod_SKi2SF26D5egyB",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1747557046,
+    "default_price": "price_1RQ2cNKojVEYZPlXDtDvCG8W",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfT2FFRGF5WTE2T1MyVHZwUW9tTFNxWmVs00vtT79nj1"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "deepseek-r1",
+      "type": "MODELS"
+    },
     "name": "Starter Add-on • Model • deepseek-r1",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1747577432,
+    "url": null
   },
   {
     "id": "prod_SKhzbGprP34iUy",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1747556871,
+    "default_price": "price_1RQ2ZYKojVEYZPlXzOaB8nRW",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfeWhQYlVkS2NzenZPQzk2OUhDNDVKMjl600aaPxz7fi"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "claude-3-5-haiku",
+      "type": "MODELS"
+    },
     "name": "Starter Add-on • Model • claude-3.5-haiku",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1747577478,
+    "url": null
   },
   {
     "id": "prod_SKhxmyPjblETIH",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1747556769,
+    "default_price": "price_1RQ2XtKojVEYZPlXLE5Zv0ZR",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfWUpRWUpTREhCcnJ1Z0xudURuUjlqYWNK00jiiz1rIZ"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "llama-3-3-70b-instruct",
+      "type": "MODELS"
+    },
     "name": "Starter Add-on • Model • llama-3.3-70b-instruct",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1747577490,
+    "url": null
   },
   {
     "id": "prod_SKhJypClzwG1K6",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1747554327,
+    "default_price": "price_1RQ1uWKojVEYZPlXW2ycBnvU",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfNGtHMWp3eEY5NXMzbExaMmZaNFUyNmJK00yibyXyYo"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "gemini-1-5-flash",
+      "type": "MODELS"
+    },
     "name": "Starter Add-on • Model • gemini-1.5-flash",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1747578377,
+    "url": null
   },
   {
     "id": "prod_SJLngGx2JOogoI",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1747243641,
+    "default_price": "price_1ROj5SKojVEYZPlXScBeJcZ1",
+    "description": "300 prompts tracked across ChatGPT, Perplexity and Google's AI Overviews",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfNklGNGRucmNuU1BRS2VvM1JZaUd6S3Qz00ZxKlPMTJ"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "isPublic": "true",
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "300",
+      "type": "WORKSPACE"
+    },
     "name": "Enterprise Workspace • 300 Prompts",
-    "description": "300 prompts tracked across ChatGPT, Perplexity and Google's AI Overviews"
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1753349290,
+    "url": null
   },
   {
     "id": "prod_SF88MEged9XbuX",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1746270311,
+    "default_price": "price_1RxsWbKojVEYZPlXNT6K2HO4",
+    "description": "500 Prompts, tracked across ChatGPT, Perplexity and AI Overviews",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfdVVybWtQQllFdkNwc3lPdThmS1A0bnNR00hB6yMBUl"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "500",
+      "type": "WORKSPACE"
+    },
     "name": "Enterprise Workspace • 500 Prompts",
-    "description": "500 Prompts, tracked across ChatGPT, Perplexity and AI Overviews"
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1755621598,
+    "url": null
   },
   {
     "id": "prod_SErKcnshqCiQth",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1746207750,
+    "default_price": "price_1RKNbXKojVEYZPlXZSZ7MPF6",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfN3RDS1Vzd29FWTEyRlFzZno0TndEckpq00VwjPtFdk"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "gpt-4o-search",
+      "type": "MODELS"
+    },
     "name": "Starter Add-on • Model • gpt-4o-search",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1747578319,
+    "url": null
   },
   {
     "id": "prod_SAzUvCNnzl6n71",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1745315577,
+    "default_price": "price_1RT6IWKojVEYZPlXATN2Aqfh",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfbWFSbU45MFlZV3BuaHJjb2ZlcU5wOG5Z00wjBs2qoB"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "50",
+      "type": "WORKSPACE"
+    },
     "name": "Pro Workspace • 50 Prompts",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1755604186,
+    "url": null
   },
   {
     "id": "prod_S6Vr6mr8BJrWGc",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1744282806,
+    "default_price": "price_1RCIq2KojVEYZPlXwWt6ANiT",
+    "description": "Designed for agile SMEs",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfbktOaUdWcllaSm41VE4zZXF6V25LZVR400E4ifGgMW"
+    ],
+    "livemode": true,
+    "marketing_features": [
+      {
+        "name": "ChatGPT / Perplexity / AI Overviews"
+      },
+      {
+        "name": "100 Prompts"
+      },
+      {
+        "name": "5 Countries"
+      },
+      {
+        "name": "Daily Tracking"
+      },
+      {
+        "name": "Unlimited Seats"
+      },
+      {
+        "name": "Email + Slack Support"
+      }
+    ],
+    "metadata": {
+      "isPublic": "true",
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "100",
+      "type": "WORKSPACE"
+    },
     "name": "Pro Workspace • 100 Prompts",
-    "description": "Designed for agile SMEs"
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1757665584,
+    "url": null
   },
   {
     "id": "prod_S6Vq3DJcPoXe3i",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1744282753,
+    "default_price": "price_1RQ933KojVEYZPlXctNZu1ym",
+    "description": "Ideal for growing startups",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfZ2s0MmZVdFM5STA4aEJycng3MkNXUTFO00rzNvkn7t"
+    ],
+    "livemode": true,
+    "marketing_features": [
+      {
+        "name": "ChatGPT / Perplexity / AI Overviews"
+      },
+      {
+        "name": "25 Prompts"
+      },
+      {
+        "name": "3 Countries"
+      },
+      {
+        "name": "Daily Tracking"
+      },
+      {
+        "name": "Unlimited Seats"
+      },
+      {
+        "name": "Email Support"
+      }
+    ],
+    "metadata": {
+      "isPublic": "true",
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "25",
+      "type": "WORKSPACE"
+    },
     "name": "Starter Workspace • 25 Prompts",
-    "description": "Ideal for growing startups"
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1752764695,
+    "url": null
   },
   {
     "id": "prod_S3sBpiBbq9OrSb",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1743673886,
+    "default_price": "price_1RQNk7KojVEYZPlXBEfR8uPP",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfOHVadEVpM3dYdTRvWmh2djJwd21vc0JT00qCytvvRf"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "20",
+      "type": "WORKSPACE"
+    },
     "name": "Small Workspace • 20 Prompts (Legacy)",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1747642631,
+    "url": null
   },
   {
     "id": "prod_RvMv8m7QtsNKgr",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1741712489,
+    "default_price": "price_1RQ3KiKojVEYZPlXr8mlQOsA",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfYWFISE5iSFE5MWVRaHhJamhsYk5aQVZ000Wba9fTZN"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "gemini-1-5-flash",
+      "type": "MODELS"
+    },
     "name": "Pro Add-on • Model • gemini-1.5-flash",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1747637240,
+    "url": null
   },
   {
     "id": "prod_RqqyVXMa6yfVvs",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1740671069,
+    "default_price": "price_1RQNmTKojVEYZPlXRkMFDdxC",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfMU12eGd4ZjR1VXR2N1NaM1hJV2VUTEg400gQhR5OPd"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "40",
+      "type": "WORKSPACE"
+    },
     "name": "Medium Workspace • 40 Prompts (Legacy)",
-    "description": null
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1747642790,
+    "url": null
   },
   {
     "id": "prod_RfyjDqozRtX8Lp",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1738162921,
+    "default_price": "price_1RQ9zrKojVEYZPlXuYZ8pmyQ",
+    "description": "Perfect for marketing teams who want to dominate AI search",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfenJ0ZExlb2F6cllRem5IZW1BaThLVW5k003xww2kHL"
+    ],
+    "livemode": true,
+    "marketing_features": [
+      {
+        "name": "Analyze 30 prompts"
+      },
+      {
+        "name": "Unlimited seats"
+      },
+      {
+        "name": "1 Team workspace"
+      },
+      {
+        "name": "2 AI platforms of your choice"
+      }
+    ],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "30",
+      "type": "WORKSPACE"
+    },
     "name": "Small Workspace • 30 Prompts (Legacy)",
-    "description": "Perfect for marketing teams who want to dominate AI search"
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1747642414,
+    "url": null
   }
 ]

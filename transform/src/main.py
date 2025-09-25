@@ -36,8 +36,16 @@ def etl_pipeline():
 
     # Filter
     companiesSC = [
-        c for c in companies if c["stripeSubscriptionId"] and c["stripeCustomerId"]
+        c for c in companies if c["stripeSubscriptionId"] and c["stripeCustomerId"] and c["stripeSubscriptionStatus"] == "active"
     ]
+
+    # print subs without a 'recurring' key or with a falsy 'recurring' value
+    print(len([s for s in subs if not s.get("recurring")]))
+    return
+
+    # Map recurring.interval to recurring
+    for s in subs:
+        s["recurring"] = s["recurring"]["interval"] if s["recurring"] else None
 
     # Validate
     companies = [Company.model_validate(c) for c in companiesSC]
@@ -47,6 +55,8 @@ def etl_pipeline():
     print(
         f"Loaded {len(companies)} companies, {len(orgs)} organizations, {len(subs)} subscription items."
     )
+
+    return
 
     # Convert to Pandas DataFrames
     companies_df = pd.DataFrame([c.model_dump() for c in companies])
@@ -61,12 +71,18 @@ def etl_pipeline():
 
     # Aggregate credits by company
     company_credits = (
-        orgs_df.groupby("company_id")["required_credits"].sum().reset_index()
+        orgs_df.groupby("company_id")
+        .agg(
+            required_credits=("required_credits", "sum"),
+            total_prompts=("prompts_count", "sum"),
+        )
+        .reset_index()
     )
 
-    # Calculate current ARR per customer
-    customer_arr = subs_df.groupby("customer_id")["mrr_cents"].sum().reset_index()
-    customer_arr["current_annual_revenue"] = customer_arr["mrr_cents"] * 12 / 100
+    # Calculate current MRR per customer, taking quantity into account
+    subs_df["true_mrr_cents"] = subs_df["mrr_cents"] * subs_df["quantity"]
+    customer_mrr = subs_df.groupby("customer_id")["true_mrr_cents"].sum().reset_index()
+    customer_mrr["current_monthly_revenue"] = customer_mrr["true_mrr_cents"] / 100
 
     # Merge all data into a single DataFrame
     merged_df = pd.merge(
@@ -74,7 +90,7 @@ def etl_pipeline():
     )
     merged_df = pd.merge(
         merged_df,
-        customer_arr,
+        customer_mrr,
         left_on="stripe_customer_id",
         right_on="customer_id",
         how="inner",
@@ -84,12 +100,15 @@ def etl_pipeline():
     merged_df["required_credits"] = merged_df["required_credits"].fillna(
         0
     )
-    merged_df["current_annual_revenue"] = merged_df["current_annual_revenue"].fillna(0)
+    merged_df["current_monthly_revenue"] = merged_df["current_monthly_revenue"].fillna(0)
+    merged_df["total_prompts"] = merged_df["total_prompts"].fillna(0)
 
     # --- Apply Calculation Logic ---
     print("Calculating migration scenarios for each company...")
     scenarios_df = merged_df.apply(calculate_scenarios_for_company, axis=1)
 
+    merged_df["current_monthly_revenue"] = merged_df["current_monthly_revenue"].astype(int)
+    merged_df["required_credits"] = merged_df["required_credits"].astype(int)
 
     # Combine initial data with calculated scenarios
     final_df = pd.concat([merged_df, scenarios_df], axis=1)
@@ -102,6 +121,9 @@ def etl_pipeline():
             "type": "company_type",
         }
     )
+
+    # Print sum of least_cost_arr_change
+    print(f"Sum of least_cost_arr_change: {final_df['least_cost_arr_change'].sum()}")
 
     # Use the Pydantic model to define the final column order and selection
     output_columns = list(MigrationOutput.model_fields.keys())

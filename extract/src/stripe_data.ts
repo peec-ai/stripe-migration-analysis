@@ -36,12 +36,21 @@ export async function fetchStripeSubscriptionItems() {
           continue;
         }
 
+        if (!item.price.recurring) {
+          console.warn(`Skipping item ${item.id} due to missing recurring info.`);
+          continue;
+        }
+
+        const interval = item.price.recurring.interval;
+        const quotient = interval === "year" ? 12 : 1;
+        const mrrCents = item.price.unit_amount / quotient;
+
         allItems.push({
           customerId: sub.customer as string,
           subscriptionId: sub.id,
           subscriptionItemId: item.id,
           planId: item.price.id,
-          mrrCents: item.price.unit_amount,
+          mrrCents,
           quantity: item.quantity || 1,
         });
       }
@@ -52,7 +61,7 @@ export async function fetchStripeSubscriptionItems() {
     );
 
     // 4. Write the entire array to a JSON file
-    const outputDir = "data";
+    const outputDir = "../data";
     const outputFilename = "stripe_subscription_items.json";
     // JSON.stringify with a space argument of 2 makes the file readable (pretty-print)
     await Bun.write(
@@ -90,14 +99,10 @@ export async function fetchProducts() {
       active: true,
       limit: 100,
     })) {
-      allProducts.push({
-        id: product.id,
-        name: product.name,
-        description: product.description,
-      });
+      allProducts.push(product);
     }
     console.log(`Successfully fetched ${allProducts.length} products.`);
-    const outputDir = "data";
+    const outputDir = "../data";
     const outputFilename = "stripe_products.json";
     await Bun.write(
       `${outputDir}/${outputFilename}`,
@@ -124,22 +129,21 @@ export type PriceRecord = z.infer<typeof PriceRecord>;
 
 export async function fetchPrices() {
   console.log("Connecting to Stripe to fetch all active prices...");
+
+  const stripe = new Stripe(process.env.STRIPE_API_KEY!, {
+    apiVersion: "2025-08-27.basil",
+  });
+  
   const allPrices = [];
   try {
     for await (const price of stripe.prices.list({
       active: true,
       limit: 100,
     })) {
-      allPrices.push({
-        id: price.id,
-        product_id: price.product as string,
-        currency: price.currency,
-        unit_amount: price.unit_amount,
-        type: price.type,
-      });
+      allPrices.push(price);
     }
     console.log(`Successfully fetched ${allPrices.length} prices.`);
-    const outputDir = "data";
+    const outputDir = "../data";
     const outputFilename = "stripe_prices.json";
     await Bun.write(
       `${outputDir}/${outputFilename}`,
