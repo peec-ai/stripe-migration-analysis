@@ -10,18 +10,21 @@ BRAND_PLANS = {
         "credits": 4450,
         "price_per_credit": 89 / 4450,
         "min_amount": 1000,
+        "max_org_count": 1,
     },
     "pro": {
         "price": 199,
         "credits": 14925,
         "price_per_credit": 199 / 14925,
         "min_amount": 1000,
+        "max_org_count": 3,
     },
     "enterprise": {
         "price": 650,
         "credits": 65000,
         "price_per_credit": 650 / 65000,
         "min_amount": 1000,
+        "max_org_count": 5,
     },
 }
 
@@ -31,18 +34,21 @@ AGENCY_PLANS = {
         "credits": 4450,
         "price_per_credit": 89 / 4450,
         "min_amount": 1000,
+        "max_org_count": 10,
     },
     "growth": {
         "price": 199,
         "credits": 14925,
         "price_per_credit": 199 / 14925,
         "min_amount": 1000,
+        "max_org_count": 30,
     },
     "scale": {
         "price": 499,
         "credits": 49900,
         "price_per_credit": 499 / 49900,
         "min_amount": 1000,
+        "max_org_count": 50,
     },
 }
 
@@ -75,8 +81,19 @@ def calculate_scenarios_for_company(company_data: pd.Series) -> pd.Series:
     company_type = company_data["type"]
     current_mrr = company_data["current_mrr"]
     required_credits = company_data["required_credits"]
+    orgs_count = company_data["orgs_count"]
 
-    plans = BRAND_PLANS if company_type == "IN_HOUSE" else AGENCY_PLANS
+    all_plans = BRAND_PLANS if company_type == "IN_HOUSE" else AGENCY_PLANS
+
+    # Filter plans based on the number of organizations
+    plans = {
+        name: p for name, p in all_plans.items() if p["max_org_count"] >= orgs_count
+    }
+
+    # If no plan can support the org count, find the one with the highest org count capacity.
+    if not plans:
+        largest_plan_name = max(all_plans, key=lambda k: all_plans[k]["max_org_count"])
+        plans = {largest_plan_name: all_plans[largest_plan_name]}
 
     # --- Least Cost Scenario ---
     least_cost_options = []

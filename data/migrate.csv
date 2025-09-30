@@ -44,10 +44,10 @@ Outletcity Metzingen,outletcity.com,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0
 Access Holdings ,accessholdings.com,IN_HOUSE,1,0,90,1080,25,21,1890,starter,89,-1,-12,0,2560,starter,90,50,2610
 Mint Studios,mintcopywritingstudios.com,AGENCY,6,0,450,5400,300,181,16290,growth,217,-232,-2793,1365,0,growth,450,18825,17460
 Skindr,skindr.com,IN_HOUSE,1,0,89,1068,25,8,720,starter,89,0,0,0,3730,starter,89,0,3730
-Meili & Hess,meilihess.ch,IN_HOUSE,5,0,200,2400,180,180,16200,pro,216,16,192,1275,0,pro,200,75,-1200
+Meili & Hess,meilihess.ch,IN_HOUSE,5,0,200,2400,180,180,16200,enterprise,650,450,5400,0,48800,enterprise,650,0,48800
 Sharetribe,sharetribe.com,IN_HOUSE,1,0,89,1068,25,10,900,starter,89,0,0,0,3550,starter,89,0,3550
 Pan Macmillan,panmacmillan.com,IN_HOUSE,1,0,199,2388,100,84,7560,starter,151,-47,-573,3110,0,starter,199,5500,2390
-FastDL,fastdl.app,IN_HOUSE,2,0,200,2400,50,15,1350,starter,89,-111,-1332,0,3100,pro,200,75,13650
+FastDL,fastdl.app,IN_HOUSE,2,0,200,2400,50,15,1350,pro,199,-1,-12,0,13575,pro,200,75,13650
 Worders,worders.net,AGENCY,1,0,89,1068,25,9,810,intro,89,0,0,0,3640,intro,89,0,3640
 UAB Tvora,tvora.eu,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
 sofatutor,sofatutor.com,IN_HOUSE,1,0,199,2388,100,62,5580,starter,111,-87,-1048,1130,0,starter,199,5500,4370
@@ -65,7 +65,7 @@ Verder,verderliquids.com,IN_HOUSE,1,0,199,2388,100,48,4320,starter,89,-110,-1320
 Magnetic North,magnorth.com,AGENCY,8,0,450,5400,240,133,11970,growth,199,-251,-3012,0,2955,growth,450,18825,21780
 Flood Digital,flooddigital.co,AGENCY,5,1,600,7200,200,100,14400,growth,199,-401,-4812,0,525,scale,600,10100,45600
 Advice Interactive,adviceinteractive.com,AGENCY,3,0,2260,27120,2050,1981,178290,scale,1782,-477,-5725,128390,0,scale,2260,176100,47710
-גמבורג הסעות rent a bus,rentabus.co.il,IN_HOUSE,4,0,199,2388,100,98,8820,starter,176,-22,-271,4370,0,starter,199,5500,1130
+גמבורג הסעות rent a bus,rentabus.co.il,IN_HOUSE,4,0,199,2388,100,98,8820,enterprise,650,451,5412,0,56180,enterprise,650,0,56180
 cafecasino,cafecasino.lv,IN_HOUSE,1,0,89,1068,25,21,1890,starter,89,0,0,0,2560,starter,89,0,2560
 Jedha Bootcamp,jedha.co,IN_HOUSE,1,0,199,2388,100,57,5130,starter,109,-90,-1080,1000,320,starter,199,5500,4820
 KB Studio,kbstudio.org,AGENCY,1,0,89,1068,25,7,630,intro,89,0,0,0,3820,intro,89,0,3820
@@ -119,10 +119,10 @@ Advice Agency,adviceagency.com,AGENCY,1,0,199,2388,25,0,0,intro,89,-110,-1320,0,
 Jaywing,jaywing.com.au,AGENCY,1,0,199,2388,25,9,810,intro,89,-110,-1320,0,3640,intro,199,5500,9140
 lehof,lehof.de,AGENCY,2,0,90,1080,50,27,2430,intro,89,-1,-12,0,2020,intro,90,50,2070
 Velaspan,velaspan.com,IN_HOUSE,1,0,89,1068,25,22,1980,starter,89,0,0,0,2470,starter,89,0,2470
-Check24,check24.de,IN_HOUSE,3,3,180,2160,90,39,9360,starter,187,7,86,4910,0,starter,180,4550,-360
+Check24,check24.de,IN_HOUSE,3,3,180,2160,90,39,9360,pro,199,19,228,0,5565,pro,199,0,5565
 Flow Agency,flow-agency.com,AGENCY,3,2,210,2520,90,68,23190,growth,309,99,1190,8265,0,growth,210,825,-7440
 Hearts & Science,hearts-science.com,AGENCY,22,0,1500,18000,850,670,60300,scale,603,-897,-10764,10400,0,scale,1500,100100,89700
-TCF,tcf.team,IN_HOUSE,4,0,300,3600,100,66,5940,starter,118,-181,-2174,1490,0,pro,300,7575,16560
+TCF,tcf.team,IN_HOUSE,4,0,300,3600,100,66,5940,enterprise,650,350,4200,0,59060,enterprise,650,0,59060
 morefire,more-fire.com,AGENCY,1,0,90,1080,25,20,1800,intro,89,-1,-12,0,2650,intro,90,50,2700
 RunThrough,runthrough.com,IN_HOUSE,1,0,89,1068,25,12,1080,starter,89,0,0,0,3370,starter,89,0,3370
 UneeQ,digitalhumans.com,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
@@ -131,14 +131,14 @@ TEAM99,team99.it,AGENCY,1,0,89,1068,25,6,540,intro,89,0,0,0,3910,intro,89,0,3910
 Radyant,radyant.de,AGENCY,4,0,250,3000,100,86,7740,intro,154,-95,-1142,3290,0,growth,250,3825,11010
 Digitalkeys,digitalkeys.fr,AGENCY,2,0,199,2388,100,34,3060,intro,89,-110,-1320,0,1390,intro,199,5500,6890
 Yogo,yogo.dk,IN_HOUSE,1,0,199,2388,100,77,6930,starter,138,-60,-724,2480,0,starter,199,5500,3020
-Nord Security,nordsecurity.com,IN_HOUSE,3,0,199,2388,105,99,8910,starter,178,-20,-249,4460,0,starter,199,5500,1040
+Nord Security,nordsecurity.com,IN_HOUSE,3,0,199,2388,105,99,8910,pro,199,0,0,0,6015,pro,199,0,6015
 Boxhub,boxhub.com,IN_HOUSE,1,0,89,1068,25,5,450,starter,89,0,0,0,4000,starter,89,0,4000
 casacore,casacore.io,AGENCY,1,0,89,1068,25,2,180,intro,89,0,0,0,4270,intro,89,0,4270
 Circle,circle.so,IN_HOUSE,1,0,199,2388,100,100,9000,starter,180,-19,-228,4550,0,starter,199,5500,950
 Mint Position,mintposition.co,AGENCY,6,0,299,3598,150,150,13500,growth,199,-100,-1210,0,1425,growth,299,7563,8988
 DJE,dje.de,IN_HOUSE,1,0,199,2388,100,19,1710,starter,89,-110,-1320,0,2740,starter,199,5500,8240
 Help Scout,helpscout.com,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
-Growth Partners,growthpartners.co.nz,IN_HOUSE,3,0,267,3204,75,62,5580,starter,111,-155,-1864,1130,0,pro,267,5100,14445
+Growth Partners,growthpartners.co.nz,IN_HOUSE,3,0,267,3204,75,62,5580,pro,199,-68,-816,0,9345,pro,267,5100,14445
 Results Driven Marketing,yourgooglegirls.com,AGENCY,1,0,199,2388,100,10,900,intro,89,-110,-1320,0,3550,intro,199,5500,9050
 spektr,spektr.com,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
 liveflow,liveflow.com,IN_HOUSE,1,0,199,2388,100,100,9000,starter,180,-19,-228,4550,0,starter,199,5500,950
@@ -176,7 +176,7 @@ Agendrix,agendrix.com,IN_HOUSE,1,0,89,1068,25,24,2160,starter,89,0,0,0,2290,star
 One Click Marketing,seooneclick.com,AGENCY,4,0,199,2388,100,82,7380,intro,147,-51,-616,2930,0,intro,199,5500,2570
 UpXcale,upxcale.de,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
 Kinesso,kinesso.com,AGENCY,1,1,199,2388,100,100,36000,growth,480,281,3372,21075,0,intro,199,5500,-26050
-Italki,italki.com,IN_HOUSE,4,4,169,2028,106,89,32040,pro,427,258,3098,17115,0,starter,169,4000,-23590
+Italki,italki.com,IN_HOUSE,4,4,169,2028,106,89,32040,enterprise,650,481,5772,0,32960,enterprise,650,0,32960
 eology,eology.de,AGENCY,5,2,528,6336,220,211,32760,growth,436,-91,-1094,17835,0,scale,528,2900,20040
 EdgeAngel,edgeangel.com,AGENCY,1,0,89,1068,25,12,1080,intro,89,0,0,0,3370,intro,89,0,3370
 Siteground,siteground.com,IN_HOUSE,1,0,169,2028,100,41,3690,starter,89,-80,-960,0,760,starter,169,4005,4765
@@ -188,13 +188,13 @@ Handl,super.site,IN_HOUSE,1,0,199,2388,100,2,360,starter,89,-110,-1320,0,4090,st
 RIEGG,riegg.com,AGENCY,2,0,99,1194,100,50,4500,intro,109,9,114,1000,950,intro,99,525,475
 Techem ,techem.de,IN_HOUSE,1,0,89,1068,25,17,1530,starter,89,0,0,0,2920,starter,89,0,2920
 AKT London ,aktlondon.com,IN_HOUSE,1,0,89,1068,25,7,630,starter,89,0,0,0,3820,starter,89,0,3820
-FL Studio,image-line.com,IN_HOUSE,2,0,178,2136,50,35,3150,starter,89,-89,-1068,0,1300,starter,178,4450,5750
+FL Studio,image-line.com,IN_HOUSE,2,0,178,2136,50,35,3150,pro,199,21,252,0,11775,pro,199,0,11775
 Journey Further,joruneyfurther.com,AGENCY,1,0,199,2388,100,87,7830,intro,156,-42,-508,3380,0,intro,199,5500,2120
 Kalasar GmbH,kalasar.com,IN_HOUSE,1,0,89,1068,25,12,1080,starter,89,0,0,0,3370,starter,89,0,3370
 Abax,abax.com,IN_HOUSE,1,0,199,2388,100,100,9000,starter,180,-19,-228,4550,0,starter,199,5500,950
 SEOlyse,seolyse.de,AGENCY,2,0,90,1080,50,49,4410,intro,89,-1,-12,0,40,intro,90,50,90
 Scoular,scoular.com,IN_HOUSE,1,0,199,2388,100,5,450,starter,89,-110,-1320,0,4000,starter,199,5500,9500
-20minutes,20min.ch,IN_HOUSE,3,3,180,2160,90,88,17640,pro,235,55,662,2715,0,starter,180,4550,-8640
+20minutes,20min.ch,IN_HOUSE,3,3,180,2160,90,88,17640,pro,235,55,662,2715,0,pro,199,0,-2715
 Paddle Creative,paddlecreative.co.uk,AGENCY,1,0,89,1068,25,12,1080,intro,89,0,0,0,3370,intro,89,0,3370
 Cut Inside,cutinside.com,AGENCY,6,0,200,2400,120,68,6120,intro,122,-77,-931,1670,0,growth,200,75,8880
 Parfois,parfois.com,IN_HOUSE,1,0,89,1068,25,20,1800,starter,89,0,0,0,2650,starter,89,0,2650
@@ -226,7 +226,7 @@ Peak Ace,peakace.agency,AGENCY,13,4,1300,15600,1115,957,188070,scale,1880,580,69
 Olive & Company,oliveandcompany.com,AGENCY,1,0,89,1068,25,25,2250,intro,89,0,0,0,2200,intro,89,0,2200
 allink,allink.ch,AGENCY,1,0,89,1068,25,20,1800,intro,89,0,0,0,2650,intro,89,0,2650
 Smarty Marketing,smarty.marketing,AGENCY,1,0,89,1068,50,8,720,intro,89,0,0,0,3730,intro,89,0,3730
-Semji,semji.com,IN_HOUSE,5,0,576,6912,250,169,15210,pro,212,-363,-4364,1000,715,pro,576,28275,27990
+Semji,semji.com,IN_HOUSE,5,0,576,6912,250,169,15210,enterprise,650,74,888,0,49790,enterprise,650,0,49790
 Rebel Cause Digital,rebelcausedigital.com,AGENCY,5,0,445,5340,125,89,8010,intro,160,-284,-3417,3560,0,growth,445,18450,25365
 Inter-dev,inter-dev.co.il,AGENCY,1,0,89,1068,25,20,1800,intro,89,0,0,0,2650,intro,89,0,2650
 FGS Global (Europe),fgsglobal.com,AGENCY,3,0,499,5988,400,253,22770,growth,303,-195,-2344,7845,0,growth,499,22500,14655
@@ -238,14 +238,14 @@ AiPrise,aiprise.com,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starte
 Rep.ai,rep.ai,IN_HOUSE,1,0,89,1068,25,8,720,starter,89,0,0,0,3730,starter,89,0,3730
 MED-EL,medel.com,IN_HOUSE,1,0,89,1068,25,7,630,starter,89,0,0,0,3820,starter,89,0,3820
 Biggie - CHFR,biggie.co,AGENCY,4,1,576,6912,250,219,22140,growth,295,-280,-3369,7215,0,scale,576,7700,35460
-Airfleet,airfleet.co,IN_HOUSE,3,0,200,2400,125,59,5670,starter,113,-86,-1039,1220,0,pro,200,75,9330
+Airfleet,airfleet.co,IN_HOUSE,3,0,200,2400,125,59,5670,pro,199,-1,-12,0,9255,pro,200,75,9330
 HiveMQ,hivemq.com,IN_HOUSE,1,0,199,2388,100,24,2160,starter,89,-110,-1320,0,2290,starter,199,5500,7790
 Lick,lick.com,IN_HOUSE,1,0,89,1068,25,23,2070,starter,89,0,0,0,2380,starter,89,0,2380
 GVB,gvb.ch,IN_HOUSE,1,0,89,1068,25,19,1710,starter,89,0,0,0,2740,starter,89,0,2740
 Quicklizard,quicklizard.com,IN_HOUSE,1,1,120,1440,30,30,10800,pro,199,79,948,0,4125,starter,120,1550,-4800
 Technical creatives,technicalcreatives.com,AGENCY,10,0,229,2759,115,51,4590,intro,109,-120,-1451,1000,860,growth,229,2323,12658
 AlertMedia,alertmedia.com,IN_HOUSE,1,0,199,2388,100,60,5400,starter,109,-90,-1080,1000,50,starter,199,5500,4550
-PARK 7,park-sieben.com,IN_HOUSE,2,0,199,2388,100,53,4770,starter,109,-90,-1080,1000,680,starter,199,5500,5180
+PARK 7,park-sieben.com,IN_HOUSE,2,0,199,2388,100,53,4770,pro,199,0,0,0,10155,pro,199,0,10155
 GrowRoom,growroom.agency,AGENCY,1,0,689,8268,300,251,37650,scale,499,-190,-2280,0,12250,scale,689,19000,31250
 EOM.de,eom.de,AGENCY,2,0,288,3456,125,33,2970,intro,89,-199,-2388,0,1480,growth,288,6675,18630
 YOYABA,smoobu.com,AGENCY,3,2,180,2160,85,85,23850,growth,318,138,1656,8925,0,intro,180,4550,-14850
@@ -286,7 +286,7 @@ HiPeople,hipeople.io,IN_HOUSE,1,0,89,1068,25,8,720,starter,89,0,0,0,3730,starter
 hipages Group,hipagessgroup.com.au,IN_HOUSE,1,0,278,3336,100,98,8820,starter,176,-101,-1219,4370,0,pro,278,5925,12030
 Namespace,namespace.so,IN_HOUSE,1,0,89,1068,25,15,1350,starter,89,0,0,0,3100,starter,89,0,3100
 CAMPFIRE,camp-fire.jp,IN_HOUSE,1,0,90,1080,25,13,1170,starter,89,-1,-12,0,3280,starter,90,50,3330
-Impactful Apartment Marketing,impactfulapartmentmarketing.com,IN_HOUSE,10,0,621,7452,248,134,12060,pro,199,-422,-5064,0,2865,pro,621,31650,34515
+Impactful Apartment Marketing,impactfulapartmentmarketing.com,IN_HOUSE,10,0,621,7452,248,134,12060,enterprise,650,29,348,0,52940,enterprise,650,0,52940
 BIT Capital,bitcap.com,IN_HOUSE,1,0,89,1068,25,5,450,starter,89,0,0,0,4000,starter,89,0,4000
 Simpalm,simpalm.com,IN_HOUSE,1,0,89,1068,25,11,990,starter,89,0,0,0,3460,starter,89,0,3460
 Tenity,tenity.com,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
@@ -404,7 +404,7 @@ Multi Platform Content,mpc.one,AGENCY,1,0,199,2388,100,70,6300,intro,126,-73,-87
 LEVEL,level.agency,AGENCY,1,0,90,1080,25,10,900,intro,89,-1,-12,0,3550,intro,90,50,3600
 bexio,bexio.com,IN_HOUSE,1,0,89,1068,25,21,1890,starter,89,0,0,0,2560,starter,89,0,2560
 saas.group,addsearch.com,AGENCY,10,10,300,3600,150,118,42480,scale,499,199,2388,0,7420,growth,300,7575,-19980
-iwoca,iwoca.co.uk,IN_HOUSE,2,0,335,4020,50,45,7050,starter,141,-194,-2328,2600,0,pro,335,10200,18075
+iwoca,iwoca.co.uk,IN_HOUSE,2,0,335,4020,50,45,7050,pro,199,-136,-1632,0,7875,pro,335,10200,18075
 HomeToGo,hometogo.de,IN_HOUSE,1,1,260,3120,200,195,70200,enterprise,702,442,5304,5200,0,pro,260,4575,-50700
 Swoop Digital,swoopdigital.com.au,AGENCY,1,0,89,1068,25,25,2250,intro,89,0,0,0,2200,intro,89,0,2200
 Glide,glideapps.com,IN_HOUSE,1,1,138,1656,55,30,25200,pro,336,198,2376,10275,0,starter,138,2450,-18300
@@ -449,9 +449,9 @@ WOXOW,woxow.com,AGENCY,1,0,178,2136,25,25,2250,intro,89,-89,-1068,0,2200,intro,1
 navas & cusi,navascusi.com,IN_HOUSE,1,1,199,2388,100,51,18360,pro,244,45,549,3435,0,starter,199,5500,-8410
 Nolte,nolte-kuechen.com,IN_HOUSE,1,0,89,1068,25,18,1620,starter,89,0,0,0,2830,starter,89,0,2830
 Integrity Energy,integrityenergy.com,IN_HOUSE,2,0,398,4776,200,200,18000,pro,240,-158,-1896,3075,0,pro,398,14925,11850
-Catawiki,catawiki.com,IN_HOUSE,2,0,199,2388,100,40,3600,starter,89,-110,-1320,0,850,starter,199,5500,6350
+Catawiki,catawiki.com,IN_HOUSE,2,0,199,2388,100,40,3600,pro,199,0,0,0,11325,pro,199,0,11325
 Tourisme Mont-Tremblant,mont-tremblant.ca,IN_HOUSE,1,0,89,1068,25,7,630,starter,89,0,0,0,3820,starter,89,0,3820
-mute-labs GmbH,mute-labs.com,IN_HOUSE,2,0,178,2136,50,47,4230,starter,89,-89,-1068,0,220,starter,178,4450,4670
+mute-labs GmbH,mute-labs.com,IN_HOUSE,2,0,178,2136,50,47,4230,pro,199,21,252,0,10695,pro,199,0,10695
 Camedia,camedia.de,AGENCY,2,0,199,2388,100,13,1170,intro,89,-110,-1320,0,3280,intro,199,5500,8780
 Skylight Digital,skylight-digital.co.za,AGENCY,1,0,89,1068,25,25,2250,intro,89,0,0,0,2200,intro,89,0,2200
 Stradigi,stradigi.eu,AGENCY,2,0,200,2400,50,44,3960,intro,89,-111,-1332,0,490,growth,200,75,11040
@@ -485,10 +485,10 @@ idealo internet GmbH,idealo.de,IN_HOUSE,1,1,199,2388,100,98,35280,pro,470,271,32
 sandbech,sandbech.com,AGENCY,4,3,180,2160,120,62,21780,growth,290,110,1324,6855,0,intro,180,4550,-12780
 минфин,minfin.com.ua,IN_HOUSE,1,0,90,1080,100,100,9000,starter,180,90,1080,4550,0,starter,90,50,-4500
 Orchestra,orchestra.dk,AGENCY,2,0,239,2868,125,50,6000,intro,120,-119,-1428,1550,0,growth,239,3000,11925
-Simpro,simprogroup.com,IN_HOUSE,4,1,288,3456,125,125,24750,pro,330,42,504,9825,0,pro,288,6675,-3150
+Simpro,simprogroup.com,IN_HOUSE,4,1,288,3456,125,125,24750,enterprise,650,362,4344,0,40250,enterprise,650,0,40250
 Liv Longevity Labs,liv.health,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
 Noble,noblestudios.com,AGENCY,1,0,89,1068,25,0,0,intro,89,0,0,0,4450,intro,89,0,4450
-Myposter,myposter.de,IN_HOUSE,4,0,600,7200,400,350,31500,pro,420,-180,-2160,16575,0,pro,600,30075,13500
+Myposter,myposter.de,IN_HOUSE,4,0,600,7200,400,350,31500,enterprise,650,50,600,0,33500,enterprise,650,0,33500
 Betfair,betfair.es,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
 Kombo,kombo.dev,IN_HOUSE,1,0,199,2388,100,25,2250,starter,89,-110,-1320,0,2200,starter,199,5500,7700
 Blueprint,blueprint.ai,IN_HOUSE,1,0,89,1068,25,8,720,starter,89,0,0,0,3730,starter,89,0,3730
@@ -504,8 +504,8 @@ SPA Deluxe GmbH,spadeluxe.de,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,22
 StoreLens,storelens.ai,AGENCY,1,0,89,1068,25,25,2250,intro,89,0,0,0,2200,intro,89,0,2200
 Cirklé,cirkleagency.com,IN_HOUSE,1,0,89,1068,25,18,1620,starter,89,0,0,0,2830,starter,89,0,2830
 jefit,jefit.com,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
-Attio,attio.com,IN_HOUSE,2,1,90,1080,400,208,23310,pro,310,220,2649,8385,0,starter,90,50,-18810
-Eland Cables,elandcables.com,IN_HOUSE,5,0,340,4080,250,45,4050,starter,89,-251,-3012,0,400,pro,340,10575,21450
+Attio,attio.com,IN_HOUSE,2,1,90,1080,400,208,23310,pro,310,220,2649,8385,0,pro,199,0,-8385
+Eland Cables,elandcables.com,IN_HOUSE,5,0,340,4080,250,45,4050,enterprise,650,310,3720,0,60950,enterprise,650,0,60950
 Echologger,echologger.com,IN_HOUSE,1,0,89,1068,25,12,1080,starter,89,0,0,0,3370,starter,89,0,3370
 Brand Affairs,brandaffairs.ch,IN_HOUSE,1,0,89,1068,25,20,1800,starter,89,0,0,0,2650,starter,89,0,2650
 Synthesia,synthesia.io,IN_HOUSE,1,0,89,1068,25,21,1890,starter,89,0,0,0,2560,starter,89,0,2560
@@ -652,7 +652,7 @@ Searchbloom,searchbloom.com,AGENCY,3,0,398,4776,200,152,13680,growth,199,-199,-2
 n8n,n8n.io,IN_HOUSE,1,0,89,1068,25,22,1980,starter,89,0,0,0,2470,starter,89,0,2470
 Polaris Media GmbH,polarismedia.de,AGENCY,1,0,89,1068,25,25,2250,intro,89,0,0,0,2200,intro,89,0,2200
 Lawtons,lawtonslaw.co.uk,IN_HOUSE,1,0,150,1800,100,0,0,starter,89,-61,-732,0,4450,starter,150,3050,7500
-Trenkwalder Österreich,trenkwalder.com,IN_HOUSE,2,0,89,1068,50,50,4500,starter,109,20,240,1000,950,starter,89,0,-50
+Trenkwalder Österreich,trenkwalder.com,IN_HOUSE,2,0,89,1068,50,50,4500,pro,199,110,1320,0,10425,pro,199,0,10425
 Scopic,scopicsoftware.com,AGENCY,1,0,89,1068,25,24,2160,intro,89,0,0,0,2290,intro,89,0,2290
 Mention,mention.com,IN_HOUSE,1,0,89,1068,25,0,0,starter,89,0,0,0,4450,starter,89,0,4450
 InTouchNow AI,intouchnow.ai,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
@@ -668,7 +668,7 @@ JTL-Software-GmbH,jtl-software.de,IN_HOUSE,1,0,169,2028,100,92,8280,starter,165,
 ReviewsOnMyWebsite,reviewsonmywebsite.com,IN_HOUSE,1,0,199,2388,100,100,9000,starter,180,-19,-228,4550,0,starter,199,5500,950
 Win With Optimal,winwithoptimal.com,AGENCY,9,0,499,5988,270,234,21060,growth,280,-218,-2618,6135,0,growth,499,22500,16365
 SEO Brand,seobrand.com,AGENCY,1,0,89,1068,25,17,1530,intro,89,0,0,0,2920,intro,89,0,2920
-BeOne Medicines,beonemedicines.com,IN_HOUSE,3,0,199,2388,45,20,1800,starter,89,-110,-1320,0,2650,starter,199,5500,8150
+BeOne Medicines,beonemedicines.com,IN_HOUSE,3,0,199,2388,45,20,1800,pro,199,0,0,0,13125,pro,199,0,13125
 finanzen.net,finanzen.net,IN_HOUSE,1,1,199,2388,100,36,12960,pro,199,0,0,0,1965,starter,199,5500,-3010
 Human First Collective,humanfirstcollective.com,AGENCY,1,0,89,1068,25,25,2250,intro,89,0,0,0,2200,intro,89,0,2200
 Lifeboost Coffee,lifeboostcoffee.com,IN_HOUSE,1,0,89,1068,25,14,1260,starter,89,0,0,0,3190,starter,89,0,3190
@@ -680,13 +680,13 @@ ColdIQ,coldiq.com,IN_HOUSE,1,0,89,1068,25,12,1080,starter,89,0,0,0,3370,starter,
 DHL,dhl.com,IN_HOUSE,1,0,199,2388,100,90,8100,starter,162,-37,-444,3650,0,starter,199,5500,1850
 JAG Jeans,jagjeans.com,AGENCY,2,0,178,2136,50,44,3960,intro,89,-89,-1068,0,490,intro,178,4450,4940
 Aybee,aybee.ai,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
-relokate,relokatehr.com,IN_HOUSE,2,0,199,2388,100,85,7650,starter,153,-46,-552,3200,0,starter,199,5500,2300
+relokate,relokatehr.com,IN_HOUSE,2,0,199,2388,100,85,7650,pro,199,0,0,0,7275,pro,199,0,7275
 UXCam,uxcam.com,IN_HOUSE,1,1,120,1440,30,30,10800,pro,199,79,948,0,4125,starter,120,1550,-4800
 We Communications,wecommunications.com,AGENCY,2,0,199,2388,90,77,6930,intro,138,-60,-724,2480,0,intro,199,5500,3020
 dotCMS,dotcms.com,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
 Mindshare,mindshareworld.com,AGENCY,7,0,640,7680,275,190,17100,growth,228,-412,-4944,2175,0,scale,640,14100,46900
 Heidi Health,heidihealth.com,IN_HOUSE,1,0,76,919,25,25,2250,starter,89,12,149,0,2200,starter,89,0,2200
-Close Brothers Invoice Finance,closeinvoice.co.uk,IN_HOUSE,2,0,288,3456,125,61,5490,starter,109,-178,-2138,1040,0,pro,288,6675,16110
+Close Brothers Invoice Finance,closeinvoice.co.uk,IN_HOUSE,2,0,288,3456,125,61,5490,pro,199,-89,-1068,0,9435,pro,288,6675,16110
 Oyster,oysterhr.com,IN_HOUSE,1,0,199,2388,100,42,3780,starter,89,-110,-1320,0,670,starter,199,5500,6170
 Forge Holidays,forgeholidays.com,IN_HOUSE,2,0,398,4776,200,164,12150,pro,199,-199,-2388,0,2775,pro,398,14925,17700
 Formlabs,formlabs.com,IN_HOUSE,1,0,199,2388,100,100,9000,starter,180,-19,-228,4550,0,starter,199,5500,950
@@ -705,7 +705,7 @@ Functn GmbH,functn.com,AGENCY,1,0,89,1068,25,24,2160,intro,89,0,0,0,2290,intro,8
 Marino,marinopr.com,AGENCY,1,0,199,2388,100,79,7110,intro,142,-56,-681,2660,0,intro,199,5500,2840
 SimpledCard,simpledcard.com,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
 Flexcar,flexcar.gr,IN_HOUSE,1,0,89,1068,25,5,450,starter,89,0,0,0,4000,starter,89,0,4000
-Nationwide Transport Services,ntslogistics.com,IN_HOUSE,2,0,199,2388,100,59,5310,starter,109,-90,-1080,1000,140,starter,199,5500,4640
+Nationwide Transport Services,ntslogistics.com,IN_HOUSE,2,0,199,2388,100,59,5310,pro,199,0,0,0,9615,pro,199,0,9615
 Upway,upway.co,IN_HOUSE,1,0,499,5988,300,225,20250,pro,270,-229,-2748,5325,0,pro,499,22500,17175
 Kosch Klink Performance,cosmosdirekt.de,AGENCY,9,4,976,11712,550,467,90900,scale,909,-67,-804,41000,0,scale,976,47700,6700
 Pixum,pixum.de,IN_HOUSE,1,0,199,2388,100,68,6120,starter,122,-76,-919,1670,0,starter,199,5500,3830
@@ -752,7 +752,7 @@ Solarhandel24,solarhandel24.de,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,
 CBH Homes,cbhhomes.com,IN_HOUSE,1,0,89,1068,25,5,450,starter,89,0,0,0,4000,starter,89,0,4000
 We. Communications UK,wecommunications.com,AGENCY,3,0,199,2388,90,81,7290,intro,145,-53,-638,2840,0,intro,199,5500,2660
 Frohraum,frohraum.de,IN_HOUSE,1,0,89,1068,25,20,1800,starter,89,0,0,0,2650,starter,89,0,2650
-Proper,properhotel.com,IN_HOUSE,12,0,720,8640,600,220,19800,pro,264,-456,-5472,4875,0,enterprise,720,7000,52200
+Proper,properhotel.com,IN_HOUSE,12,0,720,8640,600,220,19800,enterprise,650,-70,-840,0,45200,enterprise,720,7000,52200
 Praize Studio,praize.studio,AGENCY,3,0,267,3204,75,74,6660,intro,133,-133,-1605,2210,0,growth,267,5100,13365
 Bounce,bounce.com,IN_HOUSE,1,0,199,2388,100,100,9000,starter,180,-19,-228,4550,0,starter,199,5500,950
 Digital X,online-digitalx.de,AGENCY,4,0,377,4524,150,30,2700,intro,89,-288,-3456,0,1750,growth,377,13350,25575
@@ -770,7 +770,7 @@ Paage,paa.ge,IN_HOUSE,1,0,89,1068,25,22,1980,starter,89,0,0,0,2470,starter,89,0,
 Agicap,agicap.com,IN_HOUSE,1,0,199,2388,100,95,8550,starter,171,-28,-336,4100,0,starter,199,5500,1400
 EGP,egp.fi,AGENCY,1,0,170,2040,100,20,1800,intro,89,-81,-972,0,2650,intro,170,4050,6700
 Engine HQ,enginehq.co,AGENCY,1,0,90,1080,100,49,4410,intro,89,-1,-12,0,40,intro,90,50,90
-Betsson Group,betssongoup.com,IN_HOUSE,10,0,1125,13500,500,458,42690,pro,569,-555,-6669,27765,0,enterprise,1125,47500,69810
+Betsson Group,betssongoup.com,IN_HOUSE,10,0,1125,13500,500,458,42690,enterprise,650,-475,-5700,0,22310,enterprise,1125,47500,69810
 YET Agency,yetagency.it,AGENCY,1,0,89,1068,25,25,2250,intro,89,0,0,0,2200,intro,89,0,2200
 KLAMBT,klambt.de,AGENCY,1,0,298,3582,50,4,360,intro,89,-209,-2514,0,4090,growth,298,7463,22028
 Fuel Finance,fuelfinance.me,IN_HOUSE,1,0,90,1080,25,20,1800,starter,89,-1,-12,0,2650,starter,90,50,2700
@@ -788,7 +788,7 @@ Market Curve,marketcurve.org,AGENCY,1,0,89,1068,25,16,1440,intro,89,0,0,0,3010,i
 Australian Digital,australiandigital.com,AGENCY,1,0,89,1068,25,25,2250,intro,89,0,0,0,2200,intro,89,0,2200
 UiPath,uipath.com,IN_HOUSE,1,0,199,2388,100,55,13200,pro,199,0,0,0,1725,starter,199,5500,-3250
 Vation Ventures,vationventures.com,AGENCY,1,0,89,1068,25,21,1890,intro,89,0,0,0,2560,intro,89,0,2560
-Verisure,verisure.com,IN_HOUSE,2,0,650,7800,600,52,4680,starter,109,-541,-6492,1000,770,pro,650,33825,44070
+Verisure,verisure.com,IN_HOUSE,2,0,650,7800,600,52,4680,pro,199,-451,-5412,0,10245,pro,650,33825,44070
 180 Marketing Inc,180marketing.com,AGENCY,14,0,531,6379,275,255,22950,growth,306,-225,-2707,8025,0,scale,531,3260,30210
 prodress,prodress.de,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
 Cowboy Pools,cowboypools.com,IN_HOUSE,1,0,89,1068,25,23,2070,starter,89,0,0,0,2380,starter,89,0,2380
@@ -814,7 +814,7 @@ Aurora Expeditions,aurora-expeditions.com,IN_HOUSE,1,0,89,1068,25,23,2070,starte
 Artaxo,artaxo.de,AGENCY,11,0,299,3588,150,150,13500,growth,199,-100,-1200,0,1425,growth,299,7500,8925
 Nationwide Vehicle Contracts,nationwidevehiclecontracts.co.uk,IN_HOUSE,1,0,199,2388,100,85,7650,starter,153,-46,-552,3200,0,starter,199,5500,2300
 Millwright,millwrightholdings.com,AGENCY,1,0,89,1068,25,0,0,intro,89,0,0,0,4450,intro,89,0,4450
-MutuiOnline,mutuionline.it,IN_HOUSE,4,1,199,2388,400,390,59400,enterprise,650,451,5412,0,5600,starter,199,5500,-49450
+MutuiOnline,mutuionline.it,IN_HOUSE,4,1,199,2388,400,390,59400,enterprise,650,451,5412,0,5600,enterprise,650,0,5600
 Fintel Connect,fintelconnect.com,AGENCY,7,0,199,2388,140,89,8010,intro,160,-38,-465,3560,0,intro,199,5500,1940
 Virayo,virayo.com,AGENCY,13,0,900,10800,325,272,24480,growth,326,-573,-6883,9555,0,scale,900,40100,65520
 Runway ,runway.team,IN_HOUSE,1,0,89,1068,25,22,1980,starter,89,0,0,0,2470,starter,89,0,2470
@@ -831,7 +831,7 @@ eigenheads,eigenheads.com,IN_HOUSE,1,0,89,1068,25,8,720,starter,89,0,0,0,3730,st
 Podbase,podbase.com,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
 Avenue Z,avenuez.com,AGENCY,3,1,180,2160,110,110,18000,growth,240,60,720,3075,0,intro,180,4550,-9000
 Myra Security,myrasecurity.com,IN_HOUSE,1,0,199,2388,100,20,1800,starter,89,-110,-1320,0,2650,starter,199,5500,8150
-AMA,ama.ab.ca,IN_HOUSE,8,0,499,5988,300,108,9720,starter,194,-304,-3655,5270,0,pro,499,22500,27705
+AMA,ama.ab.ca,IN_HOUSE,8,0,499,5988,300,108,9720,enterprise,650,151,1812,0,55280,enterprise,650,0,55280
 Yellowball,weareyellowball.com,AGENCY,2,0,178,2136,50,34,3060,intro,89,-89,-1068,0,1390,intro,178,4450,5840
 Scandiweb,scandiweb.com,AGENCY,3,3,180,2160,90,38,13680,growth,199,19,228,0,1245,intro,180,4550,-4680
 hp praski,hp-praski.de,IN_HOUSE,1,0,89,1068,25,6,540,starter,89,0,0,0,3910,starter,89,0,3910
@@ -865,7 +865,7 @@ Tepia ,tepia.co,IN_HOUSE,1,0,89,1068,25,21,1890,starter,89,0,0,0,2560,starter,89
 Equiti,equiti.com,IN_HOUSE,1,0,199,2388,100,32,2880,starter,89,-110,-1320,0,1570,starter,199,5500,7070
 Butternut Box,butternutbox.com,IN_HOUSE,1,0,400,4800,300,1,90,starter,89,-311,-3732,0,4360,pro,400,15075,29910
 Gymdesk,gymdesk.com,IN_HOUSE,1,0,248,2976,100,25,3000,starter,89,-159,-1908,0,1450,pro,248,3675,15600
-GPT Insights,gpt-insights.de,IN_HOUSE,2,0,199,2388,100,0,0,starter,89,-110,-1320,0,4450,starter,199,5500,9950
+GPT Insights,gpt-insights.de,IN_HOUSE,2,0,199,2388,100,0,0,pro,199,0,0,0,14925,pro,199,0,14925
 Sinecon,sinecon.eu,IN_HOUSE,1,0,89,1068,25,6,540,starter,89,0,0,0,3910,starter,89,0,3910
 The Dorm,thedorm.com,IN_HOUSE,1,0,89,1068,25,5,450,starter,89,0,0,0,4000,starter,89,0,4000
 refficience,refficience.com,AGENCY,2,0,199,2388,100,35,3150,intro,89,-110,-1320,0,1300,intro,199,5500,6800
@@ -887,7 +887,7 @@ FrankCrum,frankcrum.com,IN_HOUSE,1,0,162,1945,100,30,2700,starter,89,-73,-877,0,
 CORSAIR,corsair.com,IN_HOUSE,1,0,89,1068,25,24,2160,starter,89,0,0,0,2290,starter,89,0,2290
 Office World,officeworld.ch,IN_HOUSE,1,0,89,1068,25,25,2250,starter,89,0,0,0,2200,starter,89,0,2200
 HelloBello,hellobello.de,IN_HOUSE,1,0,89,1068,25,20,1800,starter,89,0,0,0,2650,starter,89,0,2650
-Vente-unique,vente-unique.com,IN_HOUSE,2,0,199,2388,100,83,7470,starter,149,-49,-595,3020,0,starter,199,5500,2480
+Vente-unique,vente-unique.com,IN_HOUSE,2,0,199,2388,100,83,7470,pro,199,0,0,0,7455,pro,199,0,7455
 Netzbekannt,netzbekannt.de,AGENCY,5,0,340,4080,125,47,4230,intro,89,-251,-3012,0,220,growth,340,10575,21270
 Dofollow Inc.,dofollow.com,AGENCY,1,0,400,4800,25,9,810,intro,89,-311,-3732,0,3640,growth,400,15075,29190
 AppSignal,appsignal.com,IN_HOUSE,1,0,89,1068,25,5,450,starter,89,0,0,0,4000,starter,89,0,4000
@@ -899,7 +899,7 @@ Mixbook,mixbook.com,IN_HOUSE,1,0,199,2388,100,36,3240,starter,89,-110,-1320,0,12
 Ownwell,ownwell.com,IN_HOUSE,1,0,199,2388,100,100,9000,starter,180,-19,-228,4550,0,starter,199,5500,950
 Happy Pay,happypay.co.za,IN_HOUSE,1,0,89,1068,25,10,900,starter,89,0,0,0,3550,starter,89,0,3550
 Resoneo,resoneo.com,AGENCY,1,0,199,2388,100,75,6750,intro,135,-64,-768,2300,0,intro,199,5500,3200
-Informa,informa.com,IN_HOUSE,3,0,199,2388,100,60,5400,starter,109,-90,-1080,1000,50,starter,199,5500,4550
+Informa,informa.com,IN_HOUSE,3,0,199,2388,100,60,5400,pro,199,0,0,0,9525,pro,199,0,9525
 Valtech,valtech.com,AGENCY,1,1,499,5988,300,107,38520,scale,499,0,0,0,11380,growth,499,22500,-1095
 Shadow-Soft,shadow-soft.com,IN_HOUSE,1,0,89,1068,25,100,9000,starter,180,91,1092,4550,0,starter,89,0,-4550
 Seat Unique,seatunique.com,IN_HOUSE,1,0,199,2388,100,52,4680,starter,109,-90,-1080,1000,770,starter,199,5500,5270
