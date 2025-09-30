@@ -22,6 +22,7 @@ class Organization(CamelCaseModel):
     model_ids: List[str]
     prompt_limit: int
     prompts_count: int
+    chat_interval_in_hours: int
 
 
 class Company(CamelCaseModel):
@@ -48,8 +49,11 @@ class MigrationOutput(BaseModel):
     company_name: str
     company_domain: Optional[str]
     company_type: Literal["IN_HOUSE", "AGENCY"]
+    orgs_count: int
+
     current_mrr: float
     current_arr: float
+
     total_prompts_capacity: int
     total_prompts: int
     required_credits: float

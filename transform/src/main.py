@@ -1,5 +1,4 @@
 import pandas as pd
-import math
 from pathlib import Path
 
 from .models import Company, Organization, SubscriptionItem, MigrationOutput
@@ -36,16 +35,12 @@ def etl_pipeline():
 
     # Filter
     companiesSC = [
-        c for c in companies if c["stripeSubscriptionId"] and c["stripeCustomerId"] and c["stripeSubscriptionStatus"] == "active"
+        c
+        for c in companies
+        if c["stripeSubscriptionId"]
+        and c["stripeCustomerId"]
+        and c["stripeSubscriptionStatus"] == "active"
     ]
-
-    # print subs without a 'recurring' key or with a falsy 'recurring' value
-    print(len([s for s in subs if not s.get("recurring")]))
-    return
-
-    # Map recurring.interval to recurring
-    for s in subs:
-        s["recurring"] = s["recurring"]["interval"] if s["recurring"] else None
 
     # Validate
     companies = [Company.model_validate(c) for c in companiesSC]
@@ -55,8 +50,6 @@ def etl_pipeline():
     print(
         f"Loaded {len(companies)} companies, {len(orgs)} organizations, {len(subs)} subscription items."
     )
-
-    return
 
     # Convert to Pandas DataFrames
     companies_df = pd.DataFrame([c.model_dump() for c in companies])
@@ -73,20 +66,31 @@ def etl_pipeline():
     company_credits = (
         orgs_df.groupby("company_id")
         .agg(
-            required_credits=("required_credits", "sum"),
+            total_prompts_capacity=("prompt_limit", "sum"),
             total_prompts=("prompts_count", "sum"),
+            required_credits=("required_credits", "sum"),
         )
         .reset_index()
     )
 
+    # count orgs per company
+    orgs_count_df = orgs_df.groupby("company_id").size().reset_index(name="orgs_count")
+
     # Calculate current MRR per customer, taking quantity into account
     subs_df["true_mrr_cents"] = subs_df["mrr_cents"] * subs_df["quantity"]
     customer_mrr = subs_df.groupby("customer_id")["true_mrr_cents"].sum().reset_index()
-    customer_mrr["current_monthly_revenue"] = customer_mrr["true_mrr_cents"] / 100
+    customer_mrr["current_mrr"] = customer_mrr["true_mrr_cents"] / 100
+    customer_mrr["current_arr"] = customer_mrr["current_mrr"] * 12
 
     # Merge all data into a single DataFrame
     merged_df = pd.merge(
         companies_df, company_credits, left_on="id", right_on="company_id", how="inner"
+    )
+    merged_df = pd.merge(
+        merged_df,
+        orgs_count_df,
+        on="company_id",
+        how="inner",
     )
     merged_df = pd.merge(
         merged_df,
@@ -97,18 +101,24 @@ def etl_pipeline():
     )
 
     # Fill missing values for companies with no subs or orgs
-    merged_df["required_credits"] = merged_df["required_credits"].fillna(
-        0
-    )
-    merged_df["current_monthly_revenue"] = merged_df["current_monthly_revenue"].fillna(0)
+    merged_df["required_credits"] = merged_df["required_credits"].fillna(0)
+    merged_df["current_mrr"] = merged_df["current_mrr"].fillna(0)
+    merged_df["current_arr"] = merged_df["current_arr"].fillna(0)
     merged_df["total_prompts"] = merged_df["total_prompts"].fillna(0)
+    merged_df["total_prompts_capacity"] = merged_df["total_prompts_capacity"].fillna(0)
+    merged_df["orgs_count"] = merged_df["orgs_count"].fillna(0)
 
     # --- Apply Calculation Logic ---
     print("Calculating migration scenarios for each company...")
     scenarios_df = merged_df.apply(calculate_scenarios_for_company, axis=1)
 
-    merged_df["current_monthly_revenue"] = merged_df["current_monthly_revenue"].astype(int)
     merged_df["required_credits"] = merged_df["required_credits"].astype(int)
+    merged_df["current_mrr"] = merged_df["current_mrr"].astype(int)
+    merged_df["current_arr"] = merged_df["current_arr"].astype(int)
+    merged_df["total_prompts"] = merged_df["total_prompts"].astype(int)
+    merged_df["total_prompts_capacity"] = merged_df["total_prompts_capacity"].astype(int)
+    merged_df["orgs_count"] = merged_df["orgs_count"].astype(int)
+
 
     # Combine initial data with calculated scenarios
     final_df = pd.concat([merged_df, scenarios_df], axis=1)
@@ -181,20 +191,14 @@ def data_integrity_checks():
         companies_df["stripeSubscriptionId"].notna()
         & companies_df["stripeCustomerId"].isna()
     ]
-    print(
-        "Companies with Subscription ID but no Customer ID: "
-        f"\n{len(sub_not_cust)}"
-    )
+    print(f"Companies with Subscription ID but no Customer ID: \n{len(sub_not_cust)}")
 
     # Companies with a stripeCustomerId but no stripeSubscriptionId
     cust_not_sub = companies_df[
         companies_df["stripeCustomerId"].notna()
         & companies_df["stripeSubscriptionId"].isna()
     ]
-    print(
-        "Companies with Customer ID but no Subscription ID: "
-        f"{len(cust_not_sub)}"
-    )
+    print(f"Companies with Customer ID but no Subscription ID: {len(cust_not_sub)}")
 
     # Non-unique stripeCustomerIds
     # We only consider non-null customer IDs for duplication checks

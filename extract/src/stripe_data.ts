@@ -42,8 +42,11 @@ export async function fetchStripeSubscriptionItems() {
         }
 
         const interval = item.price.recurring.interval;
+        const intervalCount = item.price.recurring.interval_count;
+
         const quotient = interval === "year" ? 12 : 1;
-        const mrrCents = item.price.unit_amount / quotient;
+
+        const mrrCents = item.price.unit_amount / (intervalCount * quotient);
 
         allItems.push({
           customerId: sub.customer as string,

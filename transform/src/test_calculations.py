@@ -18,6 +18,24 @@ def test_calculate_credits():
     assert calculated_credits == expected_credits, "Credit calculation is incorrect"
 
 
+def test_calculate_credits_with_interval():
+    """Test credit calculation with a non-default chat interval."""
+    data = {
+        "model_ids": ["gpt-4o", "chatgpt"],
+        "prompts_count": 100,
+        "chat_interval_in_hours": 6,  # Runs 4 times a day
+    }
+    row = pd.Series(data)
+
+    # Expected result: (1 + 1) * 100 * (24/6) * 30.44 = 2 * 100 * 4 * 30.44 = 24352
+    expected_credits = 24352.0
+    calculated_credits = calculate_credits(row)
+
+    assert calculated_credits == pytest.approx(
+        expected_credits
+    ), "Credit calculation with chat interval is incorrect"
+
+
 @pytest.fixture
 def sample_company_in_house():
     """Fixture for a sample IN_HOUSE company data."""

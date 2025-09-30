@@ -298,9 +298,17 @@
   {
     "customerId": "cus_T5GHLHXOJW1jQp",
     "subscriptionId": "sub_1S95lAKojVEYZPlXhja6V4RC",
-    "subscriptionItemId": "si_T5GHbxXiRQ2HeH",
-    "planId": "price_1RCIq2KojVEYZPlXwWt6ANiT",
-    "mrrCents": 19900,
+    "subscriptionItemId": "si_T7Udun0I5Qy1Mk",
+    "planId": "price_1RQASkKojVEYZPlXvY1tLcE7",
+    "mrrCents": 3000,
+    "quantity": 6
+  },
+  {
+    "customerId": "cus_T5GHLHXOJW1jQp",
+    "subscriptionId": "sub_1S95lAKojVEYZPlXhja6V4RC",
+    "subscriptionItemId": "si_T7UdUE1VmYdpt6",
+    "planId": "price_1SBFe9KojVEYZPlXcqMVMxbZ",
+    "mrrCents": 1900,
     "quantity": 1
   },
   {
@@ -403,6 +411,14 @@
     "customerId": "cus_T4tNd7FCKvUydD",
     "subscriptionId": "sub_1S8jawKojVEYZPlXqDpFkGn1",
     "subscriptionItemId": "si_T4tN51nqYaha4a",
+    "planId": "price_1RCIq2KojVEYZPlXwWt6ANiT",
+    "mrrCents": 19900,
+    "quantity": 1
+  },
+  {
+    "customerId": "cus_T4nd7PkJ1zzHde",
+    "subscriptionId": "sub_1S8i03KojVEYZPlXeCKIXxm9",
+    "subscriptionItemId": "si_T4rjkCLCe5twTj",
     "planId": "price_1RCIq2KojVEYZPlXwWt6ANiT",
     "mrrCents": 19900,
     "quantity": 1
@@ -722,10 +738,10 @@
   {
     "customerId": "cus_T40WayWNVC9pWm",
     "subscriptionId": "sub_1S7t2tKojVEYZPlX1k2ngnSB",
-    "subscriptionItemId": "si_T415zaUcQLt3rj",
-    "planId": "price_1RCIq2KojVEYZPlXwWt6ANiT",
-    "mrrCents": 19900,
-    "quantity": 1
+    "subscriptionItemId": "si_T7UNKXjttlel85",
+    "planId": "price_1SBFOZKojVEYZPlX21YRcCBt",
+    "mrrCents": 1990,
+    "quantity": 10
   },
   {
     "customerId": "cus_T3tWIKut5EprKK",
@@ -4396,7 +4412,7 @@
     "subscriptionId": "sub_1RqzBxKojVEYZPlXIkTF3cHP",
     "subscriptionItemId": "si_SmYIj6O0189kD6",
     "planId": "price_1RppZXKojVEYZPlXYkVdQdtK",
-    "mrrCents": 13600,
+    "mrrCents": 6800,
     "quantity": 5
   },
   {
@@ -4524,7 +4540,7 @@
     "subscriptionId": "sub_1Rqr58KojVEYZPlXA4LkghVX",
     "subscriptionItemId": "si_SmPuDjbUJEls9P",
     "planId": "price_1RnnVfKojVEYZPlXlnW34m5M",
-    "mrrCents": 119400,
+    "mrrCents": 19900,
     "quantity": 1
   },
   {
@@ -6028,7 +6044,7 @@
     "subscriptionId": "sub_1RjhXGKojVEYZPlXyHt6bmnh",
     "subscriptionItemId": "si_Sf1apnhwb03d93",
     "planId": "price_1RjhL0KojVEYZPlXk44oglb1",
-    "mrrCents": 497000,
+    "mrrCents": 82833.33333333333,
     "quantity": 1
   },
   {
