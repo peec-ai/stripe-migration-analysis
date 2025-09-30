@@ -50,6 +50,7 @@ class MigrationOutput(BaseModel):
     company_domain: Optional[str]
     company_type: Literal["IN_HOUSE", "AGENCY"]
     orgs_count: int
+    orgs_count_hf: int
 
     current_mrr: int
     current_arr: int

@@ -76,6 +76,17 @@ def etl_pipeline():
     # count orgs per company
     orgs_count_df = orgs_df.groupby("company_id").size().reset_index(name="orgs_count")
 
+    # Count high-frequency orgs (more than once a day)
+    high_freq_orgs_df = (
+        orgs_df[
+            (orgs_df["chat_interval_in_hours"] < 24)
+            & (orgs_df["chat_interval_in_hours"] > 0)
+        ]
+        .groupby("company_id")
+        .size()
+        .reset_index(name="orgs_count_hf")
+    )
+
     # Calculate current MRR per customer, taking quantity into account
     subs_df["true_mrr_cents"] = subs_df["mrr_cents"] * subs_df["quantity"]
     customer_mrr = subs_df.groupby("customer_id")["true_mrr_cents"].sum().reset_index()
@@ -94,6 +105,12 @@ def etl_pipeline():
     )
     merged_df = pd.merge(
         merged_df,
+        high_freq_orgs_df,
+        on="company_id",
+        how="left",  # Use left merge to keep all companies
+    )
+    merged_df = pd.merge(
+        merged_df,
         customer_mrr,
         left_on="stripe_customer_id",
         right_on="customer_id",
@@ -107,6 +124,9 @@ def etl_pipeline():
     merged_df["total_prompts"] = merged_df["total_prompts"].fillna(0)
     merged_df["total_prompts_capacity"] = merged_df["total_prompts_capacity"].fillna(0)
     merged_df["orgs_count"] = merged_df["orgs_count"].fillna(0)
+    merged_df["orgs_count_hf"] = merged_df[
+        "orgs_count_hf"
+    ].fillna(0)
 
     # --- Apply Calculation Logic ---
     print("Calculating migration scenarios for each company...")
@@ -118,6 +138,9 @@ def etl_pipeline():
     merged_df["total_prompts"] = merged_df["total_prompts"].astype(int)
     merged_df["total_prompts_capacity"] = merged_df["total_prompts_capacity"].astype(int)
     merged_df["orgs_count"] = merged_df["orgs_count"].astype(int)
+    merged_df["orgs_count_hf"] = merged_df[
+        "orgs_count_hf"
+    ].astype(int)
 
 
     # Combine initial data with calculated scenarios
