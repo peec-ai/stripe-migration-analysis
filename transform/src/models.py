@@ -51,21 +51,21 @@ class MigrationOutput(BaseModel):
     company_type: Literal["IN_HOUSE", "AGENCY"]
     orgs_count: int
 
-    current_mrr: float
-    current_arr: float
+    current_mrr: int
+    current_arr: int
 
     total_prompts_capacity: int
     total_prompts: int
-    required_credits: float
+    required_credits: int
 
     least_cost_plan_name: str
-    least_cost_mrr: float
-    least_cost_mrr_change: float
-    least_cost_arr_change: float
+    least_cost_mrr: int
+    least_cost_mrr_change: int
+    least_cost_arr_change: int
     least_cost_extra_credits_purchased: int
-    least_cost_surplus_credits: float
+    least_cost_surplus_credits: int
 
     match_mrr_plan_name: Optional[str] = None
-    match_mrr_mrr: float
+    match_mrr_mrr: int
     match_mrr_extra_credits_purchased: int
-    match_mrr_surplus_credits: float
+    match_mrr_surplus_credits: int

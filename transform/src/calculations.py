@@ -150,20 +150,20 @@ def calculate_scenarios_for_company(company_data: pd.Series) -> pd.Series:
     # --- Compile Results ---
     result = {
         "least_cost_plan_name": best_least_cost["plan_name"],
-        "least_cost_mrr": best_least_cost["cost"],
-        "least_cost_mrr_change": best_least_cost["cost"] - current_mrr,
-        "least_cost_arr_change": (best_least_cost["cost"] - current_mrr) * 12,
+        "least_cost_mrr": int(best_least_cost["cost"]),
+        "least_cost_mrr_change": int(best_least_cost["cost"] - current_mrr),
+        "least_cost_arr_change": int((best_least_cost["cost"] - current_mrr) * 12),
         "least_cost_extra_credits_purchased": int(best_least_cost["extra_credits"]),
         "least_cost_surplus_credits": int(best_least_cost["surplus_credits"]),
         "match_mrr_plan_name": match_mrr_plan_name,
-        "match_mrr_mrr": match_mrr_monthly_revenue,
+        "match_mrr_mrr": int(match_mrr_monthly_revenue),
         "match_mrr_extra_credits_purchased": match_mrr_extra_credits_purchased,
-        "match_mrr_surplus_credits": match_mrr_surplus_credits,
+        "match_mrr_surplus_credits": int(match_mrr_surplus_credits),
     }
     return pd.Series(result)
 
 
-def calculate_credits(row: pd.Series) -> float:
+def calculate_credits(row: pd.Series) -> int:
     """
     Calculates the required credits for a given row (organization) based on model usage and run frequency.
     """
@@ -181,4 +181,4 @@ def calculate_credits(row: pd.Series) -> float:
     runs_per_month = runs_per_day * days_in_month
 
     model_prices = [MODEL_ID_PRICE_MAP.get(mid, 0) for mid in row["model_ids"]]
-    return sum(model_prices) * row["prompts_count"] * runs_per_month
+    return int(sum(model_prices) * row["prompts_count"] * runs_per_month)
