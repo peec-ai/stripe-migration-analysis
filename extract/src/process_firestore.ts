@@ -36,12 +36,12 @@ export type Organization = z.infer<typeof Organization>;
 export async function processOrganizations() {
   console.log("Starting to process organizations stream...");
 
-  const inputFile = "data/firestore_organizations.json";
+  const inputFile = "../data/firestore_organizations.json";
   const parser = new JSONParser({
     paths: ["$.*"], // This emits each element of the root array
   });
 
-  const outputFile = "data/processed_organizations.json";
+  const outputFile = "../data/processed_organizations.json";
   const writer = Bun.file(outputFile).writer();
   writer.write("[\n");
 

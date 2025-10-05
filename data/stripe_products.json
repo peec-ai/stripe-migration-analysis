@@ -1,5 +1,33 @@
 [
   {
+    "id": "prod_T7qiwyJq7wJzf8",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1758890700,
+    "default_price": "price_1SBb1FKojVEYZPlXl0nCTKKh",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfVXZ3Q1czaW1PRU5yV3RveUhBNFVrWjMy00MImAYUhc"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {
+      "modelIds": "chatgpt,sonar,google-ai-overview",
+      "promptLimit": "300",
+      "type": "WORKSPACE"
+    },
+    "name": "Enterprise Workspace • 400 Prompts",
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1758890701,
+    "url": null
+  },
+  {
     "id": "prod_T62Qa3TDUIgPG6",
     "object": "product",
     "active": true,

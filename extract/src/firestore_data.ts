@@ -20,7 +20,7 @@ export async function fetchCompanies() {
 
     console.log(`Successfully fetched ${companies.length} companies.`);
 
-    const outputDir = "data";
+    const outputDir = "../data";
     const outputFilename = "firestore_companies.json";
     await Bun.write(
       `${outputDir}/${outputFilename}`,
@@ -36,7 +36,7 @@ export async function fetchCompanies() {
 export async function fetchOrganizations() {
   console.log("Connecting to Firestore to fetch all organizations...");
 
-  const outputDir = "data";
+  const outputDir = "../data";
   const outputFilename = "firestore_organizations.json";
   const outputFile = `${outputDir}/${outputFilename}`;
   const writer = Bun.file(outputFile).writer();

@@ -191,6 +191,7 @@ def calculate_credits(row: pd.Series) -> int:
         interval_hours = 24
     
     runs_per_day = 24 / interval_hours
+    runs_per_day = 1 # override
     
     # Approximate days in a month
     days_in_month = 30
