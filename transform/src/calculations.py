@@ -198,4 +198,4 @@ def calculate_credits(row: pd.Series) -> int:
     runs_per_month = runs_per_day * days_in_month
 
     model_prices = [MODEL_ID_PRICE_MAP.get(mid, 0) for mid in row["model_ids"]]
-    return int(sum(model_prices) * row["prompts_count"] * runs_per_month)
+    return int(sum(model_prices) * row["prompt_limit"] * runs_per_month)
