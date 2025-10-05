@@ -7,8 +7,8 @@ import math
 BRAND_PLANS = {
     "starter": {
         "price": 89,
-        "credits": 4450,
-        "price_per_credit": 89 / 4450,
+        "credits": 3560,
+        "price_per_credit": 89 / 3560,
         "min_amount": 1000,
         "max_org_count": 1,
     },
@@ -20,9 +20,9 @@ BRAND_PLANS = {
         "max_org_count": 3,
     },
     "enterprise": {
-        "price": 650,
-        "credits": 65000,
-        "price_per_credit": 650 / 65000,
+        "price": 499,
+        "credits": 49900,
+        "price_per_credit": 499 / 49900,
         "min_amount": 1000,
         "max_org_count": 5,
     },
@@ -31,22 +31,22 @@ BRAND_PLANS = {
 AGENCY_PLANS = {
     "intro": {
         "price": 89,
-        "credits": 4450,
-        "price_per_credit": 89 / 4450,
+        "credits": 2225,
+        "price_per_credit": 89 / 2225,
         "min_amount": 1000,
         "max_org_count": 10,
     },
     "growth": {
         "price": 199,
-        "credits": 14925,
-        "price_per_credit": 199 / 14925,
+        "credits": 12935,
+        "price_per_credit": 199 / 12935,
         "min_amount": 1000,
         "max_org_count": 30,
     },
     "scale": {
         "price": 499,
-        "credits": 49900,
-        "price_per_credit": 499 / 49900,
+        "credits": 37425,
+        "price_per_credit": 499 / 37425,
         "min_amount": 1000,
         "max_org_count": 50,
     },
