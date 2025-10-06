@@ -68,8 +68,8 @@ def etl_pipeline():
     company_credits = (
         orgs_df.groupby("company_id")
         .agg(
-            promp_capacity_sum=("prompt_limit", "sum"),
-            total_prompts=("prompts_count", "sum"),
+            prompt_capacity_sum=("prompt_limit", "sum"),
+            prompt_usage_sum=("prompts_count", "sum"),
             credits_capacity=("credits_capacity", "sum"),
             credits_usage=("credits_usage", "sum"),
         )
@@ -125,8 +125,8 @@ def etl_pipeline():
     merged_df["credits_usage"] = merged_df["credits_usage"].fillna(0)
     merged_df["current_mrr"] = merged_df["current_mrr"].fillna(0)
     merged_df["current_arr"] = merged_df["current_arr"].fillna(0)
-    merged_df["total_prompts"] = merged_df["total_prompts"].fillna(0)
-    merged_df["promp_capacity_sum"] = merged_df["promp_capacity_sum"].fillna(0)
+    merged_df["prompt_usage_sum"] = merged_df["prompt_usage_sum"].fillna(0)
+    merged_df["prompt_capacity_sum"] = merged_df["prompt_capacity_sum"].fillna(0)
     merged_df["orgs_count"] = merged_df["orgs_count"].fillna(0)
     merged_df["orgs_count_hf"] = merged_df[
         "orgs_count_hf"
@@ -140,8 +140,8 @@ def etl_pipeline():
     merged_df["credits_usage"] = merged_df["credits_usage"].astype(int)
     merged_df["current_mrr"] = merged_df["current_mrr"].astype(int)
     merged_df["current_arr"] = merged_df["current_arr"].astype(int)
-    merged_df["total_prompts"] = merged_df["total_prompts"].astype(int)
-    merged_df["promp_capacity_sum"] = merged_df["promp_capacity_sum"].astype(int)
+    merged_df["prompt_usage_sum"] = merged_df["prompt_usage_sum"].astype(int)
+    merged_df["prompt_capacity_sum"] = merged_df["prompt_capacity_sum"].astype(int)
     merged_df["orgs_count"] = merged_df["orgs_count"].astype(int)
     merged_df["orgs_count_hf"] = merged_df[
         "orgs_count_hf"
