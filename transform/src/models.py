@@ -52,9 +52,10 @@ class MigrationOutput(BaseModel):
 
     current_mrr: int
     current_arr: int
+    # interval: str
 
-    prompt_capacity_sum: int
-    prompt_usage_sum: int
+    prompt_usage: int
+    prompt_capacity: int
     credits_usage: int
     credits_capacity: int
 
