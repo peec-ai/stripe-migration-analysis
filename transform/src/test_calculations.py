@@ -36,30 +36,6 @@ def test_calculate_credits_with_interval():
     ), "Credit calculation with chat interval is incorrect"
 
 
-@pytest.fixture
-def sample_company_in_house():
-    """Fixture for a sample IN_HOUSE company data."""
-    return pd.Series(
-        {
-            "type": "IN_HOUSE",
-            "current_monthly_revenue": 1000,  # $1,000/mo
-            "required_credits": 50000,
-        }
-    )
-
-
-@pytest.fixture
-def sample_company_agency():
-    """Fixture for a sample AGENCY company data."""
-    return pd.Series(
-        {
-            "type": "AGENCY",
-            "current_monthly_revenue": 4200, # $4,200/mo
-            "required_credits": 70000,
-        }
-    )
-
-
 def test_calculate_scenarios_in_house(sample_company_in_house):
     """Test scenario calculation for an IN_HOUSE company."""
     result = calculate_scenarios_for_company(sample_company_in_house)
@@ -70,8 +46,8 @@ def test_calculate_scenarios_in_house(sample_company_in_house):
     # - 'pro': 18,675 credits for $249. Needs 31,325 extra. Cost = $249 + 31,325 * ($249/18675) = $665.67/mo.
     # - 'enterprise': 49,900 credits for $499. Needs 100 extra. Cost = $499 + 100 * ($499/49900) = $500/mo.
     # The 'enterprise' plan is the most cost-effective.
-    assert result["least_cost_plan_name"] == "enterprise"
-    assert result["least_cost_monthly_revenue"] == pytest.approx(500.0)
+    assert result["plan_name"] == "enterprise"
+    assert result["monthly_revenue"] == pytest.approx(500.0)
 
     # Rationale for Matched MRR Scenario:
     # Current MRR is $1,000.
@@ -93,8 +69,8 @@ def test_calculate_scenarios_agency(sample_company_agency):
     # - 'growth': 37,425 credits for $499. Needs 32,575 extra. Cost = $499 + 32575 * ($499/37425) = $932.33/mo.
     # - 'scale': 60,000 credits for $600. Needs 10,000 extra. Cost = $600 + 10000 * ($600/60000) = $700/mo.
     # The 'scale' plan is the most cost-effective.
-    assert result["least_cost_plan_name"] == "scale"
-    assert result["least_cost_monthly_revenue"] == pytest.approx(700.0)
+    assert result["plan_name"] == "scale"
+    assert result["monthly_revenue"] == pytest.approx(700.0)
 
     # Rationale for Matched MRR Scenario:
     # Current MRR is $4,200.
@@ -138,7 +114,7 @@ def test_zero_required_credits(sample_company_in_house):
     # With zero required credits, the least cost is the price of the cheapest plan.
     # For IN_HOUSE, this is 'starter' at $89/mo.
     # Surplus credits will be the monthly credits from that plan.
-    assert result["least_cost_plan_name"] == "starter"
-    assert result["least_cost_monthly_revenue"] == pytest.approx(89.0)
-    assert result["least_cost_extra_credits_purchased"] == 0
-    assert result["least_cost_surplus_credits"] == 4450
+    assert result["plan_name"] == "starter"
+    assert result["monthly_revenue"] == pytest.approx(89.0)
+    assert result["extra_credits_purchased"] == 0
+    assert result["surplus_credits"] == 4450

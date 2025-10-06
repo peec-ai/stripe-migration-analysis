@@ -55,18 +55,14 @@ class MigrationOutput(BaseModel):
     current_mrr: int
     current_arr: int
 
-    total_prompts_capacity: int
+    promp_capacity_sum: int
     total_prompts: int
-    required_credits: int
+    credits_usage: int
+    credits_capacity: int
 
-    least_cost_plan_name: str
-    least_cost_mrr: int
-    least_cost_mrr_change: int
-    least_cost_arr_change: int
-    least_cost_extra_credits_purchased: int
-    least_cost_surplus_credits: int
-
-    match_mrr_plan_name: Optional[str] = None
-    match_mrr_mrr: int
-    match_mrr_extra_credits_purchased: int
-    match_mrr_surplus_credits: int
+    plan_name: str
+    mrr: int
+    mrr_change: int
+    arr_change: int
+    extra_credits_purchased: int
+    surplus_credits: int

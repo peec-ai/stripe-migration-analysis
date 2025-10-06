@@ -4,7 +4,8 @@ from pathlib import Path
 from .models import Company, Organization, SubscriptionItem, MigrationOutput
 from .calculations import (
     calculate_scenarios_for_company,
-    calculate_credits,
+    calculate_credits_capacity,
+    calculate_credits_usage,
 )
 
 
@@ -59,16 +60,18 @@ def etl_pipeline():
     # --- Data Transformation ---
     print("Transforming and merging data...")
 
-    # Calculate required credits per organization
-    orgs_df["required_credits"] = orgs_df.apply(calculate_credits, axis=1)
+    # Calculate credits per organization
+    orgs_df["credits_usage"] = orgs_df.apply(calculate_credits_usage, axis=1)
+    orgs_df["credits_capacity"] = orgs_df.apply(calculate_credits_capacity, axis=1)
 
     # Aggregate credits by company
     company_credits = (
         orgs_df.groupby("company_id")
         .agg(
-            total_prompts_capacity=("prompt_limit", "sum"),
+            promp_capacity_sum=("prompt_limit", "sum"),
             total_prompts=("prompts_count", "sum"),
-            required_credits=("required_credits", "sum"),
+            credits_capacity=("credits_capacity", "sum"),
+            credits_usage=("credits_usage", "sum"),
         )
         .reset_index()
     )
@@ -118,11 +121,12 @@ def etl_pipeline():
     )
 
     # Fill missing values for companies with no subs or orgs
-    merged_df["required_credits"] = merged_df["required_credits"].fillna(0)
+    merged_df["credits_capacity"] = merged_df["credits_capacity"].fillna(0)
+    merged_df["credits_usage"] = merged_df["credits_usage"].fillna(0)
     merged_df["current_mrr"] = merged_df["current_mrr"].fillna(0)
     merged_df["current_arr"] = merged_df["current_arr"].fillna(0)
     merged_df["total_prompts"] = merged_df["total_prompts"].fillna(0)
-    merged_df["total_prompts_capacity"] = merged_df["total_prompts_capacity"].fillna(0)
+    merged_df["promp_capacity_sum"] = merged_df["promp_capacity_sum"].fillna(0)
     merged_df["orgs_count"] = merged_df["orgs_count"].fillna(0)
     merged_df["orgs_count_hf"] = merged_df[
         "orgs_count_hf"
@@ -132,11 +136,12 @@ def etl_pipeline():
     print("Calculating migration scenarios for each company...")
     scenarios_df = merged_df.apply(calculate_scenarios_for_company, axis=1)
 
-    merged_df["required_credits"] = merged_df["required_credits"].astype(int)
+    merged_df["credits_capacity"] = merged_df["credits_capacity"].astype(int)
+    merged_df["credits_usage"] = merged_df["credits_usage"].astype(int)
     merged_df["current_mrr"] = merged_df["current_mrr"].astype(int)
     merged_df["current_arr"] = merged_df["current_arr"].astype(int)
     merged_df["total_prompts"] = merged_df["total_prompts"].astype(int)
-    merged_df["total_prompts_capacity"] = merged_df["total_prompts_capacity"].astype(int)
+    merged_df["promp_capacity_sum"] = merged_df["promp_capacity_sum"].astype(int)
     merged_df["orgs_count"] = merged_df["orgs_count"].astype(int)
     merged_df["orgs_count_hf"] = merged_df[
         "orgs_count_hf"
@@ -155,8 +160,8 @@ def etl_pipeline():
         }
     )
 
-    # Print sum of least_cost_arr_change
-    print(f"Sum of least_cost_arr_change: {final_df['least_cost_arr_change'].sum()}")
+    # Print sum of arr_change
+    print(f"Sum of arr_change: {final_df['arr_change'].sum()}")
 
     # Use the Pydantic model to define the final column order and selection
     output_columns = list(MigrationOutput.model_fields.keys())
