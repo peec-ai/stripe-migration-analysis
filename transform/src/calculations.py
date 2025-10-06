@@ -31,8 +31,8 @@ BRAND_PLANS = {
 AGENCY_PLANS = {
     "intro": {
         "price": 89,
-        "credits": 2225,
-        "price_per_credit": 89 / 2225,
+        "credits": 2250,
+        "price_per_credit": 89 / 2250,
         "min_amount": 1000,
         "max_org_count": 10,
     },
