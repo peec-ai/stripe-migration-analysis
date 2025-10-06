@@ -43,8 +43,6 @@ class SubscriptionItem(CamelCaseModel):
 # --- Output Model (for our final CSV) ---
 
 
-# We use the improved, clearer names we discussed.
-# No camel case conversion is needed here as we define the names.
 class MigrationOutput(BaseModel):
     company_name: str
     company_domain: Optional[str]
