@@ -7,7 +7,10 @@ export const SubscriptionItemRecord = z.object({
   subscriptionId: z.string(),
   subscriptionItemId: z.string(),
   planId: z.string(),
+  interval: z.string(),
+  intervalCount: z.number(),
   mrrCents: z.number(),
+  unitAmount: z.number(),
   quantity: z.number(),
 });
 export type SubscriptionItemRecord = z.infer<typeof SubscriptionItemRecord>;
@@ -53,7 +56,10 @@ export async function fetchStripeSubscriptionItems() {
           subscriptionId: sub.id,
           subscriptionItemId: item.id,
           planId: item.price.id,
+          interval,
+          intervalCount,
           mrrCents,
+          unitAmount: item.price.unit_amount,
           quantity: item.quantity || 1,
         });
       }

@@ -6,10 +6,10 @@ async function main() {
   // await fetchStripeSubscriptionItems();
   // await fetchProducts();
   // await fetchPrices();
-  await fetchCompanies();
-  await fetchOrganizations();
-  await processOrganizations();
-  await processCompanies();
+  // await fetchCompanies();
+  // await fetchOrganizations();
+  // await processOrganizations();
+  // await processCompanies();
 }
 
 main();
