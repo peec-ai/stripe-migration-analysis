@@ -1,5 +1,4 @@
 import pandas as pd
-import math
 
 # --- 1. Constants and Pricing Plans ---
 
