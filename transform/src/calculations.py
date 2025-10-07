@@ -106,7 +106,7 @@ def calculate_scenarios_for_company(company_data: pd.Series) -> pd.Series:
 
         options.append(
             {
-                "plan_name": name,
+                "plan_name": f"{name} ({plan['credits']})",
                 "cost": cost,
                 "extra_credits": extra_credits_needed,
                 "surplus_credits": total_credits - credits_capacity,
