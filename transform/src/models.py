@@ -38,6 +38,8 @@ class SubscriptionItem(CamelCaseModel):
     customer_id: str
     mrr_cents: float
     quantity: int
+    interval: str
+    interval_count: int
 
 
 # --- Output Model (for our final CSV) ---
@@ -52,7 +54,7 @@ class MigrationOutput(BaseModel):
 
     current_mrr: int
     current_arr: int
-    # interval: str
+    interval: str
 
     prompt_usage: int
     prompt_capacity: int

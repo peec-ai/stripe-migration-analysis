@@ -96,6 +96,20 @@ def etl_pipeline():
     customer_mrr["current_mrr"] = customer_mrr["true_mrr_cents"] / 100
     customer_mrr["current_arr"] = customer_mrr["current_mrr"] * 12
 
+    # --- Interval Formatting ---
+    # We only care about the interval of the highest MRR item per customer
+    # This is a simplification, but for now it's a good heuristic
+    main_subscription = subs_df.loc[subs_df.groupby("customer_id")["true_mrr_cents"].idxmax()]
+
+    def format_interval(row):
+        if row["interval_count"] != 1:
+            return f"{row['interval']} ({row['interval_count']})"
+        return row["interval"]
+    
+    main_subscription["interval"] = main_subscription.apply(format_interval, axis=1)
+
+    customer_interval = main_subscription[["customer_id", "interval"]]
+
     # Merge all data into a single DataFrame
     merged_df = pd.merge(
         companies_df, company_credits, left_on="id", right_on="company_id", how="inner"
@@ -117,6 +131,12 @@ def etl_pipeline():
         customer_mrr,
         left_on="stripe_customer_id",
         right_on="customer_id",
+        how="inner",
+    )
+    merged_df = pd.merge(
+        merged_df,
+        customer_interval,
+        on="customer_id",
         how="inner",
     )
 
