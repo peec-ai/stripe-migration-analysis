@@ -24,6 +24,13 @@
     "leadType": "SELF_SERVICE"
   },
   {
+    "id": "co_00052bc0-07bc-4604-a47b-a4cd356e2cd2",
+    "name": "LYNK Markets",
+    "domain": "lynkmarkets.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE"
+  },
+  {
     "id": "co_0006f681-e960-48bd-9f9f-bc4f3d972090",
     "name": "productiveteam",
     "domain": "productiveteam.uk",
@@ -295,8 +302,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8y8eFyLv3W1Nl",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCgP9KojVEYZPlXWyKF6ErG"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_00a903f4-7115-4770-bde3-6e8eb9982243",
@@ -401,7 +407,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T40lDnXfwWLTJe",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SD0bmKojVEYZPlXA2382RPf"
   },
   {
@@ -497,8 +503,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SuXqYY3xEjoEm3",
-    "stripeSubscriptionStatus": "past_due",
-    "stripeSubscriptionId": "sub_1Ryim0KojVEYZPlXLhe13j5S"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_013cba01-53a5-4826-ade4-045aac03dc2c",
@@ -1763,6 +1768,13 @@
     "stripeSubscriptionId": "sub_1S5pqSKojVEYZPlXinMbsFHR"
   },
   {
+    "id": "co_04ee4ce3-f874-40c3-88d3-76f6dc1de168",
+    "name": "Asurion",
+    "domain": "asurion.com",
+    "type": "IN_HOUSE",
+    "leadType": "SALES"
+  },
+  {
     "id": "co_04ef1405-8053-44b5-9eaf-19dc104e4152",
     "name": "Aranca",
     "domain": "aranca.com",
@@ -2873,6 +2885,14 @@
     "stripeCustomerId": "cus_SgVx93HZRxzbnD"
   },
   {
+    "id": "co_085badf7-ca06-4874-b9cd-5f0cafd11fbc",
+    "name": "INDIVO",
+    "domain": "indivo.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBeGt7JbQgVvv8"
+  },
+  {
     "id": "co_085fc843-7f28-43c5-88f4-4badeeebb1b9",
     "name": "space property agency",
     "domain": "spacepropertyagency.com.au",
@@ -2924,7 +2944,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Sp4Lf4OfxQAdGC",
-    "stripeSubscriptionStatus": "past_due",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1S0exeKojVEYZPlXgC4ZwQqY"
   },
   {
@@ -3117,7 +3137,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T9CRWUdCfLPwrK",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SCu4rKojVEYZPlXrcZUKpIv"
   },
   {
@@ -3497,8 +3517,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T6JLZkHZJhAvB1",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCYXsKojVEYZPlXxAT2lthL"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_09c85cb7-acea-4c7c-a3a9-fb11af2fc738",
@@ -3850,6 +3869,13 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SNkMjkBg2FsMvP",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_0ad2c604-c66a-4d70-9a96-af600c8633d4",
+    "name": "Userlane",
+    "domain": "userlane.com",
+    "type": "IN_HOUSE",
+    "leadType": "SALES"
   },
   {
     "id": "co_0ad91270-ce88-409a-a433-09c2bd557af1",
@@ -4330,8 +4356,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8vL4GHelMreFb",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCgj5KojVEYZPlX9igFhaIW"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_0c7cc65d-90ba-49fa-a369-646817526891",
@@ -4373,7 +4398,8 @@
     "type": "AGENCY",
     "leadType": "SALES",
     "stripeCustomerId": "cus_STNbyxiwmFTzbH",
-    "stripeSubscriptionStatus": "canceled"
+    "stripeSubscriptionStatus": "active",
+    "stripeSubscriptionId": "sub_1SFE5DKojVEYZPlX6TSBuNAJ"
   },
   {
     "id": "co_0c997647-2a74-4013-9cc1-cb82ef154192",
@@ -4733,17 +4759,17 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8xG3LVy2VORT4",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCfMDKojVEYZPlXZ9dfYeJP"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_0d9c3229-979f-420c-ac0f-31f12b85d984",
     "name": "Vero",
     "domain": "vero-asean.com",
     "type": "AGENCY",
-    "leadType": "SELF_SERVICE",
+    "leadType": "SALES",
     "stripeCustomerId": "cus_SrEan63JIYm10Y",
-    "stripeSubscriptionStatus": "canceled"
+    "stripeSubscriptionStatus": "active",
+    "stripeSubscriptionId": "sub_1SF7gTKojVEYZPlXtbEAR6yk"
   },
   {
     "id": "co_0d9fa910-db47-45ca-8ce2-9d60eee8ccce",
@@ -4943,6 +4969,14 @@
     "domain": "eleanorhirstdigital.com",
     "type": "AGENCY",
     "leadType": "SELF_SERVICE"
+  },
+  {
+    "id": "co_0e062f4b-8138-4e1f-b98e-325264d3a845",
+    "name": "Cowichan Lake Cottages",
+    "domain": "cowichanlakecottages.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBgYemXSmr8V7d"
   },
   {
     "id": "co_0e07b710-f3eb-49f8-adfd-959be7b5d511",
@@ -5392,6 +5426,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Sj5q4pol5bljEY"
+  },
+  {
+    "id": "co_0f37aae3-9ac2-44a1-a1a8-88b31b2fdd70",
+    "name": "Workzep",
+    "domain": "workzep.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBX3sGJv4pdro3"
   },
   {
     "id": "co_0f3be8aa-72ab-4d73-a3c9-e49c615df91b",
@@ -5847,6 +5889,16 @@
     "stripeCustomerId": "cus_T6Ff8aaSOgPInB"
   },
   {
+    "id": "co_10c1d5ea-53b5-444a-9288-0ead52aeaefb",
+    "name": "WordPress.com",
+    "domain": "wordpress.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBe9kFGk2BTVUV",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFGyOKojVEYZPlXnYvKpUT5"
+  },
+  {
     "id": "co_10c5ffb6-b51f-4fdb-aba8-0dd8ea6ccfcf",
     "name": "SureCam",
     "domain": "surecam.com",
@@ -5886,7 +5938,9 @@
     "domain": "linkbreakers.com",
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
-    "stripeCustomerId": "cus_T7xm1cuA25TcYH"
+    "stripeCustomerId": "cus_T7xm1cuA25TcYH",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFC3UKojVEYZPlX2fgOf3wu"
   },
   {
     "id": "co_10fce488-51ff-4b8f-b744-36ee1f75aaae",
@@ -5918,6 +5972,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SocyHDGW7KdX1j"
+  },
+  {
+    "id": "co_1122f9f4-771a-42e9-a0d9-f77bd66cecdc",
+    "name": "Fountain Digital",
+    "domain": "fountaindigital.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBqjBr7JZqQIOg"
   },
   {
     "id": "co_11238061-6c4a-49af-94ac-08af95fc0825",
@@ -6447,6 +6509,16 @@
     "stripeCustomerId": "cus_T6Ra7t3tlAZEkq"
   },
   {
+    "id": "co_12bb998c-a279-4682-ae9b-3c0e510435fb",
+    "name": "Atria",
+    "domain": "tryatria.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBQCpGC5s2Aymd",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SF3Q4KojVEYZPlXbN3kB0Wc"
+  },
+  {
     "id": "co_12bf07fa-304d-4902-840e-bb17a2aeebc3",
     "name": "findling",
     "domain": "findling.de",
@@ -6592,7 +6664,8 @@
     "name": "Solara AI",
     "domain": "stanley.marketing",
     "type": "IN_HOUSE",
-    "leadType": "SELF_SERVICE"
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBZkGmRPN3LcMh"
   },
   {
     "id": "co_133f1c70-ec07-4460-9050-667fd3c316a7",
@@ -6932,8 +7005,17 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T99XUhipQ7Mb4c",
+    "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_148235b1-fffa-428e-89c2-d41743eec682",
+    "name": "Nepa Rudraksha",
+    "domain": "nepalirudraksha.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBaViuMWD3YNrX",
     "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCrKbKojVEYZPlXx5KD9PPc"
+    "stripeSubscriptionId": "sub_1SFSTfKojVEYZPlXRhUeI0T3"
   },
   {
     "id": "co_14947c35-78e5-4864-81c3-7d26cda61ab3",
@@ -7162,8 +7244,10 @@
     "name": "Cream Content",
     "domain": "creampublishing.com",
     "type": "AGENCY",
-    "leadType": "SELF_SERVICE",
-    "stripeCustomerId": "cus_TBGID7zIpL9cgP"
+    "leadType": "SALES",
+    "stripeCustomerId": "cus_TBGID7zIpL9cgP",
+    "stripeSubscriptionStatus": "active",
+    "stripeSubscriptionId": "sub_1SFBNcKojVEYZPlXQgKsR2bF"
   },
   {
     "id": "co_154e4b29-af83-43d3-9260-426b0092e334",
@@ -7208,6 +7292,16 @@
     "stripeSubscriptionStatus": "canceled"
   },
   {
+    "id": "co_157efded-7eb2-493a-9658-57509300702b",
+    "name": "Onur Büyüktezgel",
+    "domain": "commercetools.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBud2BkwVOPAD6",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFWtFKojVEYZPlXCqlhoELf"
+  },
+  {
     "id": "co_1592aabd-1a90-4004-9f9f-1c159074f197",
     "name": "casinoreviews",
     "domain": "casinoreviews.net",
@@ -7239,8 +7333,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8vMY2NWh1Sueq",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCdYfKojVEYZPlXD6nWQBI2"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_15b71320-8aee-4404-8d84-0ce7d5682df0",
@@ -7738,6 +7831,14 @@
     "stripeCustomerId": "cus_Sz4AiSfRCncsNm"
   },
   {
+    "id": "co_1741f6d8-0276-437b-a79a-c4dbc4fab448",
+    "name": "Flygaroo",
+    "domain": "flygaroo.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBc3xUi7Jh0MVJ"
+  },
+  {
     "id": "co_174223fc-da6f-4991-a6c5-f8464b47eaa6",
     "name": "Sunflower Sober",
     "domain": "sunflowersober.com",
@@ -7753,6 +7854,14 @@
     "type": "AGENCY",
     "leadType": "SALES",
     "stripeCustomerId": "cus_T73HzM36qf24r7"
+  },
+  {
+    "id": "co_174d651a-9048-4c4a-9386-015a289a0710",
+    "name": "Reddit",
+    "domain": "reddit.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBpHvAIyj4lFMR"
   },
   {
     "id": "co_175042c2-b8a1-46ac-a371-eeabb031b672",
@@ -7963,8 +8072,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8yK2gpTQ5s2Ar",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCgPCKojVEYZPlXoDobRRv6"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_18467537-9caa-413d-bc10-3f4bf49a3036",
@@ -8166,6 +8274,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T2VY3ZCQmKQW3T"
+  },
+  {
+    "id": "co_18ed39d8-1d2a-487a-9754-bd32ed916079",
+    "name": "Hype Foundry",
+    "domain": "hypefoundry.studio",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBqzRts53GT9HR"
   },
   {
     "id": "co_18edb6df-1f9d-43a9-92b1-b8f803cd87ce",
@@ -8530,8 +8646,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8YLCqCDMYJVdD",
-    "stripeSubscriptionStatus": "active",
-    "stripeSubscriptionId": "sub_1SCHG6KojVEYZPlXaLLTYI4Q"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_1a3c2f96-d1ef-454e-b74d-3581653a83c7",
@@ -8539,6 +8654,16 @@
     "domain": "imonru.com",
     "type": "AGENCY",
     "leadType": "SELF_SERVICE"
+  },
+  {
+    "id": "co_1a41de14-43de-4fdb-ae83-cdb0210310a1",
+    "name": "Neobanc",
+    "domain": "neobanc.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBQIYg7eODtGbe",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SF3WpKojVEYZPlXhXypgzov"
   },
   {
     "id": "co_1a4f7036-805d-4fe5-90f6-2ae71f217da8",
@@ -8869,6 +8994,16 @@
     "stripeCustomerId": "cus_T8dFiufXP72ahX",
     "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SCM0UKojVEYZPlX0wl2KRez"
+  },
+  {
+    "id": "co_1ba7320f-0d49-4776-9f8e-2aeaf0c9c8aa",
+    "name": "Puzzle",
+    "domain": "puzzle.io",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBhxuDwiHFIaI4",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFMJOKojVEYZPlXZKjLfUTl"
   },
   {
     "id": "co_1ba7ec5d-9ebb-4d31-b434-b06196a3dc2c",
@@ -9869,7 +10004,9 @@
     "domain": "financialmodelingprep.com",
     "type": "IN_HOUSE",
     "leadType": "SALES",
-    "stripeCustomerId": "cus_T9khEStzYOQqBt"
+    "stripeCustomerId": "cus_T9khEStzYOQqBt",
+    "stripeSubscriptionStatus": "active",
+    "stripeSubscriptionId": "sub_1SFExlKojVEYZPlXHOqqv3vE"
   },
   {
     "id": "co_1e70c254-6467-4db0-aaf2-c1b6dd1b5b39",
@@ -10055,6 +10192,14 @@
     "stripeCustomerId": "cus_SpcdPdqdm3UPTd"
   },
   {
+    "id": "co_1eeeb31f-3b91-4562-aaff-119ef6986e68",
+    "name": "Swell",
+    "domain": "swellmedia.cl",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBc8PXbILB047R"
+  },
+  {
     "id": "co_1ef534b9-e0b3-4402-812d-e91624ffd1be",
     "name": "Renat",
     "domain": "beviga.com",
@@ -10133,7 +10278,9 @@
     "domain": "ollie.ai",
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
-    "stripeCustomerId": "cus_T9vwzJC8L40Vz6"
+    "stripeCustomerId": "cus_T9vwzJC8L40Vz6",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFJB8KojVEYZPlXDobUdZid"
   },
   {
     "id": "co_1f3969dd-f90d-422a-badc-25fe05c07e8d",
@@ -10188,14 +10335,6 @@
     "domain": "nytimes.com",
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE"
-  },
-  {
-    "id": "co_1f6c4235-a525-4750-b8e5-18f0b79f03b6",
-    "name": "test",
-    "domain": "test.de",
-    "type": "IN_HOUSE",
-    "leadType": "SELF_SERVICE",
-    "stripeCustomerId": "cus_Sx3TbLtEoH8kC4"
   },
   {
     "id": "co_1f7d765b-a284-4e48-a61c-2c443f11979a",
@@ -10393,6 +10532,14 @@
     "stripeCustomerId": "cus_RpdUTheiW3FXhN",
     "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1QvyDQKojVEYZPlXiKerghsd"
+  },
+  {
+    "id": "co_1fec289e-8cd6-486c-b27f-914b39139f1a",
+    "name": "AM International Hospital",
+    "domain": "aminterhospital.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBXnup57saoELU"
   },
   {
     "id": "co_1ff94da5-9155-43fd-8370-67f53c3699b5",
@@ -10815,6 +10962,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T7SeotNSYZVGtV"
+  },
+  {
+    "id": "co_21902f64-6dd5-495b-ad0b-bd3cdfc50250",
+    "name": "Saurabh Jadhav",
+    "domain": "logicloop.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBUz6sx317pUJm"
   },
   {
     "id": "co_2193cae1-63f3-4190-9035-1fbb76424eda",
@@ -12394,6 +12549,14 @@
     "stripeCustomerId": "cus_SzvgBqvrOW9aQy"
   },
   {
+    "id": "co_268d94cd-3500-44d7-8f78-c1de9edc3df6",
+    "name": "Jigspace",
+    "domain": "jig.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBq9bCHtuZUqKi"
+  },
+  {
     "id": "co_269f4107-6114-4ff1-bbe2-4283b5df0f6d",
     "name": "Neurofeedback Luxembourg ",
     "domain": "neurofeedback-luxembourg.com",
@@ -12769,6 +12932,14 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SpOza8hwArFV4P",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_27970ee0-62e3-459c-97c1-481d4ad69662",
+    "name": "One Click LCA",
+    "domain": "oneclicklca.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBd7K6YHkAEo0b"
   },
   {
     "id": "co_27975236-a477-43e4-b536-007bde3f7c3a",
@@ -13162,7 +13333,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8tUzH8uWyoxqy",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SCdV8KojVEYZPlXseKhbHVN"
   },
   {
@@ -13576,6 +13747,14 @@
     "domain": "studentclearinghouse.org",
     "type": "IN_HOUSE",
     "leadType": "SALES"
+  },
+  {
+    "id": "co_2a168c21-5810-4b93-862b-0d575cc32946",
+    "name": "Oxylabs",
+    "domain": "oxylabs.io",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBVfIE4yfoVTI3"
   },
   {
     "id": "co_2a1cde83-2b75-42ee-8c80-8427c7f60a09",
@@ -14290,7 +14469,8 @@
     "domain": "prozis.com",
     "type": "IN_HOUSE",
     "leadType": "SALES",
-    "stripeCustomerId": "cus_TA1GIhoG8Zkli0"
+    "stripeCustomerId": "cus_TAPVymasTZl7IE",
+    "stripeSubscriptionId": "sub_1SEBoaKojVEYZPlXr4grNvYn"
   },
   {
     "id": "co_2c24faca-34ee-4fdc-bcd8-4ef8efb13fa2",
@@ -14814,6 +14994,14 @@
     "stripeSubscriptionId": "sub_1S5zpdKojVEYZPlXzDY86p5I"
   },
   {
+    "id": "co_2db07978-1c21-42b2-9523-7cca95e69538",
+    "name": "AWi ",
+    "domain": "aw-i.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBd3FHfbpldWTS"
+  },
+  {
     "id": "co_2db4479f-b56a-425e-947e-a88be15b013f",
     "name": "Spider AF",
     "domain": "spideraf.com",
@@ -15164,6 +15352,14 @@
     "leadType": "SALES"
   },
   {
+    "id": "co_2f14f9a5-db11-4945-988f-16358c61e1ae",
+    "name": "Zagarello olive oil ",
+    "domain": "zagarellooliveoil.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBX8tOnUUXDTow"
+  },
+  {
     "id": "co_2f1589c9-ff4f-41ee-b691-cbad9e5abf57",
     "name": "HAR",
     "domain": "har.com",
@@ -15195,8 +15391,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T90oAB2MDs82i5",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCit7KojVEYZPlXvhYAKLYk"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_2f1eed19-72b5-49e5-bf45-92ddef7f887a",
@@ -15223,6 +15418,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SjO9wZAO2C0ePx"
+  },
+  {
+    "id": "co_2f313be5-d3f3-4e8b-b952-aaeb3d1a5ee7",
+    "name": "Dräger Safety",
+    "domain": "draeger.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBVQd7ZBp40IQL"
   },
   {
     "id": "co_2f3197ae-0ff1-43d6-bc29-cdbb97ce3f33",
@@ -15688,6 +15891,16 @@
     "type": "IN_HOUSE",
     "leadType": "SALES",
     "stripeCustomerId": "cus_SnyhhJum7ohNSx"
+  },
+  {
+    "id": "co_309b4c97-8ac9-4805-82df-fd2913ed41bc",
+    "name": "Hotel Weihrerhof",
+    "domain": "weihrerhof.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBthvKR489eGsP",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFVvWKojVEYZPlX0mPVXfqK"
   },
   {
     "id": "co_309e54b5-ef43-4ff3-a214-addaf5a4714c",
@@ -16233,12 +16446,30 @@
     "leadType": "SELF_SERVICE"
   },
   {
+    "id": "co_3236db4b-eda4-4c0a-bc2c-85fa9521177f",
+    "name": "reviply",
+    "domain": "elfuertemarbella.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBh28BbZDJa6wp",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFJfrKojVEYZPlXqlS8K142"
+  },
+  {
     "id": "co_323f803f-2a7b-46e7-8aea-c2a63ed4ac53",
     "name": "fifty-five",
     "domain": "fifty-five.com",
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T9t7tbE9axov82"
+  },
+  {
+    "id": "co_3240a7fa-3cd6-4e3b-8bb4-382dae7b92f1",
+    "name": "Ilerspray",
+    "domain": "ilerspray.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBZxh7GscH2a1A"
   },
   {
     "id": "co_3250511e-aba0-49e6-a6af-8c6931e416a5",
@@ -16693,6 +16924,14 @@
     "stripeCustomerId": "cus_SQhCsRExKwQeLx",
     "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1RWxqbKojVEYZPlXrKIeCoih"
+  },
+  {
+    "id": "co_3399654e-1099-4693-975a-59021e6b403b",
+    "name": "Chattermill",
+    "domain": "chattermill.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBv3hTPbxmRtM5"
   },
   {
     "id": "co_339badd1-5ead-4b41-a0f1-2054b49d89a2",
@@ -17309,14 +17548,21 @@
     "stripeCustomerId": "cus_SjQ03vfGWwaIL0"
   },
   {
+    "id": "co_35477dae-98aa-41c7-9db4-763dff369119",
+    "name": "el fuerte",
+    "domain": "elfuertemarbella.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBfvEEfmhC0r4C"
+  },
+  {
     "id": "co_354d15d5-38f1-4ee5-ab4e-c24150f23830",
     "name": "Uber",
     "domain": "uber.com",
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T9HUqGTBz76UfZ",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCz6gKojVEYZPlXNtaLDBrv"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_3550e1ae-2744-4612-9088-7e9161137551",
@@ -17408,14 +17654,6 @@
     "stripeCustomerId": "cus_STjahJTHPnXHqL",
     "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1RYm8PKojVEYZPlXgXPBAwaQ"
-  },
-  {
-    "id": "co_357ada32-86bb-460e-8eaa-7b882e3c8e38",
-    "name": "GAIN",
-    "domain": "thisisgain.com",
-    "type": "AGENCY",
-    "leadType": "SELF_SERVICE",
-    "stripeCustomerId": "cus_T780NFCKDASFvt"
   },
   {
     "id": "co_3583ed33-8d9a-4477-a41f-68e80a2338ff",
@@ -18463,8 +18701,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T9HUS1a9Qt4x6h",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCyyNKojVEYZPlXx725RoOx"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_3871a67c-b15b-497b-ad24-68a0521bd59c",
@@ -18625,6 +18862,14 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SujxOOubAo20pD"
+  },
+  {
+    "id": "co_38ea0837-605c-4e42-89b1-c35071d9139a",
+    "name": "Morning Made",
+    "domain": "morningmade.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBpRotXHZza2VL"
   },
   {
     "id": "co_38f1e797-0a13-4ba4-a7bc-8dc0db034951",
@@ -18860,8 +19105,8 @@
     "domain": "fireoth.com",
     "type": "AGENCY",
     "leadType": "SALES",
-    "stripeCustomerId": "cus_T3mgOrlMBoPWlC",
-    "stripeSubscriptionStatus": "active",
+    "stripeCustomerId": "cus_T4Pxmn3vzmXpWm",
+    "stripeSubscriptionStatus": "past_due",
     "stripeSubscriptionId": "sub_1S8HB7KojVEYZPlXBxalxkM1"
   },
   {
@@ -18886,6 +19131,16 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Smsc8wvJSKK0oB",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_3a37b298-8b9e-4bc1-9ede-744a58f3e547",
+    "name": "SLG",
+    "domain": "slg.agency",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBa6MNw2DRtgEH",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFCxWKojVEYZPlXQ34BbOJZ"
   },
   {
     "id": "co_3a382115-7e51-4676-b836-7b65dcff8c7e",
@@ -19459,7 +19714,7 @@
     "domain": "bluebirdmedia.com",
     "type": "AGENCY",
     "leadType": "SALES",
-    "stripeCustomerId": "cus_T7UVd2Wr2KoLfv",
+    "stripeCustomerId": "cus_TASZ04BU8dJftW",
     "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SE7f6KojVEYZPlXlFutnfSC"
   },
@@ -19496,8 +19751,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T93QpROPXpAqd1",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SClMpKojVEYZPlX5ROBvdqT"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_3c026691-ccb7-45f1-93b2-eefadc7b3fcc",
@@ -21290,8 +21544,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T96jQtxXBGaahM",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCocjKojVEYZPlXSOb10vFk"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_41409653-b169-4c16-9ec1-aa56c08b2648",
@@ -21537,6 +21790,13 @@
     "leadType": "SALES"
   },
   {
+    "id": "co_4244613b-4944-4844-8d13-e36e57c4575c",
+    "name": "SFG20",
+    "domain": "sfg20.co.uk",
+    "type": "IN_HOUSE",
+    "leadType": "SALES"
+  },
+  {
     "id": "co_4248477f-e063-485f-ba18-99e6fc98d26a",
     "name": "Univity Ltd",
     "domain": "univity.co.uk",
@@ -21641,6 +21901,13 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SmWMkiokCXeFAh",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_42a69cde-62a3-4d11-b83c-e203b87d114f",
+    "name": "DCN",
+    "domain": "serbia-dmc.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE"
   },
   {
     "id": "co_42affe29-ce06-4224-8e71-42470f81651d",
@@ -21848,7 +22115,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T9DQuvtS0kGvpH",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SCvOCKojVEYZPlXm9Azkbi7"
   },
   {
@@ -21954,6 +22221,14 @@
     "leadType": "SELF_SERVICE"
   },
   {
+    "id": "co_4380da08-ebe1-4591-a8e1-2642ad4d8f16",
+    "name": "ADEN Immobilien ",
+    "domain": "aden-immo.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBriRVsNJ3f8LF"
+  },
+  {
     "id": "co_438d2306-ca6f-414a-9676-c98a7d9c4f25",
     "name": "Position Digital ",
     "domain": "digital.com",
@@ -21976,6 +22251,22 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_ShDjuHfw4CJBxF",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_4396d13a-8245-4d4e-b829-41f6e5322eda",
+    "name": "Cravin",
+    "domain": "cravintechnologies.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBrJmjfL0bV0zG"
+  },
+  {
+    "id": "co_4397561a-e153-46ad-adf3-f34081402659",
+    "name": "Hephata Diakonie",
+    "domain": "hephata.de",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TButziOtBVj0LH"
   },
   {
     "id": "co_439d46d4-bb34-4f21-9fd5-5bd5be2310ed",
@@ -23174,6 +23465,14 @@
     "leadType": "SELF_SERVICE"
   },
   {
+    "id": "co_477510bd-81df-4874-a385-0afdbc39a9bf",
+    "name": "Bec Madden",
+    "domain": "eyejack.io",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBr0VMb36mhC1C"
+  },
+  {
     "id": "co_47764dc5-5c43-4bde-9749-88fa16e00042",
     "name": "IBEX",
     "domain": "ibex.co.th",
@@ -23280,6 +23579,13 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8WfViwwSa6MQ3",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_47af39ce-6c0d-47ff-8a21-1757158fe7b7",
+    "name": "Growth Pro",
+    "domain": "growth.pro",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE"
   },
   {
     "id": "co_47afba4b-f32a-41db-9fc5-95fa24bd6b4f",
@@ -24157,6 +24463,16 @@
     "stripeCustomerId": "cus_ShGW8fbO3oeou3"
   },
   {
+    "id": "co_4a32845b-9d3d-4f77-9761-98e4179d7c98",
+    "name": "Ziina",
+    "domain": "ziina.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBcQ9SGd0giHsq",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFFCdKojVEYZPlXDt0CWgCw"
+  },
+  {
     "id": "co_4a360bcd-5aba-4bb2-8025-5badb5ccaf7d",
     "name": "Nike",
     "domain": "nike.com",
@@ -24431,8 +24747,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8y0fLQnGcr3zN",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCg5lKojVEYZPlXwdK0Ixtp"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_4b483979-3267-46bd-a587-ef1fbb5a3d56",
@@ -24566,8 +24881,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T3dPLg4XgpIXrQ",
-    "stripeSubscriptionStatus": "past_due",
-    "stripeSubscriptionId": "sub_1S7W9mKojVEYZPlXdrp2Oujj"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_4bb35b44-61d6-46e9-bffb-690a2ed894aa",
@@ -25240,6 +25554,16 @@
     "leadType": "SELF_SERVICE"
   },
   {
+    "id": "co_4d3e15a7-3e30-4cf3-952f-04bce8583946",
+    "name": "C2A Marketing ",
+    "domain": "c2amarketing.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBrUou2HD0Utuu",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFTmtKojVEYZPlXJteXr5Eh"
+  },
+  {
     "id": "co_4d43ac2b-83da-4fdf-ac95-71769a6b8999",
     "name": "SocialBee",
     "domain": "socialbee.com",
@@ -25329,6 +25653,13 @@
     "stripeSubscriptionStatus": "canceled"
   },
   {
+    "id": "co_4d99c525-c8cc-41aa-bd43-f2e4e06a000c",
+    "name": "ANDWEEKLY",
+    "domain": "andweekly.com",
+    "type": "AGENCY",
+    "leadType": "SALES"
+  },
+  {
     "id": "co_4da246ac-2760-4c39-b003-d310821c5e2a",
     "name": "XXXLutz",
     "domain": "xxxlutz.de",
@@ -25350,8 +25681,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8xLtkv3qIdz2h",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCfWbKojVEYZPlXb56kKWMj"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_4db00e7b-df25-4146-80fa-36c7f4903ef1",
@@ -26127,8 +26457,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T7SPy6BnYmVdmg",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCy4mKojVEYZPlXl3Z6sixA"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_5005c9eb-4850-4563-a1c1-d778eff67045",
@@ -26372,7 +26701,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T9IrAzN3QlNnYZ",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SD0IIKojVEYZPlXQ59itD0r"
   },
   {
@@ -26794,6 +27123,16 @@
     "stripeCustomerId": "cus_Soc5qvs0vajh62"
   },
   {
+    "id": "co_51da72b5-da46-4f7d-9c1a-287afc95abbe",
+    "name": "cvt",
+    "domain": "veintreatmentclinic.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBp64NJDFKLeXT",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFRTIKojVEYZPlXxlwrA7Ey"
+  },
+  {
     "id": "co_51dd5682-9d85-45e6-b32c-18b233691c03",
     "name": "Performics",
     "domain": "performics.com",
@@ -26863,6 +27202,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_ShLoEciAC1zTwu"
+  },
+  {
+    "id": "co_52147d65-72f3-4b12-8df3-ff0f46c809cb",
+    "name": "WATCHTOWER",
+    "domain": "watchtowerfirearms.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBfNJHpeMCs9Nr"
   },
   {
     "id": "co_52157e1b-e75d-4fd3-a39a-f7bc15105927",
@@ -26957,6 +27304,16 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T9N3ITeJ9HpTch"
+  },
+  {
+    "id": "co_523eb0d0-6a1f-435f-b84f-6b245f2d0d7d",
+    "name": "Terratern",
+    "domain": "terratern.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBWOfDpZXKUh4N",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFAKHKojVEYZPlXuBGjZzUz"
   },
   {
     "id": "co_5240379b-bbb9-454a-b62f-89ec915f7642",
@@ -27111,7 +27468,9 @@
     "domain": "intrepidonline.com",
     "type": "AGENCY",
     "leadType": "SALES",
-    "stripeCustomerId": "cus_TAbI4HtPNuQAwx"
+    "stripeCustomerId": "cus_TAbI4HtPNuQAwx",
+    "stripeSubscriptionStatus": "active",
+    "stripeSubscriptionId": "sub_1SFKGfKojVEYZPlX0GcclILV"
   },
   {
     "id": "co_529ebed7-c3a9-49fa-b89f-9df98d457dc1",
@@ -27248,6 +27607,14 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Sp8e17PtkJcsFS",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_52cbc2a9-3234-4724-b697-cb1d5f7f8902",
+    "name": "Swiss Holiday Park",
+    "domain": "swissholidaypark.ch",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBtVPCMC160esA"
   },
   {
     "id": "co_52df015b-e07f-48dc-97aa-9d8fee4da804",
@@ -28252,6 +28619,14 @@
     "stripeSubscriptionStatus": "canceled"
   },
   {
+    "id": "co_55e7325a-0f37-44c0-bdb4-0c9df11b2d73",
+    "name": "Scout Leads",
+    "domain": "scoutleads.app",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBgcF8hdhbAG38"
+  },
+  {
     "id": "co_55f02ba6-8853-408b-ae9d-09f3e2eb9964",
     "name": "Lennox",
     "domain": "lennox.com",
@@ -28316,6 +28691,14 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T4WoAM03Gg3WUD",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_5636ad7f-257a-4f3e-b5b5-d501e618ebdf",
+    "name": "ChargeX",
+    "domain": "chargex.de",
+    "type": "IN_HOUSE",
+    "leadType": "SALES",
+    "stripeCustomerId": "cus_TBdB12xTt6iyAD"
   },
   {
     "id": "co_5637a131-55fc-450f-805b-97862ebd2732",
@@ -28574,6 +28957,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T7UFsNU8krQhbT"
+  },
+  {
+    "id": "co_56d62f73-87d1-4483-8b62-43891baa7955",
+    "name": "code9",
+    "domain": "code9.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBc7vowqoZbuAD"
   },
   {
     "id": "co_56dd926a-f00d-4bec-b802-4766d8335762",
@@ -29003,6 +29394,16 @@
     "stripeSubscriptionId": "sub_1S41JqKojVEYZPlXheQQRh3S"
   },
   {
+    "id": "co_581325c3-0eff-4a24-8322-08cbebf00bc9",
+    "name": "vovance",
+    "domain": "vovance.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBuLE5sdnmGJdg",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFWYbKojVEYZPlXMPB0xJGo"
+  },
+  {
     "id": "co_58139c00-1a1b-464d-8ced-f7228d5e9850",
     "name": "M Sports",
     "domain": "motorcyclesports.net",
@@ -29130,8 +29531,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8wXv3Sindnged",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCegWKojVEYZPlXNsNRiLcJ"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_5874541d-4571-4f71-8283-0af2cb4a039b",
@@ -29173,6 +29573,16 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SqcsludnPa4U6c"
+  },
+  {
+    "id": "co_588d7d81-e838-4064-a8ec-eaea5a0fb533",
+    "name": "Axos Bank",
+    "domain": "axosbank.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBghLalpBQYxkf",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFKahKojVEYZPlXVsqIkIpz"
   },
   {
     "id": "co_58923fe6-d470-40eb-845c-0fbb7f354fc9",
@@ -29238,6 +29648,16 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SqZW32iXucovhh"
+  },
+  {
+    "id": "co_58cf914c-52d7-4d64-9a2b-287d1d223573",
+    "name": "Discovery Institute",
+    "domain": "discovery.org",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBks8aHzsrWcDN",
+    "stripeSubscriptionStatus": "active",
+    "stripeSubscriptionId": "sub_1SFNNHKojVEYZPlXKUQ8XAPa"
   },
   {
     "id": "co_58cff718-5da9-4c90-a7f7-f3cc4075d966",
@@ -30757,6 +31177,14 @@
     "stripeSubscriptionStatus": "canceled"
   },
   {
+    "id": "co_5ced406f-55d9-4101-af3b-5feb6ee27eea",
+    "name": "RATIONAL AG",
+    "domain": "rational-online.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBdbZGTvY5AQNS"
+  },
+  {
     "id": "co_5cee48cf-d37f-44d5-8195-c35018f77fb0",
     "name": "Chroma",
     "domain": "chroma.pl",
@@ -30951,6 +31379,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SxLMoP55M2HI9Q"
+  },
+  {
+    "id": "co_5d8a110b-fdd0-42ed-b7b5-b11fa0c88477",
+    "name": "SyndicationPro.com",
+    "domain": "syndicationpro.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBr9m0qAVGJeGV"
   },
   {
     "id": "co_5d8de949-c42f-4297-b661-a1ed6f251599",
@@ -31870,6 +32306,14 @@
     "stripeSubscriptionId": "sub_1S16yrKojVEYZPlXNBgIbOg4"
   },
   {
+    "id": "co_5fbd8652-2028-40d3-b792-66acc525ca91",
+    "name": "datainsider",
+    "domain": "datainsider.io",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBjs5iUjNQa6bU"
+  },
+  {
     "id": "co_5fbe2f5f-d5bf-4ecc-9611-cc358c447dc7",
     "name": "Cars.com",
     "domain": "cars.com",
@@ -32537,6 +32981,24 @@
     "stripeCustomerId": "cus_T2l6wc2HGgv3VU"
   },
   {
+    "id": "co_61cb818d-bfc3-4eda-bdf3-7ad4d021fa7d",
+    "name": "Fontimedia srl",
+    "domain": "fontimedia.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBajrfmg0JLfSI"
+  },
+  {
+    "id": "co_61d19821-da4a-4e06-bd93-989c9a817aca",
+    "name": "Luc Callant",
+    "domain": "luccallant.be",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBRbGsD7qH2leO",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SF4kQKojVEYZPlXJaK5y5Cw"
+  },
+  {
     "id": "co_61d4d78c-b78b-44e9-9d36-97738b8dba10",
     "name": "Fiero",
     "domain": "fierostorage.com",
@@ -32625,6 +33087,13 @@
     "type": "IN_HOUSE",
     "leadType": "SALES",
     "stripeCustomerId": "cus_Sqe85AmYdYQVPt"
+  },
+  {
+    "id": "co_6223c55f-37fe-49e1-b2ce-2566076221c6",
+    "name": "Intercom",
+    "domain": "intercom.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE"
   },
   {
     "id": "co_622b589f-6ed2-40e9-b6b1-631565e94e0f",
@@ -33164,6 +33633,14 @@
     "stripeCustomerId": "cus_SgrJ9SEqWAKJj2"
   },
   {
+    "id": "co_64137ba5-d607-48ef-827a-7cad09aee5e2",
+    "name": "el fuerte",
+    "domain": "erynka.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBgwyMkkmoBBvm"
+  },
+  {
     "id": "co_6418a80e-7a12-41eb-9cf6-568310c422b5",
     "name": "Jeeves",
     "domain": "tryjeeves.com",
@@ -33273,6 +33750,14 @@
     "stripeCustomerId": "cus_SzQX29jQHrTNyj"
   },
   {
+    "id": "co_646e5f1b-605e-470b-8a4b-1c0efa4429ca",
+    "name": "Scale Venture Partners",
+    "domain": "scalevp.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBhk7HPp0rWc6n"
+  },
+  {
     "id": "co_647b781b-922f-4689-8934-9405db40d29d",
     "name": "Morgen",
     "domain": "morgen.so",
@@ -33324,6 +33809,14 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T5FCFZwCtSnFmO"
+  },
+  {
+    "id": "co_649cae22-233a-4d05-abf4-9b75684877b2",
+    "name": "IntelliCulture",
+    "domain": "intelliculture.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBcgvm6GjNp52x"
   },
   {
     "id": "co_64a0ef46-5578-4dea-aa51-42980ed85514",
@@ -33656,6 +34149,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SlkepFujERsSe0"
+  },
+  {
+    "id": "co_655cdfba-d995-47d0-998d-f463b388a31a",
+    "name": "NorthWing Digital",
+    "domain": "northwingdigital.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBgXmQ8YsGcSLm"
   },
   {
     "id": "co_6568a1b2-b088-4dd6-abc5-4819c19f3749",
@@ -33994,7 +34495,8 @@
     "name": "Santiane",
     "domain": "santiane.fr",
     "type": "IN_HOUSE",
-    "leadType": "SALES"
+    "leadType": "SALES",
+    "stripeCustomerId": "cus_TBVm7XlsW1ZSMR"
   },
   {
     "id": "co_664e51c2-bc9c-48b0-a14a-3ca14fe0d9a1",
@@ -34034,6 +34536,14 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SiojdYzaUIzczc"
+  },
+  {
+    "id": "co_667ae13c-8587-44a5-928e-3c9b157dfb7a",
+    "name": "Elvitas",
+    "domain": "elvitas.de",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBgpwSsi7DUBOh"
   },
   {
     "id": "co_667c34d2-f914-4b58-812d-3142d175f0b7",
@@ -34303,7 +34813,9 @@
     "domain": "marvelx.ai",
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
-    "stripeCustomerId": "cus_TAs6zKtblr9jNC"
+    "stripeCustomerId": "cus_TAs6zKtblr9jNC",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SF0fvKojVEYZPlXj9CYiH6r"
   },
   {
     "id": "co_6755652e-6913-4e33-aca2-7abec86b33a8",
@@ -34555,6 +35067,13 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T4qeCAEa7ztYE5",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_67f8cbac-5aab-441f-ad10-8cd06e429bf1",
+    "name": "Venmo AI",
+    "domain": "venmoai.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE"
   },
   {
     "id": "co_67fb8703-4e38-48d5-bcc6-fdc2d99d992d",
@@ -35166,6 +35685,14 @@
     "stripeCustomerId": "cus_SziwwGXDQW6vhL"
   },
   {
+    "id": "co_69759016-c87f-476f-8c89-c61c78bfec8f",
+    "name": "Demodern",
+    "domain": "demodern.de",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBuSJ9FO4q2UgP"
+  },
+  {
     "id": "co_697d3edf-27af-4cee-8067-97a837c4a7f4",
     "name": "Entyre Care",
     "domain": "entyrecare.com",
@@ -35684,6 +36211,14 @@
     "leadType": "SALES"
   },
   {
+    "id": "co_6b1c1892-8f9c-401d-a64b-a08854c9defa",
+    "name": "Turo",
+    "domain": "turo.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBWczmhDa17tqy"
+  },
+  {
     "id": "co_6b210ea5-7645-4e0e-a0d5-9b0659ede697",
     "name": "Overlap",
     "domain": "overlap.at",
@@ -35719,7 +36254,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T9I6V2p58ISFax",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "past_due",
     "stripeSubscriptionId": "sub_1SCzXzKojVEYZPlXKLci0YDQ"
   },
   {
@@ -36081,8 +36616,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T9HUW2sVH8sE25",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCywLKojVEYZPlXlSRk27UD"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_6c26bd54-f31a-49d1-b966-6daae72c4181",
@@ -36125,6 +36659,14 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Smr3eQShxeIRsX",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_6c32ee85-5597-43a5-8271-9a83273760d9",
+    "name": "TAKE OFF Fallschirmsport",
+    "domain": "funjump.de",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBbvpRwcXslMBT"
   },
   {
     "id": "co_6c3536f4-dcdd-4f81-ae2b-93d135909746",
@@ -36772,6 +37314,14 @@
     "stripeCustomerId": "cus_SbzGmr8V44oZMJ"
   },
   {
+    "id": "co_6e27f22b-eb16-4ccb-a889-e12f4a5dc27c",
+    "name": "test",
+    "domain": "ident.se",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBdgCwJQULdHeT"
+  },
+  {
     "id": "co_6e29d556-e8a6-4387-a583-f4584cd7ef5e",
     "name": "univlip",
     "domain": "univlip.com",
@@ -37280,6 +37830,14 @@
     "stripeCustomerId": "cus_SrP11mbKkuBW2j"
   },
   {
+    "id": "co_6fcb25bc-f87f-4485-b68d-8a394ba9103a",
+    "name": "Omniablinds",
+    "domain": "omniablinds.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBjAlVMYZSoWVQ"
+  },
+  {
     "id": "co_6fce8075-735a-4ba2-ab4b-49b93ee3dac7",
     "name": "Hussain Jatoi",
     "domain": "hussainjatoi.com",
@@ -37548,6 +38106,14 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Sj8p71WJuCfuEK",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_7074b62d-6f35-4a8d-ab06-146ff36a57be",
+    "name": "Rocket",
+    "domain": "rocket.new",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBsikePYTwaU4L"
   },
   {
     "id": "co_7074f86a-9c92-439e-97f0-978fe0a72e5f",
@@ -37825,6 +38391,16 @@
     "stripeSubscriptionId": "sub_1RYrbtKojVEYZPlXWhliAieh"
   },
   {
+    "id": "co_71258120-3851-4779-9188-3330841e936d",
+    "name": "SoliTek",
+    "domain": "solitek.eu",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBZnthliB2Knar",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFDStKojVEYZPlXLtXxRQNI"
+  },
+  {
     "id": "co_71299a67-b280-4cbf-89fc-4f0f44abc391",
     "name": "decolar",
     "domain": "decolar.com",
@@ -38019,6 +38595,14 @@
     "domain": "genepoint.cn",
     "type": "AGENCY",
     "leadType": "SELF_SERVICE"
+  },
+  {
+    "id": "co_71a3683f-1802-44ca-b1e3-828f59907581",
+    "name": "Karhu Helsinki Inc.",
+    "domain": "karhuhelsinki.fi",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBYyS3gy0kVHR9"
   },
   {
     "id": "co_71ad444a-9d0b-4adf-b2dc-6f2cc7120f42",
@@ -38463,8 +39047,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T6pBV4MNh7fGby",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SClTLKojVEYZPlXYqn46lWz"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_7350125a-3ce6-401c-ae82-d1be525ad4fa",
@@ -38760,9 +39343,10 @@
     "name": "Yes.inc",
     "domain": "yes.inc",
     "type": "AGENCY",
-    "leadType": "SELF_SERVICE",
+    "leadType": "SALES",
     "stripeCustomerId": "cus_SwEcTgDxizcYfb",
-    "stripeSubscriptionStatus": "canceled"
+    "stripeSubscriptionStatus": "active",
+    "stripeSubscriptionId": "sub_1SF9znKojVEYZPlXAEFxjnii"
   },
   {
     "id": "co_741b36fa-2b0f-45fc-85f8-cfb7bc85da14",
@@ -39042,8 +39626,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8vyP9Yh6MMsWN",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCeIsKojVEYZPlX1QW3yWou"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_75231f31-ad68-43fb-8ec9-44f7ff13fbe6",
@@ -39170,8 +39753,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T3ZfD22Qe6fUds",
-    "stripeSubscriptionStatus": "past_due",
-    "stripeSubscriptionId": "sub_1S7SYyKojVEYZPlXb3Im42yK"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_7571ab29-ab2b-495c-9d4f-57facef40621",
@@ -39190,11 +39772,27 @@
     "stripeSubscriptionStatus": "canceled"
   },
   {
+    "id": "co_7575db82-8618-44a6-b838-fd0e59bf0099",
+    "name": "bubba",
+    "domain": "nationalrehabhotline.org",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBaEFpU0AkykBO"
+  },
+  {
     "id": "co_757cc4b9-cbdf-4ebb-987a-5f5fb3a978e1",
     "name": "Nice Thinking Strategy",
     "domain": "nicethinkingstrategy.com",
     "type": "AGENCY",
     "leadType": "SALES"
+  },
+  {
+    "id": "co_757d86bc-32a5-4590-b39a-ccad6914a86d",
+    "name": "formvermittlung",
+    "domain": "fensterbank-werk.de",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBuVGj99O5wtJh"
   },
   {
     "id": "co_7592e8ab-c3de-40bc-82ec-325cfe418beb",
@@ -39289,6 +39887,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SmXlUal1kytqNO"
+  },
+  {
+    "id": "co_75ee9f2d-9a1f-40f0-bbb3-57742a075a3c",
+    "name": "eon",
+    "domain": "eon.se",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBumAyg3gd2kaj"
   },
   {
     "id": "co_75f49fa6-0115-4f6a-8e88-b64841b0eccc",
@@ -39803,6 +40409,14 @@
     "stripeCustomerId": "cus_SgSNawwpxV7tuD"
   },
   {
+    "id": "co_77682cdb-1306-4644-8c2d-ad4df6d69969",
+    "name": "Mews",
+    "domain": "mews.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBZrNbPzgWBvx3"
+  },
+  {
     "id": "co_776a1006-4ca5-4456-aff9-29bd108aaea4",
     "name": "Scroller",
     "domain": "scroller.it",
@@ -39931,6 +40545,16 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SeAptIkwMtjluY"
+  },
+  {
+    "id": "co_77fefd46-1fe6-45ed-a43f-95354fe70e74",
+    "name": "Holiday Extras",
+    "domain": "holidayextras.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBbZUMu0EFbSiL",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFErEKojVEYZPlXn0LqtIb6"
   },
   {
     "id": "co_780f1180-b3aa-4798-93b6-6119d4acb809",
@@ -40687,6 +41311,14 @@
     "stripeCustomerId": "cus_SgOrjx1ZJmE5S3"
   },
   {
+    "id": "co_79cc3681-39b5-4f9a-8829-473196707ef0",
+    "name": "VantagePoint Marketing",
+    "domain": "vantagep.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBgr3jpFbsRRVL"
+  },
+  {
     "id": "co_79d4abea-91f6-4bd8-ab4a-657fb6593958",
     "name": "High Lights",
     "domain": "high-lights.events",
@@ -40988,6 +41620,13 @@
     "id": "co_7abbd0e4-e31e-42a6-9f50-99dd9143b1db",
     "name": "Harmonia Living",
     "domain": "harmonialiving.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE"
+  },
+  {
+    "id": "co_7abdd824-cb94-49b3-aab7-4c18b4fcb62d",
+    "name": "Casa4you",
+    "domain": "casa4you.nl",
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE"
   },
@@ -41745,6 +42384,14 @@
     "stripeCustomerId": "cus_St4yJA5oaF7Qmr"
   },
   {
+    "id": "co_7d3efdac-4c41-48d5-ac38-112a3e5e187a",
+    "name": "Quest Apartment Hotels",
+    "domain": "questapartments.com.au",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBTQWkSKt1W6p9"
+  },
+  {
     "id": "co_7d46b6b9-0cc8-4cd3-a5e0-f917b78990c5",
     "name": "Brighton Science",
     "domain": "brighton-science.com",
@@ -42321,6 +42968,14 @@
     "stripeCustomerId": "cus_T9AzRWadVqGnHE"
   },
   {
+    "id": "co_7f35babc-f8a5-4345-9e68-0947976143fa",
+    "name": "ITSupport4u",
+    "domain": "itsupport4u.online",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBf3FOlBwjPulq"
+  },
+  {
     "id": "co_7f439231-7f35-473f-9c7b-1eb190cce52b",
     "name": "Profit Media",
     "domain": "profitmedia.se",
@@ -42783,6 +43438,14 @@
     "stripeSubscriptionId": "sub_1RtZ0iKojVEYZPlXEeoQeMhc"
   },
   {
+    "id": "co_805d2156-dc66-4e23-8544-f3b80c4f75a5",
+    "name": "ThatWare",
+    "domain": "thatware.co",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBUdyZ1VVk0zUK"
+  },
+  {
     "id": "co_80727d8b-3942-4343-a067-181f409254d9",
     "name": "fesfs",
     "domain": "dgdgdg.com",
@@ -43112,7 +43775,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SjWWYXMzetFYaQ",
-    "stripeSubscriptionStatus": "past_due",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1Ro3V7KojVEYZPlXCejBSZ8M"
   },
   {
@@ -43336,6 +43999,14 @@
     "stripeSubscriptionId": "sub_1S0iKoKojVEYZPlX5UpHfOnH"
   },
   {
+    "id": "co_82471282-e380-417d-8dc0-846f1b0eb02a",
+    "name": "Jazi Pro",
+    "domain": "example.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBqmBlmBECp33a"
+  },
+  {
     "id": "co_824942d3-8fba-41b6-b4c3-1a910d60da17",
     "name": "Metric Insights",
     "domain": "metricinsights.com",
@@ -43450,7 +44121,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8uzIKQsCE6tZu",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "past_due",
     "stripeSubscriptionId": "sub_1SCdBcKojVEYZPlXpVx2hkcy"
   },
   {
@@ -43492,6 +44163,14 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SrnWFqiYT18ZZY"
+  },
+  {
+    "id": "co_82c0d3e6-8882-4d8c-a81b-d74aac7136fc",
+    "name": "Hama",
+    "domain": "hama.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBXlXHXfj9sHZW"
   },
   {
     "id": "co_82c5f781-6379-4d36-96c2-3fe7fcbf6db3",
@@ -43788,8 +44467,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8z3UmWkmsTbfh",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCh8QKojVEYZPlXrdtLD37B"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_8392f90f-70c4-4d68-a60a-78ed53b99224",
@@ -43911,8 +44589,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T3XBdrQmqOQMTX",
-    "stripeSubscriptionStatus": "past_due",
-    "stripeSubscriptionId": "sub_1S7Q8UKojVEYZPlXIV71cln5"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_8415b57b-3e5f-47af-861e-92833c66e2a9",
@@ -43998,7 +44675,8 @@
     "name": "nik",
     "domain": "bootstrap.com",
     "type": "IN_HOUSE",
-    "leadType": "SELF_SERVICE"
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBYD192PZ0DCSd"
   },
   {
     "id": "co_8442f497-0637-46ae-8a1f-40fcad2fc56f",
@@ -44279,6 +44957,14 @@
     "stripeCustomerId": "cus_T90SaLG0MQNrZ4"
   },
   {
+    "id": "co_85499a8d-59b2-4ae1-b2cb-1f7871d5fba6",
+    "name": "Alpine Armoring Inc.",
+    "domain": "alpineco.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBNi0xiz8AQ9nX"
+  },
+  {
     "id": "co_854fa28e-1e9c-4467-be04-17c3b4c67884",
     "name": "Sport Calculator",
     "domain": "sport-calculator.com",
@@ -44534,6 +45220,14 @@
     "domain": "rightmart.group",
     "type": "IN_HOUSE",
     "leadType": "SALES"
+  },
+  {
+    "id": "co_86002c79-2f17-4869-b656-89527924e091",
+    "name": "Derek Wong",
+    "domain": "efficio.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBcqO4hLNa1czm"
   },
   {
     "id": "co_8600d810-938d-41dc-b0c7-029cf76665d2",
@@ -44810,8 +45504,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SughKf3AMHRgt9",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCc4rKojVEYZPlXSQNf1x9Y"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_86a8c6f7-0485-4f93-869f-683c87df6f78",
@@ -45007,7 +45700,7 @@
     "domain": "clockin.de",
     "type": "IN_HOUSE",
     "leadType": "SALES",
-    "stripeCustomerId": "cus_SIb2T5tfj1yiUs",
+    "stripeCustomerId": "cus_SyWffE6DAZKjZf",
     "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1S2ZdQKojVEYZPlXWFr4tQ8O"
   },
@@ -45068,6 +45761,14 @@
     "stripeCustomerId": "cus_SddMQqsvMOrU1A"
   },
   {
+    "id": "co_87615fc2-d49b-4ef5-88d0-73975b403415",
+    "name": "PRNEWS.IO",
+    "domain": "prnews.io",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBeFCIsC6Y50Mu"
+  },
+  {
     "id": "co_8762f701-2628-480b-8e48-5bbea9514d2f",
     "name": "seedbacklink",
     "domain": "seedbacklink.com",
@@ -45100,6 +45801,13 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Sc3WswLPzAd3kC"
+  },
+  {
+    "id": "co_8784d5b9-d03b-4cd3-8e6b-a3f00364003b",
+    "name": "Nasta Reis",
+    "domain": "nastareis.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE"
   },
   {
     "id": "co_8795a5ec-176c-414a-b722-01c605be7a74",
@@ -45490,8 +46198,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T91AbFE0IwaHBw",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCjFtKojVEYZPlXawPQeLJe"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_890d6fba-8fb7-4943-a9f3-39d78de53ac9",
@@ -45565,7 +46272,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T76PxjzTuz4Zb3",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SCcvPKojVEYZPlXpvHAxeVR"
   },
   {
@@ -46625,6 +47332,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SmsoUZUSPZ66ct"
+  },
+  {
+    "id": "co_8c473736-8006-47fb-ae8e-b61c18158dbc",
+    "name": "EBizCharge",
+    "domain": "ebizcharge.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBh0ZJyPqjxsgr"
   },
   {
     "id": "co_8c48e54c-bda0-4916-9bab-2396964ed1ad",
@@ -47774,8 +48489,15 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T94J6gCeKtzAAK",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCmBsKojVEYZPlXx59EekzG"
+    "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_8f8f070a-e8b4-4e35-9ef3-1a055546f48f",
+    "name": "Digimetri",
+    "domain": "digimetri.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBdvzOIxBdNhzD"
   },
   {
     "id": "co_8fa33d22-fe28-4ab7-9a1c-bd47ecb778c5",
@@ -47815,7 +48537,8 @@
     "name": "Porsche",
     "domain": "porsche.com",
     "type": "IN_HOUSE",
-    "leadType": "SALES"
+    "leadType": "SALES",
+    "stripeCustomerId": "cus_TBapOcXaZzsnK3"
   },
   {
     "id": "co_8fbec1fe-a5ea-4a7d-a19c-5bd9b31f323f",
@@ -48294,7 +49017,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T90II1VhummswQ",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SCiMWKojVEYZPlXQxYL04Vj"
   },
   {
@@ -48745,8 +49468,7 @@
     "type": "IN_HOUSE",
     "leadType": "SALES",
     "stripeCustomerId": "cus_SlkfmvXARW6sIJ",
-    "stripeSubscriptionStatus": "past_due",
-    "stripeSubscriptionId": "sub_1RyBYUKojVEYZPlXoExUJO50"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_929765db-57fe-41c5-bbd8-f27b14328124",
@@ -48927,8 +49649,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T91wXEedKJDH34",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCjuYKojVEYZPlXhHPpco6w"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_92dc5a74-5ed7-488f-a66c-a0756ad04d4f",
@@ -49178,6 +49899,14 @@
     "domain": "gofully.ai",
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE"
+  },
+  {
+    "id": "co_93a9a48c-3f4e-4404-9763-ac6ecec4e748",
+    "name": "PacTech",
+    "domain": "pactech.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBut76I2dumXde"
   },
   {
     "id": "co_93a9c580-c456-4242-aa12-e4740b996d65",
@@ -50179,6 +50908,16 @@
     "stripeSubscriptionStatus": "canceled"
   },
   {
+    "id": "co_969fa5fc-05d5-4cbb-8610-29d57a8922d7",
+    "name": "FidForward",
+    "domain": "fidforward.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBuKBjm3pZAtiO",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFWWbKojVEYZPlX5EqKcjrd"
+  },
+  {
     "id": "co_96b20e28-fc38-4a56-ae9b-73e72386876b",
     "name": "Michel & Co",
     "domain": "michel_and_co.com",
@@ -50626,8 +51365,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T93Pf311KpOEeN",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SClJZKojVEYZPlXzyhKY1nC"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_97c3f311-979b-4e08-826a-bf5061cb2222",
@@ -51067,6 +51805,14 @@
     "stripeSubscriptionId": "sub_1RqnqrKojVEYZPlXU7sEiphu"
   },
   {
+    "id": "co_98f9cffc-ad27-497a-be40-9bd00f8f5e5e",
+    "name": "Definer Brands",
+    "domain": "definerbrands.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBgFK2C8jCK3Tk"
+  },
+  {
     "id": "co_99046d13-9969-4049-b706-ba577f066231",
     "name": "Ecosa",
     "domain": "ecosa.com.au",
@@ -51271,6 +52017,7 @@
     "domain": "candrpr.com",
     "type": "AGENCY",
     "leadType": "SALES",
+    "stripeCustomerId": "cus_TAD3SCxollC4mL",
     "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SDsd6KojVEYZPlX4ttx23Kh"
   },
@@ -51590,6 +52337,14 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T3JrhQ2vpsiRBn"
+  },
+  {
+    "id": "co_9ab2b529-b490-40f1-91ee-236b38f602ba",
+    "name": "BC",
+    "domain": "britishcouncil.org",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBhUrLGnnwTTBW"
   },
   {
     "id": "co_9ab3875c-6dbd-4c03-a361-6a4bebb5ca5c",
@@ -52400,8 +53155,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SwLikyzYvH4DSb",
-    "stripeSubscriptionStatus": "active",
-    "stripeSubscriptionId": "sub_1S0T1SKojVEYZPlXj5PeBH9W"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_9ce46309-81bf-4087-a7d7-ea45637e3086",
@@ -52410,6 +53164,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T34kClDd0GYfeI"
+  },
+  {
+    "id": "co_9ce716a1-22d7-475c-bade-b2989db9e179",
+    "name": "Nofilmschool",
+    "domain": "nofilmschool.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBv5UexHWUIZmX"
   },
   {
     "id": "co_9cec5b00-c309-4f2c-bd1a-d2b31e1dfd57",
@@ -52774,6 +53536,14 @@
     "stripeSubscriptionStatus": "canceled"
   },
   {
+    "id": "co_9db4af63-374e-43ea-a320-45ddca032702",
+    "name": "Tagshop.ai",
+    "domain": "tagshop.ai",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBZpqZYHrS8A7N"
+  },
+  {
     "id": "co_9dbefa4a-ec42-4f59-9a72-5ef4ccac6b58",
     "name": "Searchbloom",
     "domain": "searchbloom.com",
@@ -52937,6 +53707,14 @@
     "stripeSubscriptionId": "sub_1S8I75KojVEYZPlXRBhISvJD"
   },
   {
+    "id": "co_9e2a0e82-1877-422f-b0cc-06d18a83aa30",
+    "name": "Safety Jogger Works",
+    "domain": "safetyjogger.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBYDwK4gdD3Jqj"
+  },
+  {
     "id": "co_9e2aec84-de50-4027-9969-5069986c1023",
     "name": "google",
     "domain": "google.com",
@@ -53062,13 +53840,21 @@
     "stripeCustomerId": "cus_T4SQP7jjr9kTMA"
   },
   {
+    "id": "co_9ea3760c-5251-4a21-979c-114a6e9bf240",
+    "name": "OUYEE DISPLAY",
+    "domain": "oydisplay.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE"
+  },
+  {
     "id": "co_9ea50748-4079-4ea0-b6a3-0ffe269194d5",
     "name": "Milk Bar",
     "domain": "themilkbar.co",
     "type": "IN_HOUSE",
-    "leadType": "SELF_SERVICE",
+    "leadType": "SALES",
     "stripeCustomerId": "cus_Si8lY9TfA4QU5U",
-    "stripeSubscriptionStatus": "canceled"
+    "stripeSubscriptionStatus": "active",
+    "stripeSubscriptionId": "sub_1SFKeEKojVEYZPlXiVGCzpWL"
   },
   {
     "id": "co_9ea9e700-9c34-4015-82a7-61e92138a30f",
@@ -53084,7 +53870,9 @@
     "domain": "portatour.com",
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
-    "stripeCustomerId": "cus_SypV4tEmqpCpXK"
+    "stripeCustomerId": "cus_SypV4tEmqpCpXK",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SF9hdKojVEYZPlXEv3z01Q4"
   },
   {
     "id": "co_9ecdf2f5-6437-45ce-bd9f-f3ec9a683159",
@@ -53166,6 +53954,13 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SxMsOSJXrku3iZ"
+  },
+  {
+    "id": "co_9f282038-1d06-4d13-b689-c94f5a8e9e55",
+    "name": "Horizn",
+    "domain": "horizn-studios.com",
+    "type": "IN_HOUSE",
+    "leadType": "SALES"
   },
   {
     "id": "co_9f2adff4-88e3-44dc-b9b4-f57aa0610fda",
@@ -53787,6 +54582,13 @@
     "stripeSubscriptionStatus": "canceled"
   },
   {
+    "id": "co_a0bc5e41-cf38-4893-aac2-2e5c5c29fff7",
+    "name": "ADEN Immo GMBH",
+    "domain": "aden-immo.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE"
+  },
+  {
     "id": "co_a0c9e35c-667f-403f-aee0-52bd61d205ef",
     "name": "Reflect Digital",
     "domain": "reflectdigital.co.uk",
@@ -53875,7 +54677,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8qL2jBFeTcVD9",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SCt93KojVEYZPlXOA3j1VxU"
   },
   {
@@ -54992,8 +55794,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8nLA78gcgmOv3",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCVmKKojVEYZPlXx3DMI8r3"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_a4ab9e99-4ec4-41fe-a90a-e44ea59e9e58",
@@ -55078,8 +55879,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T92RQxGBUsZRxB",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCkO3KojVEYZPlXo7h4JTG2"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_a4ef0057-b862-4c6f-889f-f311ddce48e2",
@@ -55187,7 +55987,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SqiRSqPqKJAGlT",
-    "stripeSubscriptionStatus": "past_due",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1Rv13qKojVEYZPlXFdONglRT"
   },
   {
@@ -55222,6 +56022,22 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Sv3YsyI5SlWkhk"
+  },
+  {
+    "id": "co_a5475867-86e2-42c2-a4fd-fd4eb2b839d0",
+    "name": "Venmo",
+    "domain": "venmo.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBuX9dioJ8hQ2W"
+  },
+  {
+    "id": "co_a54de332-9f75-400b-9794-b9976f524fc4",
+    "name": "The White teak Company ",
+    "domain": "whiteteak.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBsepqqjAvJDKR"
   },
   {
     "id": "co_a552dff5-c744-4be5-80c6-223cf9aedaf0",
@@ -55672,6 +56488,14 @@
     "stripeCustomerId": "cus_T2JUq6Dx40uN12"
   },
   {
+    "id": "co_a6e947f2-048e-4e1b-9b6e-42b1995bfdcb",
+    "name": "LFT",
+    "domain": "livefootballtickets.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBX2SinktBjC2c"
+  },
+  {
     "id": "co_a6fab8bf-5a93-4455-b0d2-0eccc29b54bf",
     "name": "El Tawheed W El Noour",
     "domain": "tawheedwnour.com",
@@ -55866,6 +56690,13 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T1sm7iYGEQuGVq"
+  },
+  {
+    "id": "co_a79ad1d2-e4c5-42f3-b5d7-e1ec39bbae13",
+    "name": "MONKS",
+    "domain": "monks.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE"
   },
   {
     "id": "co_a79d517a-7673-437c-bee8-7961757dc04f",
@@ -56371,7 +57202,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_TAPVymasTZl7IE",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SEBoaKojVEYZPlXr4grNvYn"
   },
   {
@@ -56496,7 +57327,9 @@
     "domain": "guuru.com",
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
-    "stripeCustomerId": "cus_T8wCsSbsfa3mRh"
+    "stripeCustomerId": "cus_T8wCsSbsfa3mRh",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFBKcKojVEYZPlXaVxQv3dJ"
   },
   {
     "id": "co_a9a749c5-713b-4cac-a72e-d170dd2d8d8d",
@@ -56673,6 +57506,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SmybmEaeC9buZx"
+  },
+  {
+    "id": "co_aa17a2f5-acd9-4cb1-bda7-2dfb2a8e7be2",
+    "name": "Site Logic",
+    "domain": "sitelogic.fi",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBVJcgtRAR1Ht3"
   },
   {
     "id": "co_aa17dba7-b096-46c2-9e05-eb4b2f54f826",
@@ -57016,6 +57857,14 @@
     "stripeSubscriptionStatus": "canceled"
   },
   {
+    "id": "co_aaf21c6f-cba4-4c2f-aacc-ea411319cdf0",
+    "name": "DT Cloud",
+    "domain": "dtcloudnow.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBcJ25KckIvIjg"
+  },
+  {
     "id": "co_aaf5fe26-2ab4-4c5c-b89a-611bf6ddce03",
     "name": "Resi",
     "domain": "resi.co.uk",
@@ -57230,6 +58079,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T1VPRejw24cRdM"
+  },
+  {
+    "id": "co_abc80420-60a6-4f26-9ac3-bd6ca3f15187",
+    "name": "LoopMe",
+    "domain": "loopme.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBiFeBjxE4RfRF"
   },
   {
     "id": "co_abc8723f-a9ea-4041-bf6c-50857f0f8d02",
@@ -58643,7 +59500,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8wVcl8K2vCPq4",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SCeduKojVEYZPlXQHYSqCuG"
   },
   {
@@ -58696,8 +59553,7 @@
     "type": "AGENCY",
     "leadType": "SALES",
     "stripeCustomerId": "cus_SGJ3uQgpkIjJ86",
-    "stripeSubscriptionStatus": "active",
-    "stripeSubscriptionId": "sub_1RLmSDKojVEYZPlXphMcWFwj"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_afbd61ef-3f23-474e-9b7f-554975e4cea6",
@@ -59776,6 +60632,14 @@
     "leadType": "SELF_SERVICE"
   },
   {
+    "id": "co_b31ac289-6349-41a6-9426-fdabed263b65",
+    "name": "Demo",
+    "domain": "demo.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBv9DeC7CfJhUc"
+  },
+  {
     "id": "co_b320ac8a-55ef-4364-a489-eb7c66836a54",
     "name": "Shop Apotheke",
     "domain": "shop-apotheke.de",
@@ -60252,6 +61116,16 @@
     "leadType": "SELF_SERVICE"
   },
   {
+    "id": "co_b47b2780-33ce-4ffd-becb-f330737ed182",
+    "name": "Herody",
+    "domain": "herody.in",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBrXLtN7eFkvob",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFTplKojVEYZPlXjCDqezqp"
+  },
+  {
     "id": "co_b47c0625-e723-48d2-9560-5bd18d70bb52",
     "name": "takevalue",
     "domain": "takevalue.de",
@@ -60430,6 +61304,14 @@
     "domain": "sunandski.com",
     "type": "IN_HOUSE",
     "leadType": "SALES"
+  },
+  {
+    "id": "co_b4ff1d1b-c1a7-4cf5-883a-5dba21b31de7",
+    "name": "Test inc",
+    "domain": "testinginc.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBchz4UKinuwON"
   },
   {
     "id": "co_b502de0f-8d59-4619-a991-bb50ac29df26",
@@ -60823,6 +61705,14 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SiqgfFvkVESOeE",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_b63252b7-1a6a-448f-bcab-402109c9bdd6",
+    "name": "Pepper Content",
+    "domain": "peppercontent.io",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBacewoUO3gsyw"
   },
   {
     "id": "co_b63c2d20-fac8-42f8-9271-24b445b7f580",
@@ -61224,6 +62114,16 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Sqv4o3Fl07TE9c",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_b732b7ab-0248-4d2b-8438-60f7da2edf8a",
+    "name": "Gryffin",
+    "domain": "gryffin.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBdTwmkQVJWk5U",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFGEHKojVEYZPlXwSOHMubB"
   },
   {
     "id": "co_b73316ab-547f-41c1-a4d3-0051cbb0f2d3",
@@ -61943,6 +62843,14 @@
     "stripeCustomerId": "cus_SIVvcjkhaJX7wg"
   },
   {
+    "id": "co_b9466bd1-1b47-426b-98e4-2d4150c2f326",
+    "name": "Market Research Report",
+    "domain": "technavio.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBYHw6FQq3e1XH"
+  },
+  {
     "id": "co_b959e915-adb4-4a8c-9b8b-da72f39ced2f",
     "name": "Dioxaflex",
     "domain": "dioxaflexvl.com.ar",
@@ -62107,8 +63015,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T90hcumb3IFyLq",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCyLlKojVEYZPlXUdUiOb4c"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_b9dbbfeb-1139-477c-b780-04b920a8d243",
@@ -62332,6 +63239,14 @@
     "stripeCustomerId": "cus_Si59cfzN49WMCZ"
   },
   {
+    "id": "co_ba81e63d-61f5-49a9-8785-ae5856d48516",
+    "name": "Helpling",
+    "domain": "helpling.de",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBZJPXxXvfSVkI"
+  },
+  {
     "id": "co_ba8770ac-ea15-41b4-a3f7-4c37149c8268",
     "name": "None",
     "domain": "infosys.com",
@@ -62481,6 +63396,16 @@
     "stripeCustomerId": "cus_SobtVnn78aCVgQ"
   },
   {
+    "id": "co_bb1144e7-6506-41cb-98c3-9c63077abc2d",
+    "name": "directpartnerco",
+    "domain": "directpartnerco.com",
+    "type": "PARTNER",
+    "leadType": "SALES",
+    "stripeCustomerId": "cus_TBhEljjZN01ZJI",
+    "stripeSubscriptionStatus": "active",
+    "stripeSubscriptionId": "sub_1SFJqnKojVEYZPlXNOow2lZb"
+  },
+  {
     "id": "co_bb11dda7-41b0-45fd-b3cc-0a8b3df7a495",
     "name": "Nomadic Advertising",
     "domain": "nomadicadvertising.com",
@@ -62573,7 +63498,10 @@
     "name": "Mad Fish Digital",
     "domain": "madfishdigital.com",
     "type": "AGENCY",
-    "leadType": "SALES"
+    "leadType": "SALES",
+    "stripeCustomerId": "cus_TBgrWsVfpnR4HR",
+    "stripeSubscriptionStatus": "active",
+    "stripeSubscriptionId": "sub_1SFJTiKojVEYZPlXi8777bO8"
   },
   {
     "id": "co_bb69a958-a51b-4a6d-98be-7f6002b4e418",
@@ -62950,6 +63878,14 @@
     "stripeCustomerId": "cus_T7260wLyx5Xq3g"
   },
   {
+    "id": "co_bc77758f-4a87-405a-8a98-a58b3142035c",
+    "name": "Aaron",
+    "domain": "aaron.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBdMMUztkD2tMP"
+  },
+  {
     "id": "co_bc84d7af-a8ac-4f90-99c6-4c365ee40475",
     "name": "Hostinger",
     "domain": "hostinger.com",
@@ -63219,6 +64155,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T2YwgvHltIdBsK"
+  },
+  {
+    "id": "co_bd90de9a-bc6f-418d-8bd7-4c3e879605d5",
+    "name": "transunion.com",
+    "domain": "transunion.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBbuofno9WLC30"
   },
   {
     "id": "co_bd98a480-9e77-40f8-88f1-081e008e81d4",
@@ -64230,6 +65174,16 @@
     "leadType": "SALES"
   },
   {
+    "id": "co_c0f7bef3-7539-4025-9fc9-ac3e217ecf38",
+    "name": "Vooks",
+    "domain": "vooks.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBiB81fehkZnav",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFKljKojVEYZPlXpmsIYAjp"
+  },
+  {
     "id": "co_c100cb1d-1ca7-49b0-bc41-6fd478d387fd",
     "name": "printseekers",
     "domain": "printseekers.com",
@@ -64422,6 +65376,14 @@
     "stripeCustomerId": "cus_SxSELOALZB8p5K"
   },
   {
+    "id": "co_c1916faa-4f61-4f3c-b2e9-841ab543f142",
+    "name": "ContentNinja",
+    "domain": "contentninja.in",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBWtdku7Tzqobc"
+  },
+  {
     "id": "co_c1967e99-9665-449d-a70a-f27bd32edc14",
     "name": "aisensy",
     "domain": "aisensy.com",
@@ -64503,6 +65465,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SuNYtVYipFOJIg"
+  },
+  {
+    "id": "co_c1c3dd62-e8f0-46f4-858a-c3ecc83786d9",
+    "name": "Huttopia",
+    "domain": "huttopia.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBXAJ6vY5wosKo"
   },
   {
     "id": "co_c1dc37b7-d66c-49f5-8323-27ce24066039",
@@ -64933,6 +65903,14 @@
     "leadType": "SELF_SERVICE"
   },
   {
+    "id": "co_c355c00c-7e3f-406a-ae81-6011f0e43748",
+    "name": "Level Up",
+    "domain": "substack.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBgvGEPN7K5RCw"
+  },
+  {
     "id": "co_c369edba-c224-4354-b4d8-189cd123c97c",
     "name": "Bebe English school",
     "domain": "bebeenglishschool.com",
@@ -64957,6 +65935,14 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SlfACi4azYuing"
+  },
+  {
+    "id": "co_c37c0a27-d3a3-4651-a111-cbb61ae157d8",
+    "name": "Oncare",
+    "domain": "oncarecancer.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBbJYZcmnmdXVh"
   },
   {
     "id": "co_c387e7bc-4a9f-420a-bbcd-b3420d56e6c2",
@@ -65015,6 +66001,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_StpjQzHEXYgH3E"
+  },
+  {
+    "id": "co_c3b0bb0e-cc98-47a2-ad1f-9790ed2e2282",
+    "name": "https://purpleleaf.ai/",
+    "domain": "purpleleaf.ai",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBXonCqI1rs0Ty"
   },
   {
     "id": "co_c3b30022-0952-41e9-be63-a1903b8a3f4c",
@@ -65919,6 +66913,14 @@
     "stripeCustomerId": "cus_SkFZQw40tFaKhj"
   },
   {
+    "id": "co_c66236ee-708e-407e-a9c2-9a6550cbf0a9",
+    "name": "karagua ecotech",
+    "domain": "netlify.app",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBh6bc7kuTJpSX"
+  },
+  {
     "id": "co_c6673bdc-e860-4e23-b13f-9250e3eeec4c",
     "name": "GetProven",
     "domain": "getproven.com",
@@ -66258,6 +67260,14 @@
     "leadType": "SALES"
   },
   {
+    "id": "co_c7482ca6-16ac-4131-8712-371a72210a4e",
+    "name": "Turboshop",
+    "domain": "turboshop.cl",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBeaIl883MNnQR"
+  },
+  {
     "id": "co_c74bbd39-a4bf-4d73-bd4f-a1c36b7b1cab",
     "name": "Vermilion",
     "domain": "vermilion.com",
@@ -66467,6 +67477,16 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Seh7UqkraiEnGH",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_c7f7e14d-1ab4-4385-888b-7af0da9ffa89",
+    "name": "Growth Pro",
+    "domain": "growth.pro",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBXvNgXzaldsAS",
+    "stripeSubscriptionStatus": "active",
+    "stripeSubscriptionId": "sub_1SFAu1KojVEYZPlXLvF0AMWE"
   },
   {
     "id": "co_c7f8d09f-9b30-4fb1-996f-362304b4ff6a",
@@ -66769,7 +67789,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8xk8rDGirYy2m",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SCfrDKojVEYZPlXjVy1AGHI"
   },
   {
@@ -66889,6 +67909,13 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SqZqcOnTpf7CQ4"
+  },
+  {
+    "id": "co_c8ee2399-8247-43cb-9ca8-1e6c44084c58",
+    "name": "FDJ United",
+    "domain": "fdjunited.com",
+    "type": "IN_HOUSE",
+    "leadType": "SALES"
   },
   {
     "id": "co_c8f8958d-4b26-4a7e-bc1f-1cea4ea47840",
@@ -67052,6 +68079,14 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SoWFzT47DHnilQ",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_c9805ee1-9ec4-4dba-a4b4-24e95d42ac0e",
+    "name": "Random Psychology Writer",
+    "domain": "substack.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBbiRABv3jSzi4"
   },
   {
     "id": "co_c98b937b-02e9-4921-8b7d-5adfbd0a8094",
@@ -67367,6 +68402,14 @@
     "stripeSubscriptionStatus": "canceled"
   },
   {
+    "id": "co_ca672094-b85e-4e6e-9d6b-7e4649733e98",
+    "name": "Gerbrand Petersen",
+    "domain": "adglare.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBY160Rk1Ejl1s"
+  },
+  {
     "id": "co_ca673708-3877-41b9-b437-84e42bd1c3ee",
     "name": "OTTO",
     "domain": "otto.de",
@@ -67661,6 +68704,16 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SgRQOa139LbA2Z"
+  },
+  {
+    "id": "co_cb511622-da0e-4282-b820-1cff45e33938",
+    "name": "Klinik",
+    "domain": "klinikradar.de",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBdlJDGub9lQT6",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFGVGKojVEYZPlXVMWQJLcd"
   },
   {
     "id": "co_cb530a0c-0e5e-4463-b85d-84d628178cd8",
@@ -68294,7 +69347,8 @@
     "name": "GRASP German GRC",
     "domain": "grasp-grc.com",
     "type": "IN_HOUSE",
-    "leadType": "SELF_SERVICE"
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBXesK05elYWqm"
   },
   {
     "id": "co_cd3c6c80-2f73-49d7-93ee-fb96ab7c25ca",
@@ -68896,7 +69950,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8vo2GAvJi3WnY",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SCdxoKojVEYZPlXGtZaJDiv"
   },
   {
@@ -69481,8 +70535,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8znE6YMOc0Uk4",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SChrMKojVEYZPlXCz0KuXuc"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_d10f0e95-eb23-4509-a14a-89c7f6380ae4",
@@ -70032,8 +71085,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T93OAxUofHCkAn",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SClLSKojVEYZPlXYfLH7GVb"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_d2c7e422-06c4-4159-a57d-934b46765036",
@@ -70069,6 +71121,14 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SgnCRJjHcWJVd3"
+  },
+  {
+    "id": "co_d2d33b2c-9cd0-4c67-8825-8db9bc966856",
+    "name": "MediNation Belgium",
+    "domain": "medination.be",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBpz5mq7HkCZTB"
   },
   {
     "id": "co_d2dc8332-330e-4178-951d-8db18a71f8ff",
@@ -70408,11 +71468,26 @@
     "stripeCustomerId": "cus_SmsfXNXhSo0ehm"
   },
   {
+    "id": "co_d3e7a80e-5b89-44b3-9521-da4e26233364",
+    "name": "Klivur",
+    "domain": "framer.website",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE"
+  },
+  {
     "id": "co_d3f41cab-7875-42fd-a586-63b5e1cd5961",
     "name": "Tombras",
     "domain": "tombras.com",
     "type": "AGENCY",
     "leadType": "SELF_SERVICE"
+  },
+  {
+    "id": "co_d3f5bfcc-70f3-453b-b022-4966a67b060b",
+    "name": "santekno",
+    "domain": "santekno.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBU7CcBFKGOwxL"
   },
   {
     "id": "co_d3ff0cd4-18ec-4b31-8909-378e92a579fb",
@@ -70554,6 +71629,13 @@
     "stripeCustomerId": "cus_SdqTev8Bx47wTA",
     "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1RiZ4sKojVEYZPlXd33YzUoF"
+  },
+  {
+    "id": "co_d476f892-2f5d-4def-8c6a-b4068124a40d",
+    "name": "Slobada",
+    "domain": "slobada-studio.com",
+    "type": "IN_HOUSE",
+    "leadType": "SALES"
   },
   {
     "id": "co_d48782c5-1294-4906-bbdb-fd023e7afa9e",
@@ -70871,6 +71953,16 @@
     "leadType": "SELF_SERVICE"
   },
   {
+    "id": "co_d5686ce8-eb36-4753-8a35-878cc11af530",
+    "name": "AWi",
+    "domain": "aw-i.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBv2LUf6oiSFLp",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFXEOKojVEYZPlXEVEfTnlA"
+  },
+  {
     "id": "co_d56927b0-1382-468c-a1d1-86e0016c4e2f",
     "name": "Renan",
     "domain": "cielo.com.br",
@@ -70932,8 +72024,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Ss3YKsykJzhDlL",
-    "stripeSubscriptionStatus": "past_due",
-    "stripeSubscriptionId": "sub_1RwJRqKojVEYZPlXgwgUdVyg"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_d5a23b16-5aef-43ef-9d1b-6f74ff6edf39",
@@ -70966,6 +72057,13 @@
     "leadType": "SELF_SERVICE"
   },
   {
+    "id": "co_d5c8a125-3ac0-4950-928c-c7d227cb6456",
+    "name": "Porsche",
+    "domain": "porsche.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE"
+  },
+  {
     "id": "co_d5cf8043-8988-4639-8f75-ae126b5b5608",
     "name": "Coda",
     "domain": "coda.co",
@@ -70980,6 +72078,16 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SqyAsdK32EhWH0"
+  },
+  {
+    "id": "co_d5dc2f42-debf-4b4e-b855-5e2555b1c18a",
+    "name": "Die Medialen GmbH",
+    "domain": "diemedialen.de",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBWrxidPwDdvqM",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SF9qPKojVEYZPlX7eN47itb"
   },
   {
     "id": "co_d5de954c-4436-4d69-b8d0-1547de4ac7b5",
@@ -71310,6 +72418,16 @@
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T6JgQaegzvznvl",
     "stripeSubscriptionStatus": "canceled"
+  },
+  {
+    "id": "co_d6d5c280-8582-4f97-9152-ec5fd6644389",
+    "name": "Bubu",
+    "domain": "bubu.ro",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBdI75vemhygwF",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFG3lKojVEYZPlXEZeqdgrc"
   },
   {
     "id": "co_d6dfdbec-68e1-45f7-9f7d-42385074d326",
@@ -71899,6 +73017,14 @@
     "stripeCustomerId": "cus_T77dDc1Ijp2EFk"
   },
   {
+    "id": "co_d8658ad2-af51-4cc3-b588-0c32d76b59a0",
+    "name": "GetGround",
+    "domain": "getground.co.uk",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBWTGo7TN0dj65"
+  },
+  {
     "id": "co_d8690191-a3e0-4c4c-8e7c-e4370077b119",
     "name": "DuraAI",
     "domain": "duraai.com",
@@ -72009,6 +73135,22 @@
     "stripeCustomerId": "cus_T7tjDSvnzo7dc0"
   },
   {
+    "id": "co_d8c6026c-7ad3-4c8e-924f-1d98cf2e2a40",
+    "name": "Escape Velocity (EV3)",
+    "domain": "ev3.xyz",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBPTFLPbs9bQkl"
+  },
+  {
+    "id": "co_d8c810ab-2918-4a00-be05-fd993c72f4f9",
+    "name": "Wattlecorp",
+    "domain": "wattlecorp.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBuUfKRkHm5OPT"
+  },
+  {
     "id": "co_d8c997c1-2e5f-435b-a89a-8ce11f9b7a23",
     "name": "NerdOptimize",
     "domain": "nerdoptimize.com",
@@ -72060,6 +73202,14 @@
     "stripeCustomerId": "cus_SbBtHqEcSDQ5jk",
     "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1RfzVUKojVEYZPlXDKpbd6nO"
+  },
+  {
+    "id": "co_d8e4613f-64c2-495c-8bd9-241399a36279",
+    "name": "3VC",
+    "domain": "three.vc",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBbKXxbKAJxnIy"
   },
   {
     "id": "co_d8ee46d9-ce27-456d-a6db-7774e1c0ca75",
@@ -72304,6 +73454,13 @@
     "stripeSubscriptionStatus": "canceled"
   },
   {
+    "id": "co_d9c259bf-ee1e-4ab5-866a-5d4b8c41dd56",
+    "name": "oikio",
+    "domain": "oikio.fi",
+    "type": "AGENCY",
+    "leadType": "SALES"
+  },
+  {
     "id": "co_d9cd0946-e3cc-450c-9478-92065656c27e",
     "name": "Baserow",
     "domain": "baserow.io",
@@ -72320,6 +73477,15 @@
     "stripeCustomerId": "cus_TAquZQhrY6iDOx",
     "stripeSubscriptionStatus": "trialing",
     "stripeSubscriptionId": "sub_1SEVEqKojVEYZPlXao4ih1fy"
+  },
+  {
+    "id": "co_d9e3c123-dde4-4fbd-9c8d-f4a9583e0100",
+    "name": "Future PLC (Dell)",
+    "domain": "futureplc.com",
+    "type": "AGENCY",
+    "leadType": "SALES",
+    "stripeCustomerId": "cus_TBeNkloHR7TH4q",
+    "stripeSubscriptionId": "sub_1SFH5gKojVEYZPlXnxA8JsV4"
   },
   {
     "id": "co_d9e6b280-d172-4081-abb5-824f6f03a60b",
@@ -72694,8 +73860,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T7NzVwQ778vGtL",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SChu9KojVEYZPlXFdVSo9Y2"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_daa8081c-4b34-4116-b660-2530b1ea93c8",
@@ -73061,6 +74226,16 @@
     "stripeCustomerId": "cus_T7zDbP0FPc4AwW"
   },
   {
+    "id": "co_dc11266b-eeb7-41c7-9b8c-5b971dbc5e14",
+    "name": "Deltadroplet",
+    "domain": "deltadroplet.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBuFXSaYE1xHZz",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFWSVKojVEYZPlXsQSUpQbA"
+  },
+  {
     "id": "co_dc131a20-b154-4b60-b334-b9b136199f6e",
     "name": "Overdrive Interactive",
     "domain": "overdriveinteractive.com",
@@ -73254,7 +74429,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T99fwXULVKKtCC",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SCrNzKojVEYZPlX4PfpeE1z"
   },
   {
@@ -73325,6 +74500,14 @@
     "domain": "pixelateclients.me",
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE"
+  },
+  {
+    "id": "co_dce5a280-77de-4738-b4ed-8988f9f19e09",
+    "name": "Growth Pro",
+    "domain": "growth.pro",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBXQRRlIleXY6U"
   },
   {
     "id": "co_dce7b524-96d7-47f5-945b-30c84914987e",
@@ -74255,7 +75438,8 @@
     "name": "Legence",
     "domain": "wearelegence.com",
     "type": "AGENCY",
-    "leadType": "SALES"
+    "leadType": "SALES",
+    "stripeCustomerId": "cus_TBia3xlaIPrvj6"
   },
   {
     "id": "co_dfc8ff9c-b203-437a-ba8e-d7ea07262ed7",
@@ -74412,7 +75596,9 @@
     "domain": "myflyright.com",
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
-    "stripeCustomerId": "cus_T9iLnCu2Au4ASc"
+    "stripeCustomerId": "cus_T9iLnCu2Au4ASc",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFDAyKojVEYZPlXDhek62Z5"
   },
   {
     "id": "co_e07b5341-049f-4cdc-8893-a7aae121db17",
@@ -74752,6 +75938,14 @@
     "stripeSubscriptionId": "sub_1SArIXKojVEYZPlXpZbip18r"
   },
   {
+    "id": "co_e15c6f22-b9a5-431b-bc9b-8ffeaffe0c51",
+    "name": "Ariadna",
+    "domain": "ariadnacommunicationsgroup.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBhbfQc0vALKzq"
+  },
+  {
     "id": "co_e15ffdde-46b6-40be-abfa-2446ebb0b5c4",
     "name": "RankFi",
     "domain": "rankfi.com",
@@ -74767,6 +75961,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_ScgEX0iIdgItaQ"
+  },
+  {
+    "id": "co_e1753751-e862-4c8e-8703-605264b81fe0",
+    "name": "Helpling",
+    "domain": "helpling.de",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBZKqAAhhOR8NT"
   },
   {
     "id": "co_e184ed27-b74d-4344-9422-614875813e05",
@@ -75379,6 +76581,14 @@
     "stripeCustomerId": "cus_SjA3M5pLCxR757"
   },
   {
+    "id": "co_e307cda5-fe4f-4d72-8ad7-b1fde7ac4bcb",
+    "name": "MANDARIN MEDIEN GmbH",
+    "domain": "mandarin.digital",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBsv2bYUZ0mqzI"
+  },
+  {
     "id": "co_e31504cf-d2e5-4f9c-b979-6aa03a1ef4d8",
     "name": "GTM Talent",
     "domain": "gtmtalent.tech",
@@ -75981,6 +77191,14 @@
     "leadType": "SALES"
   },
   {
+    "id": "co_e498a064-9387-48c2-b365-006994b8f628",
+    "name": "Pandaprintables247",
+    "domain": "pandaprintables247.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBgPpAZ3Krr1nt"
+  },
+  {
     "id": "co_e4995b6d-62cf-4917-83ad-90cfd6e1a158",
     "name": "New Level City",
     "domain": "new-level-city.ru",
@@ -76163,6 +77381,16 @@
     "stripeCustomerId": "cus_Se0X7QRWFTfLlp"
   },
   {
+    "id": "co_e5159b05-d5bc-4aa0-a630-f719eae554d3",
+    "name": "ThruLiquid Inc",
+    "domain": "thruliquid.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBevH28hs48s2c",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFHesKojVEYZPlXCXywuuR9"
+  },
+  {
     "id": "co_e51ac208-d106-4bbe-821a-309576f4a295",
     "name": "K2",
     "domain": "k2precise.pl",
@@ -76200,8 +77428,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Ss90zUDlS63kt9",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCk4BKojVEYZPlXz2eJr0mU"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_e53c154a-40b9-4052-baac-b569b2f866b1",
@@ -76786,7 +78013,8 @@
     "name": "Equator",
     "domain": "eqtr.com",
     "type": "AGENCY",
-    "leadType": "SALES"
+    "leadType": "SALES",
+    "stripeCustomerId": "cus_TBcjrd7ellVLC6"
   },
   {
     "id": "co_e70a60f9-6caf-4538-bbe3-b248b85707ba",
@@ -76953,8 +78181,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T8uUsx3d3fU8yj",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCdBDKojVEYZPlXdCTfe7Vw"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_e781947f-045c-4966-bd92-4d23393a68af",
@@ -77668,7 +78895,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Sf03i8frOYui8M",
-    "stripeSubscriptionStatus": "past_due",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1RqrREKojVEYZPlXbw10wR6v"
   },
   {
@@ -77816,6 +79043,14 @@
     "type": "AGENCY",
     "leadType": "SALES",
     "stripeCustomerId": "cus_SVxCJ4GZn5cuVf"
+  },
+  {
+    "id": "co_ea09781d-2446-41a9-bb8b-cb82e9adf94c",
+    "name": "lulli",
+    "domain": "lulli-sur-la-toile.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBd2754IAesyr2"
   },
   {
     "id": "co_ea0a6c92-5fd0-4d61-b3c6-225ab21577e4",
@@ -78027,6 +79262,14 @@
     "leadType": "SALES"
   },
   {
+    "id": "co_ea810b4a-c868-4501-a0b2-8fbf61e870ed",
+    "name": "Constanza Brites ",
+    "domain": "hatchecom.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBdwlRQWIreaEs"
+  },
+  {
     "id": "co_ea8dcf22-dee9-4409-81e7-cc6bf6beae92",
     "name": "test",
     "domain": "test.com",
@@ -78153,6 +79396,16 @@
     "domain": "morningcrunch.de",
     "type": "IN_HOUSE",
     "leadType": "SALES"
+  },
+  {
+    "id": "co_eb02730e-0ba8-401f-831e-8a1f84b66d18",
+    "name": "Sourcefit",
+    "domain": "sourcefit.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBowYy01DbHG9k",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFRKgKojVEYZPlX9mMo1ISC"
   },
   {
     "id": "co_eb0e1130-6547-4379-bccb-3ee9889bf374",
@@ -78306,8 +79559,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T3ttGokRglppcX",
-    "stripeSubscriptionStatus": "past_due",
-    "stripeSubscriptionId": "sub_1S7m7IKojVEYZPlX6ApD2oHG"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_eb8d89ef-d8cc-4f3b-a6fa-816c51d8cbf7",
@@ -78747,7 +79999,7 @@
   },
   {
     "id": "co_ec7dd6a4-f054-49f2-8f5b-013172fcd7cb",
-    "name": "Text",
+    "name": "Text App",
     "domain": "text.com",
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
@@ -79983,7 +81235,8 @@
     "name": "Brainlabs",
     "domain": "brainlabs.com",
     "type": "AGENCY",
-    "leadType": "SELF_SERVICE"
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBsToHncgAbtFP"
   },
   {
     "id": "co_efe63ed8-9e17-4ecc-9083-1bded5b75600",
@@ -80182,7 +81435,7 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Sp8IC7BQ2mpjv3",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SCfYcKojVEYZPlX8vjGUu7O"
   },
   {
@@ -80521,6 +81774,14 @@
     "stripeCustomerId": "cus_T7LC1ddanG9l0u"
   },
   {
+    "id": "co_f1771f8d-29ee-4203-a171-ca11a71bcbb8",
+    "name": "Alice",
+    "domain": "yandex.ru",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBdQzTmBMzWpjZ"
+  },
+  {
     "id": "co_f17b7209-8c1a-48e0-9316-003a6dda91de",
     "name": "Pelago",
     "domain": "pelago.com",
@@ -80577,7 +81838,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T6GOM8hpWPKxrb",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "past_due",
     "stripeSubscriptionId": "sub_1SCgNPKojVEYZPlXNkfl4tDA"
   },
   {
@@ -80677,6 +81938,13 @@
     "stripeCustomerId": "cus_Sfx4X1AaXTKWbJ"
   },
   {
+    "id": "co_f20514da-6f48-40b8-9f72-79626bb43b2e",
+    "name": "Oktra",
+    "domain": "oktra.co.uk",
+    "type": "IN_HOUSE",
+    "leadType": "SALES"
+  },
+  {
     "id": "co_f2059a5c-3565-4667-87c4-f6d1aba1bc60",
     "name": "CBS University ",
     "domain": "cbs.de",
@@ -80763,6 +82031,14 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Sn9JMigr8yje50"
+  },
+  {
+    "id": "co_f24374d7-ee10-488d-a3b0-5ec659d8ca1f",
+    "name": "Bankwest",
+    "domain": "bankwest.com.au",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBtRWi10jMliSp"
   },
   {
     "id": "co_f2482604-657e-4339-9d85-d9ac9ddf7358",
@@ -81057,6 +82333,14 @@
     "leadType": "SELF_SERVICE"
   },
   {
+    "id": "co_f33a6eb1-f316-45d6-a348-ea4a1c6f4d75",
+    "name": "Oncare",
+    "domain": "oncarecancer.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBX0tYXruyFxW1"
+  },
+  {
     "id": "co_f340b296-1fb2-4303-bc66-4a5c317dca4b",
     "name": "Elisa Eesti AS",
     "domain": "elisa.ee",
@@ -81089,7 +82373,7 @@
     "type": "IN_HOUSE",
     "leadType": "SALES",
     "stripeCustomerId": "cus_ScKYzvzocVSQJi",
-    "stripeSubscriptionStatus": "past_due",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1Rh5tBKojVEYZPlXPnZswO2Y"
   },
   {
@@ -81131,8 +82415,7 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_Svu6zVha8qebvh",
-    "stripeSubscriptionStatus": "trialing",
-    "stripeSubscriptionId": "sub_1SCcUeKojVEYZPlXUQOrLgBh"
+    "stripeSubscriptionStatus": "canceled"
   },
   {
     "id": "co_f376b926-5782-4297-a217-cf4884959e40",
@@ -82570,6 +83853,14 @@
     "stripeSubscriptionStatus": "canceled"
   },
   {
+    "id": "co_f86dfdc8-cfb6-422d-8e02-1fd49ef35706",
+    "name": "comdaily",
+    "domain": "comdaily.ai",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBWzLbfzzvktOi"
+  },
+  {
     "id": "co_f87294b0-4050-4e39-9ba6-3c543b11c0c0",
     "name": "Cardata",
     "domain": "cardata.co",
@@ -82914,11 +84205,11 @@
   {
     "id": "co_f9480435-13a7-41af-96b5-14d916d0341d",
     "name": "CapitalBox",
-    "domain": "capitalbox.lt",
+    "domain": "capitalbox.nl",
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_T9GtHGdqqWmM6M",
-    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1SCyMAKojVEYZPlXszUxEck2"
   },
   {
@@ -83246,6 +84537,16 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_SlM1JA9ZLeOAWP"
+  },
+  {
+    "id": "co_fa69245f-6bcb-493a-a0b9-e3c468c49db1",
+    "name": "Icon Siam",
+    "domain": "iconsiam.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBS4oUCcdhZwxg",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SF5aJKojVEYZPlXpdOdgfnL"
   },
   {
     "id": "co_fa6a48ca-87c1-4924-918b-14c93268cf6b",
@@ -83590,6 +84891,14 @@
     "leadType": "SELF_SERVICE"
   },
   {
+    "id": "co_fb69c423-3532-4d1a-9c28-40cc1dd6d9f8",
+    "name": "EBQ",
+    "domain": "ebq.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBdQPKbdQP5gya"
+  },
+  {
     "id": "co_fb74560d-4fd6-4758-914c-7c25fa33b827",
     "name": "Harmix AI",
     "domain": "harmix.ai",
@@ -83789,6 +85098,16 @@
     "stripeCustomerId": "cus_SDw7buxjTnl517",
     "stripeSubscriptionStatus": "active",
     "stripeSubscriptionId": "sub_1RJUHJKojVEYZPlXXZeDjH0c"
+  },
+  {
+    "id": "co_fbe39083-114a-463a-aeb6-8391a1079c32",
+    "name": "Digital Science",
+    "domain": "digital-science.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBYlcPB4xWAlJ5",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFBf4KojVEYZPlXr5LWuQGJ"
   },
   {
     "id": "co_fbe48797-2a61-4917-a0d8-57bb2248628a",
@@ -84022,7 +85341,8 @@
     "name": "vinted",
     "domain": "vinted.nl",
     "type": "IN_HOUSE",
-    "leadType": "SELF_SERVICE"
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBt2cfGWeO3sbM"
   },
   {
     "id": "co_fc9f9301-4cc5-42af-8d40-a100b0b09d8a",
@@ -84154,6 +85474,14 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_TAQH9K896k40g5"
+  },
+  {
+    "id": "co_fd3aabe1-8be7-4d1b-9a31-79c17f40eac5",
+    "name": "Cosmina",
+    "domain": "kovimag.ro",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBZnYkbaZvcQxS"
   },
   {
     "id": "co_fd3e0a1d-2c75-4527-b6a9-a4b9eba3ee4e",
@@ -84363,6 +85691,14 @@
     "domain": "hubspot.com",
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE"
+  },
+  {
+    "id": "co_fdbbe71c-88da-4e44-8fa0-144825653467",
+    "name": "PChome",
+    "domain": "pchome.com.tw",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBevo1tyeBltrt"
   },
   {
     "id": "co_fdbee0b3-efa9-4372-92c0-5569c710710e",
@@ -84655,6 +85991,13 @@
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_ShDz61XreXTph1"
+  },
+  {
+    "id": "co_fedd48c6-f053-429b-9735-906d476e7a09",
+    "name": "Reply Threepipe",
+    "domain": "threepipereply.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE"
   },
   {
     "id": "co_feeb5e07-710a-4a25-bab1-e5075b9e7297",
@@ -85066,5 +86409,29 @@
     "type": "IN_HOUSE",
     "leadType": "SALES",
     "stripeCustomerId": "cus_STi8pii8wfP4QQ"
+  },
+  {
+    "id": "co_3c701e94-f1d4-46f1-a4de-38eb867ef540",
+    "name": "fincite",
+    "domain": "fincite.de",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBvMTZrggZNM7U"
+  },
+  {
+    "id": "co_665330e0-2277-4b1c-9c51-2de621380d34",
+    "name": "Accesto",
+    "domain": "accesto.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBvWYTk1GqPVM4"
+  },
+  {
+    "id": "co_6dcaa53a-1d4e-40e7-9890-d1f3a7713f90",
+    "name": "Little Love ",
+    "domain": "littlelove.app",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBvg6dQmp2txMS"
   }
 ]

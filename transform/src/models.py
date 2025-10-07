@@ -28,7 +28,7 @@ class Organization(CamelCaseModel):
 class Company(CamelCaseModel):
     id: str
     name: str
-    type: Literal["IN_HOUSE", "AGENCY"]
+    type: Literal["IN_HOUSE", "AGENCY", "PARTNER"]
     domain: Optional[str] = None
     stripe_customer_id: str
     stripe_subscription_id: str
@@ -46,7 +46,7 @@ class SubscriptionItem(CamelCaseModel):
 class MigrationOutput(BaseModel):
     company_name: str
     company_domain: Optional[str]
-    company_type: Literal["IN_HOUSE", "AGENCY"]
+    company_type: Literal["IN_HOUSE", "AGENCY", "PARTNER"]
     orgs_count: int
     orgs_count_hf: int
 

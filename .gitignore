@@ -3,3 +3,4 @@
 node_modules
 .cursor
 *firestore-key.json
+.DS_Store

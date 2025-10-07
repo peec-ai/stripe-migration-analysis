@@ -1,5 +1,7 @@
 import { JSONParser } from "@streamparser/json";
 import { z } from "zod";
+import fs from "fs";
+import path from "path";
 
 export const ModelId = z.enum([
   "gpt-4o",
@@ -34,61 +36,52 @@ export const Organization = z.object({
 export type Organization = z.infer<typeof Organization>;
 
 export async function processOrganizations() {
-  console.log("Starting to process organizations stream...");
+  console.log("Starting to process organizations...");
 
-  const inputFile = "../data/firestore_organizations.json";
-  const parser = new JSONParser({
-    paths: ["$.*"], // This emits each element of the root array
-  });
+  const inputFile = path.join(
+    __dirname,
+    "../../data/firestore_organizations.json"
+  );
+  const outputFile = path.join(
+    __dirname,
+    "../../data/processed_organizations.json"
+  );
 
-  const outputFile = "../data/processed_organizations.json";
-  const writer = Bun.file(outputFile).writer();
-  writer.write("[\n");
+  try {
+    const fileContent = fs.readFileSync(inputFile, "utf-8");
+    const organizations = JSON.parse(fileContent);
 
-  let count = 0;
+    const processedOrgs = organizations.map((org: any) => {
+      const processedOrg: Partial<Organization> = {
+        id: org.id,
+        promptLimit: org.promptLimit,
+        chatIntervalInHours: org.chatIntervalInHours,
+        domain: org.domain,
+        name: org.name,
+        status: org.status,
+        modelIds: org.modelIds,
+        companyName: org.companyName,
+        promptsCount: org.promptsCount,
+        companyId: org.companyId,
+      };
+      return processedOrg;
+    });
 
-  parser.onValue = ({ value }) => {
-    const org = value as any;
+    fs.writeFileSync(outputFile, JSON.stringify(processedOrgs, null, 2));
 
-    const processedOrg: Partial<Organization> = {
-      id: org.id,
-      promptLimit: org.promptLimit,
-      chatIntervalInHours: org.chatIntervalInHours,
-      domain: org.domain,
-      name: org.name,
-      status: org.status,
-      modelIds: org.modelIds,
-      companyName: org.companyName,
-      promptsCount: org.promptsCount,
-      companyId: org.companyId,
-    };
-
-    // Here you can do something with the processed object
-    // For now, we'll just log it.
-    // console.log(processedOrg);
-    count++;
-    writer.write(JSON.stringify(processedOrg, null, 2));
-    writer.write(",\n");
-  };
-
-  const stream = Bun.file(inputFile).stream();
-
-  for await (const chunk of stream) {
-    parser.write(chunk);
+    console.log(
+      `Successfully processed ${processedOrgs.length} organizations.`
+    );
+  } catch (error) {
+    console.error("Error processing organizations:", error);
   }
-
-  writer.write("\n]\n");
-  writer.flush();
-  writer.end();
-
-  console.log(`Successfully processed ${count} organizations.`);
 }
 
 export const Company = z.object({
   id: z.string(),
   name: z.string(),
   domain: z.string().optional(),
-  type: z.enum(["IN_HOUSE", "AGENCY"]),
+  type: z.enum(["IN_HOUSE", "AGENCY", "PARTNER"]),
   leadType: z.enum(["SALES", "SELF_SERVICE"]).optional(),
   stripeCustomerId: z.string().optional(),
   stripeSubscriptionStatus: z
@@ -99,54 +92,43 @@ export const Company = z.object({
 export type Company = z.infer<typeof Company>;
 
 export async function processCompanies() {
-  console.log("Starting to process organizations stream...");
+  console.log("Starting to process companies...");
 
-  const inputFile = "../data/firestore_companies.json";
-  const parser = new JSONParser({
-    paths: ["$.*"], // This emits each element of the root array
-  });
+  const inputFile = path.join(__dirname, "../../data/firestore_companies.json");
+  const outputFile = path.join(
+    __dirname,
+    "../../data/processed_companies.json"
+  );
 
-  const outputFile = "../data/processed_companies.json";
-  const writer = Bun.file(outputFile).writer();
-  writer.write("[\n");
+  try {
+    const fileContent = fs.readFileSync(inputFile, "utf-8");
+    const companies = JSON.parse(fileContent);
 
-  let count = 0;
+    const processedCompanies = companies
+      .filter((comp: any) => !comp.isDeleted)
+      .map((comp: any) => {
+        const processedComp: Company = {
+          id: comp.id,
+          name: comp.name,
+          domain: comp.domain,
+          type: comp.type,
+          leadType: comp.leadType,
+          stripeCustomerId: comp.stripeCustomerId,
+          stripeSubscriptionStatus: comp.stripeSubscriptionStatus,
+          stripeSubscriptionId: comp.stripeSubscriptionId,
+        };
+        return processedComp;
+      });
 
-  parser.onValue = ({ value }) => {
-    const org = value as any;
-    if (org.isDeleted) {
-      return;
-    }
+    fs.writeFileSync(
+      outputFile,
+      JSON.stringify(processedCompanies, null, 2)
+    );
 
-    const processedOrg: Company = {
-      id: org.id,
-      name: org.name,
-      domain: org.domain,
-      type: org.type,
-      leadType: org.leadType,
-      stripeCustomerId: org.stripeCustomerId,
-      stripeSubscriptionStatus: org.stripeSubscriptionStatus,
-      stripeSubscriptionId: org.stripeSubscriptionId,
-    };
-
-    // Here you can do something with the processed object
-    // For now, we'll just log it.
-    // console.log(processedOrg);
-    count++;
-    writer.write(JSON.stringify(processedOrg, null, 2));
-    writer.write(",\n");
-  };
-
-  const stream = Bun.file(inputFile).stream();
-
-  for await (const chunk of stream) {
-    parser.write(chunk);
+    console.log(
+      `Successfully processed ${processedCompanies.length} companies.`
+    );
+  } catch (error) {
+    console.error("Error processing companies:", error);
   }
-
-  // remove last comma
-  writer.write("\n]\n");
-  writer.flush();
-  writer.end();
-
-  console.log(`Successfully processed ${count} organizations.`);
 }
