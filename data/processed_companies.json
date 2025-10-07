@@ -38607,7 +38607,9 @@
     "domain": "karhuhelsinki.fi",
     "type": "AGENCY",
     "leadType": "SELF_SERVICE",
-    "stripeCustomerId": "cus_TBYyS3gy0kVHR9"
+    "stripeCustomerId": "cus_TBYyS3gy0kVHR9",
+    "stripeSubscriptionStatus": "trialing",
+    "stripeSubscriptionId": "sub_1SFac7KojVEYZPlXRsoAxTqY"
   },
   {
     "id": "co_71ad444a-9d0b-4adf-b2dc-6f2cc7120f42",
@@ -84561,7 +84563,8 @@
     "name": "Jim Bean",
     "domain": "jimbeam.com",
     "type": "IN_HOUSE",
-    "leadType": "SALES"
+    "leadType": "SALES",
+    "stripeCustomerId": "cus_TBykbhagNNttBU"
   },
   {
     "id": "co_fa711eef-2cd5-4b76-b615-e98effe4351e",
@@ -86591,5 +86594,27 @@
     "type": "IN_HOUSE",
     "leadType": "SELF_SERVICE",
     "stripeCustomerId": "cus_TBxMHibGgTPwi9"
+  },
+  {
+    "id": "co_004f67b6-6249-4c2b-9cf7-4c39dfb8b86e",
+    "name": "CytoSorbents",
+    "domain": "cytosorbents.com",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE"
+  },
+  {
+    "id": "co_0a75054b-5cba-40b9-bc5f-a9572d17e90c",
+    "name": "EquipmentCloud®",
+    "domain": "equipmentcloud.de",
+    "type": "IN_HOUSE",
+    "leadType": "SELF_SERVICE",
+    "stripeCustomerId": "cus_TBycAcQyORYH9M"
+  },
+  {
+    "id": "co_6aed5057-d7e6-4aaf-8ece-637b789e7780",
+    "name": "tires easy",
+    "domain": "tires-easy.com",
+    "type": "AGENCY",
+    "leadType": "SELF_SERVICE"
   }
 ]

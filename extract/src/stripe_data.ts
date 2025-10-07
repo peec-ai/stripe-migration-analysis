@@ -12,8 +12,8 @@ export const SubscriptionItemRecord = z.object({
   mrrCents: z.number(),
   unitAmount: z.number(),
   quantity: z.number(),
-  discounts: z.array(z.string()),
-  subscriptionDiscounts: z.array(z.string()),
+  discounts: z.array(z.string()), // Item-level coupon IDs
+  subscriptionDiscounts: z.array(z.string()), // Subscription-level coupon IDs
 });
 export type SubscriptionItemRecord = z.infer<typeof SubscriptionItemRecord>;
 
@@ -32,7 +32,10 @@ export async function fetchStripeSubscriptionItems() {
     for await (const sub of stripe.subscriptions.list({
       status: "active",
       limit: 100, // Fetch 100 per API call
-      expand: ["data.items.data.price"], // CRUCIAL: This fetches the full Price object
+      expand: [
+        "data.items.data.price",
+        "data.discounts.coupon"
+      ],
     })) {
       for (const item of sub.items.data) {
         // Safety check for items without a price or unit amount
@@ -55,6 +58,39 @@ export async function fetchStripeSubscriptionItems() {
 
         const mrrCents = item.price.unit_amount / (intervalCount * quotient);
 
+        // Extract coupon IDs from subscription discounts
+        const subscriptionDiscounts = (sub.discounts || [])
+          .map(discount => {
+            if (typeof discount === 'object' && discount !== null && 'coupon' in discount) {
+              const coupon = discount.coupon;
+              // Coupon can be either a string ID or an expanded object
+              if (typeof coupon === 'string') {
+                return coupon;
+              } else if (typeof coupon === 'object' && coupon !== null && 'id' in coupon) {
+                return coupon.id as string;
+              }
+            }
+            return null;
+          })
+          .filter((id): id is string => id !== null);
+
+        // Extract coupon IDs from item discounts
+        // Note: item discounts are not expanded, so we extract the coupon ID directly
+        const itemDiscounts = (item.discounts || [])
+          .map(discount => {
+            if (typeof discount === 'object' && discount !== null && 'coupon' in discount) {
+              const coupon = discount.coupon;
+              // Coupon can be either a string ID or an object reference
+              if (typeof coupon === 'string') {
+                return coupon;
+              } else if (typeof coupon === 'object' && coupon !== null && 'id' in coupon) {
+                return coupon.id as string;
+              }
+            }
+            return null;
+          })
+          .filter((id): id is string => id !== null);
+
         allItems.push({
           customerId: sub.customer as string,
           subscriptionId: sub.id,
@@ -65,8 +101,8 @@ export async function fetchStripeSubscriptionItems() {
           mrrCents,
           unitAmount: item.price.unit_amount,
           quantity: item.quantity || 1,
-          subscriptionDiscounts: (sub.discounts as string[]) || [],
-          discounts: (item.discounts as string[]) || [],
+          subscriptionDiscounts,
+          discounts: itemDiscounts,
         });
       }
     }

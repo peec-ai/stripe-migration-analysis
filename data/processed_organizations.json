@@ -355,7 +355,7 @@
       "google-ai-overview"
     ],
     "companyName": "MutuiOnline",
-    "promptsCount": 91,
+    "promptsCount": 95,
     "companyId": "co_cfa73b2d-99ec-48f2-9f88-928194462e27"
   },
   {
@@ -3290,7 +3290,7 @@
       "google-ai-overview"
     ],
     "companyName": "Making Science",
-    "promptsCount": 6,
+    "promptsCount": 17,
     "companyId": "co_6507b7e8-c46b-476a-8f69-5300a8382650"
   },
   {
@@ -18500,7 +18500,7 @@
       "google-ai-overview"
     ],
     "companyName": "Wickey",
-    "promptsCount": 71,
+    "promptsCount": 100,
     "companyId": "co_00e9c907-6659-4829-9a93-558923266790"
   },
   {
@@ -32944,7 +32944,7 @@
       "google-ai-overview"
     ],
     "companyName": "Prozis",
-    "promptsCount": 89,
+    "promptsCount": 88,
     "companyId": "co_2c1d9ade-1814-49ae-b5f7-68280cf7f8c1"
   },
   {
@@ -44902,5 +44902,21 @@
     "companyName": "Fire on the Hill",
     "promptsCount": 100,
     "companyId": "co_3a2fa76d-5153-44b7-9dc1-3a024c753035"
+  },
+  {
+    "id": "or_a02a3380-46e9-425f-b96f-c26a6323601a",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "karhuhelsinki.fi",
+    "name": "Karhu Helsinki",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Karhu Helsinki Inc.",
+    "promptsCount": 7,
+    "companyId": "co_71a3683f-1802-44ca-b1e3-828f59907581"
   }
 ]
