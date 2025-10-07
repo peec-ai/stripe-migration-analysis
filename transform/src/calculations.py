@@ -2,6 +2,8 @@ import pandas as pd
 
 # --- 1. Constants and Pricing Plans ---
 
+GUARDRAIL_ORG_COUNT = False
+
 # Using dictionaries for plans. Prices are in cents, matching the source data.
 BRAND_PLANS = {
     "starter": {
@@ -86,7 +88,7 @@ def calculate_scenarios_for_company(company_data: pd.Series) -> pd.Series:
 
     # Filter plans based on the number of organizations
     plans = {
-        name: p for name, p in all_plans.items() if p["max_org_count"] >= orgs_count
+        name: p for name, p in all_plans.items() if not GUARDRAIL_ORG_COUNT or p["max_org_count"] >= orgs_count
     }
 
     # If no plan can support the org count, find the one with the highest org count capacity.
