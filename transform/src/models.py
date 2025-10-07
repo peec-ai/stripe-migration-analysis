@@ -33,6 +33,14 @@ class Company(CamelCaseModel):
     stripe_customer_id: str
     stripe_subscription_id: str
 
+class StripeCoupon(CamelCaseModel):
+    id: str
+    name: Optional[str] = None
+    amount_off: Optional[int] = None
+    percent_off: Optional[float] = None
+    duration: str
+    duration_in_months: Optional[int] = None
+
 
 class SubscriptionItem(CamelCaseModel):
     customer_id: str
@@ -40,6 +48,8 @@ class SubscriptionItem(CamelCaseModel):
     quantity: int
     interval: str
     interval_count: int
+    subscription_discounts: List[str]
+    discounts: List[str]
 
 
 # --- Output Model (for our final CSV) ---
@@ -55,6 +65,8 @@ class MigrationOutput(BaseModel):
     current_mrr: int
     current_arr: int
     interval: str
+    discount: int
+    discounts: str
 
     prompt_usage: int
     prompt_capacity: int

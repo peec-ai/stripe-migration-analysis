@@ -144,3 +144,56 @@ def calculate_credits_capacity(row: pd.Series) -> int:
 
     model_prices = [MODEL_ID_PRICE_MAP.get(mid, 0) for mid in row["model_ids"]]
     return int(sum(model_prices) * row["prompt_limit"] * runs_per_month)
+
+def calculate_coupon_multiplier(coupon_ids: list, coupons_map: dict) -> tuple[float, int, int]:
+    """
+    Calculate the discount multiplier for a list of coupon IDs.
+    Only accounts for coupons that are forever or repeating for 12+ months.
+    Returns a tuple of (multiplier, long_term_count, total_count) where:
+    - multiplier: the multiplier to apply to the price (e.g., 0.8 for 20% off)
+    - long_term_count: the number of long-term discounts applied (forever or >=12 months)
+    - total_count: the total number of valid discounts (including short-term)
+    """
+    if not coupon_ids:
+        return 1.0, 0, 0
+    
+    total_percent_off = 0.0
+    total_amount_off = 0.0
+    long_term_discount_count = 0
+    total_discount_count = 0
+    
+    for coupon_id in coupon_ids:
+        coupon = coupons_map.get(coupon_id)
+        if not coupon:
+            continue
+        
+        # Count this as a valid discount
+        total_discount_count += 1
+        
+        # Only account for long-term discounts (forever or repeating >= 12 months)
+        duration = coupon.get('duration')
+        duration_in_months = coupon.get('duration_in_months')
+        
+        should_account = (
+            duration == 'forever' or 
+            (duration == 'repeating' and duration_in_months and duration_in_months >= 12)
+        )
+        
+        if not should_account:
+            continue
+        
+        long_term_discount_count += 1
+        
+        # Apply percentage discount
+        if coupon.get('percent_off'):
+            total_percent_off += coupon['percent_off']
+        
+        # Amount off is handled separately (we'll need to know the price)
+        if coupon.get('amount_off'):
+            total_amount_off += coupon['amount_off']
+    
+    # Calculate multiplier (assuming no amount_off for now, as it's price-dependent)
+    # Percent discounts stack additively (e.g., 10% + 20% = 30% off)
+    multiplier = 1.0 - (total_percent_off / 100.0)
+    
+    return max(0.0, multiplier), long_term_discount_count, total_discount_count
