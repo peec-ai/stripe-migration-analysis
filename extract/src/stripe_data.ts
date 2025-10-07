@@ -12,6 +12,8 @@ export const SubscriptionItemRecord = z.object({
   mrrCents: z.number(),
   unitAmount: z.number(),
   quantity: z.number(),
+  discounts: z.array(z.string()),
+  subscriptionDiscounts: z.array(z.string()),
 });
 export type SubscriptionItemRecord = z.infer<typeof SubscriptionItemRecord>;
 
@@ -40,7 +42,9 @@ export async function fetchStripeSubscriptionItems() {
         }
 
         if (!item.price.recurring) {
-          console.warn(`Skipping item ${item.id} due to missing recurring info.`);
+          console.warn(
+            `Skipping item ${item.id} due to missing recurring info.`
+          );
           continue;
         }
 
@@ -61,6 +65,8 @@ export async function fetchStripeSubscriptionItems() {
           mrrCents,
           unitAmount: item.price.unit_amount,
           quantity: item.quantity || 1,
+          subscriptionDiscounts: (sub.discounts as string[]) || [],
+          discounts: (item.discounts as string[]) || [],
         });
       }
     }
@@ -142,7 +148,7 @@ export async function fetchPrices() {
   const stripe = new Stripe(process.env.STRIPE_API_KEY!, {
     apiVersion: "2025-08-27.basil",
   });
-  
+
   const allPrices = [];
   try {
     for await (const price of stripe.prices.list({
@@ -157,6 +163,37 @@ export async function fetchPrices() {
     await Bun.write(
       `${outputDir}/${outputFilename}`,
       JSON.stringify(allPrices, null, 2)
+    );
+    console.log(`✅ Data saved to ${outputFilename}`);
+  } catch (error) {
+    if (error instanceof Stripe.errors.StripeError) {
+      console.error("Stripe API Error:", error.message);
+    } else {
+      console.error("An unexpected error occurred:", error);
+    }
+  }
+}
+
+export async function fetchStripeCoupons() {
+  console.log("Connecting to Stripe to fetch all coupons...");
+
+  const stripe = new Stripe(process.env.STRIPE_API_KEY!, {
+    apiVersion: "2025-08-27.basil",
+  });
+
+  const allCoupons = [];
+  try {
+    for await (const coupon of stripe.coupons.list({
+      limit: 100,
+    })) {
+      allCoupons.push(coupon);
+    }
+    console.log(`Successfully fetched ${allCoupons.length} coupons.`);
+    const outputDir = "../data";
+    const outputFilename = "stripe_coupons.json";
+    await Bun.write(
+      `${outputDir}/${outputFilename}`,
+      JSON.stringify(allCoupons, null, 2)
     );
     console.log(`✅ Data saved to ${outputFilename}`);
   } catch (error) {
