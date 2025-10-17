@@ -207,7 +207,6 @@ export async function fetchPrices() {
   const allPrices = [];
   try {
     for await (const price of stripe.prices.list({
-      active: true,
       limit: 100,
     })) {
       allPrices.push(price);
