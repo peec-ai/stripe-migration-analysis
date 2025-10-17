@@ -217,7 +217,7 @@
     "name": "Affiliate Discount",
     "percent_off": 33,
     "redeem_by": null,
-    "times_redeemed": 3,
+    "times_redeemed": 4,
     "valid": true
   },
   {
@@ -353,7 +353,7 @@
     "name": "50 % off for your first month",
     "percent_off": 50,
     "redeem_by": null,
-    "times_redeemed": 163,
+    "times_redeemed": 164,
     "valid": true
   },
   {
