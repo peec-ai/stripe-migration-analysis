@@ -56,9 +56,9 @@ def etl_pipeline():
     companies = [Company.model_validate(c) for c in companiesSC]
     orgs = [Organization.model_validate(o) for o in orgs]
     subs = [SubscriptionItem.model_validate(s) for s in subs]
-    
+
     # Create coupon lookup dictionary
-    coupons_map = {c['id']: c for c in coupons}
+    coupons_map = {c["id"]: c for c in coupons}
 
     print(
         f"Loaded {len(companies)} companies, {len(orgs)} organizations, {len(subs)} subscription items, {len(coupons)} coupons, {len(prices)} prices, {len(products)} products."
@@ -80,40 +80,44 @@ def etl_pipeline():
 
     # Join subscription items with prices and products to get product metadata
     subs_with_product = subs_df.merge(
-        prices_df[["id", "product"]], 
-        left_on="plan_id", 
-        right_on="id", 
+        prices_df[["id", "product"]],
+        left_on="plan_id",
+        right_on="id",
         how="left",
-        suffixes=("", "_price")
+        suffixes=("", "_price"),
     )
-    
+
     subs_with_product = subs_with_product.merge(
-        products_df[["id", "metadata"]], 
-        left_on="product", 
-        right_on="id", 
+        products_df[["id", "metadata"]],
+        left_on="product",
+        right_on="id",
         how="left",
-        suffixes=("", "_product")
+        suffixes=("", "_product"),
     )
-    
+
     # Extract metadata fields and filter for WORKSPACE type products
     def extract_prompt_limit(row):
         metadata = row.get("metadata", {})
         if not isinstance(metadata, dict):
             return 0
-        
+
         product_type = metadata.get("type", "")
         if product_type != "WORKSPACE":
             return 0
-        
+
         prompt_limit_str = metadata.get("promptLimit", "0")
         try:
             return int(prompt_limit_str)
         except (ValueError, TypeError):
             return 0
-    
-    subs_with_product["prompt_limit_per_item"] = subs_with_product.apply(extract_prompt_limit, axis=1)
-    subs_with_product["total_prompt_limit"] = subs_with_product["prompt_limit_per_item"] * subs_with_product["quantity"]
-    
+
+    subs_with_product["prompt_limit_per_item"] = subs_with_product.apply(
+        extract_prompt_limit, axis=1
+    )
+    subs_with_product["total_prompt_limit"] = (
+        subs_with_product["prompt_limit_per_item"] * subs_with_product["quantity"]
+    )
+
     # Calculate prompt_capacity per customer from workspace subscription items
     customer_prompt_capacity = (
         subs_with_product.groupby("customer_id")
@@ -149,102 +153,153 @@ def etl_pipeline():
     # Calculate current MRR per customer, taking quantity and discounts into account
     # First, calculate the base MRR without discounts
     subs_df["base_mrr_cents"] = subs_df["mrr_cents"] * subs_df["quantity"]
-    
+
     # Apply item-level discounts (these are specific to each item)
     def apply_item_discount(row):
         item_discounts = row["discounts"]
-        multiplier, long_term_count, total_count = calculate_coupon_multiplier(item_discounts, coupons_map)
-        return pd.Series({
-            "mrr_after_item_discounts": row["base_mrr_cents"] * multiplier,
-            "item_discount_long_term_count": long_term_count,
-            "item_discount_total_count": total_count
-        })
-    
+        multiplier, long_term_count, total_count = calculate_coupon_multiplier(
+            item_discounts, coupons_map
+        )
+        return pd.Series(
+            {
+                "mrr_after_item_discounts": row["base_mrr_cents"] * multiplier,
+                "item_discount_long_term_count": long_term_count,
+                "item_discount_total_count": total_count,
+            }
+        )
+
     item_discount_results = subs_df.apply(apply_item_discount, axis=1)
-    subs_df["mrr_after_item_discounts"] = item_discount_results["mrr_after_item_discounts"]
-    subs_df["item_discount_long_term_count"] = item_discount_results["item_discount_long_term_count"]
-    subs_df["item_discount_total_count"] = item_discount_results["item_discount_total_count"]
-    
+    subs_df["mrr_after_item_discounts"] = item_discount_results[
+        "mrr_after_item_discounts"
+    ]
+    subs_df["item_discount_long_term_count"] = item_discount_results[
+        "item_discount_long_term_count"
+    ]
+    subs_df["item_discount_total_count"] = item_discount_results[
+        "item_discount_total_count"
+    ]
+
     # For subscription-level discounts, we need to calculate the multiplier once per subscription
     # and apply it to the total of all items (to avoid denormalization issues)
-    
+
     # First, get unique subscription discounts per customer
     subscription_discounts_df = (
         subs_df.groupby("customer_id")["subscription_discounts"]
         .first()  # All items in same subscription have same subscription_discounts
         .reset_index()
     )
-    
+
     # Calculate subscription-level discount multiplier and count
     def get_subscription_multiplier(row):
         sub_discounts = row["subscription_discounts"]
-        multiplier, long_term_count, total_count = calculate_coupon_multiplier(sub_discounts, coupons_map)
-        return pd.Series({
-            "sub_discount_multiplier": multiplier,
-            "sub_discount_long_term_count": long_term_count,
-            "sub_discount_total_count": total_count
-        })
-    
-    sub_discount_results = subscription_discounts_df.apply(get_subscription_multiplier, axis=1)
-    subscription_discounts_df["sub_discount_multiplier"] = sub_discount_results["sub_discount_multiplier"]
-    subscription_discounts_df["sub_discount_long_term_count"] = sub_discount_results["sub_discount_long_term_count"]
-    subscription_discounts_df["sub_discount_total_count"] = sub_discount_results["sub_discount_total_count"]
-    
+        multiplier, long_term_count, total_count = calculate_coupon_multiplier(
+            sub_discounts, coupons_map
+        )
+        return pd.Series(
+            {
+                "sub_discount_multiplier": multiplier,
+                "sub_discount_long_term_count": long_term_count,
+                "sub_discount_total_count": total_count,
+            }
+        )
+
+    sub_discount_results = subscription_discounts_df.apply(
+        get_subscription_multiplier, axis=1
+    )
+    subscription_discounts_df["sub_discount_multiplier"] = sub_discount_results[
+        "sub_discount_multiplier"
+    ]
+    subscription_discounts_df["sub_discount_long_term_count"] = sub_discount_results[
+        "sub_discount_long_term_count"
+    ]
+    subscription_discounts_df["sub_discount_total_count"] = sub_discount_results[
+        "sub_discount_total_count"
+    ]
+
     # Merge subscription multiplier and count back to items
     subs_df = pd.merge(
         subs_df,
-        subscription_discounts_df[["customer_id", "sub_discount_multiplier", "sub_discount_long_term_count", "sub_discount_total_count"]],
+        subscription_discounts_df[
+            [
+                "customer_id",
+                "sub_discount_multiplier",
+                "sub_discount_long_term_count",
+                "sub_discount_total_count",
+            ]
+        ],
         on="customer_id",
-        how="left"
+        how="left",
     )
-    
+
     # Apply subscription-level discounts on top of item-level discounts
     subs_df["discounted_mrr_cents"] = (
         subs_df["mrr_after_item_discounts"] * subs_df["sub_discount_multiplier"]
     )
-    
+
     # Aggregate by customer
-    customer_mrr = subs_df.groupby("customer_id").agg({
-        "base_mrr_cents": "sum",
-        "discounted_mrr_cents": "sum",
-        "item_discount_long_term_count": "sum",  # Sum item-level long-term discount counts
-        "item_discount_total_count": "sum",  # Sum item-level total discount counts
-        "sub_discount_long_term_count": "first",  # Subscription-level counts are the same for all items
-        "sub_discount_total_count": "first"
-    }).reset_index()
-    
+    customer_mrr = (
+        subs_df.groupby("customer_id")
+        .agg(
+            {
+                "base_mrr_cents": "sum",
+                "discounted_mrr_cents": "sum",
+                "item_discount_long_term_count": "sum",  # Sum item-level long-term discount counts
+                "item_discount_total_count": "sum",  # Sum item-level total discount counts
+                "sub_discount_long_term_count": "first",  # Subscription-level counts are the same for all items
+                "sub_discount_total_count": "first",
+            }
+        )
+        .reset_index()
+    )
+
     # Calculate total discount counts (item + subscription level)
     customer_mrr["applied_discounts"] = (
-        customer_mrr["item_discount_long_term_count"] + customer_mrr["sub_discount_long_term_count"]
+        customer_mrr["item_discount_long_term_count"]
+        + customer_mrr["sub_discount_long_term_count"]
     ).astype(int)
-    
+
     customer_mrr["total_discounts"] = (
-        customer_mrr["item_discount_total_count"] + customer_mrr["sub_discount_total_count"]
+        customer_mrr["item_discount_total_count"]
+        + customer_mrr["sub_discount_total_count"]
     ).astype(int)
-    
+
     # Format as "applied (total)"
     customer_mrr["discounts_formatted"] = customer_mrr.apply(
         lambda row: f"{row['applied_discounts']} ({row['total_discounts']})", axis=1
     )
-    
+
     customer_mrr["current_mrr"] = customer_mrr["discounted_mrr_cents"] / 100
     customer_mrr["current_arr"] = customer_mrr["current_mrr"] * 12
-    
+
     # Calculate discount percentage: (1 - discounted/base) * 100
     customer_mrr["discount_pct"] = (
-        (1 - (customer_mrr["discounted_mrr_cents"] / customer_mrr["base_mrr_cents"])) * 100
-    ).fillna(0).round(0).astype(int)
+        (
+            (
+                1
+                - (
+                    customer_mrr["discounted_mrr_cents"]
+                    / customer_mrr["base_mrr_cents"]
+                )
+            )
+            * 100
+        )
+        .fillna(0)
+        .round(0)
+        .astype(int)
+    )
 
     # --- Interval Formatting ---
     # We only care about the interval of the highest MRR item per customer
     # This is a simplification, but for now it's a good heuristic
-    main_subscription = subs_df.loc[subs_df.groupby("customer_id")["base_mrr_cents"].idxmax()]
+    main_subscription = subs_df.loc[
+        subs_df.groupby("customer_id")["base_mrr_cents"].idxmax()
+    ]
 
     def format_interval(row):
         if row["interval_count"] != 1:
             return f"{row['interval']} ({row['interval_count']})"
         return row["interval"]
-    
+
     main_subscription["interval"] = main_subscription.apply(format_interval, axis=1)
 
     customer_interval = main_subscription[["customer_id", "interval"]]
@@ -267,7 +322,15 @@ def etl_pipeline():
     )
     merged_df = pd.merge(
         merged_df,
-        customer_mrr[["customer_id", "current_mrr", "current_arr", "discount_pct", "discounts_formatted"]],
+        customer_mrr[
+            [
+                "customer_id",
+                "current_mrr",
+                "current_arr",
+                "discount_pct",
+                "discounts_formatted",
+            ]
+        ],
         left_on="stripe_customer_id",
         right_on="customer_id",
         how="inner",
@@ -284,7 +347,7 @@ def etl_pipeline():
         on="customer_id",
         how="left",  # Use left merge to keep all companies even if no workspace subscriptions
     )
-    
+
     # Fill missing values for companies with no subs or orgs
     merged_df["credits_capacity"] = merged_df["credits_capacity"].fillna(0)
     merged_df["credits_usage"] = merged_df["credits_usage"].fillna(0)
@@ -295,14 +358,9 @@ def etl_pipeline():
     merged_df["prompt_usage"] = merged_df["prompt_usage"].fillna(0)
     merged_df["prompt_capacity"] = merged_df["prompt_capacity"].fillna(0)
     merged_df["orgs_count"] = merged_df["orgs_count"].fillna(0)
-    merged_df["orgs_count_hf"] = merged_df[
-        "orgs_count_hf"
-    ].fillna(0)
+    merged_df["orgs_count_hf"] = merged_df["orgs_count_hf"].fillna(0)
 
-    # --- Apply Calculation Logic ---
-    print("Calculating migration scenarios for each company...")
-    scenarios_df = merged_df.apply(calculate_scenarios_for_company, axis=1)
-
+    # Cast to int
     merged_df["credits_capacity"] = merged_df["credits_capacity"].astype(int)
     merged_df["credits_usage"] = merged_df["credits_usage"].astype(int)
     merged_df["current_mrr"] = merged_df["current_mrr"].astype(int)
@@ -312,10 +370,11 @@ def etl_pipeline():
     merged_df["prompt_usage"] = merged_df["prompt_usage"].astype(int)
     merged_df["prompt_capacity"] = merged_df["prompt_capacity"].astype(int)
     merged_df["orgs_count"] = merged_df["orgs_count"].astype(int)
-    merged_df["orgs_count_hf"] = merged_df[
-        "orgs_count_hf"
-    ].astype(int)
+    merged_df["orgs_count_hf"] = merged_df["orgs_count_hf"].astype(int)
 
+    # --- Apply Calculation Logic ---
+    print("Calculating migration scenarios for each company...")
+    scenarios_df = merged_df.apply(calculate_scenarios_for_company, axis=1)
 
     # Combine initial data with calculated scenarios
     final_df = pd.concat([merged_df, scenarios_df], axis=1)
@@ -343,91 +402,8 @@ def etl_pipeline():
     print("Migration analysis complete.")
 
 
-def data_integrity_checks():
-    """
-    Perform data integrity checks on the DataFrame.
-    """
-    base_path = Path(__file__).parent.parent.parent
-    data_path = base_path / "data"
-
-    def load_df(file_path: Path) -> pd.DataFrame:
-        """Helper to load JSON into a DataFrame."""
-        return pd.read_json(file_path)
-
-    # Load data using the robust helper
-    print("Loading source data for integrity checks...")
-    companies_df = load_df(data_path / "processed_companies.json")
-
-    # --- Perform Checks ---
-    print("\n--- Data Integrity Checks ---")
-
-    # Companies with a stripeSubscriptionId
-    companies_with_sub = companies_df[companies_df["stripeSubscriptionId"].notna()]
-    print(f"Companies with a Stripe Subscription ID: {len(companies_with_sub)}")
-
-    # Companies with a stripeCustomerId
-    companies_with_cust = companies_df[companies_df["stripeCustomerId"].notna()]
-    print(f"Companies with a Stripe Customer ID: {len(companies_with_cust)}")
-
-    # Companies with both
-    companies_with_both = companies_df[
-        companies_df["stripeSubscriptionId"].notna()
-        & companies_df["stripeCustomerId"].notna()
-    ]
-    print(f"Companies with both IDs: {len(companies_with_both)}")
-
-    # Companies with neither
-    companies_with_neither = companies_df[
-        companies_df["stripeSubscriptionId"].isna()
-        & companies_df["stripeCustomerId"].isna()
-    ]
-    print(f"Companies with neither ID: {len(companies_with_neither)}")
-
-    # Companies with a stripeSubscriptionId but no stripeCustomerId
-    sub_not_cust = companies_df[
-        companies_df["stripeSubscriptionId"].notna()
-        & companies_df["stripeCustomerId"].isna()
-    ]
-    print(f"Companies with Subscription ID but no Customer ID: \n{len(sub_not_cust)}")
-
-    # Companies with a stripeCustomerId but no stripeSubscriptionId
-    cust_not_sub = companies_df[
-        companies_df["stripeCustomerId"].notna()
-        & companies_df["stripeSubscriptionId"].isna()
-    ]
-    print(f"Companies with Customer ID but no Subscription ID: {len(cust_not_sub)}")
-
-    # Non-unique stripeCustomerIds
-    # We only consider non-null customer IDs for duplication checks
-    non_null_customer_ids = companies_with_cust["stripeCustomerId"]
-    duplicated_customer_ids = non_null_customer_ids[
-        non_null_customer_ids.duplicated(keep=False)
-    ]
-    if not duplicated_customer_ids.empty:
-        print("\nFound non-unique Stripe Customer IDs:")
-        print(duplicated_customer_ids.value_counts())
-    else:
-        print("\nAll Stripe Customer IDs are unique.")
-
-    # Non-unique stripeSubscriptionIds
-    # We only consider non-null subscription IDs for duplication checks
-    non_null_subscription_ids = companies_with_sub["stripeSubscriptionId"]
-    duplicated_subscription_ids = non_null_subscription_ids[
-        non_null_subscription_ids.duplicated(keep=False)
-    ]
-    if not duplicated_subscription_ids.empty:
-        print("\nFound non-unique Stripe Subscription IDs:")
-        print(duplicated_subscription_ids.value_counts())
-        print(duplicated_subscription_ids)
-    else:
-        print("\nAll Stripe Subscription IDs are unique.")
-
-    print("\n--- Integrity Checks Complete ---\n")
-
-
 def main():
     """Main"""
-    # data_integrity_checks()
     etl_pipeline()
 
 
