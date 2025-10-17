@@ -1,5 +1,29 @@
 [
   {
+    "id": "prod_TDvhozubflPlYk",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1760293042,
+    "default_price": "price_1SHTpfKojVEYZPlXaJJrVJop",
+    "description": null,
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfMzVCSzVvMVltcFVEQ0Vqa3JROEtEeWRL00AJlBM33q"
+    ],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {},
+    "name": "Custom Enterprise Plan",
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1760293043,
+    "url": null
+  },
+  {
     "id": "prod_T7qiwyJq7wJzf8",
     "object": "product",
     "active": true,
@@ -17,14 +41,14 @@
       "promptLimit": "300",
       "type": "WORKSPACE"
     },
-    "name": "Enterprise Workspace • 400 Prompts",
+    "name": "Enterprise Project • 400 Prompts",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1758890701,
+    "updated": 1760382600,
     "url": null
   },
   {
@@ -45,14 +69,14 @@
       "promptLimit": "750",
       "type": "WORKSPACE"
     },
-    "name": "Enterprise Workspace • 750 Prompts",
+    "name": "Enterprise Project • 750 Prompts",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1758472957,
+    "updated": 1760382602,
     "url": null
   },
   {
@@ -73,14 +97,14 @@
       "promptLimit": "75",
       "type": "WORKSPACE"
     },
-    "name": "Pro Workspace • 75 Prompts",
+    "name": "Pro Project • 75 Prompts",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1757976851,
+    "updated": 1760631520,
     "url": null
   },
   {
@@ -398,14 +422,14 @@
       "promptLimit": "2000",
       "type": "WORKSPACE"
     },
-    "name": "Enterprise Workspace • 2000 Prompts",
+    "name": "Enterprise Project • 2000 Prompts",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1757011157,
+    "updated": 1760382502,
     "url": null
   },
   {
@@ -426,14 +450,14 @@
       "promptLimit": "1000",
       "type": "WORKSPACE"
     },
-    "name": "Enterprise Workspace • 1000 Prompts",
+    "name": "Enterprise Project • 1000 Prompts",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1757010667,
+    "updated": 1760382591,
     "url": null
   },
   {
@@ -454,14 +478,14 @@
       "promptLimit": "150",
       "type": "WORKSPACE"
     },
-    "name": "Pro Workspace • 150 Prompts",
+    "name": "Pro Project • 150 Prompts",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1754948575,
+    "updated": 1760382586,
     "url": null
   },
   {
@@ -480,38 +504,17 @@
     "metadata": {
       "modelIds": "chatgpt,sonar,google-ai-overview",
       "promptLimit": "200",
-      "type": "WORKSPACE"
+      "type": "WORKSPACE",
+      "w": "w"
     },
-    "name": "Pro Workspace • 200 Prompts",
+    "name": "Pro Project • 200 Prompts",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1753889049,
-    "url": null
-  },
-  {
-    "id": "prod_Sm9pu60ql8rxtF",
-    "object": "product",
-    "active": true,
-    "attributes": [],
-    "created": 1753887705,
-    "default_price": "price_1RqbVmKojVEYZPlXgN3y5QEb",
-    "description": "200 Prompts",
-    "images": [],
-    "livemode": true,
-    "marketing_features": [],
-    "metadata": {},
-    "name": "Pro Workspace • 200 Prompts",
-    "package_dimensions": null,
-    "shippable": null,
-    "statement_descriptor": null,
-    "tax_code": "txcd_10103001",
-    "type": "service",
-    "unit_label": null,
-    "updated": 1753887768,
+    "updated": 1760629774,
     "url": null
   },
   {
@@ -532,14 +535,14 @@
       "promptLimit": "20",
       "type": "WORKSPACE"
     },
-    "name": "Pro Workspace • 20 Prompts (Legacy)",
+    "name": "Pro Project • 20 Prompts (Legacy)",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1756322355,
+    "updated": 1760380824,
     "url": null
   },
   {
@@ -635,14 +638,14 @@
     "livemode": true,
     "marketing_features": [],
     "metadata": {},
-    "name": "Enterprise Workspace (300 Prompts for 2 months)",
+    "name": "Enterprise Project (300 Prompts for 2 months)",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1750287641,
+    "updated": 1760382579,
     "url": null
   },
   {
@@ -741,14 +744,14 @@
       "promptLimit": "60",
       "type": "WORKSPACE"
     },
-    "name": "Medium Workspace • 60 Prompts (Legacy)",
+    "name": "Medium Project • 60 Prompts (Legacy)",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1747639467,
+    "updated": 1760382575,
     "url": null
   },
   {
@@ -769,14 +772,14 @@
       "promptLimit": "15",
       "type": "WORKSPACE"
     },
-    "name": "Small Workspace • 15 Prompts (Legacy)",
+    "name": "Small Project • 15 Prompts (Legacy)",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1747639453,
+    "updated": 1760382571,
     "url": null
   },
   {
@@ -797,14 +800,14 @@
       "promptLimit": "10",
       "type": "WORKSPACE"
     },
-    "name": "Small Workspace • 10 Prompts (Legacy)",
+    "name": "Small Project • 10 Prompts (Legacy)",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1754422269,
+    "updated": 1760632656,
     "url": null
   },
   {
@@ -1015,14 +1018,14 @@
       "promptLimit": "300",
       "type": "WORKSPACE"
     },
-    "name": "Enterprise Workspace • 300 Prompts",
+    "name": "Enterprise Project • 300 Prompts",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1753349290,
+    "updated": 1760382563,
     "url": null
   },
   {
@@ -1043,14 +1046,14 @@
       "promptLimit": "500",
       "type": "WORKSPACE"
     },
-    "name": "Enterprise Workspace • 500 Prompts",
+    "name": "Enterprise Project • 500 Prompts",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1755621598,
+    "updated": 1760382559,
     "url": null
   },
   {
@@ -1098,14 +1101,14 @@
       "promptLimit": "50",
       "type": "WORKSPACE"
     },
-    "name": "Pro Workspace • 50 Prompts",
+    "name": "Pro Project • 50 Prompts",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1755604186,
+    "updated": 1760632925,
     "url": null
   },
   {
@@ -1146,14 +1149,14 @@
       "promptLimit": "100",
       "type": "WORKSPACE"
     },
-    "name": "Pro Workspace • 100 Prompts",
+    "name": "Pro Project • 100 Prompts",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1757665584,
+    "updated": 1760630740,
     "url": null
   },
   {
@@ -1194,14 +1197,14 @@
       "promptLimit": "25",
       "type": "WORKSPACE"
     },
-    "name": "Starter Workspace • 25 Prompts",
+    "name": "Starter Project • 25 Prompts",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1752764695,
+    "updated": 1760382515,
     "url": null
   },
   {
@@ -1222,14 +1225,14 @@
       "promptLimit": "20",
       "type": "WORKSPACE"
     },
-    "name": "Small Workspace • 20 Prompts (Legacy)",
+    "name": "Small Project • 20 Prompts (Legacy)",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1747642631,
+    "updated": 1760382529,
     "url": null
   },
   {
@@ -1277,14 +1280,14 @@
       "promptLimit": "40",
       "type": "WORKSPACE"
     },
-    "name": "Medium Workspace • 40 Prompts (Legacy)",
+    "name": "Medium Project • 40 Prompts (Legacy)",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1747642790,
+    "updated": 1760382536,
     "url": null
   },
   {
@@ -1318,14 +1321,14 @@
       "promptLimit": "30",
       "type": "WORKSPACE"
     },
-    "name": "Small Workspace • 30 Prompts (Legacy)",
+    "name": "Small Project • 30 Prompts (Legacy)",
     "package_dimensions": null,
     "shippable": null,
     "statement_descriptor": null,
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1747642414,
+    "updated": 1760382539,
     "url": null
   }
 ]

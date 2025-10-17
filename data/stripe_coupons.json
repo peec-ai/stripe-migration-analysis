@@ -30,7 +30,7 @@
     "name": "20% Founder Discount ",
     "percent_off": 20,
     "redeem_by": null,
-    "times_redeemed": 3,
+    "times_redeemed": 4,
     "valid": true
   },
   {
@@ -64,7 +64,7 @@
     "name": "100% dev coupon",
     "percent_off": 100,
     "redeem_by": null,
-    "times_redeemed": 4,
+    "times_redeemed": 5,
     "valid": true
   },
   {
@@ -98,7 +98,7 @@
     "name": "VentureFriends – 33% off 1st Month",
     "percent_off": 33,
     "redeem_by": null,
-    "times_redeemed": 9,
+    "times_redeemed": 10,
     "valid": true
   },
   {
@@ -149,7 +149,7 @@
     "name": "50 % off for your first month adjustment",
     "percent_off": 50,
     "redeem_by": null,
-    "times_redeemed": 55,
+    "times_redeemed": 63,
     "valid": true
   },
   {
@@ -353,7 +353,7 @@
     "name": "50 % off for your first month",
     "percent_off": 50,
     "redeem_by": null,
-    "times_redeemed": 156,
+    "times_redeemed": 163,
     "valid": true
   },
   {
@@ -557,7 +557,7 @@
     "name": "100% Lifetime",
     "percent_off": 100,
     "redeem_by": null,
-    "times_redeemed": 5,
+    "times_redeemed": 6,
     "valid": true
   },
   {
@@ -608,7 +608,7 @@
     "name": "20% first month",
     "percent_off": 20,
     "redeem_by": null,
-    "times_redeemed": 6,
+    "times_redeemed": 8,
     "valid": true
   },
   {
@@ -625,7 +625,7 @@
     "name": "33% on first month",
     "percent_off": 33,
     "redeem_by": null,
-    "times_redeemed": 66,
+    "times_redeemed": 68,
     "valid": true
   },
   {

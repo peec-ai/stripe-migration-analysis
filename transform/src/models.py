@@ -44,6 +44,7 @@ class StripeCoupon(CamelCaseModel):
 
 class SubscriptionItem(CamelCaseModel):
     customer_id: str
+    plan_id: str
     mrr_cents: float
     quantity: int
     interval: str

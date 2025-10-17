@@ -40,6 +40,8 @@ def etl_pipeline():
     orgs = load(data_path / "processed_organizations.json")
     subs = load(data_path / "stripe_subscription_items.json")
     coupons = load(data_path / "stripe_coupons.json")
+    prices = load(data_path / "stripe_prices.json")
+    products = load(data_path / "stripe_products.json")
 
     # Filter
     companiesSC = [
@@ -59,13 +61,15 @@ def etl_pipeline():
     coupons_map = {c['id']: c for c in coupons}
 
     print(
-        f"Loaded {len(companies)} companies, {len(orgs)} organizations, {len(subs)} subscription items, {len(coupons)} coupons."
+        f"Loaded {len(companies)} companies, {len(orgs)} organizations, {len(subs)} subscription items, {len(coupons)} coupons, {len(prices)} prices, {len(products)} products."
     )
 
     # Convert to Pandas DataFrames
     companies_df = pd.DataFrame([c.model_dump() for c in companies])
     orgs_df = pd.DataFrame([o.model_dump() for o in orgs])
     subs_df = pd.DataFrame([s.model_dump() for s in subs])
+    prices_df = pd.DataFrame(prices)
+    products_df = pd.DataFrame(products)
 
     # --- Data Transformation ---
     print("Transforming and merging data...")
@@ -74,11 +78,53 @@ def etl_pipeline():
     orgs_df["credits_usage"] = orgs_df.apply(calculate_credits_usage, axis=1)
     orgs_df["credits_capacity"] = orgs_df.apply(calculate_credits_capacity, axis=1)
 
-    # Aggregate credits by company
+    # Join subscription items with prices and products to get product metadata
+    subs_with_product = subs_df.merge(
+        prices_df[["id", "product"]], 
+        left_on="plan_id", 
+        right_on="id", 
+        how="left",
+        suffixes=("", "_price")
+    )
+    
+    subs_with_product = subs_with_product.merge(
+        products_df[["id", "metadata"]], 
+        left_on="product", 
+        right_on="id", 
+        how="left",
+        suffixes=("", "_product")
+    )
+    
+    # Extract metadata fields and filter for WORKSPACE type products
+    def extract_prompt_limit(row):
+        metadata = row.get("metadata", {})
+        if not isinstance(metadata, dict):
+            return 0
+        
+        product_type = metadata.get("type", "")
+        if product_type != "WORKSPACE":
+            return 0
+        
+        prompt_limit_str = metadata.get("promptLimit", "0")
+        try:
+            return int(prompt_limit_str)
+        except (ValueError, TypeError):
+            return 0
+    
+    subs_with_product["prompt_limit_per_item"] = subs_with_product.apply(extract_prompt_limit, axis=1)
+    subs_with_product["total_prompt_limit"] = subs_with_product["prompt_limit_per_item"] * subs_with_product["quantity"]
+    
+    # Calculate prompt_capacity per customer from workspace subscription items
+    customer_prompt_capacity = (
+        subs_with_product.groupby("customer_id")
+        .agg(prompt_capacity=("total_prompt_limit", "sum"))
+        .reset_index()
+    )
+
+    # Aggregate credits and usage by company
     company_credits = (
         orgs_df.groupby("company_id")
         .agg(
-            prompt_capacity=("prompt_limit", "sum"),
             prompt_usage=("prompts_count", "sum"),
             credits_capacity=("credits_capacity", "sum"),
             credits_usage=("credits_usage", "sum"),
@@ -231,6 +277,12 @@ def etl_pipeline():
         customer_interval,
         on="customer_id",
         how="inner",
+    )
+    merged_df = pd.merge(
+        merged_df,
+        customer_prompt_capacity,
+        on="customer_id",
+        how="left",  # Use left merge to keep all companies even if no workspace subscriptions
     )
     
     # Fill missing values for companies with no subs or orgs
