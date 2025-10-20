@@ -206,11 +206,13 @@ export async function fetchPrices() {
 
   const allPrices = [];
   try {
-    for await (const price of stripe.prices.list({
-      limit: 100,
-    })) {
+    for await (const price of stripe.prices.list({ limit: 100, active: true })) {
       allPrices.push(price);
     }
+    for await (const price of stripe.prices.list({ limit: 100, active: false })) {
+      allPrices.push(price);
+    }
+
     console.log(`Successfully fetched ${allPrices.length} prices.`);
     const outputDir = "../data";
     const outputFilename = "stripe_prices.json";
