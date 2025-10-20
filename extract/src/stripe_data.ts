@@ -171,6 +171,12 @@ export async function fetchProducts() {
     })) {
       allProducts.push(product);
     }
+    for await (const product of stripe.products.list({
+      active: false,
+      limit: 100,
+    })) {
+      allProducts.push(product);
+    }
     console.log(`Successfully fetched ${allProducts.length} products.`);
     const outputDir = "../data";
     const outputFilename = "stripe_products.json";
