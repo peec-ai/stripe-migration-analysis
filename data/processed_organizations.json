@@ -2346,7 +2346,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "ecolesuperieuredorthodontie.fr",
-    "name": "ESO",
+    "name": "Analysis - ESO",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -2920,7 +2920,7 @@
       "google-ai-overview"
     ],
     "companyName": "courtcircuit.cc",
-    "promptsCount": 13,
+    "promptsCount": 18,
     "companyId": "co_f5b3f4f1-804e-4fde-a03e-a2cb6e0a365b"
   },
   {
@@ -3270,7 +3270,9 @@
     "modelIds": [
       "chatgpt",
       "sonar",
-      "google-ai-overview"
+      "google-ai-overview",
+      "google-ai-mode",
+      "gemini-2-5-flash"
     ],
     "companyName": "Flood Digital",
     "promptsCount": 21,
@@ -3339,7 +3341,7 @@
       "claude-sonnet-4"
     ],
     "companyName": "HR Acuity",
-    "promptsCount": 246,
+    "promptsCount": 298,
     "companyId": "co_ecaedef5-331c-4ab9-b170-c71ef5de9eed"
   },
   {
@@ -3960,7 +3962,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "capri-blue.com",
-    "name": "Capri Blue",
+    "name": "Capri Blue - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -4096,7 +4098,7 @@
       "google-ai-overview"
     ],
     "companyName": "dilate",
-    "promptsCount": 21,
+    "promptsCount": 25,
     "companyId": "co_5241f947-748c-4c96-ad60-578007621e80"
   },
   {
@@ -4202,7 +4204,7 @@
     "chatIntervalInHours": 24,
     "domain": "david-andersen.no",
     "name": "David Andersen",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -4546,7 +4548,7 @@
       "google-ai-overview"
     ],
     "companyName": "Lawtons",
-    "promptsCount": 57,
+    "promptsCount": 58,
     "companyId": "co_9e29fa94-da7c-4718-b117-bca70349b87e"
   },
   {
@@ -4715,7 +4717,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "dyson.com",
-    "name": "Dyson",
+    "name": "Dyson - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -4787,7 +4789,7 @@
       "google-ai-overview"
     ],
     "companyName": "Proactive Media GmbH",
-    "promptsCount": 5,
+    "promptsCount": 14,
     "companyId": "co_5a097717-7944-4405-a9ce-c2b34122d889"
   },
   {
@@ -5461,7 +5463,7 @@
     "promptLimit": 200,
     "chatIntervalInHours": 24,
     "domain": "goperfect.com",
-    "name": "Go Perfect",
+    "name": "Go Perfect - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -6214,7 +6216,7 @@
       "chatgpt",
       "sonar",
       "google-ai-overview",
-      "gemini-2-5-flash"
+      "google-ai-mode"
     ],
     "companyName": "Digitale Konsorten",
     "promptsCount": 20,
@@ -6361,7 +6363,7 @@
       "google-ai-overview"
     ],
     "companyName": "Propellic",
-    "promptsCount": 17,
+    "promptsCount": 18,
     "companyId": "co_7bd5fa9b-9c84-4c92-a4fd-ae452c98da3f"
   },
   {
@@ -7134,7 +7136,7 @@
       "google-ai-overview"
     ],
     "companyName": "Whimsy Games Group LTD",
-    "promptsCount": 21,
+    "promptsCount": 16,
     "companyId": "co_28a5e864-c74d-4fe9-90d5-8f8665a6a688"
   },
   {
@@ -7627,7 +7629,8 @@
     "modelIds": [
       "chatgpt",
       "sonar",
-      "google-ai-overview"
+      "google-ai-overview",
+      "google-ai-mode"
     ],
     "companyName": "BODi",
     "promptsCount": 58,
@@ -7986,7 +7989,7 @@
       "gemini-2-5-flash"
     ],
     "companyName": "Schlun & Elseven Rechtsanwälte",
-    "promptsCount": 60,
+    "promptsCount": 61,
     "companyId": "co_2c64f00a-096c-4b5b-b2fa-5e490ea80fb6"
   },
   {
@@ -8363,7 +8366,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "frenchbee.com",
-    "name": "Frenchbee",
+    "name": "Monitoring - Frenchbee",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -9013,7 +9016,7 @@
       "google-ai-overview"
     ],
     "companyName": "Mint Position",
-    "promptsCount": 23,
+    "promptsCount": 25,
     "companyId": "co_2626e5c9-d1c1-486d-b5af-3d019c9e695b"
   },
   {
@@ -9029,7 +9032,7 @@
       "google-ai-overview"
     ],
     "companyName": "outmove",
-    "promptsCount": 10,
+    "promptsCount": 50,
     "companyId": "co_3651e8cd-de97-473c-ad30-306180e7d09e"
   },
   {
@@ -9297,7 +9300,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "laforet.com",
-    "name": "Laforêt",
+    "name": "Laforêt - Monitoring",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -10071,7 +10074,7 @@
     "promptLimit": 200,
     "chatIntervalInHours": 24,
     "domain": "slack.com",
-    "name": "Slack",
+    "name": "Slack - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -10287,7 +10290,7 @@
       "google-ai-overview"
     ],
     "companyName": "PARK 7",
-    "promptsCount": 50,
+    "promptsCount": 7,
     "companyId": "co_3f746d4a-4a4f-4c34-a656-2ab4a14b1e65"
   },
   {
@@ -10303,7 +10306,7 @@
       "google-ai-overview"
     ],
     "companyName": "Flood Digital",
-    "promptsCount": 25,
+    "promptsCount": 31,
     "companyId": "co_0f518b17-537e-474b-b00a-322570a5041e"
   },
   {
@@ -10334,8 +10337,8 @@
       "gpt-4o-search",
       "sonar",
       "google-ai-overview",
-      "gemini-2-5-flash",
-      "claude-sonnet-4"
+      "google-ai-mode",
+      "gemini-2-5-flash"
     ],
     "companyName": "AG1",
     "promptsCount": 20,
@@ -10370,7 +10373,7 @@
       "google-ai-overview"
     ],
     "companyName": "Orange Cyberdefense",
-    "promptsCount": 87,
+    "promptsCount": 100,
     "companyId": "co_c38a31b2-fe48-4b91-aa2f-ab3262b813d8"
   },
   {
@@ -10873,7 +10876,7 @@
     "promptLimit": 200,
     "chatIntervalInHours": 24,
     "domain": "laurent-perrier.com",
-    "name": "Laurent-Perrier",
+    "name": "Laurent-Perrier - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -11371,7 +11374,7 @@
       "llama-3-3-70b-instruct"
     ],
     "companyName": "Peec AI",
-    "promptsCount": 58,
+    "promptsCount": 57,
     "companyId": "co_1f216996-4e82-46a6-9089-97c619ecf16c"
   },
   {
@@ -11720,7 +11723,7 @@
     "promptLimit": 200,
     "chatIntervalInHours": 24,
     "domain": "simmonsandfletcher.com",
-    "name": "Simmons & Fletcher",
+    "name": "Simmons & Fletcher - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -11841,7 +11844,7 @@
       "google-ai-overview"
     ],
     "companyName": "Mito",
-    "promptsCount": 100,
+    "promptsCount": 97,
     "companyId": "co_14b5e3c5-484d-47c0-ad14-d8da057ee787"
   },
   {
@@ -12469,7 +12472,7 @@
       "google-ai-overview"
     ],
     "companyName": "eigenheads",
-    "promptsCount": 18,
+    "promptsCount": 19,
     "companyId": "co_d390821e-deb1-4c09-91b2-ac589f0c7628"
   },
   {
@@ -12695,7 +12698,7 @@
       "google-ai-overview"
     ],
     "companyName": "Penzilla",
-    "promptsCount": 87,
+    "promptsCount": 93,
     "companyId": "co_8d830cd2-559a-4b23-aebc-784a838b1f52"
   },
   {
@@ -12800,7 +12803,7 @@
     "chatIntervalInHours": 24,
     "domain": "kid.no",
     "name": "Kid",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -12847,7 +12850,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "dodo.fr",
-    "name": "DODO",
+    "name": "DODO - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -12903,7 +12906,7 @@
       "google-ai-overview"
     ],
     "companyName": "Kosch Klink Performance",
-    "promptsCount": 35,
+    "promptsCount": 38,
     "companyId": "co_ae8a374a-3893-4c21-857c-1bea3a469807"
   },
   {
@@ -12911,7 +12914,7 @@
     "promptLimit": 200,
     "chatIntervalInHours": 24,
     "domain": "harmonie-mutuelle.fr",
-    "name": "Harmonie Mutuelle",
+    "name": "Harmonie Mutuelle - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -13012,7 +13015,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "sofidy.com",
-    "name": "Sofidy",
+    "name": "Sofidy - Monitoring",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -13493,7 +13496,7 @@
     "promptLimit": 200,
     "chatIntervalInHours": 24,
     "domain": "inmotionhosting.com",
-    "name": "InMotion Hosting",
+    "name": "InMotion Hosting - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -14152,7 +14155,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "otherland.com",
-    "name": "Otherland",
+    "name": "Otherland - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -14205,10 +14208,11 @@
     "modelIds": [
       "chatgpt",
       "sonar",
-      "google-ai-overview"
+      "google-ai-overview",
+      "google-ai-mode"
     ],
     "companyName": "Holtzbrinck Buchverlage GmbH",
-    "promptsCount": 96,
+    "promptsCount": 99,
     "companyId": "co_1d75669d-86b4-4250-ae5e-c3038bebdb28"
   },
   {
@@ -17194,7 +17198,7 @@
       "gemini-2-5-flash"
     ],
     "companyName": "Telefónica ",
-    "promptsCount": 131,
+    "promptsCount": 133,
     "companyId": "co_04765723-5285-4898-a6e7-1c695ac91897"
   },
   {
@@ -18114,7 +18118,7 @@
     "chatIntervalInHours": 24,
     "domain": "bademiljo.no",
     "name": "Bademiljø",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -19978,7 +19982,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "osmiaskincare.com",
-    "name": "Osmia",
+    "name": "Osmia - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -20238,7 +20242,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "verisure.fr",
-    "name": "Verisure",
+    "name": "Verisure - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -21146,7 +21150,7 @@
       "chatgpt",
       "sonar",
       "google-ai-overview",
-      "gemini-2-5-flash"
+      "google-ai-mode"
     ],
     "companyName": "Digitale Konsorten",
     "promptsCount": 20,
@@ -21162,7 +21166,9 @@
     "modelIds": [
       "chatgpt",
       "sonar",
-      "google-ai-overview"
+      "google-ai-overview",
+      "google-ai-mode",
+      "gemini-2-5-flash"
     ],
     "companyName": "Flood Digital",
     "promptsCount": 14,
@@ -21822,7 +21828,7 @@
       "google-ai-overview"
     ],
     "companyName": "The Langston Co.",
-    "promptsCount": 23,
+    "promptsCount": 25,
     "companyId": "co_f45c2e04-c6e3-45a0-a44d-9b5fe66063c5"
   },
   {
@@ -22786,7 +22792,7 @@
     "promptLimit": 200,
     "chatIntervalInHours": 24,
     "domain": "vacancesbleues.fr",
-    "name": "Vacances Bleues",
+    "name": "Vacances Bleues - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -23572,7 +23578,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "ecole-ipssi.com",
-    "name": "IPSSI",
+    "name": "IPSSI - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -24297,7 +24303,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "ladresse.com",
-    "name": "L'Adresse",
+    "name": "L'Adresse - Monitoring",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -24546,7 +24552,7 @@
       "google-ai-overview"
     ],
     "companyName": "Travellers Society",
-    "promptsCount": 7,
+    "promptsCount": 5,
     "companyId": "co_281e6971-73e2-49cf-92fe-9a344081d4a6"
   },
   {
@@ -24667,7 +24673,7 @@
     "chatIntervalInHours": 24,
     "domain": "uniweb.no",
     "name": "Uniweb",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -24727,11 +24733,11 @@
   },
   {
     "id": "or_887babbf-50f0-4aab-a212-e6f6235e4910",
-    "promptLimit": 25,
+    "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "schulzhotels.com",
     "name": "Schulz Hotel Berlin",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -25783,7 +25789,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "jomashop.com",
-    "name": "Jomashop",
+    "name": "Jomashop - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -26105,7 +26111,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "sdbullion.com",
-    "name": "SD Bullion",
+    "name": "SD Bullion - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -26561,7 +26567,7 @@
       "google-ai-overview"
     ],
     "companyName": "Vente-unique",
-    "promptsCount": 39,
+    "promptsCount": 47,
     "companyId": "co_e04c99d2-84b5-46de-bd65-1b52a4ef86cf"
   },
   {
@@ -26705,7 +26711,7 @@
       "google-ai-overview"
     ],
     "companyName": "Pod Digital",
-    "promptsCount": 7,
+    "promptsCount": 5,
     "companyId": "co_fba19c28-30c5-4e2e-80b4-76cd6074ddd0"
   },
   {
@@ -26719,7 +26725,7 @@
       "chatgpt",
       "sonar",
       "google-ai-overview",
-      "gemini-2-5-flash"
+      "google-ai-mode"
     ],
     "companyName": "Digitale Konsorten",
     "promptsCount": 10,
@@ -26943,7 +26949,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "bouyguestelecom-pro.fr",
-    "name": "Bouygues",
+    "name": "Bouygues - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -27046,7 +27052,7 @@
       "google-ai-overview"
     ],
     "companyName": "SAP",
-    "promptsCount": 21,
+    "promptsCount": 23,
     "companyId": "co_cb1f2ee0-105a-4cdc-b0cd-8e14e9b8be6d"
   },
   {
@@ -28732,7 +28738,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "levieuxport.com",
-    "name": "Le Vieux Port",
+    "name": "Le Vieux Port - Monitoring",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -28910,7 +28916,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "serenaandlily.com",
-    "name": "Serena & Lily",
+    "name": "Serena & Lily - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -29016,7 +29022,7 @@
       "google-ai-overview"
     ],
     "companyName": "MDPI",
-    "promptsCount": 98,
+    "promptsCount": 96,
     "companyId": "co_b641824a-a830-44c1-9cf7-ba2257782ac4"
   },
   {
@@ -29216,7 +29222,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "octopia.com",
-    "name": "Octopia",
+    "name": "Octopia - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -29229,7 +29235,7 @@
   },
   {
     "id": "or_a497796f-edff-4bb8-a42e-ae1bbadab104",
-    "promptLimit": 100,
+    "promptLimit": 25,
     "chatIntervalInHours": 24,
     "domain": "carplug.com",
     "name": "Carplug",
@@ -29328,7 +29334,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "workiz.com",
-    "name": "Workiz",
+    "name": "Workiz - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -29381,7 +29387,7 @@
       "chatgpt",
       "sonar",
       "google-ai-overview",
-      "gemini-2-5-flash"
+      "google-ai-mode"
     ],
     "companyName": "Digitale Konsorten",
     "promptsCount": 10,
@@ -29688,7 +29694,7 @@
       "google-ai-overview"
     ],
     "companyName": "Mint Studios",
-    "promptsCount": 20,
+    "promptsCount": 25,
     "companyId": "co_0b2528c9-e39e-424f-a2e3-868d1b4307f6"
   },
   {
@@ -30037,7 +30043,7 @@
     "promptLimit": 200,
     "chatIntervalInHours": 24,
     "domain": "loveamika.com",
-    "name": "amika",
+    "name": "amika - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -30472,7 +30478,7 @@
       "google-ai-overview"
     ],
     "companyName": "FGS Global (Europe)",
-    "promptsCount": 205,
+    "promptsCount": 210,
     "companyId": "co_3cdb1019-e744-4928-83e7-489b331dafdf"
   },
   {
@@ -31983,7 +31989,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "proxiserve.fr",
-    "name": "Proxiserve",
+    "name": "Proxiserve - Monitoring",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -32031,7 +32037,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "akena.com",
-    "name": "Akena",
+    "name": "Akena - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -32047,7 +32053,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "thymes.com",
-    "name": "Thymes",
+    "name": "Thymes - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -32143,7 +32149,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "fnaim.fr",
-    "name": "FNAIM",
+    "name": "FNAIM - Monitoring",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -32341,7 +32347,8 @@
     "modelIds": [
       "chatgpt",
       "sonar",
-      "google-ai-overview"
+      "google-ai-overview",
+      "google-ai-mode"
     ],
     "companyName": "Digitale Konsorten",
     "promptsCount": 9,
@@ -32613,7 +32620,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "koho.ca",
-    "name": "Koho",
+    "name": "Koho - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -33509,7 +33516,7 @@
       "google-ai-overview"
     ],
     "companyName": "Omniscient",
-    "promptsCount": 19,
+    "promptsCount": 25,
     "companyId": "co_05b9ee43-e430-49ea-9816-4edeec0e0e93"
   },
   {
@@ -34119,7 +34126,8 @@
     "modelIds": [
       "chatgpt",
       "sonar",
-      "google-ai-overview"
+      "google-ai-overview",
+      "google-ai-mode"
     ],
     "companyName": "Holtzbrinck Buchverlage GmbH",
     "promptsCount": 49,
@@ -34258,7 +34266,7 @@
     "promptLimit": 199,
     "chatIntervalInHours": 24,
     "domain": "manutan.fr",
-    "name": "Manutan FR",
+    "name": "Analysis - Manutan FR",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -34690,7 +34698,7 @@
     "promptLimit": 200,
     "chatIntervalInHours": 24,
     "domain": "mixtiles.com",
-    "name": "Mixtiles",
+    "name": "Mixtiles - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -35939,7 +35947,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "photoweb.fr",
-    "name": "Photoweb",
+    "name": "Photoweb - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -37087,7 +37095,7 @@
       "google-ai-overview"
     ],
     "companyName": "Technical creatives",
-    "promptsCount": 8,
+    "promptsCount": 9,
     "companyId": "co_3f47d003-5643-4860-b474-85aa3e710679"
   },
   {
@@ -37103,7 +37111,7 @@
       "google-ai-overview"
     ],
     "companyName": "Spacedealer",
-    "promptsCount": 24,
+    "promptsCount": 25,
     "companyId": "co_564723ac-8490-414a-aefb-2b9ee38c052b"
   },
   {
@@ -37280,7 +37288,7 @@
       "google-ai-mode"
     ],
     "companyName": "lightricks.com",
-    "promptsCount": 28,
+    "promptsCount": 40,
     "companyId": "co_af3e19c0-be70-4297-8dc4-99c8ce15bb87"
   },
   {
@@ -37368,7 +37376,7 @@
     "promptLimit": 150,
     "chatIntervalInHours": 24,
     "domain": "1komma5.com",
-    "name": "1Komma5 DE",
+    "name": "1KOMMA5 DE",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -37619,7 +37627,7 @@
       "google-ai-overview"
     ],
     "companyName": "HowToSaaS",
-    "promptsCount": 14,
+    "promptsCount": 25,
     "companyId": "co_13c3eb00-c269-4ddc-9d53-3b8be3c2bd7a"
   },
   {
@@ -37824,7 +37832,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "marignan-immobilier.com",
-    "name": "Marignan",
+    "name": "Analysis - Marignan",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -38439,7 +38447,7 @@
       "chatgpt",
       "sonar",
       "google-ai-overview",
-      "gemini-2-5-flash"
+      "google-ai-mode"
     ],
     "companyName": "Digitale Konsorten",
     "promptsCount": 14,
@@ -39333,7 +39341,7 @@
     "promptLimit": 300,
     "chatIntervalInHours": 24,
     "domain": "allianz.fr",
-    "name": "Allianz",
+    "name": "Allianz - Monitoring",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -39421,7 +39429,7 @@
       "google-ai-overview"
     ],
     "companyName": "Limitless Agency",
-    "promptsCount": 11,
+    "promptsCount": 10,
     "companyId": "co_e98a8d5d-33e9-4fad-a245-72b0df51e08d"
   },
   {
@@ -39979,7 +39987,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "certina.com",
-    "name": "Certina",
+    "name": "Certina - Monitoring",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -40221,7 +40229,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "bluevine.com",
-    "name": "Bluevine",
+    "name": "Bluevine - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -40261,7 +40269,7 @@
       "google-ai-overview"
     ],
     "companyName": "Equiti",
-    "promptsCount": 99,
+    "promptsCount": 96,
     "companyId": "co_da012d6a-e477-4596-b1c4-b0d65598af30"
   },
   {
@@ -40438,7 +40446,7 @@
       "google-ai-overview"
     ],
     "companyName": "Paddle Creative",
-    "promptsCount": 12,
+    "promptsCount": 14,
     "companyId": "co_34745fdf-13b1-497e-bcb2-9a9bf3fb9a9d"
   },
   {
@@ -41056,7 +41064,7 @@
     "chatIntervalInHours": 24,
     "domain": "comfy.org",
     "name": "ComfyUI",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -41404,11 +41412,11 @@
   },
   {
     "id": "or_eb6996dc-cb1e-45e3-8340-565932e4cd71",
-    "promptLimit": 25,
+    "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "a2a.it",
     "name": "A2A",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -41511,7 +41519,7 @@
       "google-ai-overview"
     ],
     "companyName": "Habitat",
-    "promptsCount": 43,
+    "promptsCount": 46,
     "companyId": "co_e04c99d2-84b5-46de-bd65-1b52a4ef86cf"
   },
   {
@@ -41834,7 +41842,7 @@
       "google-ai-overview"
     ],
     "companyName": "Fintel Connect",
-    "promptsCount": 18,
+    "promptsCount": 14,
     "companyId": "co_d0064b73-032c-4f78-9737-b49bebdcff8e"
   },
   {
@@ -41899,7 +41907,7 @@
       "google-ai-overview"
     ],
     "companyName": "Medianet",
-    "promptsCount": 60,
+    "promptsCount": 61,
     "companyId": "co_9ba81bc5-7e8b-4454-8c66-517b63f064d5"
   },
   {
@@ -42009,7 +42017,7 @@
       "chatgpt",
       "sonar",
       "google-ai-overview",
-      "gemini-2-5-flash"
+      "google-ai-mode"
     ],
     "companyName": "Digitale Konsorten",
     "promptsCount": 10,
@@ -42326,7 +42334,7 @@
     "promptLimit": 200,
     "chatIntervalInHours": 24,
     "domain": "gorjana.com",
-    "name": "Gorjana",
+    "name": "Gorjana - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -42534,7 +42542,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "frenchbee.com",
-    "name": "FrenchBee",
+    "name": "Monitoring - FrenchBee",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -42785,7 +42793,7 @@
       "google-ai-overview"
     ],
     "companyName": "Ontra",
-    "promptsCount": 25,
+    "promptsCount": 35,
     "companyId": "co_3b4e0ab5-df32-41da-9a3d-b84b3da872c4"
   },
   {
@@ -43304,7 +43312,7 @@
       "google-ai-overview"
     ],
     "companyName": "CCM19",
-    "promptsCount": 22,
+    "promptsCount": 23,
     "companyId": "co_b81d6469-1fcf-4c1a-98a2-a0ace9b3a8fb"
   },
   {
@@ -44092,7 +44100,7 @@
       "google-ai-overview"
     ],
     "companyName": "Zooka",
-    "promptsCount": 23,
+    "promptsCount": 24,
     "companyId": "co_51064ad7-00c6-45b1-a91a-3601a93fbf9b"
   },
   {
@@ -44335,7 +44343,7 @@
       "google-ai-overview"
     ],
     "companyName": "Campact",
-    "promptsCount": 21,
+    "promptsCount": 13,
     "companyId": "co_aa88029c-8287-466f-99b4-d666535019c3"
   },
   {
@@ -44889,17 +44897,15 @@
   },
   {
     "id": "or_bc486578-467c-4f52-8767-4b9f5c7e42ed",
-    "promptLimit": 25,
+    "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "seat.pl",
     "name": "Seat",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
-      "google-ai-overview",
-      "gemini-2-5-flash",
-      "claude-sonnet-4"
+      "google-ai-overview"
     ],
     "companyName": "Verseo",
     "promptsCount": 0,
@@ -45135,7 +45141,7 @@
     "chatIntervalInHours": 24,
     "domain": "enverson.com",
     "name": "Enverson AI ",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -45295,7 +45301,7 @@
     "chatIntervalInHours": 24,
     "domain": "gitfounders.com",
     "name": "GitFounders",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -45535,7 +45541,7 @@
     "chatIntervalInHours": 24,
     "domain": "reconcilio.com",
     "name": "Reconcilio",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -45574,7 +45580,7 @@
       "google-ai-overview"
     ],
     "companyName": "Scelion",
-    "promptsCount": 19,
+    "promptsCount": 20,
     "companyId": "co_06ba5ed0-42ba-465e-b0a3-c137d26574b3"
   },
   {
@@ -45599,7 +45605,7 @@
     "chatIntervalInHours": 24,
     "domain": "spacest.com",
     "name": "Spacest.com",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -45654,7 +45660,7 @@
       "google-ai-overview"
     ],
     "companyName": "Tomorrow.io",
-    "promptsCount": 7,
+    "promptsCount": 8,
     "companyId": "co_cc89e102-d4a3-40b7-87b9-909ea69314b6"
   },
   {
@@ -45679,7 +45685,7 @@
     "chatIntervalInHours": 24,
     "domain": "proshort.ai",
     "name": "Proshort",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -45951,7 +45957,7 @@
     "chatIntervalInHours": 24,
     "domain": "docfinder.at",
     "name": "Docfinder",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -46047,7 +46053,7 @@
     "chatIntervalInHours": 24,
     "domain": "weimob.com",
     "name": "weimob",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -46070,7 +46076,7 @@
       "google-ai-overview"
     ],
     "companyName": "Hummingbirds",
-    "promptsCount": 5,
+    "promptsCount": 6,
     "companyId": "co_89cdfad1-944c-49e4-9ed6-0c97711a7c92"
   },
   {
@@ -46109,7 +46115,7 @@
     "id": "or_2726a4d7-d0dd-4f8c-a446-94cbc4237dae",
     "promptLimit": 50,
     "chatIntervalInHours": 24,
-    "domain": "lufthansa.com",
+    "domain": "brusselsairlines.com",
     "name": "Mohit 1",
     "status": "CUSTOMER",
     "modelIds": [
@@ -46390,7 +46396,7 @@
       "google-ai-overview"
     ],
     "companyName": "Home Perfection Contracting",
-    "promptsCount": 6,
+    "promptsCount": 11,
     "companyId": "co_88d8dc4d-8459-472d-95d4-28e57b61aee3"
   },
   {
@@ -46559,7 +46565,7 @@
     "chatIntervalInHours": 24,
     "domain": "lazarev.agency",
     "name": "Lazarev.agency",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -46961,7 +46967,7 @@
     "chatIntervalInHours": 24,
     "domain": "signitic.com",
     "name": "Signitic",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -47495,24 +47501,24 @@
     "id": "or_53c6b9c7-6395-4a31-ac5f-2d243b678397",
     "promptLimit": 25,
     "chatIntervalInHours": 24,
-    "domain": "schmid-frank.de",
-    "name": "Schmid Frank",
-    "status": "TRIAL",
+    "domain": "optimum.one",
+    "name": "Optimum One",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
       "google-ai-overview"
     ],
     "companyName": "Dominik Zettler",
-    "promptsCount": 13,
+    "promptsCount": 19,
     "companyId": "co_a7237ecb-c6dc-4f16-9c0b-b0e68c99340b"
   },
   {
     "id": "or_55cf8dec-9167-4e75-84e0-d5aa46b37327",
     "promptLimit": 25,
     "chatIntervalInHours": 24,
-    "domain": "shopbyshop.by",
-    "name": "https://shopbyshop.by/",
+    "domain": "riocleaning.pl",
+    "name": "Riocleaning.pl",
     "status": "TRIAL",
     "modelIds": [
       "chatgpt",
@@ -47543,7 +47549,7 @@
     "id": "or_56a5ddcb-8413-48d0-8443-4bc8adccf5c5",
     "promptLimit": 100,
     "chatIntervalInHours": 24,
-    "domain": "amundi.fr",
+    "domain": "amundi.com",
     "name": "Amundi",
     "status": "CUSTOMER",
     "modelIds": [
@@ -47600,23 +47606,23 @@
       "google-ai-overview"
     ],
     "companyName": "Circa Healthcare",
-    "promptsCount": 11,
+    "promptsCount": 5,
     "companyId": "co_acc253bf-d55a-4553-b61e-43c378950e11"
   },
   {
     "id": "or_574c8424-b8f9-4be2-baec-0ba2c6c66ce9",
-    "promptLimit": 25,
+    "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "duvo.ai",
     "name": "Duvo.ai",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
       "google-ai-overview"
     ],
     "companyName": "Duvo.ai",
-    "promptsCount": 23,
+    "promptsCount": 25,
     "companyId": "co_a9c4f508-e2d9-40ff-b9df-82d6d6bf22dc"
   },
   {
@@ -47792,7 +47798,7 @@
     "promptLimit": 65,
     "chatIntervalInHours": 24,
     "domain": "1komma5.se",
-    "name": "1Komma5 SE",
+    "name": "1KOMMA5 SE",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -47889,7 +47895,7 @@
     "chatIntervalInHours": 24,
     "domain": "weboosst.com.au",
     "name": "weboost",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -48763,7 +48769,7 @@
       "google-ai-overview"
     ],
     "companyName": "AirMag Pro",
-    "promptsCount": 14,
+    "promptsCount": 19,
     "companyId": "co_39315ea7-4d8c-4e02-8cbd-6c680672d40b"
   },
   {
@@ -48835,7 +48841,7 @@
     "promptLimit": 20,
     "chatIntervalInHours": 24,
     "domain": "1komma5.fi",
-    "name": "1Komma5 FI",
+    "name": "1KOMMA5 FI",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -48859,7 +48865,7 @@
       "google-ai-overview"
     ],
     "companyName": "SCENTA",
-    "promptsCount": 18,
+    "promptsCount": 19,
     "companyId": "co_b6e420ae-722b-4901-a854-41cc8764c401"
   },
   {
@@ -49387,7 +49393,7 @@
       "google-ai-overview"
     ],
     "companyName": "Operad",
-    "promptsCount": 0,
+    "promptsCount": 25,
     "companyId": "co_0226ebc9-d38e-4a3d-897b-c2f6e635ce98"
   },
   {
@@ -49491,7 +49497,7 @@
     "promptLimit": 25,
     "chatIntervalInHours": 24,
     "domain": "legendairymilk.com",
-    "name": "legendairy milk",
+    "name": "legendairy milk by Peec AI",
     "status": "TRIAL",
     "modelIds": [
       "chatgpt",
@@ -49547,7 +49553,7 @@
       "google-ai-overview"
     ],
     "companyName": "CEGLA Medizintechnik",
-    "promptsCount": 14,
+    "promptsCount": 19,
     "companyId": "co_fbbb7edd-2bcc-4f63-ae70-c25f8d490850"
   },
   {
@@ -49684,7 +49690,7 @@
     "chatIntervalInHours": 24,
     "domain": "hs-soft.com",
     "name": "inPoint",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -49875,7 +49881,7 @@
     "promptLimit": 65,
     "chatIntervalInHours": 24,
     "domain": "1komma5.dk",
-    "name": "1Komma5 DK",
+    "name": "1KOMMA5 DK",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -50128,18 +50134,18 @@
   },
   {
     "id": "or_acb94613-48d3-423b-9313-22a23febcc54",
-    "promptLimit": 25,
+    "promptLimit": 300,
     "chatIntervalInHours": 24,
     "domain": "partnercentric.com",
     "name": "PartnerCentric",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
       "google-ai-overview"
     ],
     "companyName": "PartnerCentric",
-    "promptsCount": 0,
+    "promptsCount": 35,
     "companyId": "co_5cc5f424-6f59-4054-b009-229bf99542fe"
   },
   {
@@ -50372,14 +50378,14 @@
     "chatIntervalInHours": 24,
     "domain": "noones.com",
     "name": "NoOnes",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
       "google-ai-overview"
     ],
     "companyName": "NoOnes",
-    "promptsCount": 10,
+    "promptsCount": 14,
     "companyId": "co_fa142fdb-4e5a-4967-becb-7fc4137f7eee"
   },
   {
@@ -51071,7 +51077,7 @@
       "google-ai-overview"
     ],
     "companyName": "cool@mail.com",
-    "promptsCount": 5,
+    "promptsCount": 7,
     "companyId": "co_3faee49c-d488-421c-bd14-e2f0d380b798"
   },
   {
@@ -51151,7 +51157,7 @@
       "google-ai-overview"
     ],
     "companyName": "Alt ",
-    "promptsCount": 14,
+    "promptsCount": 17,
     "companyId": "co_6e73fd52-95a0-4d0a-b9ff-0d53b9e4f050"
   },
   {
@@ -51309,14 +51315,14 @@
     "chatIntervalInHours": 24,
     "domain": "flip.ro",
     "name": "flip.ro",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
       "google-ai-overview"
     ],
     "companyName": "difrnt",
-    "promptsCount": 5,
+    "promptsCount": 11,
     "companyId": "co_c6d3732c-6d02-4634-818a-bbf8d7991cb5"
   },
   {
@@ -51405,14 +51411,14 @@
     "chatIntervalInHours": 24,
     "domain": "leavethekey.com",
     "name": "Leave the Key",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
       "google-ai-overview"
     ],
     "companyName": "Kadima",
-    "promptsCount": 11,
+    "promptsCount": 22,
     "companyId": "co_2ef93ce8-06db-484b-b7ee-38a1804e2044"
   },
   {
@@ -51479,7 +51485,7 @@
       "google-ai-overview"
     ],
     "companyName": "World Precision Instruments",
-    "promptsCount": 71,
+    "promptsCount": 72,
     "companyId": "co_87207339-2e96-4922-9c79-baa3782769d5"
   },
   {
@@ -51487,7 +51493,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "sevetys.fr",
-    "name": "Sevetys",
+    "name": "Sevetys - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -51568,7 +51574,7 @@
     "chatIntervalInHours": 24,
     "domain": "theculinaryedge.com",
     "name": "The Culinary Edge",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -51760,7 +51766,7 @@
     "chatIntervalInHours": 24,
     "domain": "curogram.com",
     "name": "Curogram",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -51959,7 +51965,7 @@
       "google-ai-overview"
     ],
     "companyName": "Timme Hosting GmbH & Co. KG",
-    "promptsCount": 9,
+    "promptsCount": 19,
     "companyId": "co_34882503-815f-4884-bd2d-da39ccaa1db7"
   },
   {
@@ -52185,7 +52191,7 @@
       "google-ai-overview"
     ],
     "companyName": "Rabbet",
-    "promptsCount": 7,
+    "promptsCount": 32,
     "companyId": "co_c97ffbb3-3e16-40ae-b07e-6e1decb9741d"
   },
   {
@@ -52306,7 +52312,7 @@
     "chatIntervalInHours": 24,
     "domain": "aiven.io",
     "name": "Aiven",
-    "status": "TRIAL",
+    "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
       "sonar",
@@ -52505,7 +52511,7 @@
       "google-ai-overview"
     ],
     "companyName": "Booklya",
-    "promptsCount": 23,
+    "promptsCount": 25,
     "companyId": "co_0fb4151b-2a5d-4e46-87b8-cf91328872a7"
   },
   {
@@ -52553,7 +52559,7 @@
       "google-ai-overview"
     ],
     "companyName": "GoLeasy",
-    "promptsCount": 5,
+    "promptsCount": 14,
     "companyId": "co_e6abcd1a-0e72-43a8-9f3f-779c48b42a58"
   },
   {
@@ -52698,7 +52704,7 @@
       "google-ai-overview"
     ],
     "companyName": "Rokk Solutions",
-    "promptsCount": 5,
+    "promptsCount": 14,
     "companyId": "co_df2ffbb6-1b06-4e2e-9a75-370540b89908"
   },
   {
@@ -52722,7 +52728,7 @@
     "promptLimit": 100,
     "chatIntervalInHours": 24,
     "domain": "k2view.com",
-    "name": "K2view",
+    "name": "K2view - Analysis",
     "status": "CUSTOMER",
     "modelIds": [
       "chatgpt",
@@ -52922,7 +52928,7 @@
       "google-ai-overview"
     ],
     "companyName": "steda",
-    "promptsCount": 7,
+    "promptsCount": 23,
     "companyId": "co_e5f75091-797c-4991-ab96-b704d30642ba"
   },
   {
@@ -53055,7 +53061,7 @@
   },
   {
     "id": "or_7d76525c-cc6a-40f5-8a54-2021f4f1276c",
-    "promptLimit": 750,
+    "promptLimit": 50,
     "chatIntervalInHours": 24,
     "domain": "verseo.pl",
     "name": "Verseo",
@@ -53194,7 +53200,7 @@
       "google-ai-overview"
     ],
     "companyName": "Generator",
-    "promptsCount": 7,
+    "promptsCount": 3,
     "companyId": "co_af9e725e-352f-4974-a990-21640df76562"
   },
   {
@@ -53260,5 +53266,1361 @@
     "companyName": "Bonzer2",
     "promptsCount": 8,
     "companyId": "co_e843e46a-68ba-4c74-b36b-2a81e649280c"
+  },
+  {
+    "id": "or_029e723c-9172-434e-b314-5c7beafb54b3",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "epionce.com",
+    "name": "Epionce",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Base Beauty Creative Agency",
+    "promptsCount": 2,
+    "companyId": "co_927ae7a8-78d9-43d0-825f-4b0d3af7859e"
+  },
+  {
+    "id": "or_05cf5382-fef8-416e-a3ff-470eae340859",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "peec.ai",
+    "name": "peec ai",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "peec ai",
+    "promptsCount": 0,
+    "companyId": "co_328744f3-8926-4f97-90fe-d938222e70e2"
+  },
+  {
+    "id": "or_0e833124-e8d1-45b2-9ddc-9fbe1969dee3",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "tjh.com",
+    "name": "tjh test",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "tjh ",
+    "promptsCount": 30,
+    "companyId": "co_d4a7b6de-e42d-4daf-b6ea-175aa944f75c"
+  },
+  {
+    "id": "or_16b324b0-96f0-44e7-90e7-f483b3fc373c",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "suzuki.cl",
+    "name": "Suzuki",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Suzuku",
+    "promptsCount": 25,
+    "companyId": "co_ca32bbf9-9396-48a5-b86c-5c978f0b70dc"
+  },
+  {
+    "id": "or_171880e5-b34d-40b3-a19d-2c141d0b4513",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "englezacopii.ro",
+    "name": "englezacopii.ro",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Limitless Agency",
+    "promptsCount": 20,
+    "companyId": "co_e98a8d5d-33e9-4fad-a245-72b0df51e08d"
+  },
+  {
+    "id": "or_175c411b-4f04-4aa2-a4fc-8edf4939c3fa",
+    "promptLimit": 100,
+    "chatIntervalInHours": 24,
+    "domain": "stiebel-eltron.de",
+    "name": "Stiebel Eltron",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Denkwerk",
+    "promptsCount": 24,
+    "companyId": "co_5103188d-6db3-4c02-8c55-3d3e2c2573db"
+  },
+  {
+    "id": "or_1a8df76d-f010-4162-9478-33203c836b91",
+    "promptLimit": 50,
+    "chatIntervalInHours": 24,
+    "domain": "amzell.de",
+    "name": "AMZELL",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "SMAWAX GmbH",
+    "promptsCount": 0,
+    "companyId": "co_f86da068-ced6-4d92-ad17-74e57b19718f"
+  },
+  {
+    "id": "or_203ab423-6428-4c8d-a4f4-b04d547b7708",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "cfp.net",
+    "name": "CFP Board",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "CFP Board",
+    "promptsCount": 5,
+    "companyId": "co_f5eb230b-64a6-4a63-85c1-1e617f206224"
+  },
+  {
+    "id": "or_2605f0cb-aa69-4702-bb9b-a4e826aaeaf6",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "kerno.io",
+    "name": "kerno",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "kerno",
+    "promptsCount": 8,
+    "companyId": "co_a2585e9d-5696-4b21-8313-4f6fdf826407"
+  },
+  {
+    "id": "or_26ff77e0-647e-43cb-8ebf-03c4585f803e",
+    "promptLimit": 50,
+    "chatIntervalInHours": 24,
+    "domain": "smarketer.de",
+    "name": "SMARKETER",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "SMAWAX GmbH",
+    "promptsCount": 0,
+    "companyId": "co_f86da068-ced6-4d92-ad17-74e57b19718f"
+  },
+  {
+    "id": "or_2f7057ae-07e8-49fc-9d38-456ce02e09b7",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "belehrung-ifsg.de",
+    "name": "SWHS",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Bigwave Marketing GmbH & Co.KG",
+    "promptsCount": 6,
+    "companyId": "co_37d1e904-5b08-4dfd-b730-481a848a513c"
+  },
+  {
+    "id": "or_321820a9-4b7c-4c34-bf16-689e4252ce2c",
+    "promptLimit": 100,
+    "chatIntervalInHours": 24,
+    "domain": "americanexpress.com",
+    "name": "American Express",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "DKC",
+    "promptsCount": 0,
+    "companyId": "co_252c4574-b301-42db-a46d-51a42281a839"
+  },
+  {
+    "id": "or_32e08017-6eb4-4579-8a94-400bd898caec",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "dfsk.cl",
+    "name": "DFSK",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Suzuku",
+    "promptsCount": 26,
+    "companyId": "co_ca32bbf9-9396-48a5-b86c-5c978f0b70dc"
+  },
+  {
+    "id": "or_3b471663-2dd8-4e1d-8c25-4cc929368a14",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "synq.io",
+    "name": "SYNQ",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "SYNQ",
+    "promptsCount": 5,
+    "companyId": "co_f248332a-fe17-44bb-9579-773106cb2869"
+  },
+  {
+    "id": "or_3fa798da-1316-4183-b586-a2a4951c26b8",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "veidec.com",
+    "name": "Veidec",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Seo doktorn",
+    "promptsCount": 4,
+    "companyId": "co_4daf53c4-5d09-4abf-aa5c-e2de566e49f6"
+  },
+  {
+    "id": "or_45d2d116-e37f-4f68-984c-74a510f84076",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "lassie.co",
+    "name": "Lassie",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Lassie",
+    "promptsCount": 60,
+    "companyId": "co_563ca1e1-4a91-4276-9bc0-ebd5a1c9babe"
+  },
+  {
+    "id": "or_4c5cb974-0f64-4186-b992-46de30fffa36",
+    "promptLimit": 100,
+    "chatIntervalInHours": 24,
+    "domain": "scale.com",
+    "name": "Scale AI",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Scale AI",
+    "promptsCount": 25,
+    "companyId": "co_97c3f311-979b-4e08-826a-bf5061cb2222"
+  },
+  {
+    "id": "or_4d46d0e9-8f78-4dab-81aa-10b1b1ac21f2",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "fishinghouse.cz",
+    "name": "https://www.fishinghouse.cz/",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "https://www.fishinghouse.cz/",
+    "promptsCount": 9,
+    "companyId": "co_8eaf8689-ce66-4506-8964-6d3e4e6a0ddf"
+  },
+  {
+    "id": "or_526b1f6a-b427-4836-9de6-c083c3de8f16",
+    "promptLimit": 50,
+    "chatIntervalInHours": 24,
+    "domain": "pulze.com",
+    "name": "Pulze",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Alkemy",
+    "promptsCount": 50,
+    "companyId": "co_8c48e54c-bda0-4916-9bab-2396964ed1ad"
+  },
+  {
+    "id": "or_58523e5c-33bd-4364-8e0b-53db6d729884",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "guestready.com",
+    "name": "GuestReady",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "GuestReady",
+    "promptsCount": 13,
+    "companyId": "co_259ebd07-ede7-4242-aed3-a03c86edbc73"
+  },
+  {
+    "id": "or_5b24c850-bc61-45de-8cc4-4587ce4d058b",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "immobilien-wert.org",
+    "name": "Gutachterbüro Echelmeyer",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Quartier44",
+    "promptsCount": 5,
+    "companyId": "co_e952a673-e59b-47ee-aa7d-d1dbaeaf8073"
+  },
+  {
+    "id": "or_5f661c6b-2634-4ba2-a64d-f364071fa6ca",
+    "promptLimit": 50,
+    "chatIntervalInHours": 24,
+    "domain": "akkushop.de",
+    "name": "AkkuShop",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "SMAWAX GmbH",
+    "promptsCount": 0,
+    "companyId": "co_f86da068-ced6-4d92-ad17-74e57b19718f"
+  },
+  {
+    "id": "or_6c5485d0-403e-4c70-aa47-3c4b9b76bb6a",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "truworthwellness.com",
+    "name": "Truworth Wellness",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "StayRelevant",
+    "promptsCount": 7,
+    "companyId": "co_07251987-5f1b-4b7a-b378-ae052a81530f"
+  },
+  {
+    "id": "or_72397169-cf2d-43ba-af04-37f8cce27e1d",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "ejari.sa",
+    "name": "Ejari",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Ejari",
+    "promptsCount": 6,
+    "companyId": "co_09b38e4f-faa2-4d2b-aa40-31aa81ec337d"
+  },
+  {
+    "id": "or_743055f2-a383-42cc-95fc-7a442c5b64be",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "payrails.com",
+    "name": "Payrails",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Payrails",
+    "promptsCount": 2,
+    "companyId": "co_f0bdab64-3115-4a4d-a3f3-254be37b8d82"
+  },
+  {
+    "id": "or_7bcec615-9d21-4fbd-ac0d-3a2e5fd24562",
+    "promptLimit": 50,
+    "chatIntervalInHours": 24,
+    "domain": "join-safti.com",
+    "name": "SAFTI Join SAFTI - Analysis",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "primelis",
+    "promptsCount": 0,
+    "companyId": "co_f2f15e87-d509-4ddf-b0af-9b6aaedc467a"
+  },
+  {
+    "id": "or_7c3224cd-178b-42b1-80b4-6047f36ee656",
+    "promptLimit": 110,
+    "chatIntervalInHours": 24,
+    "domain": "xfinity.com",
+    "name": "Xfinity",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Publicis",
+    "promptsCount": 110,
+    "companyId": "co_a36e3f9d-66ef-406b-b83b-dfee8787f40c"
+  },
+  {
+    "id": "or_7e04fee8-ae11-48ee-bbd3-ffaa051a1dea",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "binscrub.com",
+    "name": "Bin Scrub",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "ocraig consulting",
+    "promptsCount": 0,
+    "companyId": "co_ad128df1-24cd-4e24-b5c3-9b0d488b98dc"
+  },
+  {
+    "id": "or_7f0129e6-7554-45fa-aec9-a91158c4b685",
+    "promptLimit": 100,
+    "chatIntervalInHours": 24,
+    "domain": "coca-cola.com",
+    "name": "Simply Pop",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview",
+      "google-ai-mode",
+      "gemini-2-5-flash"
+    ],
+    "companyName": "Publicis",
+    "promptsCount": 80,
+    "companyId": "co_a36e3f9d-66ef-406b-b83b-dfee8787f40c"
+  },
+  {
+    "id": "or_81d7c537-876a-4993-9058-372c76e70b6f",
+    "promptLimit": 50,
+    "chatIntervalInHours": 24,
+    "domain": "skapetze.com",
+    "name": "Skapetze",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "SMAWAX GmbH",
+    "promptsCount": 0,
+    "companyId": "co_f86da068-ced6-4d92-ad17-74e57b19718f"
+  },
+  {
+    "id": "or_8b37af25-4dea-4f2c-bd25-79b43ae14a7f",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "medlyai.com",
+    "name": "Medly AI",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Medly AI",
+    "promptsCount": 7,
+    "companyId": "co_a790d32b-fe32-4970-92e9-72e13d79fd12"
+  },
+  {
+    "id": "or_8d589ecc-a54f-418d-b13a-1b11e569dab4",
+    "promptLimit": 15,
+    "chatIntervalInHours": 24,
+    "domain": "retaininternational.com",
+    "name": "Retain",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Brick Digital",
+    "promptsCount": 0,
+    "companyId": "co_965168f3-80c4-42a8-8f5e-95f4f86f2391"
+  },
+  {
+    "id": "or_8df5ca59-eb87-41ac-af48-9fdc0047f23d",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "urakkadiili.fi",
+    "name": "UrakkaDiili",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "UrakkaDiili",
+    "promptsCount": 5,
+    "companyId": "co_d3b67b50-16f5-4bbe-9b2a-b0f8d3fb08dc"
+  },
+  {
+    "id": "or_8f774aa9-b938-46ef-b78e-1346c8439508",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "kayali.com",
+    "name": "Kayali",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Base Beauty Creative Agency",
+    "promptsCount": 5,
+    "companyId": "co_927ae7a8-78d9-43d0-825f-4b0d3af7859e"
+  },
+  {
+    "id": "or_907cc7dc-69dc-46cc-8c4e-216c5118b55e",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "pumble.com",
+    "name": "Pumble ",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Pumble ",
+    "promptsCount": 19,
+    "companyId": "co_10e2a902-7cb2-495f-9533-1a3d633ac857"
+  },
+  {
+    "id": "or_924010cd-6f74-4103-9702-d3ee6e7637af",
+    "promptLimit": 100,
+    "chatIntervalInHours": 24,
+    "domain": "myswitzerland.com",
+    "name": "Schweiz Tourismus",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Jung von Matt IMPACT",
+    "promptsCount": 0,
+    "companyId": "co_31487181-bca3-4f3d-b77b-0974058b506b"
+  },
+  {
+    "id": "or_96d59660-81c2-4b2c-83fd-a11c8ddfde67",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "ravecoffee.co.uk",
+    "name": "Rave Coffee",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Rave Coffee",
+    "promptsCount": 11,
+    "companyId": "co_de477474-81ab-4b04-a3e9-d2ae8dd08ca9"
+  },
+  {
+    "id": "or_9e193b2c-194d-4c9b-a60d-e197bbd1302b",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "beauty-star.it",
+    "name": "BEAUTY STAR",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "BEAUTY STAR",
+    "promptsCount": 4,
+    "companyId": "co_60321692-c06d-4d37-9a82-8fb260b5823a"
+  },
+  {
+    "id": "or_a08229d4-b434-4804-b7c6-1b5f8e2d6c3c",
+    "promptLimit": 50,
+    "chatIntervalInHours": 24,
+    "domain": "bien-estimer-safti.fr",
+    "name": "SAFTI Bien Estimer - Analysis",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "primelis",
+    "promptsCount": 32,
+    "companyId": "co_f2f15e87-d509-4ddf-b0af-9b6aaedc467a"
+  },
+  {
+    "id": "or_a09e24cc-28a0-4ce7-b681-303c8d86a062",
+    "promptLimit": 50,
+    "chatIntervalInHours": 24,
+    "domain": "frontline.de",
+    "name": "Frontline",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Hearts & Science",
+    "promptsCount": 0,
+    "companyId": "co_2049e669-20d7-4c8a-8da7-773f7eeadf58"
+  },
+  {
+    "id": "or_a3d9fd6e-cf31-415c-94e4-ee1c7e0e2384",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "peek.us",
+    "name": "Peek Technologies",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Peek Technologies",
+    "promptsCount": 6,
+    "companyId": "co_c975e049-1227-4e12-b829-82634f9538f5"
+  },
+  {
+    "id": "or_a7378cef-95a0-4139-b8e2-b972d0a55472",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "merci.de",
+    "name": "Merci",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Denkwerk",
+    "promptsCount": 18,
+    "companyId": "co_5103188d-6db3-4c02-8c55-3d3e2c2573db"
+  },
+  {
+    "id": "or_a7470000-f76f-4b37-80be-4ff867279070",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "syntegon.com",
+    "name": "Syntegon",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Vekst",
+    "promptsCount": 2,
+    "companyId": "co_497fab57-6f66-47e9-8e40-a8eb08341547"
+  },
+  {
+    "id": "or_a8b63219-89a4-4f2c-a745-e835c8418940",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "staedean.com",
+    "name": "staedean",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Staedean",
+    "promptsCount": 2,
+    "companyId": "co_ca72612c-9590-41ee-ab60-7ceadfb74f13"
+  },
+  {
+    "id": "or_ac4fea6a-9a9b-411b-9fec-062e939bebbd",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "volvoautonomoussolutions.com",
+    "name": "Volvo",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Vekst",
+    "promptsCount": 2,
+    "companyId": "co_497fab57-6f66-47e9-8e40-a8eb08341547"
+  },
+  {
+    "id": "or_ac94ca78-d6f2-4a1f-9aab-9c267acbdac7",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "berliner-volksbank.de",
+    "name": "Berliner Volksbank",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Denkwerk",
+    "promptsCount": 25,
+    "companyId": "co_5103188d-6db3-4c02-8c55-3d3e2c2573db"
+  },
+  {
+    "id": "or_ae2174f9-1b50-4c2e-9dc4-f563e31a7771",
+    "promptLimit": 100,
+    "chatIntervalInHours": 24,
+    "domain": "nexi.at",
+    "name": "nexi",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Evergreen Media",
+    "promptsCount": 4,
+    "companyId": "co_865f93cd-d1d2-4f97-aba9-24b33d5de112"
+  },
+  {
+    "id": "or_b2dd19a4-d210-49c7-ba77-523f9d468ed4",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "edora-bijouterie.fr",
+    "name": "Edora",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Agence K4",
+    "promptsCount": 12,
+    "companyId": "co_56f12c3a-cceb-4503-985d-a6f4b2b3a06d"
+  },
+  {
+    "id": "or_b547b39d-454c-42b6-9104-4f4734779363",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "lexingtonthemes.com",
+    "name": "sfd",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "sds",
+    "promptsCount": 5,
+    "companyId": "co_894510b7-3ead-4038-a316-db5dc5735380"
+  },
+  {
+    "id": "or_b7b720b9-6c93-4240-acf4-7a16e359a48d",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "forzatrans.com",
+    "name": "Forza Transportation",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Forza Transportation",
+    "promptsCount": 14,
+    "companyId": "co_51d5a34d-ec7e-406e-8d6a-1bad6c3fc74f"
+  },
+  {
+    "id": "or_b9bcca5a-5eff-424d-821f-b64da17765ca",
+    "promptLimit": 50,
+    "chatIntervalInHours": 24,
+    "domain": "betriebsrat.de",
+    "name": "Betriebsrat",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "SMAWAX GmbH",
+    "promptsCount": 0,
+    "companyId": "co_f86da068-ced6-4d92-ad17-74e57b19718f"
+  },
+  {
+    "id": "or_baeb3725-6461-4c88-b7a5-9c0ad8d063c7",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "relume.io",
+    "name": "Relume",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Relume",
+    "promptsCount": 4,
+    "companyId": "co_944ce340-e650-4cf5-a857-cd4f16c845d9"
+  },
+  {
+    "id": "or_bc1ec755-0fea-456d-b208-2813f0bed944",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "radiocoms.co.uk",
+    "name": "Radiocoms",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Yellowball",
+    "promptsCount": 1,
+    "companyId": "co_d4224248-b582-40c9-bbd7-ba62380e9875"
+  },
+  {
+    "id": "or_bdad10af-1fb3-47fa-8405-bb4eac96d03a",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "getinge.com",
+    "name": "Getinge",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Vekst",
+    "promptsCount": 2,
+    "companyId": "co_497fab57-6f66-47e9-8e40-a8eb08341547"
+  },
+  {
+    "id": "or_beb16b6d-68ac-4168-a664-af6d55c2563c",
+    "promptLimit": 100,
+    "chatIntervalInHours": 24,
+    "domain": "breitling.com",
+    "name": "Breitling",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview",
+      "google-ai-mode"
+    ],
+    "companyName": "Breitling",
+    "promptsCount": 48,
+    "companyId": "co_f6c52490-1107-44fb-9faf-cc8128de2c3f"
+  },
+  {
+    "id": "or_bee95c3c-8622-4851-8738-3276bb4aa1dc",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "rithum.com",
+    "name": "Rithum",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Rithum",
+    "promptsCount": 15,
+    "companyId": "co_57e2a445-2ead-4892-96da-a2f5ca958eb4"
+  },
+  {
+    "id": "or_c1cd6955-f680-4782-9cf3-b87599cf6716",
+    "promptLimit": 50,
+    "chatIntervalInHours": 24,
+    "domain": "tschuggencollection.ch",
+    "name": "Tschuggen Collection",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Jung von Matt IMPACT",
+    "promptsCount": 0,
+    "companyId": "co_31487181-bca3-4f3d-b77b-0974058b506b"
+  },
+  {
+    "id": "or_c3358f54-7d48-4ecc-9024-51d1e8474396",
+    "promptLimit": 50,
+    "chatIntervalInHours": 24,
+    "domain": "udobaer.de",
+    "name": "Udo Bär",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "SMAWAX GmbH",
+    "promptsCount": 0,
+    "companyId": "co_f86da068-ced6-4d92-ad17-74e57b19718f"
+  },
+  {
+    "id": "or_c51a6f1a-514b-4689-abff-a0518b69f1a4",
+    "promptLimit": 100,
+    "chatIntervalInHours": 24,
+    "domain": "fraenkische.de",
+    "name": "Fraenkische ",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Blue World Studio",
+    "promptsCount": 15,
+    "companyId": "co_0db7216a-c9fe-465c-9109-4b6f56b4b5a3"
+  },
+  {
+    "id": "or_c7af786c-b585-4190-a939-6d7590f675af",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "cognigy.com",
+    "name": "Cognigy",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Cognigy",
+    "promptsCount": 7,
+    "companyId": "co_ba1ed81e-8956-40e7-acc4-797b22001d68"
+  },
+  {
+    "id": "or_c992fd74-cd5d-40a0-9017-dd4ac90f1df7",
+    "promptLimit": 50,
+    "chatIntervalInHours": 24,
+    "domain": "drinkag1.com",
+    "name": "AG1 🇦🇺",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "gpt-4o-search",
+      "sonar",
+      "google-ai-overview",
+      "google-ai-mode",
+      "gemini-2-5-flash"
+    ],
+    "companyName": "AG1",
+    "promptsCount": 34,
+    "companyId": "co_4628bc20-4479-4677-b7e2-befac985debf"
+  },
+  {
+    "id": "or_ca07f331-ed19-44c4-b6c5-39c06e40a9c2",
+    "promptLimit": 100,
+    "chatIntervalInHours": 24,
+    "domain": "campbells.com",
+    "name": "Campbells",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview",
+      "google-ai-mode",
+      "gemini-2-5-flash"
+    ],
+    "companyName": "Publicis",
+    "promptsCount": 82,
+    "companyId": "co_a36e3f9d-66ef-406b-b83b-dfee8787f40c"
+  },
+  {
+    "id": "or_ca88a44d-8867-47c3-9564-e21985c21d89",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "langwatch.ai",
+    "name": "LangWatch",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "LangWatch",
+    "promptsCount": 10,
+    "companyId": "co_afe9557e-3d55-44be-92e6-b98f00f1eb4a"
+  },
+  {
+    "id": "or_cafeaf04-692b-474e-aca9-4c88a639ec20",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "studentclearinghouse.org",
+    "name": "National Student Clearinghouse",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview",
+      "gemini-2-5-flash",
+      "claude-sonnet-4"
+    ],
+    "companyName": "National Student Clearinghouse",
+    "promptsCount": 12,
+    "companyId": "co_433c9305-c3b6-4ed4-9de8-c2f92b834376"
+  },
+  {
+    "id": "or_cda3c5d2-4a68-406b-9730-0ccf6bbd7ffd",
+    "promptLimit": 15,
+    "chatIntervalInHours": 24,
+    "domain": "arnica.io",
+    "name": "Arnica",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Something Inc.",
+    "promptsCount": 0,
+    "companyId": "co_7dd92ff3-4b2e-4f2d-820e-943aa303f0a5"
+  },
+  {
+    "id": "or_cdd6f81a-7ec2-476b-b5dc-4ace8d373c5d",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "katarinadahlin.com",
+    "name": "Katarina Dahlin",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Katarina Dahlin",
+    "promptsCount": 24,
+    "companyId": "co_d293fcbd-4845-41cd-ba36-7bea3b87dda5"
+  },
+  {
+    "id": "or_d3c3814d-7cd6-4e4b-8239-c364e6b17ae4",
+    "promptLimit": 100,
+    "chatIntervalInHours": 24,
+    "domain": "coca-cola.com",
+    "name": "Coca Cola",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview",
+      "google-ai-mode",
+      "gemini-2-5-flash"
+    ],
+    "companyName": "Publicis",
+    "promptsCount": 80,
+    "companyId": "co_a36e3f9d-66ef-406b-b83b-dfee8787f40c"
+  },
+  {
+    "id": "or_d4706634-23d3-4e97-a031-6e9f8187f249",
+    "promptLimit": 100,
+    "chatIntervalInHours": 24,
+    "domain": "amwin.pl",
+    "name": "https://amwin.pl/",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Verseo",
+    "promptsCount": 0,
+    "companyId": "co_334609f6-92c9-4f61-b036-54ad5853da70"
+  },
+  {
+    "id": "or_d5e05908-621c-4afa-bb4f-d65944c626c9",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "edgeone.ai",
+    "name": "edgeone",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "edgeone",
+    "promptsCount": 24,
+    "companyId": "co_0b3372ff-d6fa-4aa8-b1fc-303656ae357b"
+  },
+  {
+    "id": "or_d6bf9e80-75b8-462d-b3e2-0fe4d8b14bae",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "canva.com",
+    "name": "Canva",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Canva",
+    "promptsCount": 5,
+    "companyId": "co_28005836-6450-4e5e-b392-f89c12dec6d2"
+  },
+  {
+    "id": "or_d6d68c26-d0ca-4d8f-90d4-78a6ff964370",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "iko.com",
+    "name": "IKO",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "HSS Enterprises",
+    "promptsCount": 20,
+    "companyId": "co_b17288f1-b1de-4ef7-a362-9fbfb27635dd"
+  },
+  {
+    "id": "or_d87a742d-7125-44ce-a6e0-61aa8536a182",
+    "promptLimit": 50,
+    "chatIntervalInHours": 24,
+    "domain": "zabezpieczeniapoznan.pl",
+    "name": "zabezpieczenia",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Verseo",
+    "promptsCount": 2,
+    "companyId": "co_334609f6-92c9-4f61-b036-54ad5853da70"
+  },
+  {
+    "id": "or_e2151e18-50d8-435c-aaa1-1b75518f1f69",
+    "promptLimit": 100,
+    "chatIntervalInHours": 24,
+    "domain": "criteo.com",
+    "name": "Criteo",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Criteo",
+    "promptsCount": 32,
+    "companyId": "co_5fafcec6-92be-4a3f-a2c7-d7dbb455facb"
+  },
+  {
+    "id": "or_e69c5696-5a0e-4004-8ae1-0704cc841a52",
+    "promptLimit": 50,
+    "chatIntervalInHours": 24,
+    "domain": "sulpo.pl",
+    "name": "Sulpo",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Verseo",
+    "promptsCount": 6,
+    "companyId": "co_334609f6-92c9-4f61-b036-54ad5853da70"
+  },
+  {
+    "id": "or_ec50beb6-d5f5-4d30-9cb2-f087a5642b1f",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "legendairymilk.com",
+    "name": "Legendairy Milk",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "legendairy milk",
+    "promptsCount": 0,
+    "companyId": "co_27b238d3-2897-449c-b524-5c08d686d0b4"
+  },
+  {
+    "id": "or_ec8b061c-93c9-48a0-9f0a-627df1a10eea",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "dercocenter.cl",
+    "name": "DercoCenter",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Suzuku",
+    "promptsCount": 25,
+    "companyId": "co_ca32bbf9-9396-48a5-b86c-5c978f0b70dc"
+  },
+  {
+    "id": "or_efa07b17-72a5-47db-aa4a-a2c4ce795354",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "apm.de",
+    "name": "apm",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Frederik Schafmeister",
+    "promptsCount": 6,
+    "companyId": "co_c584a5c4-d22a-4a85-bcb9-4274ff58f30b"
+  },
+  {
+    "id": "or_efff86ae-6bfe-40c8-98ad-434c289fcafa",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "dms.be",
+    "name": "DM&S",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "DM&S",
+    "promptsCount": 25,
+    "companyId": "co_9ca95c8d-63f2-43a4-bc14-de990710c2ee"
+  },
+  {
+    "id": "or_f33e8ca0-8840-4f66-9b5f-730551586ed6",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "derrimut247.com.au",
+    "name": "Derrimut 24:7 ",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Derrimut 24:7 ",
+    "promptsCount": 9,
+    "companyId": "co_21b66434-eca1-45fb-b161-26e084c7a153"
+  },
+  {
+    "id": "or_f4c195a3-64a5-4e18-89c0-bd15df0938b7",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "harley-davidson.cl",
+    "name": "Harley Davidson",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Suzuku",
+    "promptsCount": 25,
+    "companyId": "co_ca32bbf9-9396-48a5-b86c-5c978f0b70dc"
+  },
+  {
+    "id": "or_f5673954-82f6-4e0f-884d-36a1358590c4",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "mindbright.one",
+    "name": "MindBright",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "MindBright",
+    "promptsCount": 25,
+    "companyId": "co_71c9cc81-6f00-4d2d-a1df-1c650c7e7a55"
+  },
+  {
+    "id": "or_f7ab8b44-f66d-4e70-9ea0-8369b115eed0",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "storck.com",
+    "name": "Storck",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Denkwerk",
+    "promptsCount": 10,
+    "companyId": "co_5103188d-6db3-4c02-8c55-3d3e2c2573db"
+  },
+  {
+    "id": "or_fa34b770-3b4b-40e8-9057-697673b1cfb5",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "goteborgenergi.se",
+    "name": "Göteborg Energi",
+    "status": "TRIAL",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Vekst",
+    "promptsCount": 3,
+    "companyId": "co_497fab57-6f66-47e9-8e40-a8eb08341547"
+  },
+  {
+    "id": "or_ff004916-7869-4a8e-bc63-d119bafddd5a",
+    "promptLimit": 25,
+    "chatIntervalInHours": 24,
+    "domain": "notion.so",
+    "name": "Notion",
+    "status": "CUSTOMER",
+    "modelIds": [
+      "chatgpt",
+      "sonar",
+      "google-ai-overview"
+    ],
+    "companyName": "Omniscient",
+    "promptsCount": 10,
+    "companyId": "co_05b9ee43-e430-49ea-9816-4edeec0e0e93"
   }
 ]
