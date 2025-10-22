@@ -33,7 +33,7 @@ export async function fetchStripeSubscriptions() {
     for await (const sub of stripe.subscriptions.list({
       status: "active",
       limit: 100, // Fetch 100 per API call
-      expand: ["data.items.data.price", "data.discounts.coupon"],
+      expand: ["data.items.data.price", "data.discounts.coupon", "data.items.data.discounts"],
     })) {
       allSubs.push(sub);
     }
@@ -95,37 +95,6 @@ export async function fetchProducts() {
     await Bun.write(
       `${outputDir}/${outputFilename}`,
       JSON.stringify(allProducts, null, 2)
-    );
-    console.log(`✅ Data saved to ${outputFilename}`);
-  } catch (error) {
-    if (error instanceof Stripe.errors.StripeError) {
-      console.error("Stripe API Error:", error.message);
-    } else {
-      console.error("An unexpected error occurred:", error);
-    }
-  }
-}
-
-export async function fetchStripeCoupons() {
-  console.log("Connecting to Stripe to fetch all coupons...");
-
-  const stripe = new Stripe(process.env.STRIPE_API_KEY!, {
-    apiVersion: "2025-08-27.basil",
-  });
-
-  const allCoupons = [];
-  try {
-    for await (const coupon of stripe.coupons.list({
-      limit: 100,
-    })) {
-      allCoupons.push(coupon);
-    }
-    console.log(`Successfully fetched ${allCoupons.length} coupons.`);
-    const outputDir = "../data";
-    const outputFilename = "stripe_coupons.json";
-    await Bun.write(
-      `${outputDir}/${outputFilename}`,
-      JSON.stringify(allCoupons, null, 2)
     );
     console.log(`✅ Data saved to ${outputFilename}`);
   } catch (error) {
