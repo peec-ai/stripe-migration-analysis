@@ -1,5 +1,27 @@
 [
   {
+    "id": "prod_TJ9o21qbV24Bhj",
+    "object": "product",
+    "active": true,
+    "attributes": [],
+    "created": 1761498744,
+    "default_price": "price_1SMXUTKojVEYZPlX27Vtbot3",
+    "description": null,
+    "images": [],
+    "livemode": true,
+    "marketing_features": [],
+    "metadata": {},
+    "name": "300 Prompts (Six months in advance payment)",
+    "package_dimensions": null,
+    "shippable": null,
+    "statement_descriptor": null,
+    "tax_code": "txcd_10103001",
+    "type": "service",
+    "unit_label": null,
+    "updated": 1761498745,
+    "url": null
+  },
+  {
     "id": "prod_TDvhozubflPlYk",
     "object": "product",
     "active": true,
