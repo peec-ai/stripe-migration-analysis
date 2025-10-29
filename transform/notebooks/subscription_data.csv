@@ -1,0 +1,1372 @@
+name,company_id,customer_id,subscription_id,mrr,arr,discount_count,currency,interval
+Antler,co_2ebe593d-1e29-4669-8e0f-9e315cd56f5a,cus_Rg0jFvpFlajive,sub_1QmeiLKojVEYZPlXi5MWl3yK,178,,1.0,eur,month
+Glide,co_66c7c3ff-4038-4dcc-b225-89f7fc5e212a,cus_RgT8o2F5OOUaSZ,sub_1Qn6CJKojVEYZPlXWJbZYtmw,138,,0.0,eur,month
+Peak Ace,co_3b72236b-8e31-40a4-a1e8-0e764d0a66a7,cus_RkVsLVkfHVfbgw,sub_1Qr0qTKojVEYZPlXHvzPi4Za,1300,,0.0,eur,month
+Something Inc.,co_7dd92ff3-4b2e-4f2d-820e-943aa303f0a5,cus_Rle9u38yh4qQwV,sub_1Qs6r7KojVEYZPlXmUSaEzTm,350,,0.0,eur,month
+VertoDigital,co_8a9b51da-b538-4227-a77d-1c5095f454d1,cus_RlnXKGF0oxvbL9,sub_1QsFwnKojVEYZPlXWipZ7TE6,180,,0.0,eur,month
+Suchhelden,co_75a298ac-a7ee-411a-a001-3eca23dcf1c8,cus_RlqqHruUNFA2Xa,sub_1QsJ8mKojVEYZPlXn7AcJGYQ,1680,,0.0,eur,month
+Superside,co_af273fff-420d-4707-a44f-f06dac7589d5,cus_Ro9CwwoUwQ4J1I,sub_1QuWuQKojVEYZPlXr9wtEj5I,199,,0.0,eur,month
+Flow Agency,co_1fea122e-be87-47f8-b459-4bb426706d35,cus_RpdUTheiW3FXhN,sub_1QvyDQKojVEYZPlXiKerghsd,210,,0.0,eur,month
+saas.group,co_653ed519-88e1-4c7d-9866-93f16feb8f9a,cus_Rq1hmmxhI6OuWE,sub_1QwLeAKojVEYZPlXe0EwbFeN,330,,0.0,eur,month
+Skribble,co_a5b9f4f0-d872-4fed-a217-d41a3c7284a9,cus_Rr69XZNAWsWkRq,sub_1QxNxGKojVEYZPlXy9fhtN82,199,,0.0,eur,month
+AKAD Bildungsgesellschaft mbH,co_86db5ebf-a7f8-41b6-924e-45de568e9e1e,cus_Rr6wUVkUBGgKhu,sub_1QxOinKojVEYZPlXUC8hkH1J,199,,1.0,eur,month
+precis.,co_09e1de7c-a6f4-462b-b534-d73326e33314,cus_RtTJLEcaVIJmYe,sub_1QzgNHKojVEYZPlX2gljsOWX,339,,1.0,eur,month
+YOYABA,co_3fff8162-4aaa-4f1d-8e8d-76fb4ca4bc49,cus_RtlYEGtfhEVWHQ,sub_1Qzy18KojVEYZPlXEWSUpbu2,180,,0.0,eur,month
+HomeToGo,co_6600b8fa-cbbc-4ba7-9486-57f7ccaafaa8,cus_RtqmMxwiFEgLb8,sub_1R035BKojVEYZPlXwdc4fELp,260,,0.0,eur,month
+move-elevator,co_5e41599f-922b-4e27-89e1-a2d1f5596787,cus_RusCnGdat0Vtw2,sub_1R12SNKojVEYZPlXL5Y7Afzm,180,,0.0,eur,month
+Dunham Law,co_8405a878-a124-4ff5-afdc-9f8295612793,cus_RvPwpLrZKABeov,sub_1R1Z6cKojVEYZPlX5tnW4mgh,610,,0.0,eur,month
+LaVita,co_75531847-f792-4025-b6bf-a1cb7d8c054a,cus_RvxkyC66uEYj1S,sub_1R25pGKojVEYZPlXh9vHGufT,199,,0.0,eur,month
+add2,co_735e859d-e2c2-42c6-8d22-28ced8d2fdf6,cus_Rw5S49evePHAIt,sub_1R2DI1KojVEYZPlXfz0bdvpj,180,,0.0,eur,month
+Canyon,co_96c72c96-35a5-47b0-b22f-871a00879365,cus_RwM45ivh1mnear,sub_1R2TM1KojVEYZPlXr456K0LN,120,,0.0,eur,month
+sevdesk,co_b728d827-ce93-4b8a-be7c-a1bfa6671ad8,cus_RwP53Db6knKaJi,sub_1R2WGyKojVEYZPlXp4gNMGIh,89,,0.0,eur,month
+Linkspiel,co_dadec8e9-f77a-4b9e-a329-f2b2c3e62816,cus_RwPQGQNkT3jQPk,sub_1R2Wc6KojVEYZPlXZDSv9DQ7,314,,1.0,eur,month
+Quicklizard,co_3f18bde5-f0cf-4277-820b-e381a4326abf,cus_Rxqdo040k2dCHP,sub_1R3uvpKojVEYZPlXtTKid9DY,96,,1.0,eur,month
+Scandiweb,co_d42393cd-ad5b-4538-8eff-4eba5eb6084c,cus_RyDgy1gptDAZzu,sub_1R4HEwKojVEYZPlXSfytMWLo,180,,0.0,eur,month
+Knewledge,co_9cec5b00-c309-4f2c-bd1a-d2b31e1dfd57,cus_Rz0Zhna3tx9Guh,sub_1R52YnKojVEYZPlXWktZznek,240,,0.0,eur,month
+apideck,co_8283da61-a927-466a-a263-ac6515caaaef,cus_S0J7SMNaOIp8D6,sub_1R6IVPKojVEYZPlXcxwsmPZ4,399,,0.0,eur,month
+Home365,co_2a35e318-fad4-41c4-9158-fe41fb75d0a6,cus_S0Yq0mvgd8FZ2m,sub_1R6Xj4KojVEYZPlXHZhumFL7,120,,0.0,eur,month
+xpose360,co_fa90ad4a-8454-4a52-a443-b0a25763e854,cus_S0d99xRhBCpGdq,sub_1R6bsoKojVEYZPlXPKdLNtRF,180,,0.0,eur,month
+UXCam,co_a93f9d7f-9a59-43fb-9563-f046e58ed769,cus_S0v7K00Pq8yq5w,sub_1R6tHMKojVEYZPlXUdEMpE4W,120,,0.0,eur,month
+Italki,co_2feeac8a-e896-41b8-bd89-0e23846e4248,cus_S1DFkntFeDQ4Wf,sub_1R7AoqKojVEYZPlX7zsOgrz7,169,,0.0,eur,month
+Zowie,co_b2ff3041-9045-48da-80b4-5c8e863f4c93,cus_S1KBqJY4uysSxa,sub_1R7HXKKojVEYZPlXThv4jr8j,120,,0.0,eur,month
+The Media Image,co_c753b372-3eb6-4abd-a62b-07d3e1777607,cus_S1KF1sae2h24f3,sub_1R7HatKojVEYZPlXnwcbBpQD,860,,1.0,eur,month
+TIpi Group,co_d29d5af1-a858-4175-9b2a-34dce2590746,cus_S2l0Z95ldGbZrp,sub_1R8fUlKojVEYZPlXWxkgAQLw,1900,,0.0,eur,month
+eology,co_30583008-3ac4-43dc-9f04-a732ffc24b56,cus_S2nP2EcpcrOCv2,sub_1R8hp1KojVEYZPlXXBuByRsP,638,,1.0,eur,month
+Zupo,co_eaac9d6c-7611-4876-906b-5a2056dd5895,cus_S2uZtjgqIZTnQ0,sub_1R8okoKojVEYZPlX30r8tXgZ,180,,0.0,eur,month
+Eskimoz,co_57e9ab0c-f078-4cc2-a1dc-43d169bbea82,cus_S3f8kmqkqrOIWy,sub_1R9XoOKojVEYZPlXjv7DnDlf,180,,0.0,eur,month
+sandbech,co_762b7d2f-7500-4c56-bdb5-a18219f00cd3,cus_S4C7OGsMhGEaOg,sub_1RA3jXKojVEYZPlXe60tV5ME,180,,0.0,eur,month
+Ada Ventures,co_86d4e1cc-76c2-47d4-a1bd-1392323c43c0,cus_S4GTGxnPLvNQXL,sub_1RA7wEKojVEYZPlX9hvx2g6Q,120,,0.0,eur,month
+Avenue Z,co_d3b17f27-8f3a-4491-84e7-aaa9a97fde7c,cus_S4IMJMR9CFwdio,sub_1RA9ljKojVEYZPlXRROSWMEU,687,,0.0,eur,month
+Digital Leverage,co_1864112d-27c6-4133-a9f8-42d7d7992a94,cus_S4JOSu6Wy9TePM,sub_1RAAlQKojVEYZPlXm1wOoBOg,240,,0.0,eur,month
+Forward Progress,co_6bd363d5-2faa-4b22-8b23-ee081de9a4a6,cus_S4NjZFGd2FI9sY,sub_1RAEy9KojVEYZPlXpVyPFpqT,189,,0.0,eur,month
+Digital Sisco,co_4199c866-8008-4672-8650-4d6ee85e85aa,cus_S55NJwaC3JyH45,sub_1RAvDDKojVEYZPlXVrgC56Ab,468,,0.0,eur,month
+GALE,co_9a073e12-03ea-4e86-b899-d77d0c98149d,cus_S5QtiBtxJrzkFQ,sub_1RBG1pKojVEYZPlXDvCqMiyq,1254,,0.0,eur,month
+Boldare,co_1ba7ec5d-9ebb-4d31-b434-b06196a3dc2c,cus_S5jJP1HLx2B6gT,sub_1RBXqUKojVEYZPlXuupifcWL,96,,1.0,eur,month
+7Learnings,co_91e82d76-9645-4a76-8bb7-7695d83a9590,cus_S5mSO5F9UjuSBK,sub_1RBat7KojVEYZPlXAtRar9Pi,120,,0.0,eur,month
+Ad's up,co_8a74f576-feb8-4413-8448-32e4b303eae6,cus_S5r5o8OBT78eJg,sub_1RBfNZKojVEYZPlXLK6hxV46,379,,0.0,eur,month
+Kosch Klink Performance,co_ae8a374a-3893-4c21-857c-1bea3a469807,cus_S66b1GlFrvkOxC,sub_1RBuNxKojVEYZPlXKVcBox5f,1374,,0.0,eur,month
+omnisend,co_357181c0-4a9d-4f4c-9949-6c9abe0f3674,cus_S69hf6SBvtzyn8,sub_1RBxOPKojVEYZPlXroLq1rDm,120,,0.0,eur,month
+Check24,co_1f7db888-f4e0-48aa-8f78-f1b097c76a07,cus_S6Dc5e9HoOwctp,sub_1RC1B2KojVEYZPlXeaEcXPtC,180,,0.0,eur,month
+Studiohawk,co_56aca571-5503-40cb-a031-baefcd4896f9,cus_S6OW9Pf0xrqbUd,sub_1RCBjcKojVEYZPlXfPzlZzCN,750,,0.0,eur,month
+LANDR,co_2c308ac7-d6ee-4cdb-89e2-c6830d657360,cus_S6YIRg5GOLNQyv,sub_1RCLCLKojVEYZPlXjl84s0nC,200,,0.0,eur,month
+Attio,co_799412c7-27b0-4440-9a12-37e004b14db8,cus_S6v2ZUAhFvPKls,sub_1RChCwKojVEYZPlXkKeVSF9V,90,,0.0,eur,month
+Better Sell Online,co_d8195be2-8911-4c4c-a540-47f654a31883,cus_S6v5Lbwy4qf0bx,sub_1RChFEKojVEYZPlXZ0YVyNMo,180,,0.0,eur,month
+Digit Spark,co_9bb56f92-aa83-4c2b-9d58-2158c1b239e2,cus_S7yMbYUvyvS8N1,sub_1RDiQCKojVEYZPlXu89kAjyG,750,,0.0,eur,month
+netzstrategen GmbH,co_62800e33-623e-4423-a9b1-13d2f74eee1b,cus_S802GouerXdAsS,sub_1RDlI6KojVEYZPlXh2RergN3,199,,0.0,eur,month
+Henning Heesen & Company®,co_2e43e0a1-dcab-4f34-9276-b1c2874eeac5,cus_S85gNCZV1KwrhW,sub_1RDpVTKojVEYZPlXYKQtgUzb,90,,0.0,eur,month
+Youtech,co_fdc9a4c7-5004-4c78-a034-a7e902c6f6b6,cus_S8W2RFphwh0cKL,sub_1REF0BKojVEYZPlXO7OiyLZl,803,,1.0,eur,month
+No Bad Days,co_6817c9f6-5d04-4d24-92b2-14b62a834942,cus_S8rgiChsz6x3GR,sub_1REZxZKojVEYZPlXHy2s83IF,288,,0.0,eur,month
+Mint Studios,co_0b2528c9-e39e-424f-a2e3-868d1b4307f6,cus_S94aZDe6Qv4GAB,sub_1REmRpKojVEYZPlXiGANOpFX,600,,0.0,eur,month
+Masse,co_7aef14cc-bede-439f-8310-7b04c363e50e,cus_S9CEzgM5z0XcgK,sub_1REtpuKojVEYZPlXZIC664Ja,830,,0.0,eur,month
+navas & cusi,co_6e694f6e-cd33-48e8-943c-54e82fdcb751,cus_S9CvFUcaGePTUq,sub_1REuY3KojVEYZPlXr6DyNoTJ,199,,0.0,eur,month
+Getfluence,co_603e3faa-f332-449c-977c-639b7ac5bfc4,cus_SAz1CiPx3RBFO1,sub_1RGd4uKojVEYZPlXcuF2kuc4,90,,0.0,eur,month
+Biggie - CHFR,co_3e3f6e54-24c4-4854-8dc2-6adc1e04d611,cus_SB0oYu1VjSTR7c,sub_1RGen4KojVEYZPlXSVQapDzu,448,,0.0,eur,month
+Tulip,co_d7fbc5f1-a10e-4024-b6e5-ad2a00e36f8c,cus_SB6a7S4DuuF7Ii,sub_1RGkN1KojVEYZPlXAVRdFLoS,169,2029.0,0.0,eur,year
+Omniscient,co_05b9ee43-e430-49ea-9816-4edeec0e0e93,cus_SB7wu6ZPIFgWlX,sub_1RGlgRKojVEYZPlXM7tBZaQF,1440,,0.0,eur,month
+Asseco Solutions AG,co_0cda6001-4f69-47cc-bbd2-db4bf9825c41,cus_SBK7AMw1Il8i4x,sub_1RGxTgKojVEYZPlXDRkfS8nB,120,,0.0,eur,month
+Downtown Ecommerce,co_723819ef-62b3-4f34-a4a2-98461456516d,cus_SBLEFZUZ5bDjmO,sub_1RGyXwKojVEYZPlXYHYWFf31,492,,0.0,eur,month
+Growth Plays,co_5acd0425-e44f-4c42-8e32-7bc91d7460ff,cus_SBWWynndgSlFcq,sub_1RH9TAKojVEYZPlXEclydvvj,2966,,2.0,eur,month
+Forge Holidays,co_aa7f01d4-6b8d-43af-b9aa-071d2824ebc7,cus_SBpeFx3B5fH57E,sub_1RHRzfKojVEYZPlXVQPG8Vr4,398,,0.0,eur,month
+aurio,co_aea7afde-fd47-4301-b4ab-3d2acd705e4f,cus_SC9sdxaZGzxfpc,sub_1RHlYtKojVEYZPlXHh0uySi5,90,,0.0,eur,month
+Stacksy,co_dd6d2ede-37b0-43cf-812f-7caf687cf384,cus_SCB8gcFTVnIUgr,sub_1RHmmWKojVEYZPlXxDRKN0sf,90,,0.0,eur,month
+Welcome Pickups,co_b257ed29-42ef-4b1f-ab4f-338c354e847a,cus_SCCWOFWpb9aU5v,sub_1RHo8AKojVEYZPlXbzpctj17,150,,0.0,eur,month
+Momentum,co_880eb7da-333c-4c9c-9b38-3f61a8862697,cus_SCG4FEaU1Go6nM,sub_1RHrYUKojVEYZPlXXg1STiwL,248,,0.0,eur,month
+Digital Position,co_74b55a31-cdeb-483a-bfe3-4d5d9eb2955d,cus_SD77ljoXwqFc8t,sub_1RIgtmKojVEYZPlXWUyT7ORK,220,,0.0,eur,month
+HowToSaaS,co_13c3eb00-c269-4ddc-9d53-3b8be3c2bd7a,cus_SDIMaUmvNtwyBd,sub_1RIrzOKojVEYZPlXcWIyCyvX,90,,0.0,eur,month
+DataDome,co_1d40943f-c54b-48d0-a55e-5775dff4363b,cus_SDKZP95znaFWXB,sub_1RItv1KojVEYZPlXhb4CEDtk,248,,0.0,eur,month
+ALLESPRACHEN,co_67a90363-8df9-4a24-b76b-ac99db68a23f,cus_SDbmedVY4TDSKC,sub_1RJAZwKojVEYZPlX3EOfNYOS,199,,0.0,eur,month
+Axial,co_284704c2-1f40-441a-95a3-ada3db248fa5,cus_SDekhZMiFLa9OY,sub_1RJDRYKojVEYZPlXFQCsueCu,90,,0.0,eur,month
+Insurify,co_9924c6a2-cfb5-4b86-a763-1d8cab2282af,cus_SDlEgglCPH8lB4,sub_1RJJhgKojVEYZPlXcbSrib8A,199,,0.0,eur,month
+DECATHLON,co_fbe301f6-21cf-4c3f-949e-d2493e7f6f09,cus_SDw7buxjTnl517,sub_1RJUHJKojVEYZPlXXZeDjH0c,90,,0.0,eur,month
+morefire,co_231c1c4e-613f-4f61-bd6f-a7d181afb48f,cus_SDwj0pTmNgdp3R,sub_1RJUqEKojVEYZPlX5bNwpkmR,90,,0.0,eur,month
+Interactive Marketing Group,co_bf082a13-dd03-4081-96cb-1d78567e5e49,cus_SDxuEOM4M4M89Q,sub_1RJW0JKojVEYZPlX9a0g30rZ,90,,0.0,eur,month
+ScaledOn,co_ea239bc3-92b4-4b66-af8f-dca352ac7eff,cus_SETbLZIzjHLgAo,sub_1RK0e5KojVEYZPlXk9oDP9jI,90,,0.0,eur,month
+LEI Register,co_8ea65313-0ce5-4286-88b0-befa19270c72,cus_SEjjLEIiPUr2HG,sub_1RKGLOKojVEYZPlXqWBpDhUK,90,,0.0,eur,month
+Aikido Security,co_4024adde-3b15-45b2-8882-6981adf12dd6,cus_SFrO3veDCQby9V,sub_1RLLimKojVEYZPlXXlhWDLNK,299,,0.0,eur,month
+We Communications,co_a987e5fc-7b61-4a22-8077-fafa85e00f79,cus_SGEYGxHHu1Fjke,sub_1RLi8BKojVEYZPlXhCE0gH6Y,199,,0.0,eur,month
+Nord Security,co_25995de3-0232-40a1-809b-851849723430,cus_SGFL7brlxQxXp0,sub_1RLiriKojVEYZPlX6wrVhaDQ,199,,0.0,eur,month
+BODi,co_28e56d63-d6d9-4cdb-832d-28e3af57827d,cus_SFxzxR9JvsLfB1,sub_1RMFRjKojVEYZPlXFTBGp3H2,199,,0.0,eur,month
+Reedsy,co_23f7aaf4-d7d5-4348-a349-6350180db29f,cus_SGJy1t4fvJ5B4q,sub_1RMS8yKojVEYZPlXXz7bRsTG,199,,0.0,eur,month
+rapidmail,co_95445d38-178c-4cbc-9ad5-2353c07ddb7e,cus_SH3KfE622ddxNf,sub_1RMVs1KojVEYZPlXneSkSyx2,159,1910.0,0.0,eur,year
+CAMPFIRE,co_4a07a690-5cd9-4c19-bdc2-e6953e9b0cb1,cus_SHDFLGt0fjTD5G,sub_1RMepIKojVEYZPlXT0nQph6o,90,,0.0,eur,month
+DiscoverCars,co_c019a11c-dcdf-42d7-8eab-868abb88f381,cus_SHJ7WKUQPH9QGq,sub_1RMkW7KojVEYZPlX0xbxGCy6,499,,0.0,eur,month
+Abimanufaktur,co_9c1198ca-3e11-4785-979e-005c8dccbce2,cus_SHJJeL6cRWwv1a,sub_1RMkgbKojVEYZPlX8vDWJEQl,109,,0.0,eur,month
+bugbug,co_f9beba24-aea5-4e8b-b456-1f1611eba06e,cus_SEP0yu2R57Zc5V,sub_1RMqfiKojVEYZPlXk27wlUWC,90,,0.0,eur,month
+Siteminder,co_0657c6cf-967c-4674-b118-3718d9bab6c6,cus_SGqskTrof2w1ri,sub_1RNpeLKojVEYZPlXQETnBd4M,299,,0.0,eur,month
+Enyma,co_6a68501f-fd97-4500-a2ad-b696d05823db,cus_SIS53bR5M9oc5n,sub_1RNrC4KojVEYZPlXJkgTcJWi,90,,0.0,eur,month
+SEOlyse,co_342d7a7a-4d31-487c-8a25-29429cd594f6,cus_SIUIl2FFJIUvHz,sub_1RNtN6KojVEYZPlXG1SKFmcR,90,,0.0,eur,month
+Plakos,co_548279eb-c107-4204-a71e-b814f934ecba,cus_SFvOZo63CgjMTO,sub_1RNuxBKojVEYZPlXVp5v2RaM,90,,0.0,eur,month
+Exsitec,co_69c2d30d-8756-41ae-8a02-98bc6b94f195,cus_SIXlRyYZsIOhjk,sub_1RNwgHKojVEYZPlXr7367W0f,90,,0.0,eur,month
+Circle,co_26154396-faa3-4b3e-a704-b18a8ef48f53,cus_SFwab8q6vhQovG,sub_1RNyPGKojVEYZPlXFEHA3673,199,,0.0,eur,month
+Coffee Circle,co_857a18f7-c249-4556-8a44-c466b9ecef40,cus_SIvF0hkYnjHZjU,sub_1ROJPtKojVEYZPlXOYeU8G0F,128,,0.0,eur,month
+Fuel Finance,co_c42ef3f6-9e52-472b-bc42-3788fe6f66f2,cus_SJG9lKqXU0yiar,sub_1ROdhOKojVEYZPlXHWWauEx5,90,,0.0,eur,month
+lehof,co_1e95513b-eab5-4b87-86b3-7971f595e762,cus_SGd0nfKV7bIKXW,sub_1ROdyjKojVEYZPlXICHdrhyd,90,,0.0,eur,month
+rlvnt,co_5c3edb11-3370-463b-97f0-dbbd03cc7fcb,cus_SJGezu6PqMWvuV,sub_1ROe7zKojVEYZPlXpExauJn1,989,,0.0,eur,month
+ClickUp,co_f32d979b-86fe-4308-b89a-8ad4e0a5d64b,cus_SJM3kIsqfYgpAD,sub_1ROjLxKojVEYZPlXR2MM3Wau,499,,0.0,eur,month
+Dig Insights,co_399d55cc-a36b-430d-8790-f1971620d327,cus_SJPIXspv8C1Rv7,sub_1ROmTzKojVEYZPlXvLfJqpQQ,90,,0.0,eur,month
+projx,co_43497a34-d451-4e48-8034-bb26824c57d0,cus_SJcDa9bxaRwJmE,sub_1ROz0YKojVEYZPlXxk5PRvNa,90,,0.0,eur,month
+LEVEL,co_651681b3-53c3-41af-8155-aa0c47fde283,cus_SEpafbS1YkPUwr,sub_1RP47QKojVEYZPlXgFmhorIQ,90,,0.0,eur,month
+Cybay,co_597eb219-2ed9-46e7-86dd-37dcf9ab608c,cus_SJkN0HIRRxwuck,sub_1RP6tqKojVEYZPlXp6V1WeM2,180,,0.0,eur,month
+Leroy Merlin Romania,co_720ab786-b8f9-4a0b-8cb5-4819c85413e7,cus_SK2vlTgKVSDBCk,sub_1RPOqMKojVEYZPlXqnEczVcR,90,,0.0,eur,month
+Double Digits,co_c5c8c83b-67b0-4278-98ef-eb32ab27ae02,cus_SKODdClDt8aeKN,sub_1RPjRXKojVEYZPlXw60HNUiO,199,,0.0,eur,month
+Omio,co_4b9c87a8-7ac4-4445-bb2a-0fe94e4ac692,cus_S6XINjXr7NSAcc,sub_1RQOv5KojVEYZPlXDclEpl8p,169,2029.0,0.0,eur,year
+Steremat,co_68d0a0a9-1d1b-4e01-b527-d9716a0fddd6,cus_RxaOoAMl0lP5aU,sub_1RQPLqKojVEYZPlXbHMMGYs4,120,1440.0,0.0,eur,year
+Tidely,co_e999aff2-1c5c-4c07-91c6-e765872d507e,cus_SIU5gqh024QoAM,sub_1RQSUGKojVEYZPlXl1eZHV1o,90,,0.0,eur,month
+adMates,co_97f87980-d49d-4a84-92fc-ea01533f54f8,cus_SLA24aQYUTMIN6,sub_1RQTivKojVEYZPlXxjTvSic9,178,,0.0,eur,month
+,,cus_SLACHdyxnC2cMD,sub_1RQTsTKojVEYZPlXR5mjCeUS,199,,0.0,eur,month
+Scratch,co_7fd774eb-b711-43c3-a9bb-1135fa263bec,cus_SLBONViM1gvVDW,sub_1RQV27KojVEYZPlX6SjdYYp8,466,,0.0,usd,month
+Australian Digital,co_c832ba79-9985-49da-b6ad-63b37f9c8b34,cus_SLNEep1fQQTX9T,sub_1RQgVAKojVEYZPlXpofEIaIk,89,,0.0,eur,month
+Semji,co_3c482242-62b1-4dc2-a51d-ff81c74bd2a1,cus_SLYdRVeCeuOGcL,sub_1RQrW6KojVEYZPlXTLeCl5z5,576,,0.0,eur,month
+Seybold,co_8e97ce93-4182-4891-a4ce-d564e7cde105,cus_SLa5bpjPNzhYxa,sub_1RQsvtKojVEYZPlXR4AXd1pc,89,,0.0,eur,month
+EdgeAngel,co_3066f0e2-cc95-41ab-b159-8fd6ffd537b4,cus_SLaFInPM5U5z7D,sub_1RQt5pKojVEYZPlXeW8l3M7g,89,,0.0,eur,month
+Connextek,co_4357416c-16f5-42e8-b3f3-509fbb7338e3,cus_SLcoPthLUnSTKj,sub_1RQvYfKojVEYZPlXMwPDK2xL,89,,0.0,eur,month
+Remitly,co_4e26e765-9515-4f9b-8831-13d7d29b87a1,cus_SLeIZ0sCif4DP9,sub_1RQxApKojVEYZPlXvyDlwopV,400,4800.0,0.0,eur,year
+Mister Spex,co_39fe89ba-240f-4218-9dc5-16bbdb842d17,cus_SLqjX74YfDCgfE,sub_1RR963KojVEYZPlX6L1MeFoc,89,,0.0,eur,month
+finanzen.net,co_a2ee4d8d-9fcc-498f-9a1d-f1f3ab64b709,cus_SLpZsoYhfzQL73,sub_1RRBicKojVEYZPlXvzL2Zcyl,199,,0.0,eur,month
+Return Consulting,co_d83a7d37-cc18-4ce0-8d61-82884933e538,cus_SLu2PPN58nXIZ3,sub_1RRCW0KojVEYZPlX7ZpCE8k5,400,,0.0,eur,month
+Payt,co_f4fbdb21-2719-4971-b184-42f1e824e0a0,cus_SLuXte4LK6g61q,sub_1RRCyzKojVEYZPlXIw55R0AT,89,,0.0,eur,month
+Knowify,co_9fb7e9d5-af65-40c7-a17f-c46aa06eb810,cus_SLzRhm33XDd98q,sub_1RRHSzKojVEYZPlXVsPIwhXz,199,,0.0,usd,month
+Soberlink,co_e9f69738-79b7-4455-b078-4224e6558488,cus_SM0AYWLJgi77FQ,sub_1RRIA5KojVEYZPlXYdvDFop0,89,,0.0,usd,month
+Siteground,co_30ac1eb2-0ba7-4297-9828-b66f750aa871,cus_SMBgDL5EazPBCj,sub_1RRTK4KojVEYZPlXp4ecnkNW,169,2029.0,0.0,eur,year
+Abax,co_3415a434-da34-4899-863a-ffe327ef8c50,cus_SMGtBmwl1Zj4fr,sub_1RRYMjKojVEYZPlXilzslucx,199,,0.0,eur,month
+Gelia,co_8b36cce3-00a3-46e7-96fb-3ea5bc04e579,cus_SMIRjouKRyRvga,sub_1RRZqJKojVEYZPlXn2fqyXBT,267,,1.0,usd,month
+Overlap,co_6b210ea5-7645-4e0e-a0d5-9b0659ede697,cus_SMIbiRnsbeqP1R,sub_1RRa2XKojVEYZPlXX7OmxLPe,89,,0.0,eur,month
+Verusen,co_ec49585f-ffbc-4269-9492-68e707699fcc,cus_SMHzbvhKVcoY0j,sub_1RRakxKojVEYZPlXa7Z0CA5p,89,,0.0,usd,month
+Flood Digital,co_0f518b17-537e-474b-b00a-322570a5041e,cus_SMLBMd7BBUNkI2,sub_1RRfiSKojVEYZPlXOmjn3F3C,699,,0.0,usd,month
+Propellic,co_7bd5fa9b-9c84-4c92-a4fd-ae452c98da3f,cus_SMIS7gO4lnP88j,sub_1RRgbNKojVEYZPlXEBlY8xYp,2150,,0.0,eur,month
+be.performance,co_cd291b4e-11c6-4fb3-9136-8d093ac3d46a,cus_SMYBgr5Xwd0Oyt,sub_1RRp5cKojVEYZPlXBCpfl6Yo,89,,0.0,eur,month
+DbVisualizer,co_5ed95c8e-fbab-458b-b2f6-7005f391b535,cus_SMZPOlA2uaR4Py,sub_1RRqGpKojVEYZPlX1zMTnFtV,89,,0.0,eur,month
+Resoneo,co_e22f148d-2e0b-4e06-bb36-c20da965734e,cus_SMgAuFoQzYWxSZ,sub_1RRwpEKojVEYZPlXCRJPWLZx,199,,0.0,eur,month
+Seer Interactive,co_d76ea89d-7e41-4dcb-853a-ce6e13f6e6fe,cus_SMja2jl2tfEgOu,sub_1RS099KojVEYZPlXFfgXNbyb,1966,,0.0,eur,month
+Oplayo,co_e50266c2-4191-49c0-8132-9d0153e354d8,cus_SNivtPNDS0j6Ne,sub_1RSxTxKojVEYZPlXmaeJ2ZFq,199,,0.0,eur,month
+EffectiveSoft,co_7cc551a4-9d0d-4beb-8d7a-47813c8aebf7,cus_SNk2snKEWPVnsg,sub_1RSyYfKojVEYZPlXVy80z9L0,199,,0.0,eur,month
+Artaxo,co_ce976d3e-4e44-4073-8ee6-7da483241572,cus_SNgiYKyOoR1JYx,sub_1RT2MYKojVEYZPlXJaF9p3gz,299,,0.0,eur,month
+MutuiOnline,co_cfa73b2d-99ec-48f2-9f88-928194462e27,cus_SJZNuQEcZ1WBYS,sub_1RT2eEKojVEYZPlX0J7ue5jR,199,,0.0,eur,month
+,,cus_SNoxlPv1io2riU,sub_1RT3JcKojVEYZPlXs95lzyqC,447,,0.0,eur,month
+,,cus_SNp0oEdHbgLCh7,sub_1RT3MtKojVEYZPlXwYxtAqzZ,349,,0.0,eur,month
+Engine HQ,co_c2a43c42-b462-43f9-967c-4ca29e071f98,cus_SNsnMVm5WJtKvH,sub_1RT71yKojVEYZPlXxe1d0hN6,90,,0.0,eur,month
+more life,co_d65327c9-1823-40ed-87a3-68c31fbdc7c3,cus_SO1WyFUKjAwsb6,sub_1RTFVuKojVEYZPlXeDLbCXww,89,,0.0,eur,month
+dilate,co_5241f947-748c-4c96-ad60-578007621e80,cus_SO4ETkM4c6JES2,sub_1RTI6MKojVEYZPlXhi9pf8N5,288,,0.0,eur,month
+Brevo,co_90372dcb-b10f-412e-b8ae-30418bee7116,cus_RtUHYtAVgh1Wma,sub_1RTIVQKojVEYZPlXiQ6Se3UF,89,,0.0,eur,month
+Fielmann,co_07db0cea-89db-4f40-bc2b-8316ff52cf23,cus_SO4wHqfeNRQ15I,sub_1RTIxtKojVEYZPlXPnsPFZXV,199,,0.0,eur,month
+PIABO,co_fccc8513-3032-4f41-b4ad-b13bac4848ce,cus_SO759KkAzuqdJv,sub_1RTKuVKojVEYZPlXdSmwJzzy,89,,0.0,eur,month
+Squarespace,co_570e7951-7cbc-45aa-bf06-966b1adbb5f2,cus_SIvXUsXvBTqpZZ,sub_1RTQ7bKojVEYZPlXCMKQERur,199,,0.0,eur,month
+DEPT,co_126c1ca1-eed3-402e-a6eb-4cbe2b8d51c8,cus_SODf2O6AF4Y79O,sub_1RTREWKojVEYZPlXNg0R0NnU,1474,,0.0,eur,month
+Leroy Merlin,co_9c1e9336-e286-4c6b-be51-a1ce92a4d21c,cus_SOTjpVfR0Lj8xi,sub_1RTgroKojVEYZPlXlOBFb5Aj,199,,0.0,eur,month
+Sapphire Ventures,co_4e165b8c-91aa-4500-8472-8e1c095fd7d5,cus_SOZQO2x8IIL9s1,sub_1RTmHwKojVEYZPlX3JaEHHug,89,,0.0,usd,month
+Globant,co_b80df044-79f6-42c3-9874-5f67f18dd6a1,cus_SOaE0sWneP9UM1,sub_1RTn4gKojVEYZPlXMcSOIxws,1350,,0.0,eur,month
+Rebel Cause Digital,co_3cb9e557-11ae-4686-8737-cb0a69d5de42,cus_SMkn1TM9JVmFwP,sub_1RU606KojVEYZPlXc1pSfDH7,445,,0.0,usd,month
+Xponent21,co_ff9f8fb3-5d4c-4698-aa43-41990e911f82,cus_SOFQ6I5l1Hdp1D,sub_1RUQJSKojVEYZPlXIKxEB8BI,89,,0.0,usd,month
+Railsware,co_09a16fc8-152f-4a6b-b6f5-506ff8995f7c,cus_SPIOnnIPBnt6bb,sub_1RUToMKojVEYZPlXcsaRWZIZ,89,,0.0,usd,month
+Zerion,co_ddbe4f9b-75cc-4399-8c00-21c493230e7d,cus_SPIZ1txWwPaHfO,sub_1RUTy5KojVEYZPlXQfsXB4NT,167,,0.0,eur,month
+Mult.dev,co_b3f5a572-0e24-4689-9e74-398690bc3341,cus_SPIlYiOmLnH63b,sub_1RUUBhKojVEYZPlXsWkzvs0g,1,,1.0,eur,month
+ximea,co_d211cbdd-ccb0-4341-8fd4-9729466a4c4d,cus_SPLyHXNkLaXCYu,sub_1RUXHpKojVEYZPlXT3uQhbk3,89,,0.0,eur,month
+S-Communication Services GmbH,co_f91d1806-18d3-40ed-8eb0-12fc0e66da2a,cus_SLAvizVD4AiQbj,sub_1RVTRpKojVEYZPlXdmDUckX3,199,,0.0,eur,month
+Sage,co_b1651b30-1aed-4d03-bbd7-1f056b384d93,cus_SQJm9myI6oKhQA,sub_1RVULmKojVEYZPlX05OUoch3,199,,0.0,eur,month
+Payhawk,co_067dd432-f307-4518-8a74-47da782520ff,cus_SQQzODzFUlFRWY,sub_1RVa7YKojVEYZPlXuTXVJkkU,499,5988.0,0.0,eur,year
+HR Acuity,co_ecaedef5-331c-4ab9-b170-c71ef5de9eed,cus_SQSVwgMMEShxGC,sub_1RVbaPKojVEYZPlXyTMHlQcT,679,,0.0,eur,month
+Giupedi,co_92731a95-0437-4244-8f1e-4cf87394f1e0,cus_SQTFpX3QkOKhno,sub_1RVcIlKojVEYZPlXQVs3fU96,89,,0.0,usd,month
+Conversearch,co_fb7cd7f4-8691-46c6-827f-b9a17a61ad4f,cus_SQkY6aJtVFlyi4,sub_1RVt48KojVEYZPlXcbb2TIjw,275,,0.0,eur,month
+Vente-unique,co_e04c99d2-84b5-46de-bd65-1b52a4ef86cf,cus_SQlJo7zX1oKGCz,sub_1RVtnYKojVEYZPlXbzc3vDzb,169,2029.0,0.0,eur,year
+refficience,co_da6e66fa-53a1-4878-8caf-0399e92bd21a,cus_SQowAcefaO5PCl,sub_1RVxKFKojVEYZPlXnkjQE0WK,199,,0.0,eur,month
+Get Found Digital,co_18213494-d6f2-49bb-b271-1f39dd649647,cus_SQppElpjEpoeSI,sub_1RVyAEKojVEYZPlXHfXYPDvu,499,,0.0,eur,month
+Stanbridge University,co_28fefcce-7821-4739-b443-473283f68f97,cus_SQu6x0AjzDZFgq,sub_1RW2HzKojVEYZPlXfU7TJ2ix,89,,0.0,usd,month
+liveflow,co_2773f018-f5af-4907-a7b3-c2b93151fcf7,cus_SQvHvImPtfc3cM,sub_1RW3SFKojVEYZPlXHDAGVemB,199,,0.0,eur,month
+Löwenstark,co_f0ab2eea-1f70-4f0b-a114-d2ce54474dc0,cus_SR4BJqRmoecinI,sub_1RWC4PKojVEYZPlX29EdoeI2,398,,0.0,eur,month
+Office World,co_e02ccfab-4eaf-413c-8d88-f68a529bb52f,cus_SR4tQjzjzoPePf,sub_1RWCjJKojVEYZPlXi2sm2U8p,89,,0.0,eur,month
+lightricks.com,co_af3e19c0-be70-4297-8dc4-99c8ce15bb87,cus_SOvCR2vIhP5A5n,sub_1RWFNcKojVEYZPlXXWvEW8FB,700,,0.0,eur,month
+PANBlast,co_0fcbf5ba-99dd-4086-b86e-644fe5ac9fa2,cus_SRBr61mVDi0JGn,sub_1RWJTcKojVEYZPlXgW8aEowc,199,,0.0,usd,month
+Five9,co_89be849d-9ed9-4ad3-8f7a-99ddd83cfcc2,cus_SQX6u0xLqf9kbp,sub_1RWKO1KojVEYZPlXWrziA1Lj,89,,0.0,usd,month
+Worksuite,co_d6534863-ab18-4268-881c-db3f45235aed,cus_SRBUOFBdGHfjd0,sub_1RWioAKojVEYZPlXyEO4R2et,89,,0.0,usd,month
+Benjamin Twichell,co_822f4d41-0650-41fc-b163-c91fda7cf709,cus_SRqeZSV5Nok6Pu,sub_1RWwylKojVEYZPlXQ680qSNv,89,,0.0,eur,month
+Journey Further,co_33993542-71a3-40b8-80a4-7b7e8c9fc52c,cus_SQhCsRExKwQeLx,sub_1RWxqbKojVEYZPlXrKIeCoih,597,,0.0,eur,month
+PicDrop GmbH,co_f70204f0-0e9e-4787-82db-44621cbe2d2e,cus_SRtWJ8l3mGDGvC,sub_1RWzkXKojVEYZPlX9A8uaKGn,89,,0.0,eur,month
+Oxylabs,co_eb1e019b-a938-4e29-9193-70a7d0913ff9,cus_SQN9rB9e1oCcph,sub_1RX02vKojVEYZPlX6jBZZCzY,89,,0.0,eur,month
+Help Scout,co_26d43e92-5969-4099-b2c6-587fd2e2ebee,cus_SRxnLWrqluRmWQ,sub_1RX3sEKojVEYZPlXSBDCHvWz,89,,0.0,usd,month
+Sales Talent Inc.,co_47a2141e-995e-40b0-853e-90c5ffe3fb5b,cus_SRy6A84Bd9kx0g,sub_1RX4BEKojVEYZPlXht41ySHu,89,,0.0,usd,month
+Julien Maillard,co_716fd47d-b0b4-4743-906e-5909bc463dc3,cus_ST5dTxIUzdR6wi,sub_1RY9SDKojVEYZPlXNFqOkA3U,199,,0.0,eur,month
+Verder,co_0e371ddc-b2f2-45e0-b0fe-cb0fc10de39d,cus_STJEpn4EQBz8IE,sub_1RYMdbKojVEYZPlXtdRbiqkZ,199,,0.0,eur,month
+Telefónica ,co_04765723-5285-4898-a6e7-1c695ac91897,cus_STLBPEjxAabDcF,sub_1RYOYCKojVEYZPlXg0S7zARv,499,,0.0,eur,month
+Andor Palau,co_b8fb6297-4804-44e3-a472-e552664020b9,cus_STPfbaysEgHxza,sub_1RYSqyKojVEYZPlXZdSE6DTZ,89,,0.0,eur,month
+Ströer Publishing,co_0da1c429-bae0-4049-81cd-2c7b06196a84,cus_SThe4chllDYVG9,sub_1RYkG2KojVEYZPlX6O6eUyAV,89,,0.0,eur,month
+Productive,co_d89fc385-40d6-44fc-82ae-1bf8ed605ed7,cus_STim9ToEZXwpnS,sub_1RYlL4KojVEYZPlXCUmrV8ti,199,,0.0,eur,month
+We Venture,co_3576920b-5382-4feb-ab18-ed563a90f768,cus_STjahJTHPnXHqL,sub_1RYm8PKojVEYZPlXgXPBAwaQ,199,,0.0,eur,month
+Code Brew Labs,co_75b6eaad-e43f-40b1-be04-c91861e7cd93,cus_STl46WpSpzaEjM,sub_1RYnYBKojVEYZPlXBKJfkHnm,89,,0.0,eur,month
+DIE ZEIT,co_990b0c45-8b6e-4a29-8e45-d007659f7a66,cus_STmvthpotYqUXL,sub_1RYpPZKojVEYZPlXiqCNFvjL,169,2029.0,0.0,eur,year
+Twenty-Eight,co_46df3429-a879-4b0e-a207-fa2cbf07baca,cus_SU2MwpPiKKt0pO,sub_1RZ4J3KojVEYZPlXZFhMsJe3,178,,0.0,eur,month
+,,cus_SU9Ym4Ckh817YF,sub_1RZBHPKojVEYZPlXS1cyakAV,500,,0.0,eur,month
+Kinesso,co_2fbedd3e-c00c-46aa-b274-17e289609d2f,cus_SOXp92NBooHEwI,sub_1RZBggKojVEYZPlXfSprEW9J,329,,0.0,eur,month
+Simpro,co_76fad1e0-d083-42d8-b034-fe7870bd740f,cus_SUJacN3gS8U89n,sub_1RZKxqKojVEYZPlXPvyJ5Ca7,288,,0.0,eur,month
+info.link,co_c9cd1b47-30cc-46a7-a226-572398924076,cus_SUQyon6zaAoAgh,sub_1RZS6sKojVEYZPlXEIBnX8YL,89,,0.0,eur,month
+Threepipe reply,co_c54f5b4b-0795-4108-a683-85a068a9ff05,cus_SURj8gMO4PXjxl,sub_1RZSqRKojVEYZPlXT88dvfIz,1500,,0.0,eur,month
+Exportarts,co_409509ad-0e84-4de4-872e-83e292a5357b,cus_SUSCsU34FBU36A,sub_1RZTIvKojVEYZPlXWxWp32L5,89,,0.0,eur,month
+RIEGG,co_32d0b55d-97a2-4134-bec2-896e9f8a4333,cus_SUQndIO3ZNvk4j,sub_1RZTwLKojVEYZPlXF1aWB4NY,100,,0.0,eur,month
+Outletcity Metzingen,co_0afddc88-1d11-40f4-adc7-21e451058b79,cus_SUVWAVyAw7GsXk,sub_1RZWWVKojVEYZPlX5hG2TTND,89,,0.0,eur,month
+PARK 7,co_3f746d4a-4a4f-4c34-a656-2ab4a14b1e65,cus_SUW5GninpByxgK,sub_1RZX4DKojVEYZPlXkzQSkoFO,199,,0.0,eur,month
+Integrity Energy,co_6e7a37cf-c284-4ed4-a2a9-7c4daaeaf1e0,cus_SUcQMjpMCJigHk,sub_1RZdGpKojVEYZPlX6chdEkYU,398,,0.0,eur,month
+firstmotion.com,co_4609313b-c440-4b8f-a0d8-1e85c07d5379,cus_SUt77OLVhucR6f,sub_1RZtLpKojVEYZPlX9cOK1ryE,199,,0.0,eur,month
+Coderbyte,co_eea0a51b-000e-4764-b72b-d91bec513e19,cus_SVSMu3c0nwNAYM,sub_1RaRRMKojVEYZPlXIiTdwpYg,89,,0.0,usd,month
+getpress,co_e39ea2b2-a335-4a09-8077-6d5527132e10,cus_SVc2qL00YoDiJZ,sub_1RaaqCKojVEYZPlXkmoy9bBV,267,,0.0,eur,month
+Inscope Agency,co_171b1a95-bd01-4c9c-98f4-62c61133da3c,cus_SVcNk37FqR4jvD,sub_1Rab8gKojVEYZPlXyh0t895U,199,,0.0,eur,month
+Millwright,co_cf016a3a-9f49-4847-99cc-10a722e77beb,cus_SVhdIv8hrz1rML,sub_1RagDsKojVEYZPlXGlykmV7S,89,,0.0,usd,month
+PolicyMe,co_2edce3ff-b06a-4053-a8d1-1c9009c28e89,cus_SVkUA3JYVeGMz4,sub_1RaizrKojVEYZPlXyvUfztsG,108,,0.0,eur,month
+Stryde,co_52359cc8-6e08-4095-82cf-6f1ae8391be2,cus_SVlXTc63q55mQ6,sub_1Rak0wKojVEYZPlXRW2HQJdk,199,,0.0,eur,month
+stop Looking,co_194337ff-9cdd-4fc3-80de-90e11a3d2713,cus_SVyjKHru3Yu59t,sub_1RawmAKojVEYZPlX6QTFwnkC,178,,0.0,eur,month
+Italo,co_d0b4b746-07fb-44a3-983c-754d7bddea99,cus_SLq3EB15WSUM0j,sub_1RazZLKojVEYZPlXYnVXklh3,417,5000.0,1.0,eur,year
+Pure Visibility,co_34be6f23-2d13-4ec9-885d-87e2fdf2b0cb,cus_SW3w3oQp0QhFVo,sub_1Rb1oyKojVEYZPlXoLYNU2DW,530,,1.0,usd,month
+Layer Cake Digital,co_cc6babe1-1033-4efe-8705-5ffa7e15acd7,cus_SRDEO7dNsLrzRz,sub_1Rb5ECKojVEYZPlXDXjajQ0L,199,,0.0,eur,month
+Digital X,co_be32642f-dffc-4910-8123-10628855f3aa,cus_SWAXWRPtJNVRhT,sub_1Rb8D3KojVEYZPlXty8PLj3X,377,,0.0,eur,month
+YPM,co_8d739457-1372-4cb9-a674-edb0e2ad770c,cus_SWAyGemwx1DoLn,sub_1Rb8ceKojVEYZPlXknpFzMHG,89,,0.0,usd,month
+Future PLC,co_0a22cc43-ae3d-46c9-8a06-9f64cc22b122,cus_SWOWB7PiQ29ha3,sub_1RbLkVKojVEYZPlX3HeQLSVv,499,,0.0,eur,month
+MaintainX,co_ef486098-cf95-493b-894f-f62d7c152861,cus_SOwrJNhGpvGo1a,sub_1RbR4VKojVEYZPlXQnR5z5EO,199,,0.0,eur,month
+Win With Optimal,co_a1d2e2e7-f070-4593-9ff7-27de8724ca56,cus_SWVjZ0omVRPPUb,sub_1RbSiYKojVEYZPlXdmzEJ9bD,681,,0.0,eur,month
+Movavi,co_454a2c76-49f6-439f-8e29-090e97ad1f8a,cus_SWfQSKZh8Hs4LO,sub_1Rbc77KojVEYZPlXmHx2WoFY,227,,0.0,eur,month
+Bild,co_571ba533-e806-4251-bcaf-0c5f8c5fefdc,cus_STkBl1A1Xma850,sub_1RbeEAKojVEYZPlXYoAA2Bit,199,,0.0,eur,month
+Rocket X,co_6c7f090a-0829-46be-837a-82bdd53c2092,cus_SWj8eg922Q356p,sub_1RbgFEKojVEYZPlXFwdkHaJf,249,,0.0,eur,month
+Supademo,co_48a76c67-cc9d-41db-84e7-0e472d680232,cus_SUc7NUgla2aNv6,sub_1Rbgt2KojVEYZPlXxFKwLXyT,199,,0.0,eur,month
+Kurk,co_33e6bf3a-09a2-4a54-a276-df9c3c2be838,cus_SWoRyoox337w4Y,sub_1RbkpTKojVEYZPlXwB1KXFoY,89,,0.0,eur,month
+Eden Data,co_59e88774-acf9-4633-8b62-6eac9ad34f2f,cus_SWsVFqTtRz99GE,sub_1RbokHKojVEYZPlX4m9V2fik,138,,0.0,eur,month
+Myposter,co_775c9431-6ee5-43ea-8336-af00714e3112,cus_SX4X2nwMbYEI3y,sub_1Rc0PBKojVEYZPlXE1eQMOFv,600,,0.0,eur,month
+agencia eleven,co_545dccc0-a7a4-4f3b-a597-4a35ef4873e8,cus_SX8O2cbt9TyeVQ,sub_1Rc47vKojVEYZPlXj0DExSK6,560,,0.0,eur,month
+Lingopie,co_ff17e0c5-f84b-4325-a6c5-573fb8aafa5c,cus_SX9A6HPP5Pz294,sub_1Rc5TrKojVEYZPlXLrzt3tGw,199,,0.0,eur,month
+Ownwell,co_e21a2d1e-2d99-4668-a880-532165a045c3,cus_SXHoBHaem5iIMG,sub_1RcDEfKojVEYZPlXxpy6oBHR,199,,0.0,eur,month
+Heidi Health,co_a9fbbb76-ee32-4fac-8ce7-3828cf856257,cus_SYAsKyU8ImJ7nS,sub_1Rd4WXKojVEYZPlXVzUPp7NR,77,919.0,0.0,eur,year
+Betao,co_504af0f6-078c-49e2-b245-88d2f0e8d16e,cus_SYH3yCf3WKzPd1,sub_1RdAVzKojVEYZPlXPFbq2R7e,199,,0.0,eur,month
+skedda.com,co_2adb45cd-1b40-4a27-8611-537f3d0a9f5c,cus_SYIK6lU9yInKsS,sub_1RdBjkKojVEYZPlXNQXdTmhO,199,,0.0,eur,month
+The Pegasus,co_7b0d64d5-2b64-49d0-8b14-a8e5457a3b07,cus_SYLBaDDb5uqnzU,sub_1RdEUnKojVEYZPlXznOgeQja,89,,0.0,usd,month
+experics digital GmbH,co_9c05aaa2-c02c-494b-8523-46d2edfc9c8c,cus_SYaAFHEzVucswC,sub_1RdT0KKojVEYZPlXG5Gh7IDp,400,,0.0,eur,month
+Better Stack,co_465c508e-1934-4941-84ce-b4cf7fc0b05b,cus_SYaQRoK0eEP6Fc,sub_1RdTG5KojVEYZPlX0woGE4cr,199,,0.0,eur,month
+Jung von Matt IMPACT,co_31487181-bca3-4f3d-b77b-0974058b506b,cus_SYeEDPhxLWveXI,sub_1RdWvnKojVEYZPlXi4RLclKV,400,,0.0,eur,month
+Takeoff,co_86a8c6f7-0485-4f93-869f-683c87df6f78,cus_SYerDD8CSvA3FH,sub_1RdXXiKojVEYZPlXg9ypdvcG,267,,0.0,usd,month
+Firesign,co_0574c6f6-b107-4de8-9aaa-9080cee9d8f7,cus_SYhlGbMIOkql0f,sub_1RdaLzKojVEYZPlXASzBCMHc,199,,0.0,usd,month
+Singularity Digital,co_4bc9d43c-5e5f-492b-857a-8bf60ff6f372,cus_SYjQiugVogSgk5,sub_1RdbxLKojVEYZPlXVLK2HlaB,199,,0.0,eur,month
+Tell Me More,co_096294c3-a8f5-4157-b180-5195319f9b77,cus_SYkaN4zD06sXnm,sub_1Rdd5dKojVEYZPlXBn22plpT,89,,0.0,usd,month
+Ems Ambulance,co_f3ab907a-7f18-40a3-bd43-a65704d4742c,cus_SYyLEOsteN6QiF,sub_1RdqPlKojVEYZPlXF1kE1baT,89,,0.0,eur,month
+Orchestra,co_765256c1-aa41-4a22-898b-daddc3cdeac0,cus_SZ0KqUgFJ5FVm1,sub_1RdsLIKojVEYZPlXK09GhJzO,239,,0.0,eur,month
+Softonic,co_de8771d5-1247-4f7b-ac6b-fd3eda1e1171,cus_SZ2GKfIpFn745w,sub_1RduD4KojVEYZPlXaETY3ZLL,199,,0.0,eur,month
+Minisocial,co_944552dd-d387-488f-a120-1022b930fa44,cus_SZ4gJZoihzUIN8,sub_1RdwYoKojVEYZPlXFA6ivGRf,89,,0.0,usd,month
+Fresh Prints,co_fa8698c7-0279-4fb0-80ee-98a0ede377b3,cus_SU5R3Ngm0DqZTl,sub_1Re7B5KojVEYZPlXWmiYonxT,330,,0.0,eur,month
+DJE,co_266b66b1-fb4e-4e2f-9ebb-4f7cd718927c,cus_SZI4vxjgjfUJsX,sub_1Re9VeKojVEYZPlXPh0OZqzY,199,,0.0,eur,month
+hr works,co_690b7824-1f10-488b-949c-4c6af7888d6c,cus_SZJJreUfXKsGvg,sub_1ReAhIKojVEYZPlXEaF1SsZC,199,,0.0,eur,month
+Genie AI,co_2eb0a083-a184-4e74-aa27-735e3291c34b,cus_SWK4QAgX9nk8eY,sub_1ReEz2KojVEYZPlXMTa44h8L,89,,0.0,eur,month
+Jedha Bootcamp,co_0f87ac16-84bd-4f79-9122-7f66dd9c68d6,cus_SZOfRdV42vAHRx,sub_1ReFsdKojVEYZPlXcxx1kGn5,199,,0.0,eur,month
+Luxury Presence,co_f80cb5f4-20bb-4339-bb71-082655a7428d,cus_SZPJXQqbVmxFhP,sub_1ReGVIKojVEYZPlXBhTM6V6M,200,,0.0,eur,month
+ecosio,co_69cc389a-5efa-45c9-8156-5346facf8b39,cus_SZQBj0yLLmWJwk,sub_1ReHOPKojVEYZPlXf5S3i3WB,89,,0.0,eur,month
+BOXT,co_389720e0-0d93-4c33-98a1-870d4cf2cd9e,cus_SZQSyLunudz2b5,sub_1ReHciKojVEYZPlXGLDkawi8,89,,0.0,eur,month
+vialytics GmbH,co_6a1f9fe5-1cf6-4061-8db4-b2288902947f,cus_STgKVhdPAQPRK0,sub_1ReHmSKojVEYZPlXNbB0ghgO,77,919.0,0.0,eur,year
+Arizona College of Nursing,co_620d850f-02e7-4bd9-a5d9-c6b3aa2c81f1,cus_SZWyd9aEOy2N9u,sub_1ReNuaKojVEYZPlXy8nK3F9Q,199,,0.0,eur,month
+Plancorp,co_ac033bb3-1ce6-459d-a146-6a52c0d31bcb,cus_SZXeQpqu30TAWG,sub_1ReOZEKojVEYZPlXzgttXEQJ,89,,0.0,usd,month
+Netzbekannt,co_e0bf1a9b-c6ea-42e0-b8d7-67d200043d8d,cus_SZgYRU2acFZobZ,sub_1ReXC0KojVEYZPlXWVut2B6l,340,,0.0,eur,month
+Skycoach,co_1bec7002-60b2-4de9-ae2a-6dfb39a69839,cus_SZiDuY73O6NrhU,sub_1ReYocKojVEYZPlXLPrQOkgZ,227,,0.0,eur,month
+Unobravo,co_48339b78-57d5-4a8d-ad5c-3ac233776347,cus_SZjRQPcjehuJPu,sub_1ReZzaKojVEYZPlXKHL5RBze,89,,0.0,eur,month
+Slash Digital,co_463fbd30-ea4a-45e7-89d4-79cc6743039f,cus_SZhIKPDN3h7gZv,sub_1ReaJFKojVEYZPlXxTQa64jg,524,,0.0,eur,month
+FastDL,co_0c150e84-2302-4fa1-9d91-4b6fd7c8c42d,cus_SZkAwlpSuMDmqL,sub_1ReafwKojVEYZPlXp11oZsz3,200,,0.0,eur,month
+involve.me,co_3871a67c-b15b-497b-ad24-68a0521bd59c,cus_SWicE0ecEmy4Gs,sub_1RecBCKojVEYZPlX8MCd48t1,89,,0.0,eur,month
+Valtech,co_e323ee81-37ff-446a-a94c-332f10b64b3d,cus_SZlp1Kh2PLcM3j,sub_1RecIlKojVEYZPlXMHz6Olaj,499,,0.0,eur,month
+Snapstream,co_aedfe787-2072-4bcb-a33e-092d591e4987,cus_SZmRxmgyLz2lzs,sub_1Rect6KojVEYZPlXhqA5kfNW,89,,0.0,usd,month
+Frontegg,co_52b65c20-c438-4090-961f-f5026c6d0ac1,cus_SZnywcClP2kZjm,sub_1ReeMTKojVEYZPlX8Mc5X4Ed,112,,0.0,usd,month
+Skindr,co_0b7309e2-ee02-47c4-8e51-29f464605c7a,cus_Sasi7Glz49DMuw,sub_1RfgyJKojVEYZPlXfrAApz1U,89,,0.0,eur,month
+The Electric Car Scheme,co_d64f7511-a8b3-4675-9029-2e91bd6a1ae0,cus_Sau0dafWRDcYeF,sub_1RfiDUKojVEYZPlX9Z7urKXH,199,,0.0,eur,month
+Nationwide Transport Services,co_ae075a9b-9143-43b8-81ad-174b1bb5e08c,cus_Saz4pVQSANjgnf,sub_1RfndrKojVEYZPlX0Os7eJpj,199,,0.0,eur,month
+,,cus_Sb0jZEv6xt3ctq,sub_1RfohgKojVEYZPlXualc4NPx,267,,0.0,usd,month
+hipages Group,co_48f68c14-37fa-4556-8761-ff8d62e47198,cus_SQyeoHdBD24pVE,sub_1RfvOvKojVEYZPlX2qYXNBEs,278,,0.0,eur,month
+Measurlabs,co_454d0fbd-bade-46c1-8073-d04a603373ff,cus_Sb9NWNRE6uUyGR,sub_1Rfx5pKojVEYZPlXHsW92yNS,199,,0.0,eur,month
+homestra,co_d44363ee-f6c8-4114-bf96-4977de136186,cus_S842JjMrpFjnoI,sub_1RfyNuKojVEYZPlXfV7Fxmch,89,,0.0,eur,month
+Captain Words,co_d8e2b264-2954-43e9-904e-afa792ee78ef,cus_SbBtHqEcSDQ5jk,sub_1RfzVUKojVEYZPlXDKpbd6nO,199,,0.0,eur,month
+Evergreen Media,co_865f93cd-d1d2-4f97-aba9-24b33d5de112,cus_SbXhMERrWnY7g9,sub_1RgKgnKojVEYZPlXhNVuSMfD,1500,,0.0,eur,month
+Noble,co_7729e647-6ffd-40db-b178-9d0f2aee07cf,cus_SbZ20Eywj3xquh,sub_1RgLvEKojVEYZPlXjBEjefbC,89,,0.0,eur,month
+TRES Finance,co_41721aee-798b-4664-bcb0-1f01c8a53004,cus_SbZe3n7lybhYC9,sub_1RgMVCKojVEYZPlXPguDNt1e,199,,0.0,eur,month
+Spiegel,co_687b10c1-0c67-419a-8bc3-e81a1f11f1b0,cus_SbeHlhMB0fzeT1,sub_1RgQz7KojVEYZPlXkPo8YuTP,169,2029.0,0.0,eur,year
+Parfois,co_34981ce9-88d8-4d33-9e11-f5d523582793,cus_SbfHizPM54StMI,sub_1RgS0KKojVEYZPlX0SSmHGJa,89,,0.0,eur,month
+Blueprint,co_781b9748-b9f0-4e88-b601-719ced8dd2df,cus_SbhTqK0GTlUrlD,sub_1RgUp8KojVEYZPlXh4Ys8pqk,89,,0.0,usd,month
+OsmoFresh,co_17644c4b-71e4-40c1-9a64-de8922b9df85,cus_SbjKRIC5X0S4AL,sub_1RgVwhKojVEYZPlX2FJ5acu4,89,,0.0,eur,month
+Justin Coons,co_782b6ff5-8c61-4fa2-a553-8232afd065fc,cus_SbkC9BLK7NdBY5,sub_1RgWkGKojVEYZPlXVjH9xYhH,169,2028.96,0.0,eur,year
+Reputation House,co_6df941e2-da66-45ae-a5bf-5345a176e026,cus_SbundLKbdxxj8q,sub_1RggxgKojVEYZPlXRsLW44Qi,89,,0.0,eur,month
+Jaeckert & O'Daniel,co_f5267b94-1922-4312-8e0d-b3b2b20864fa,cus_Sbvud4ejsXWZEb,sub_1Rgi2zKojVEYZPlXILetz7R8,599,,0.0,eur,month
+Carglass,co_154775e4-a091-4899-90ac-34290ccfc04e,cus_Sbvc9h9hwa0lkl,sub_1Rgi5jKojVEYZPlXs8paBupA,199,,0.0,eur,month
+sehkraft Augenzentrum,co_8a4f4b25-9183-4530-b9fe-0a02bc975af0,cus_SbxN6oLg19HVMR,sub_1RgjSlKojVEYZPlXscLm1iR5,89,,0.0,eur,month
+Basalt,co_7ae2ab68-8eb2-4352-ac36-44a7fa86336f,cus_Sby16hv7X6DQDE,sub_1Rgk8dKojVEYZPlXGQIg9qYC,89,,0.0,eur,month
+ColdIQ,co_a6650f42-83a0-4a5a-8075-5fc0f74087e8,cus_SbyKmtClt7gqvQ,sub_1RgkNzKojVEYZPlX4nheXFWS,89,,0.0,eur,month
+NewMail AI,co_8890f321-da48-466b-bb1b-e5268378b9e2,cus_SbyPMJyiY924NN,sub_1RgkT2KojVEYZPlX39xqPMwY,89,,0.0,eur,month
+Ventureleap,co_f13ddb7d-f53d-4027-8f34-31e42d28f599,cus_SbyXkZcLFywyOJ,sub_1Rgkb9KojVEYZPlXKMYb5jYl,89,,0.0,eur,month
+iwoca,co_6568a1b2-b088-4dd6-abc5-4819c19f3749,cus_Sbvdt7ebLNxGCr,sub_1RgkmRKojVEYZPlX3Jwd42S4,335,,0.0,eur,month
+Lunar Ventures,co_566b2b0c-7d49-41d4-9b12-5a77d68bc355,cus_Sbzx3nnY8jxOln,sub_1Rgm0QKojVEYZPlXDwodzTBi,89,,0.0,eur,month
+Contrast,co_3a965c95-e9b2-4be8-bcef-495545952967,cus_Sc08wfq2Al7MdW,sub_1RgmBjKojVEYZPlXegEg0zqS,89,,0.0,eur,month
+Index Ventures,co_09f80b79-e50b-4458-9487-b886e82101fe,cus_Sc0Cw0hY0hbrTv,sub_1RgmDmKojVEYZPlXEWbWWtFi,89,,0.0,eur,month
+121WATT GmbH,co_9858193a-5820-467e-8ed8-5e54ac1d5f19,cus_Sc0EqzAMAXHyZ1,sub_1RgmFwKojVEYZPlXVYLPYvVG,89,,0.0,eur,month
+Sam Ficek,co_4b3403f5-8842-4b2f-a4a4-8d9c65838a50,cus_Sc0ulVSeLDVbPK,sub_1RgmuHKojVEYZPlXej0p84U5,89,,0.0,eur,month
+SimpledCard,co_ad78410b-cf36-4c3a-bb25-99bd6696b284,cus_Sc1yG065A1XCx4,sub_1RgnxqKojVEYZPlXpipC57A2,89,,0.0,eur,month
+Komodor,co_7dff3fc7-bb43-41ea-8906-0f2c7ec817a4,cus_Sc2LsWPXGbV6b4,sub_1RgoGyKojVEYZPlX1NKCJPwB,178,,0.0,eur,month
+varosun,co_0da6da6a-dc69-4f72-8ca0-dfb11874baa8,cus_Sc2w6KmfOOeEWv,sub_1RgpHrKojVEYZPlXgevea5MR,89,,0.0,eur,month
+Koddi,co_03d2d028-61d4-46a5-8c32-f57164eb3c95,cus_Sc4JD97cQKQgno,sub_1RgqCEKojVEYZPlXEYBUz9nd,89,,0.0,usd,month
+Tebra,co_e3ad4eb1-a339-4280-b89e-9931197b9931,cus_Sc50qfif2cclGg,sub_1RgqtRKojVEYZPlXirBaOZWv,199,,0.0,usd,month
+Civitatis ,co_58da034e-7edc-4a5c-9496-2b1dbcf62c69,cus_Sc5NjSSlOC8SWc,sub_1RgrHgKojVEYZPlXVD1WwY1H,199,,0.0,eur,month
+,,cus_SbmoziJXfWV0FW,sub_1RguxeKojVEYZPlX6tbsKQB0,299,,0.0,eur,month
+gotoitcareer,co_60e627ee-328b-4adb-a4c1-01a3c641db45,cus_ScIgnT4w0SoYvl,sub_1Rh46UKojVEYZPlXtzKIC7CY,89,,0.0,eur,month
+Superchat,co_67a3c8f4-3d80-4dbf-a0cc-51f0089f050f,cus_ScIjLD0J13W0WE,sub_1Rh48fKojVEYZPlXEzDqu5aM,199,,0.0,eur,month
+spektr,co_274651a2-ecaf-42c5-a3d3-038d95c09268,cus_ScJg6QXdA6JJDQ,sub_1Rh55yKojVEYZPlXfNXN2XLw,89,,0.0,eur,month
+Cello,co_abc71a7e-13cf-4192-8e32-7d957839c9dd,cus_ScJjjA2vcLsHDu,sub_1Rh56CKojVEYZPlXsu2yeMDY,108,,0.0,eur,month
+Holafly,co_f356b8d0-f620-4b7c-bf3c-32acd882fea6,cus_ScKYzvzocVSQJi,sub_1Rh5tBKojVEYZPlXPnZswO2Y,199,,0.0,eur,month
+Pixum,co_ae979dce-8760-4bd0-95af-a81a91248891,cus_ScMqZh7nxkdAjy,sub_1Rh89DKojVEYZPlXze5rfsO9,199,,0.0,eur,month
+Mailtrap,co_2a30ce9a-d20d-49a5-97a7-fbdb416bbab4,cus_Sbx8vwG61Vl86p,sub_1Rh8K7KojVEYZPlXLI7wjvGh,297,,0.0,eur,month
+Radyant,co_2524b71a-7bd9-4061-aebf-901928dc63ee,cus_ScO1DPbRPnABxT,sub_1Rh9FSKojVEYZPlXGNEls3uO,499,,0.0,eur,month
+Candid Hospitality,co_9d4556ca-7184-4cee-8734-975eef1d2dd1,cus_ScOSHkDAXzzGeZ,sub_1Rh9hKKojVEYZPlX6OAugEXj,89,,0.0,eur,month
+mobile.de,co_e6525668-8008-474d-8468-3d18c32cbe79,cus_ScL1v2KF7uXO56,sub_1RhAGjKojVEYZPlX4IxfSdJC,77,919.0,0.0,eur,year
+Stradigi,co_6ff69d47-cd7e-4925-8b3d-5ec55446b385,cus_ScV0WYehbzmJ5c,sub_1RhG1WKojVEYZPlXS0bXJUqr,200,,0.0,eur,month
+SMM Deal Finder,co_66ead464-baad-4f28-8753-f2ef9464aba1,cus_ScVXJ35aZBZU9M,sub_1RhGXMKojVEYZPlXSv3OMutB,89,,0.0,eur,month
+TLDR,co_67614fc0-5aa7-48a1-884d-d351b8de4fe4,cus_ScfnoGuCsiOCLP,sub_1RhQUXKojVEYZPlX54T8dlkz,199,,0.0,eur,month
+Global Board Institute,co_5b54c92f-cd7b-4c87-952e-c5bcc1f546ed,cus_ScgzEtDfZlj1WD,sub_1RhRbNKojVEYZPlXLDg8FBHK,89,,0.0,eur,month
+Lenny Financial,co_59f1c6be-098c-4d3a-b013-079741b334db,cus_Sclx8Iwug4JZnn,sub_1RhWTCKojVEYZPlXDw4o0nba,89,,0.0,eur,month
+MITA Nutra,co_b9906b24-efb7-4bd8-a111-e5109afbd585,cus_Sd8bUiz6aoYrmi,sub_1RhsKcKojVEYZPlXzTm6aBk0,89,,0.0,eur,month
+All Trades Cover,co_64e5af13-a85d-434a-a299-9311148e6db0,cus_SdQD8qessZ0DjI,sub_1Ri9P6KojVEYZPlX8t6ZcgMx,199,,0.0,eur,month
+moccu,co_afa57de5-3631-42a3-a0d1-44765d2325f3,cus_SdQooVGm3ccnoM,sub_1Ri9xcKojVEYZPlXZlPuoT0n,89,,0.0,eur,month
+Klaas Willaert,co_b25d6fa9-697b-4607-a4e1-40a2f90735ed,cus_SdR6vr89SkLBsV,sub_1RiAH7KojVEYZPlXbhfP2F2t,89,,0.0,eur,month
+Benjamin Kaim,co_811ac302-aae9-4b74-8026-f8f06d058c08,cus_SdROVmvAJAb4kt,sub_1RiAY0KojVEYZPlXVGGzLHQB,199,,0.0,eur,month
+Yellowball,co_d4224248-b582-40c9-bbd7-ba62380e9875,cus_SdRO5Zv2gK1MJf,sub_1RiAZCKojVEYZPlXhWOP99le,199,,0.0,eur,month
+YOVEGO Productions GmbH,co_fd837794-2dbe-4a5e-afae-6afc74d6b21e,cus_SdRe2M0WDkZsgQ,sub_1RiEG0KojVEYZPlXvzqL6XPU,89,,0.0,eur,month
+Gigs,co_5eb83f9c-f941-4762-b07c-c5c8dc3fe1f9,cus_SdVfmDqbptDQl3,sub_1RiEfiKojVEYZPlXyZdwKi1K,89,,0.0,eur,month
+Clay Global,co_66d64c62-42a3-44bd-aa0c-06db2ad7e45b,cus_SdVxHDNzhrUQpN,sub_1RiF72KojVEYZPlXo9xuIk2T,89,,0.0,eur,month
+enso,co_b1052e15-87fc-42c2-b813-aa190c13bf6a,cus_SdWJz7BOWgF2Xz,sub_1RiFHfKojVEYZPlXpAX5pVqS,89,,0.0,eur,month
+10Web,co_614243f0-b327-4cc7-acae-2f62d829af08,cus_SdWjrw3WHMytgF,sub_1RiFfmKojVEYZPlXU84WzIKZ,89,,0.0,eur,month
+Cirklé,co_79661dc7-06b8-4622-9798-af604290fe97,cus_SdXq4Jp9ieHIRz,sub_1RiGlfKojVEYZPlXy3u3PV09,89,,0.0,eur,month
+Woww,co_6c109b33-2cc4-4f1b-998c-392f0b69153d,cus_SdYHO2S5pCyNhy,sub_1RiHAmKojVEYZPlXkLwAqon8,499,,0.0,eur,month
+Proactive Media GmbH,co_5a097717-7944-4405-a9ce-c2b34122d889,cus_SdYqswG6mxnAmH,sub_1RiHkfKojVEYZPlXfnsK4wuj,178,,0.0,eur,month
+Proper,co_bb755925-1cee-47dd-8192-9f6a8689d638,cus_SdZXYaEVUmsNu3,sub_1RiIOSKojVEYZPlXXs2teIjZ,720,,0.0,eur,month
+Blink,co_d6870100-2c6b-4857-8eda-b2fd0888fc10,cus_Sdbt7BITSMYvPw,sub_1RiKhcKojVEYZPlXg7IP0eih,89,,0.0,usd,month
+Ontra,co_3b4e0ab5-df32-41da-9a3d-b84b3da872c4,cus_SddQbfPWW4QZrW,sub_1RiMVoKojVEYZPlXToEXiCLR,199,,0.0,usd,month
+Growth Partners,co_26e79e66-15e7-476a-bd65-27f327178550,cus_SJE42QkwQJonxF,sub_1RiNk5KojVEYZPlXyaDEX343,267,,0.0,eur,month
+GenderGP,co_4c1432b3-44f5-4cc8-8ef7-dfbeceb1314c,cus_Sdl4HjrlGf3Dvd,sub_1RiTYXKojVEYZPlXauJyRS1x,398,,0.0,eur,month
+IBB,co_f8f14db8-35b1-4c64-8671-37f13984cba9,cus_SdltN2GPNHDbQM,sub_1RiUMIKojVEYZPlXMwsDESU4,249,,0.0,eur,month
+test,co_cab2204a-714d-428c-91ae-b175d70f0ec8,cus_SdTbZZ3hx4PNDo,sub_1RiUc3KojVEYZPlXcMEVBLSO,89,,0.0,eur,month
+VOR Shoes,co_82ebcce2-c5c7-4ed0-acbd-33b6d029e7d3,cus_Sdo89ISLBkY9Y1,sub_1RiWWjKojVEYZPlXm66LPLml,89,,0.0,eur,month
+EQWAL,co_dec523eb-f5d0-475e-8e34-604f0e599c3f,cus_SdqC6aeIQYgBrB,sub_1RiYXrKojVEYZPlX7fxgJCs3,77,919.0,0.0,eur,year
+Kopfpirat,co_9af4c9e7-b89e-4845-ac67-f0eb82874593,cus_Sdqfz2UTM4Sb8I,sub_1RiYz9KojVEYZPlXCREz2ovE,89,,0.0,eur,month
+Storiebox,co_d4728073-feb8-4399-b06e-599628399e61,cus_SdqTev8Bx47wTA,sub_1RiZ4sKojVEYZPlXd33YzUoF,89,,0.0,eur,month
+GAME ON,co_55a4b20d-3a07-4499-aae0-eff10102aa16,cus_SdpriXYn0duxUN,sub_1Ria0gKojVEYZPlX5iJb7jt2,89,,0.0,eur,month
+Embeddable,co_5a28dd3c-3338-43fb-a6c4-e75789e33c81,cus_Sds0nnA9dJwXg3,sub_1RiaJ9KojVEYZPlXGTPY3NQU,89,,0.0,eur,month
+,,cus_SdsrgpX3bYFPHf,sub_1Rib7XKojVEYZPlXSpSNULd3,199,,0.0,eur,month
+Seobuddha GmbH,co_67b981a8-2dc8-4553-bc9d-717d7ca47847,cus_ScMc3i1Xu3yCcP,sub_1RicEHKojVEYZPlXDkLDSzUt,400,,0.0,eur,month
+Propellernet,co_96e46fb5-df5a-475a-b2b5-a2c6ba67bcc0,cus_Sdu32E8z37V8zR,sub_1RicGfKojVEYZPlXHPSlOSMc,89,,0.0,eur,month
+KO-PYLOT,co_0844146b-3347-4c88-87ee-45abdae048e8,cus_SdusdBrGL98Jj9,sub_1Rid70KojVEYZPlXOl9XgNYl,89,,0.0,eur,month
+Sendoso,co_7f9ac38b-7030-4a9b-badc-4756be47d712,cus_SdviCNXpAQP5Iz,sub_1RidrjKojVEYZPlXpcll39NG,89,,0.0,usd,month
+Orchid,co_836c453c-3a3a-468f-b923-a42bd7b13386,cus_Sc3hwZITN0lC8t,sub_1RieVnKojVEYZPlXDK8859Kj,89,,0.0,eur,month
+Greenline ,co_a460f741-27d7-46fd-b2db-ded9e76e5a1d,cus_SdwbmmgprZhRuq,sub_1RieifKojVEYZPlX4c3lHmck,178,,0.0,usd,month
+Bauman Rare Books,co_d08c8841-d8e3-4c0f-a624-b599379dc96c,cus_Sdxdx04fKTmLj9,sub_1Rig0bKojVEYZPlX1ivpDMdr,89,,0.0,usd,month
+Searchbloom,co_9dbefa4a-ec42-4f59-9a72-5ef4ccac6b58,cus_SdxxTkvJFgwaca,sub_1Rig1BKojVEYZPlXKl1LJ93X,398,,0.0,eur,month
+Syte,co_4f006306-12d4-4311-92c6-7f0e207befa8,cus_Se0jNRuhCUUZVg,sub_1RiiolKojVEYZPlXR3Xp8uNL,89,,0.0,eur,month
+WOXOW,co_6e098e5d-2923-429f-8e62-bb74d43923b3,cus_Se1zmVlRWeIOU6,sub_1RijxpKojVEYZPlXfxAp9CUH,178,,0.0,eur,month
+papernest,co_0e1709f0-2f26-446b-8def-67c91267df11,cus_SeAjqheBJRgjPu,sub_1RisQCKojVEYZPlXXHcvoy9d,89,,0.0,eur,month
+Kapten & Son,co_e94b92f8-35a1-4b92-8be7-2307643a6ad8,cus_SeDY7KhXgBoBFk,sub_1RivE5KojVEYZPlXgjAIdTqr,89,,0.0,eur,month
+Sharetribe,co_0bafaae7-6002-433a-861c-f8d2606c739d,cus_Sbe5eqx5EzshHX,sub_1RiwkDKojVEYZPlXhC7zcmWL,89,,0.0,eur,month
+Semotion GmbH,co_6a85ecaa-0f51-4459-a919-011a0f78aba6,cus_SeCABG8q47jBZj,sub_1Rix9CKojVEYZPlX0vl0K1Pd,89,,0.0,eur,month
+Vation Ventures,co_c886066a-918d-440c-9852-cf345a88a4dc,cus_SeGuUj2O2JGExB,sub_1RiyMoKojVEYZPlX1HF7oCqh,89,,0.0,usd,month
+Doctorsa,co_8b665377-7a94-467b-93d4-ecc32cd674fc,cus_SeI3oA0LTksLq3,sub_1RizVjKojVEYZPlXLdy1sq0y,89,,0.0,eur,month
+Praize Studio,co_bd07741a-c45d-47bc-8689-aed612b57db3,cus_SeIAV1L6eY6m3v,sub_1RizceKojVEYZPlXSYebcPfa,356,,0.0,eur,month
+Liferay,co_bfc1b501-d46f-4270-9aea-600ea64a1272,cus_SeQXRbotAJgqs2,sub_1Rj7jeKojVEYZPlXYpBKL39u,199,,0.0,eur,month
+PosterMyWall,co_387ed7ab-1646-4aa9-8768-ff83163122a0,cus_SeUjeJXankWe4p,sub_1RjBk3KojVEYZPlXWeLhxFKq,89,,0.0,usd,month
+Aperitif,co_163a95a1-874a-43bf-99fb-4a75c2a51bb8,cus_SeVfzHemnNVlrD,sub_1RjCeCKojVEYZPlXU1UcpWJD,199,,0.0,eur,month
+courtcircuit.cc,co_f5b3f4f1-804e-4fde-a03e-a2cb6e0a365b,cus_SeYAwhWBjGsdjh,sub_1RjF5yKojVEYZPlXIPW54aXM,89,,0.0,eur,month
+Plane Perspective,co_f48150cf-fde0-46c8-af84-3932bea5596c,cus_SeYkWeAa66ntnP,sub_1RjFfcKojVEYZPlXVojthtoV,89,,0.0,eur,month
+Mint Position,co_2626e5c9-d1c1-486d-b5af-3d019c9e695b,cus_SeZ8UXhuiSUzly,sub_1RjG1YKojVEYZPlXp9LpWTUV,198,,0.0,eur,month
+Volders,co_abb6c51c-0dcf-4433-8e3f-01209197e4f8,cus_SeaplKGeZzJ0I3,sub_1RjHfdKojVEYZPlXbzOYBR8S,89,,0.0,eur,month
+First Page Digital,co_72f7a40c-0e9c-41e9-a10b-5b174b47a673,cus_SebOt23y9b2U8Y,sub_1RjIBQKojVEYZPlXsT8nu377,1419,,0.0,eur,month
+this is digital,co_08ad0bb9-0c22-480e-a8ea-047ce29dd366,cus_SebfXvFr7VwJu1,sub_1RjIThKojVEYZPlX6PqcXH50,199,,0.0,eur,month
+Inter-dev,co_3cd85fde-15c2-44a2-b0b2-720b76964871,cus_Sebw5C99s2blxD,sub_1RjIiWKojVEYZPlX0lqtnISR,89,,0.0,eur,month
+3viertel Online Marketing,co_db8f137f-6a3f-4ca2-8b88-a72f35eeb897,cus_SeeCi2UEgBfKOO,sub_1RjKuMKojVEYZPlXSmk7yZ5I,200,,0.0,eur,month
+Orthomol,co_48cca18f-362c-4b6a-85a7-b222acec6113,cus_ScIVxb13F6BcSo,sub_1RjKvGKojVEYZPlXjHsHOprl,89,,0.0,eur,month
+Vpnranks,co_7f26b1a0-674f-4597-9d3f-ddfda2d24324,cus_SefzEMoNW1Dl8l,sub_1RjMeNKojVEYZPlXEVRhohbh,89,,0.0,eur,month
+Didomi,co_ce4c77b5-62b7-4e21-8d5a-dd255f5e21c9,cus_SeYDpfXebeZdeh,sub_1RjNNtKojVEYZPlXKn2EEJG0,199,,0.0,eur,month
+Coverflex,co_ca5e714c-040a-471a-a56e-5525ecfc6fd6,cus_SeibERFpOluOXd,sub_1RjPDRKojVEYZPlX8vXuYBiY,89,,0.0,eur,month
+R2,co_3b1b648c-c933-42ac-b6f3-58b69af02102,cus_SelRqaotG8Ljui,sub_1RjRvBKojVEYZPlXrpQ0xkTw,199,,0.0,eur,month
+Mary Technology,co_d78571ef-6255-4787-875d-f518e95b6a64,cus_SeosFA9TLEav2S,sub_1RjVJ8KojVEYZPlX9QKGulWc,89,,0.0,eur,month
+Anga,co_67bd4c20-28d7-408b-a345-218df91760b1,cus_SeqvdP0ncX3J9E,sub_1RjXDaKojVEYZPlXOcAqttev,499,,0.0,eur,month
+Team 503,co_4bfb52b5-4671-4197-a7c3-96a3703935ed,cus_SesYpoMsv5KkPG,sub_1RjYoCKojVEYZPlXNeRAbRoo,178,,0.0,usd,month
+Goodman Lantern,co_ab13e551-c151-415d-9ddd-cf40a5cabe23,cus_SeyaYnBEUgvgoG,sub_1RjeiWKojVEYZPlXiXWr0c8m,200,,0.0,eur,month
+SILATEC,co_ea991d56-90c0-49a5-adf1-5e59e4a5a07a,cus_SekZYsjWENW3cC,sub_1Rjfv1KojVEYZPlXxYBUeGc6,89,,0.0,eur,month
+Context Travel,co_7d03827e-50e8-419a-8a3b-9f392a084d1c,cus_Sf10gq5g1EJNgl,sub_1Rjh25KojVEYZPlXq8C58kGj,89,,0.0,usd,month
+Lotuscrafts,co_2bc648f5-ede4-4ffd-b495-511adc5b6eb5,cus_SefNLYXvICl2A1,sub_1RjhDxKojVEYZPlXorrWqddJ,89,,0.0,eur,month
+UNESCO,co_35d06298-fb90-41f0-861f-2d1b9e5ac130,cus_SdQHd8aAE4dqBx,sub_1RjhXGKojVEYZPlXyHt6bmnh,828,,0.0,usd,month
+Kollective,co_031ed9a7-1b61-476c-b4d8-9883d6c63f43,cus_Sf1yAcHaTYWBb9,sub_1RjhwFKojVEYZPlXv7TlwDPA,200,,0.0,eur,month
+Binary Bear,co_8b5887af-bdeb-469d-ab54-be68082b03fd,cus_Sf23m84dQI1meT,sub_1Rji7eKojVEYZPlXjYKI4VT7,89,,0.0,eur,month
+Claneo GmbH,co_fc9f9301-4cc5-42af-8d40-a100b0b09d8a,cus_Sdsm46nvbyTeIF,sub_1RjyUnKojVEYZPlXVmjRRnoh,199,,0.0,eur,month
+Modern Events Calendar,co_b900011b-c364-45e4-8ff3-9484260fe67f,cus_Sfg8JsrpvlRyEm,sub_1RkKmXKojVEYZPlXOqudqVkX,89,,0.0,eur,month
+Kamil Havlicek,co_286061ae-c187-4406-a132-6ee063f1c98c,cus_SfuMNRbF4Fxgcu,sub_1RkYZfKojVEYZPlXpcCbrq1x,89,,0.0,eur,month
+AN Digital,co_ba06397c-6897-416d-bf87-670e0afc756a,cus_Sg2g8feHHBx0w3,sub_1RkgbQKojVEYZPlXKwt3fBJf,180,,0.0,eur,month
+Alexander Henoch ,co_acfe9fb1-7716-4358-a603-752279b7c00a,cus_Sg2qgs8zqYH7R4,sub_1Rkgm5KojVEYZPlXIKEYQiB4,199,,0.0,eur,month
+sofatutor,co_0cd47076-39a7-40b9-b757-1e813dc80444,cus_SeGZ3H0cuGLAXf,sub_1RkiMCKojVEYZPlXotqmeGZn,248,,0.0,eur,month
+Technical creatives,co_3f47d003-5643-4860-b474-85aa3e710679,cus_Sg5h0fsi8aOjKP,sub_1RkjWJKojVEYZPlX4LQpL3wn,374,,0.0,eur,month
+Dwf,co_7921e2ea-0320-4634-827d-dcb08f72926c,cus_Sf1by6nPLegFlV,sub_1RkjfuKojVEYZPlXUSnWXy28,89,,0.0,eur,month
+diginea GmbH,co_28c8543c-0fa2-4643-a573-b43aca4e0cf5,cus_SeCXTm4aaZAY38,sub_1RkkEzKojVEYZPlX1g8APihy,89,,0.0,eur,month
+Vitra International AG,co_b8780046-b750-42a1-9ade-4686edeefae8,cus_SdYfoZ9rAu4JhJ,sub_1RklI5KojVEYZPlXARciBz51,199,,0.0,eur,month
+Seat Unique,co_e3338b27-656c-42b6-8673-d6aeb3e5e9e9,cus_Sg3TeLN4WIyE9l,sub_1Rkn4LKojVEYZPlX5Jq2DX7g,199,,0.0,eur,month
+Boost Money,co_5aa6422d-3c08-4dc5-948d-49daf5e85a64,cus_SgJ6YdGW43OpQr,sub_1RkwV2KojVEYZPlXqomwvMiH,89,,0.0,usd,month
+Upright Communications,co_ca3ad8bc-1654-46bb-874b-509de5959f00,cus_Sg9EUwpea5WD5F,sub_1Rkx66KojVEYZPlXcgdzCwT9,498,,0.0,eur,month
+Yogo,co_2564535d-b92f-4b6b-a788-ab114c61d9d5,cus_SgO3LIYWkr92Ww,sub_1Rl1IwKojVEYZPlXEitrUI9M,199,,0.0,eur,month
+FHNW,co_8b19dd84-12bb-40a7-8276-621c675d0c87,cus_SdXY1HEZsShNhT,sub_1Rl23HKojVEYZPlXnZxg7TRR,199,,0.0,eur,month
+Boost it GmbH,co_72f6fa9f-ac2e-48fa-a32a-166154a9b478,cus_Sc71mqteqq5230,sub_1Rl2MgKojVEYZPlXNEKmxafV,178,,0.0,eur,month
+Abraxio,co_0e07b710-f3eb-49f8-adfd-959be7b5d511,cus_SgPuci4e8Uua6l,sub_1Rl35FKojVEYZPlXkgGEteIi,169,2029.0,0.0,eur,year
+Virayo,co_d0476326-236a-40b3-aba9-2d0686e81fb5,cus_SgPxHkFA6bdEsz,sub_1Rl37sKojVEYZPlXZRdI3FVC,900,,0.0,usd,month
+DYNO,co_3ab5eec6-e4f3-4e7c-a09b-e9f3825a53d1,cus_SgR5m9YLq9DasW,sub_1Rl4E3KojVEYZPlXf0NKnFgG,89,,0.0,eur,month
+relokate,co_a9172640-1b3c-4792-af51-7dbc6ba22292,cus_SgR5oAbUSTsmm1,sub_1Rl4GLKojVEYZPlXs7onyrPB,199,,0.0,eur,month
+Mindshare,co_a9dea041-cfc5-4506-b8c1-6ee3e05c6793,cus_SgThBngBw2VK59,sub_1Rl6kyKojVEYZPlXkVdKzqGa,640,,0.0,eur,month
+LMO7,co_2a8d036a-2e82-4e82-a4b4-d28a3ebb52d1,cus_ScRRFK8w6uOKZO,sub_1Rl6rRKojVEYZPlXANfSzBVr,178,,0.0,eur,month
+Searchable ,co_511c94c2-5820-4375-9565-5c4a610f8f7c,cus_SdVFt77Mqx24KI,sub_1Rl7tJKojVEYZPlXdrqMC6aq,199,,0.0,eur,month
+bexio,co_653c9251-f0dc-43dd-97d1-8b3a29346f62,cus_SdSa1hlkQgRWxu,sub_1Rl8ZyKojVEYZPlXCPBBphzs,89,,0.0,eur,month
+fiskaly,co_99c994bf-bca6-499b-8da2-1cae2f95b9dd,cus_SeCL8lvtLYomNK,sub_1Rl9UtKojVEYZPlXw17pHgeO,199,,0.0,eur,month
+M+R,co_54595237-ac88-4237-b4cf-770023ab4ebd,cus_SgeJ5cXYZpZLH0,sub_1RlH1UKojVEYZPlXjHXfYo1L,199,,0.0,eur,month
+ReviewsOnMyWebsite,co_a11159cb-a569-4df4-8cec-84abee0c74ce,cus_SgjnTRRS3C8g2w,sub_1RlMMlKojVEYZPlXFoQ6KG26,199,,0.0,eur,month
+TCF,co_227739d9-fe63-4bcb-a917-9205d89bcc3d,cus_Sglbauz06yDLn1,sub_1RlO4CKojVEYZPlXHI8KF7Mm,300,,0.0,eur,month
+mute-labs GmbH,co_6f159156-61a3-4bcf-930e-479b85921803,cus_SgnvM0vQz0Z3UF,sub_1RlQP8KojVEYZPlXeqErDYRV,178,,0.0,eur,month
+Racing Post,co_63533393-f3b6-4945-9429-eecaf9b5ae3b,cus_Sg9PKNzlXXyhCZ,sub_1RlRsgKojVEYZPlXUFBurhXc,199,,0.0,eur,month
+VAQA,co_118618a3-3f56-4272-9b0b-5c096db19591,cus_SgpavlhLfWXWXP,sub_1RlRx2KojVEYZPlXdi0krqKx,450,,0.0,eur,month
+Enhesa,co_1c910c34-b4a5-4722-80a8-393415b7683d,cus_SgptccZnwZmWe6,sub_1RlSJQKojVEYZPlXG3591l0h,89,,0.0,eur,month
+AKQA,co_62f9d13a-fb81-4d55-aa7d-8f6226f83cc2,cus_SgqVtGQ6sFelMN,sub_1RlSolKojVEYZPlXo9qFFHrc,498,,0.0,eur,month
+Hook,co_7d5083c6-a609-48c2-a7d0-3fd7cfd43909,cus_SgqxzDJDWBXKWT,sub_1RlTGDKojVEYZPlXeqz9T65e,89,,0.0,eur,month
+regenold,co_be384c2b-305a-46ef-91e0-4313d1c3e0a4,cus_Sgqy14YRhroVJS,sub_1RlTH5KojVEYZPlXrLJIMklW,199,,0.0,eur,month
+Morgen,co_647b781b-922f-4689-8934-9405db40d29d,cus_SguGDh2NVCeWzK,sub_1RlWT7KojVEYZPlXxFNLF7fy,199,,0.0,eur,month
+Pino ,co_d7314ed9-a69a-42db-9285-efe6018a5da7,cus_Sgyen9SFIUbFqz,sub_1RlaicKojVEYZPlXe6u1yfRe,199,,0.0,eur,month
+Charlie Vestner,co_8e361cce-0d60-410d-9a7a-553b38f19dec,cus_Sh0kcPI9jUkwwd,sub_1Rlck1KojVEYZPlXT9P84Csd,89,,0.0,usd,month
+CLICKLIFT Online Marketing,co_58353739-a12a-419c-9a91-a5b6b1b28af0,cus_Sg8vTpSwjOegrt,sub_1Rll5rKojVEYZPlX7I2ryeSp,240,,0.0,eur,month
+Solarhandel24,co_ba5315fc-b687-4008-9528-803240b7d7a6,cus_ShFx8iJJ5UF6hz,sub_1RlrTkKojVEYZPlXpzsgTgh1,89,,0.0,eur,month
+Olive & Company,co_3b9e5c6c-3098-4d7b-897a-f6bd0becb203,cus_ShHSPH5n5mYWEq,sub_1RlsvjKojVEYZPlXqSftEiHv,89,,0.0,usd,month
+Mobile Club,co_5675fdf7-ebde-4107-b534-2871e652bb64,cus_ShITutNFmR30lQ,sub_1Rlu2qKojVEYZPlXFbcvOn6l,89,,0.0,eur,month
+Bounce,co_be094b11-68ff-44a8-aa22-4292cf7b80d0,cus_ShIxO5lQhJOW5L,sub_1RluPpKojVEYZPlXZ3v5QyWm,199,,0.0,eur,month
+,,cus_ShOcZA2vs2EqCi,sub_1Rm0FiKojVEYZPlXBDm77vjY,424,5089.8,0.0,eur,year
+,,cus_ShjuLYIp7UuPiE,sub_1RmKQIKojVEYZPlXy8GJETNZ,89,,0.0,usd,month
+Fitbod,co_50137641-090e-4a0a-b8e1-b7d0f63f4e4e,cus_ShKTowc8jSxe3M,sub_1RmMIFKojVEYZPlXo7SPFWUD,199,,0.0,eur,month
+RaiseLaunch,co_69a3c1cc-4a49-4ae5-ad8a-e257016823c3,cus_ShqtU71kcZnBJH,sub_1RmRCHKojVEYZPlXdSZBz2wf,89,,0.0,usd,month
+Officers Of,co_df373fa6-afd4-4d87-9911-a1cdbc046405,cus_Si5p0vW1QgqPGF,sub_1RmhMvKojVEYZPlXbRQiAnMM,199,,0.0,usd,month
+Harvey,co_9ffeb779-8573-4bf8-b039-7af652050efb,cus_Sgu9tmr4XbMQps,sub_1RnGDjKojVEYZPlXSPgcQVi6,89,,0.0,eur,month
+addmustard,co_02731c7e-aacd-41d5-b9a1-4d2964f38af6,cus_SijHWo4YDxCR3c,sub_1RnHslKojVEYZPlXP4VTZj8i,199,,0.0,eur,month
+Profilwerkstatt GmbH,co_80bee314-9938-4885-a616-aa45a8236e3b,cus_SikMVgPOmNzf4g,sub_1RnIwEKojVEYZPlX6LpiRGdE,248,,0.0,eur,month
+Balani Custom Clothiers,co_1c434631-5cb7-4ab0-9ee4-ebbcd7b07525,cus_Silxh4WWRDut0C,sub_1RnKQNKojVEYZPlXDiWxKYPm,89,,0.0,usd,month
+SmashBrand,co_7f6068fb-be8b-45a9-8711-f1b8be1b9fb3,cus_Sit0Jr5IfW5S6d,sub_1RnRKYKojVEYZPlX9VCy9JjY,199,,0.0,usd,month
+Ringgitplus,co_e0f8acd9-10f9-472d-9d10-237bdb1f094b,cus_Sih4AnmQUMsKnu,sub_1RnVR4KojVEYZPlXgywjZrDq,199,,0.0,eur,month
+Amorepacific,co_f7d1e67a-f2fe-4870-a9c0-297be1a146f0,cus_Sh8OROwC5n8swG,sub_1RnXvyKojVEYZPlXKlu0bXud,178,,0.0,eur,month
+QuillBot,co_e6303779-64bb-43b1-b0f5-9b7c51b3f47e,cus_Sig2Dt6FYNOhPI,sub_1RncQCKojVEYZPlXai4Xjldu,199,,0.0,eur,month
+ooia,co_ed7da773-926b-461d-ab0e-57b30a464e3f,cus_Sj4fpmFnMyEtSg,sub_1RncXJKojVEYZPlXRNrbbReA,108,,0.0,eur,month
+Jinnius Studio,co_e3341565-6f48-4cf6-819e-8fe435bdffa9,cus_Sj4MmvvUJPsOo7,sub_1RncxGKojVEYZPlX3TbegFKQ,199,,0.0,eur,month
+RunThrough,co_231d54f1-ae25-4265-a27b-7e2ee1fa1486,cus_Sj3nPi4g5T5JDg,sub_1RndsMKojVEYZPlXICNz1zgF,89,,0.0,eur,month
+GVB,co_3eff2754-bfaf-4bf6-985a-c56436207bdd,cus_Sj7Caqq3Uq4NoW,sub_1RnfCqKojVEYZPlXvXGCaT9Q,89,,0.0,eur,month
+SportsDataIO,co_8e1065cb-0c78-4ef1-a7ed-5185679d4715,cus_Shg35FPkWHVe8l,sub_1Rni4TKojVEYZPlXDlBpraGu,89,,0.0,eur,month
+Homair,co_d6b202b1-27d0-4bbf-902d-91a5255d0416,cus_SjAvsl3Y5WlPFO,sub_1RniaQKojVEYZPlXC0wy81Ky,499,,0.0,eur,month
+seoplus+,co_97fb6713-7d87-467b-a02e-8864bc4c459b,cus_SjAzdi2phnFbYx,sub_1RnifUKojVEYZPlX2irVMOYC,399,,0.0,eur,month
+SEO Brand,co_a1d44948-5fe3-45d8-83b0-436c6b3dee34,cus_SjD9cmYZPaFKzT,sub_1Rnkk2KojVEYZPlXuYR5V8Q2,89,,0.0,usd,month
+vaults.fyi,co_cbe61326-0c35-4fad-8733-b55971a21869,cus_SiZKvtsIWuwIol,sub_1RnnBYKojVEYZPlX2nZhHj3g,89,,0.0,eur,month
+CAQ AG,co_57c7505e-6bf3-4a20-9faa-0282b8c9ecdc,cus_SjA4vxGD6SwBOD,sub_1RnxYxKojVEYZPlXClr6XVAY,89,,0.0,eur,month
+Funding Societies,co_f4321f6c-e1b2-4f2e-8355-986110c4de04,cus_SjPLA2YCFoY4gv,sub_1RnyMRKojVEYZPlXHP23D2DE,89,,0.0,eur,month
+The British Council,co_ec5249e6-d66b-4ac5-9d77-212dbd13734b,cus_SjS7PrdulSJGkf,sub_1RnzWWKojVEYZPlX6uQsZbpv,89,,0.0,usd,month
+Liv Longevity Labs,co_770e78ee-af88-452f-b9c6-04d026682f39,cus_SjTXIh67lhPC6h,sub_1Ro0byKojVEYZPlXlM5IJ8Lm,89,,0.0,eur,month
+MADGE GmbH,co_5b95582f-ca38-4da9-a101-491ee7a4583a,cus_SjUHh5mIJSdgaR,sub_1Ro1PtKojVEYZPlXYlqBgJj9,89,,0.0,eur,month
+Jitter,co_1395dc7b-3c33-43c2-bf19-d0f89640d1f7,cus_SjSDvITObBNKnQ,sub_1Ro1yoKojVEYZPlXnfYXLaD8,89,,0.0,eur,month
+Energy PR,co_cb87bae6-b9b1-443d-9f9f-391532b93e38,cus_SjW9yZAKTcGx00,sub_1Ro37qKojVEYZPlXXn7ZU5d8,89,,0.0,eur,month
+younited,co_8174e9f0-4c7c-4d3e-8768-2a3ee764df31,cus_SjWWYXMzetFYaQ,sub_1Ro3V7KojVEYZPlXCejBSZ8M,89,,0.0,eur,month
+Growth Division ,co_942cf961-5a0e-4bd6-9575-c188c36ca8fc,cus_SjX132cWoeqLT6,sub_1Ro3yxKojVEYZPlXKrj2DPbP,89,,0.0,eur,month
+Photoroom,co_b89138bb-dce5-46b1-9e31-92fa36846b40,cus_SjXVrnESdhLhW9,sub_1Ro4TtKojVEYZPlXwGRc6jSB,89,,0.0,usd,month
+KlickPiloten,co_e78cc909-d06d-4ed9-888f-f52b581f15aa,cus_SjaAlbDsi9c3ST,sub_1Ro72vKojVEYZPlXDMiUDwox,597,,0.0,eur,month
+Rep.ai,co_3defd4de-81f5-4273-9053-f4c2e5431556,cus_SjcONpJO7CyDjN,sub_1Ro9AcKojVEYZPlXf3wBOeYK,89,,0.0,usd,month
+Ring,co_9b98a756-14b8-4e43-a3c7-53986ed2ab87,cus_SjFL2Y9ezLMjpL,sub_1RoAC6KojVEYZPlX3GJdhl2p,199,,0.0,eur,month
+180 Marketing Inc,co_c8d65818-80eb-454a-ae6c-d2100e05965a,cus_SjdjN04eJFj1HW,sub_1RoAUkKojVEYZPlX3x4Jj3EZ,698,,0.0,usd,month
+AsiaYo Travel Technology ,co_0e19bb36-c91b-42df-abde-49190db3d0f4,cus_SjT3CIQLa7QJQe,sub_1RoJ0YKojVEYZPlXy73jU1aC,89,,0.0,eur,month
+Recykal,co_b1ee3f3f-e658-480f-bab1-4aeb0757ec83,cus_Sij4St14PU41MY,sub_1RoJI6KojVEYZPlXsH4lbJZx,89,,0.0,eur,month
+ai4Suite,co_e43808bf-b0fb-4783-a82c-0687e0ef1a8b,cus_SjoUKEybBfa0wG,sub_1RoKroKojVEYZPlXuEskLMWD,499,,0.0,eur,month
+primelis,co_f2f15e87-d509-4ddf-b0af-9b6aaedc467a,cus_Sjq2VQ1HsswE74,sub_1RoMcHKojVEYZPlXSYGYtZ9O,2000,,0.0,eur,month
+Worders,co_0c55edcd-bd3e-47fa-b83e-bc50f50e0321,cus_SjqJmQSVb3sDZR,sub_1RoMePKojVEYZPlX1hi3w720,89,,0.0,eur,month
+Innova Energie,co_521728e5-a20c-4822-aab7-fe2cc2f49d35,cus_Sjs8FF6zcXQETe,sub_1RoOR8KojVEYZPlXJ4fd4mtt,89,,0.0,eur,month
+SEMTRIX GmbH,co_1cc2365a-ac27-4e39-a91b-bfd1b5a72d66,cus_SjsQ6gQzfx4zhp,sub_1RoOpyKojVEYZPlX74dJ0dKs,178,,0.0,eur,month
+HawkSEM,co_5e976731-1e5f-4cca-ba5d-323373a72a8a,cus_Sk0BfBz1t59v9r,sub_1RoWB6KojVEYZPlX4SqdC656,178,,0.0,eur,month
+shopify,co_53d79119-c861-4527-95b9-3fe6392725ee,cus_Sk6iSXnYMX2VU0,sub_1RocVKKojVEYZPlXk8MwfnT4,89,,0.0,usd,month
+Starty Digital,co_b36ac1bd-ade1-40de-adb7-28a68b4c5d09,cus_SeYgkC2GHIWdIo,sub_1RoekCKojVEYZPlXlPFt0U9I,89,,0.0,eur,month
+Northward Marketing,co_af3e0c0b-c564-4328-ab30-755003d39f16,cus_Sk9po3tIkewRNt,sub_1RofWjKojVEYZPlXdZBXYOFD,199,,0.0,eur,month
+Adevinta Jobs SLU,co_b48b0347-77f9-40c3-adbc-3e36e65ba46c,cus_SkAxyfJxe4T1wf,sub_1RoggfKojVEYZPlXupq569fn,169,2029.0,0.0,eur,year
+Hearts & Science,co_2049e669-20d7-4c8a-8da7-773f7eeadf58,cus_SioM6Z62vji3OW,sub_1RoiUMKojVEYZPlXRamB6Sip,1500,,0.0,eur,month
+proteintech,co_98749fd2-09dd-4d19-9b68-632192f56771,cus_SkD06VNrSetLSd,sub_1RoikiKojVEYZPlX34NQm0Ls,118,,0.0,eur,month
+BP Digital,co_551f3bb8-5023-4a83-a214-90699a3243e1,cus_SkEAp44ILbJ3Z4,sub_1RojmUKojVEYZPlXF0KQI3fP,89,,0.0,eur,month
+Zooka,co_51064ad7-00c6-45b1-a91a-3601a93fbf9b,cus_Sdr5vtKotfxlw3,sub_1RolCqKojVEYZPlXir4W1udi,400,,0.0,eur,month
+EUPHORIA®,co_a0e2ea2f-b614-46bb-b1c1-21008226279a,cus_SkGDQK8anvnZMp,sub_1RoliAKojVEYZPlXVnqPzlkK,199,,0.0,eur,month
+elevenlabs,co_f14749e9-6304-45cd-bb81-d4102863e160,cus_SkGY0LHThndUcH,sub_1Rom1NKojVEYZPlXdTUhstMI,450,,0.0,eur,month
+n8n,co_9dc782d2-a958-435d-999a-cb5ae600829c,cus_ScLSpZ5qCgGvj9,sub_1RomDjKojVEYZPlX7V5g2ArD,89,,0.0,eur,month
+homeandsmart,co_f99f4092-b75f-4401-b887-9a98b6c311d1,cus_SkHM57oOU0rYHJ,sub_1RompbKojVEYZPlX2mGQiRTO,89,,1.0,eur,month
+Zero,co_67d6339a-e966-4d01-8fe3-b1c3ec07326b,cus_ScLACerVE8e5LW,sub_1RooDbKojVEYZPlXkc7wIILN,89,,0.0,eur,month
+Solink,co_c620de45-a81b-4862-b416-52a5afad2a9e,cus_SZE1nuXVWQldml,sub_1Roos8KojVEYZPlXaluMXKz8,199,,0.0,eur,month
+GoWish,co_e56bed0c-4b00-4c91-bdf7-0aa74a3a7527,cus_SkYDltyIYjK61P,sub_1Rp37cKojVEYZPlXGqvG9MWC,89,,0.0,usd,month
+Partnerize,co_85a66c87-10bf-4765-8be8-3229330f4b5e,cus_SkfuzvbTNROlxE,sub_1RpAa9KojVEYZPlX3HFm3drT,199,,0.0,usd,month
+neusta,co_199d66ec-b0e4-4550-8f92-b7afffa2bb67,cus_SlIQH54LQ7XO3k,sub_1RpmBbKojVEYZPlXw8oln1wa,89,,0.0,eur,month
+GrowRoom,co_3fcefeb3-7a47-439d-917e-4e925319b9da,cus_SlKB9PswXUcLm8,sub_1RpnZUKojVEYZPlX3UcGZhRj,689,,0.0,eur,month
+Soda PDF,co_06c35d2f-7e3b-42a3-bbcd-5c799d2c8cb7,cus_SlNwBCc0nqrWq7,sub_1RprCCKojVEYZPlXd8rjZrcB,199,,0.0,eur,month
+Informa,co_e2daed21-e66b-4662-b432-247e9d80ce41,cus_SlOsei2KqRSEtO,sub_1Rps4zKojVEYZPlXH7xXcJyK,199,,0.0,eur,month
+AiPrise,co_3de1de01-f101-459f-9ac9-40dc5e91c11a,cus_SlRhj05DHqYtAD,sub_1RpunuKojVEYZPlX8ueBtUEU,89,,0.0,usd,month
+Boxhub,co_259ebcb7-3732-4ed4-93b7-113278d6ff59,cus_SlSx0FPNvwziN2,sub_1Rpw3ZKojVEYZPlXsg7m487O,89,,0.0,eur,month
+Appiphony,co_e5846992-d08c-43fc-bb87-15859fd827bf,cus_SlTJWz7aSPKY0P,sub_1RpwNBKojVEYZPlX2LnLZmg0,89,,0.0,usd,month
+Access Holdings ,co_0b199232-f859-4f09-9d5c-100def99011d,cus_SlP5Bbkfb0iNjS,sub_1RpxqhKojVEYZPlXGaO4jmnO,90,,0.0,eur,month
+Jacob McMillen,co_3a89fbf6-440b-423f-9eba-7dc1edc607d6,cus_SdYJplAagrT9R6,sub_1Rq81kKojVEYZPlX7cIXE8cj,0,,1.0,eur,month
+Sitegeist,co_942a8c04-d62b-47c3-8538-ebe0df7cf394,cus_SlfVsefOcCMZOp,sub_1Rq8BQKojVEYZPlXjem6lL8P,298,,0.0,eur,month
+Gravy,co_0a2906a1-338c-4f6b-bddf-57edbd001988,cus_SlfdFyfezTeXcg,sub_1Rq8J7KojVEYZPlXQXRm7gVv,89,,0.0,eur,month
+Handl,co_31fcf660-688e-4e76-8d22-9d3d3b9e66bc,cus_SPJ8wFDSoHFNRt,sub_1Rq8YWKojVEYZPlXqEV55c4z,0,,1.0,eur,month
+upvotemarketing.com,co_184e2969-6c16-4c03-8a3d-f9a10e7fb214,cus_SREF07L6UeeX5R,sub_1Rq8bDKojVEYZPlXCz0oC3Wp,0,,1.0,eur,month
+Lemlist,co_cdfad61e-8213-469e-9088-80dbdc8d26d0,cus_SijtMj1kurfK43,sub_1Rq8i8KojVEYZPlXcERhk3Di,0,,1.0,eur,month
+gastromatic,co_1082b530-da90-4008-a331-3e4673191178,cus_SgpqZnS7MDdXUg,sub_1Rq9K2KojVEYZPlXkLqHxH7H,89,,0.0,eur,month
+Exposure Ninja,co_ad26104b-c308-4118-b2b1-eed484aeb88f,cus_SlNB2lcj105e0w,sub_1RqC2GKojVEYZPlXSIIek3Fn,0,,1.0,eur,month
+bernard.digital,co_c9e61a7a-c95e-4754-b50f-461464b0c847,cus_SllgPGRyI4kNct,sub_1RqEBkKojVEYZPlXCe3ZQZnQ,262,,0.0,eur,month
+Resi,co_aaf5fe26-2ab4-4c5c-b89a-611bf6ddce03,cus_SllTL9tbzTbdrb,sub_1RqEOGKojVEYZPlXgwlnNbk0,89,,0.0,eur,month
+CommsCo,co_01dbefdf-03bd-4788-90c3-8aeb11c359f7,cus_SlmRXxPfcvT5vJ,sub_1RqEu2KojVEYZPlX9mMIMKnT,280,,0.0,eur,month
+,,cus_SlmtiGtB4BBrcl,sub_1RqFSSKojVEYZPlXL9Kk83Lj,169,2029.0,0.0,eur,year
+Simpplistic,co_615b6999-1f83-441e-8ec0-f4cc75ffcc2f,cus_SlrGg0iy3tCW5Y,sub_1RqJZVKojVEYZPlXbtkJerp3,534,,0.0,usd,month
+Delta Protect,co_73427989-8cc0-4f85-892d-fee7d2bafa6a,cus_SkjZp5JVYtfQ4X,sub_1RqKNsKojVEYZPlXCc9MnncZ,89,,0.0,eur,month
+Heavybit,co_bea343be-0b84-499f-be59-6fe17fd63f3d,cus_Slqk2mxBCy3AW0,sub_1RqKURKojVEYZPlXfNDcsj1g,89,,0.0,usd,month
+liveconscious,co_52fee16d-3823-472c-87fb-5d4c406928af,cus_Slu2eIuLdIjiV6,sub_1RqMEuKojVEYZPlXneZ3a1dn,89,,0.0,usd,month
+PRIMAGAS Energie GmbH,co_f4d16429-d742-47a3-833f-a6ff58f2870c,cus_Sm4EKpH5BkJI0y,sub_1RqW93KojVEYZPlXXznaENUg,199,,0.0,eur,month
+Internetwarriors,co_8bea5812-9eb8-4d92-bb20-812be3afcf7c,cus_Sm4M38gv25Hqtv,sub_1RqWFSKojVEYZPlXsmDlqvcr,297,,0.0,eur,month
+Travellers Society,co_281e6971-73e2-49cf-92fe-9a344081d4a6,cus_Sm4qObtnjvZeg6,sub_1RqWiNKojVEYZPlXbTDwuK5Q,348,,0.0,eur,month
+AppSignal,co_e0e0eb2b-fe42-47bc-b0fd-425579a4949e,cus_Sm5wpzWJgVci5D,sub_1RqXloKojVEYZPlXO7PdAvoI,89,,0.0,usd,month
+Meili & Hess,co_0badac86-8c10-4ad9-af88-7d462cf16e38,cus_Sm8GUg153kFohf,sub_1Rqa05KojVEYZPlX53fjwOnn,200,,0.0,eur,month
+Kulturwerke Deutschland,co_5dce817b-6323-42ae-a41c-ffe048d04cd2,cus_Sm8OEPXPPsrECJ,sub_1Rqa9AKojVEYZPlXgbORMWQy,199,,0.0,eur,month
+COR Berlin Kommunikation ,co_030cbbef-21fb-4d60-9c21-433bb8a9d6f1,cus_SmAjrdVG2Y1SNG,sub_1RqcPgKojVEYZPlXofxpcUGX,89,,0.0,eur,month
+John Burns Research and Consulting,co_d6827b1e-743c-4450-b339-43acf0ca7a20,cus_SdyQebDhZrfkMY,sub_1RqdLJKojVEYZPlXN8rpBbZ3,89,,0.0,usd,month
+AlertMedia,co_3f52a6f8-b501-48cf-a3fe-a58eaff9cc6f,cus_SmBygESds3bpsv,sub_1Rqf90KojVEYZPlXZxv0i4xL,199,,0.0,eur,month
+Alpine Analytix,co_96191db9-b1c0-4f64-9a3a-2ce5725c82a5,cus_SmDeWniapUAohI,sub_1RqfDZKojVEYZPlXFZOpsJtO,199,,0.0,usd,month
+Centro,co_e3c15372-1f4f-484e-810a-a14ef14fd8a7,cus_SlwSgQqihKMeRx,sub_1RqgNOKojVEYZPlXKJKauWm5,89,,0.0,usd,month
+FGS Global,co_74e8eae0-d4e8-44dd-b5f0-242e3ced05c6,cus_SmJQ37rQGpgKix,sub_1RqkniKojVEYZPlXyYr7lvd4,288,,0.0,eur,month
+Edelman,co_e2f1c381-dc1c-478a-ac45-8b3ad01a382f,cus_SIL4bL6FgBN8OM,sub_1RqnjTKojVEYZPlXZaNbMR9P,89,,0.0,eur,month
+Singapore Tourism Board,co_98f0d606-4613-4ae8-a615-7db3c802214f,cus_SmMZv1Fe7Lxqho,sub_1RqnqrKojVEYZPlXU7sEiphu,89,,0.0,eur,month
+Design Sauce Studio,co_1a4f7036-805d-4fe5-90f6-2ae71f217da8,cus_Se0s1Bwr90IdcC,sub_1RqnsSKojVEYZPlXnUAMWj2y,89,,0.0,eur,month
+Fotocasa,co_2e6c9c33-2362-4181-a1da-838cd336d299,cus_SmPuAZoixMvz8M,sub_1Rqr58KojVEYZPlXA4LkghVX,199,,0.0,eur,month
+Limitless Agency,co_e98a8d5d-33e9-4fad-a245-72b0df51e08d,cus_Sf03i8frOYui8M,sub_1RqrREKojVEYZPlXbw10wR6v,267,,0.0,eur,month
+Polaris Media GmbH,co_9e1edbd5-1c27-48d9-9ef8-08da89791a3d,cus_SmQeGEfsIcwSv9,sub_1RqrusKojVEYZPlXb5jAF6B1,89,,0.0,eur,month
+YET Agency,co_c3d35cea-ce10-428c-80d2-f0d6306da8f9,cus_SmQunT8G1hhXF9,sub_1Rqs5HKojVEYZPlXnZtlwusG,89,,0.0,eur,month
+iteratec GmbH,co_7fb8e31f-bb72-44e9-82af-f984912073c0,cus_SmRJMaydj6c0fr,sub_1RqsXBKojVEYZPlXFPY2CFet,89,,0.0,eur,month
+straight. GmbH,co_e1a30beb-e52b-46b0-b47a-9a128a98e8d2,cus_SmRqFxzdIcqDj5,sub_1RqsytKojVEYZPlXcdK6AFvq,178,,0.0,eur,month
+Codicem,co_9bac8813-6796-4953-90e0-be5c800be0a3,cus_SmVKXbAxsnDRew,sub_1RqwLDKojVEYZPlXFFznafoG,89,,0.0,eur,month
+Mito,co_14b5e3c5-484d-47c0-ad14-d8da057ee787,cus_SjsMER7unqgZkj,sub_1RqwojKojVEYZPlXwFW5rYZx,1350,16200.0,0.0,eur,year
+Campact,co_aa88029c-8287-466f-99b4-d666535019c3,cus_SkH26cOrxF6Tkn,sub_1RqxzAKojVEYZPlX0Kg1pKkx,89,,0.0,eur,month
+Eland Cables,co_7a078184-d01d-4f47-b17c-6e9fd8269cd7,cus_Sj3bA89UOj0RoI,sub_1RqzBxKojVEYZPlXIkTF3cHP,340,4080.0,0.0,eur,year
+Elaine Kuckertz,co_5cfbc4a5-f1f1-43a1-b6c5-56cce333c879,cus_SmbqeBEWdoJHEs,sub_1Rr2dHKojVEYZPlXSzzDRxvh,89,,0.0,usd,month
+Jaywing,co_1e74019b-3f5a-4d1e-9aa4-6c77cb98463c,cus_SmgQ45e5kNkILp,sub_1Rr73XKojVEYZPlXn8NGYOOJ,199,,0.0,eur,month
+GPT Insights,co_da2f3c0b-b7e3-427b-965a-5f0f17af608a,cus_SJnC0xzHx6AUyA,sub_1RrHQEKojVEYZPlX7y8pR7wq,0,,1.0,eur,month
+Digi-Express Digital Marketing,co_3648f57c-32b2-403a-b261-84e3f9437d96,cus_SmrPDKOHUNNsLz,sub_1RrHh5KojVEYZPlXo4aHGPBe,398,,0.0,eur,month
+Digi-Express,co_6916b07e-c4b0-4758-b27f-a4875afd8dce,cus_SmrPDKOHUNNsLz,sub_1RrHh5KojVEYZPlXo4aHGPBe,398,,0.0,eur,month
+Airfleet,co_3e68ab7d-79ad-4468-90bb-3e36a08703c7,cus_SmriIEGHFhtbb8,sub_1RrHzBKojVEYZPlXGkD5feHE,200,,0.0,eur,month
+idealo internet GmbH,co_7606dabf-1917-4c57-a5af-85bef27a6748,cus_SZebbIRrgdbCTx,sub_1RrIBRKojVEYZPlXezTdggye,199,,0.0,eur,month
+Kicksta,co_4c5d659e-d989-4235-af4f-3f065f016371,cus_SmtCGHEUR7glja,sub_1RrJTTKojVEYZPlXtTACfvjK,89,,0.0,eur,month
+ChoiceLocal,co_cdd7266c-9dba-479e-beb2-2eb3f7b2e1c9,cus_SmttlXGBxikTjN,sub_1RrK6cKojVEYZPlXGRy3Gmy1,89,,0.0,usd,month
+Equipping Entrepreneurs ,co_f2482604-657e-4339-9d85-d9ac9ddf7358,cus_Smv4UBMvQfuYV0,sub_1RrLG1KojVEYZPlXaFBfNPxW,199,,0.0,usd,month
+Estrategia MIC,co_f33264c4-225d-4409-913d-7d9d584184d2,cus_SmvKpf8eAIUB4I,sub_1RrLTrKojVEYZPlXlRwQdxvf,160,,0.0,eur,month
+Sabri,co_4f7c633d-6204-4a2d-a019-3110251a9402,cus_Smw0AqaryPbGMG,sub_1RrM8wKojVEYZPlXKoQARUWX,89,,0.0,eur,month
+ATTACH,co_9b6f8683-f554-428e-8780-4a3ed3f1d5ab,cus_Sn1NpG8wNPNxvP,sub_1RrRkKKojVEYZPlXebU3fwTN,89,,0.0,eur,month
+Glowcard,co_96d54514-61c7-4354-8d09-a08265b16002,cus_SnhjebTe7TfNht,sub_1Rs6MWKojVEYZPlXLV3RXrBb,89,,0.0,eur,month
+UpXcale,co_2f5293d3-da0d-4371-a937-0ddc11c4d07a,cus_Snl8j1I79V1m4J,sub_1Rs9d7KojVEYZPlXHz7YQILT,89,,0.0,eur,month
+Advice Interactive,co_0f649f88-35b0-401c-8fd2-fe9397f1c2bb,cus_SnrUb7yvjBigBm,sub_1RsG1tKojVEYZPlX4GOaya49,2260,,0.0,usd,month
+SlotoCash,co_38858cf3-b340-4240-a097-59ef0437be24,cus_SnwIeBqVE7HYV3,sub_1RsKSlKojVEYZPlXeBXCRw4N,199,,0.0,eur,month
+Corporate Apartment Group ,co_31f38f76-666b-4f98-b5b0-822c9724b84a,cus_Snxne7ktIemB7i,sub_1RsLzqKojVEYZPlXAwDFLnTl,89,,0.0,eur,month
+Fitatu Sp. z o.o.,co_7d67ef77-ca16-47c6-9f23-5535adf08e9f,cus_Sny2ZfscXXh3SS,sub_1RsMEuKojVEYZPlXu4aN8xOc,89,,0.0,eur,month
+Solsten,co_18791350-b844-48bd-af41-f17349f1ea29,cus_Snyw3dPGdqOsBa,sub_1RsN2jKojVEYZPlXi1C9YLUU,89,,0.0,eur,month
+Strise,co_29030646-4805-490b-89ad-7217c2ad5569,cus_SeY8saenAb06ZZ,sub_1RsNDaKojVEYZPlXzIu0EPMP,199,,0.0,eur,month
+SellerX,co_c4585a1b-8928-4215-b894-a7bc14d966b8,cus_So0r8UOQAAUj8b,sub_1RsOvpKojVEYZPlXdL8Ssw3s,267,,0.0,eur,month
+allink,co_3bfb1895-2644-4395-b045-bebf890177b1,cus_SnyXCw3C2YzuQ2,sub_1RsPTFKojVEYZPlXT40X3ahm,89,,0.0,eur,month
+Crest Comms,co_fc25e241-a38f-419e-9ca0-32e59e00ad64,cus_So0n8S9IeN7qL1,sub_1RsPfSKojVEYZPlXGWUMD9Ae,89,,0.0,eur,month
+Revenera,co_313d52e3-c5d7-4b69-b452-f7509cf28354,cus_So5learMqlS2UG,sub_1RsTckKojVEYZPlXnkj2HfDJ,199,,0.0,eur,month
+100,co_c11ad997-d780-4282-9282-a7be179fa1d4,cus_So5ldH9zIPrlYD,sub_1RsTfKKojVEYZPlXe5u7wGnb,178,,0.0,usd,month
+Agorapulse,co_8156f59f-e5a7-4994-819e-3c76ab914f6d,cus_SoBTOu5Q5wIFza,sub_1RsZ6UKojVEYZPlXrBo4MPri,89,,0.0,eur,month
+Mention,co_9f372321-a554-4439-9449-1b6b3f6c2b01,cus_SoBTOu5Q5wIFza,sub_1RsZ6UKojVEYZPlXrBo4MPri,89,,0.0,eur,month
+Gear4music,co_01dcf2fa-95ad-454a-8e01-2db37387af58,cus_SoKQVKYPKRFBG9,sub_1RshssKojVEYZPlXHv3eHQUu,199,,0.0,eur,month
+,,cus_SnzAaPdWRzKz9C,sub_1Rsi6xKojVEYZPlXUEf8AT1n,299,,0.0,eur,month
+Flexcar,co_adbe21c3-56b8-415e-af60-6d0486bbcbf4,cus_SoMdcXN1qmKNwB,sub_1Rsjv4KojVEYZPlXKpCpcHt7,89,,0.0,eur,month
+Adpremier,co_fb1fcdf8-1580-4dd9-bbfe-2c10e13defb6,cus_SoNe1xnFzvCfB1,sub_1Rsl1OKojVEYZPlX8WQgYZiM,89,,0.0,eur,month
+HarrySid,co_316e7f6e-b64a-4d7c-8f68-357c093ebf62,cus_SoOxBuHKnaIbHY,sub_1RsmEqKojVEYZPlXY8MfMAFa,89,,0.0,usd,month
+Fight or Flight,co_84e8139e-b740-4977-a172-d870fa6e5a93,cus_SoPziaBxesja8f,sub_1Rsn9WKojVEYZPlXXfrytZX6,499,,0.0,eur,month
+Elegant Disruption,co_6df4254d-9b20-4646-bf9a-aaff2019fca0,cus_SoTWQshtdzZ4wa,sub_1RsqZSKojVEYZPlXLhiqBfPq,287,,0.0,eur,month
+cosmos,co_99be20fe-b8ef-4843-a060-e5cff55cd7bf,cus_SociqcOBnYiLw3,sub_1RszVBKojVEYZPlXoygisGgA,199,,0.0,eur,month
+Brand Affairs,co_7a6d9101-7edf-4e49-bfa4-847697f0b3bc,cus_SoeU2OdouxgNR5,sub_1Rt1CqKojVEYZPlX0XDv7p2Z,89,,0.0,eur,month
+Platformengineering.org,co_e48b704c-2a29-4132-adf6-1face7fa9010,cus_SedGg3ycZxjmtC,sub_1Rt2PVKojVEYZPlXMARmgr52,89,,0.0,eur,month
+Yours Sincerely,co_11641df0-7f50-49df-a6da-3cee2d099ac8,cus_SogenAjMelE6Ms,sub_1Rt3NEKojVEYZPlXmDLUa8Kx,178,,0.0,eur,month
+Aroma ,co_93f04703-1d4a-41e5-a08c-77020aaab83e,cus_SohxgiRsX9rsbW,sub_1Rt4uIKojVEYZPlXTskBh15A,89,,0.0,eur,month
+QualityLogic,co_35164062-3d2a-42b8-8169-2f3be583a03a,cus_SonyGDbtL3cvSy,sub_1RtANlKojVEYZPlXSwArwFLC,89,,0.0,usd,month
+Velaspan,co_1eb793cf-e41b-494f-ad86-a38ddc4480c3,cus_SopOrZzktL6Uqx,sub_1RtBmNKojVEYZPlXKuHYqhjS,89,,0.0,usd,month
+Shadow-Soft,co_e3306b3a-12b4-4724-85c2-07a9faaea658,cus_Soq9X9QI75gCQB,sub_1RtCUeKojVEYZPlXo1QQbP84,89,,0.0,usd,month
+TJ Digital,co_2c790417-daea-4a00-a328-b0575eeb9c9e,cus_Soty5ZCdLV79mv,sub_1RtGAOKojVEYZPlXpoRoWvoD,1100,,0.0,eur,month
+Loberon,co_ad409836-85d9-4639-87b1-eae351e5ee80,cus_Sp2l0Odv2Xjy5V,sub_1RtOlMKojVEYZPlXjdzaP88R,89,,0.0,eur,month
+Bearaby,co_0d52313d-fc29-4aca-bef7-f2cd80f9d946,cus_Sp3KTYziQyLr3j,sub_1RtPIQKojVEYZPlXOvRqBSSh,89,,0.0,eur,month
+Lick,co_3eb97c2c-b978-4b17-968c-363165e48a98,cus_Sp4DLHeUNxlWiL,sub_1RtQ8HKojVEYZPlXAdwqmycR,89,,0.0,eur,month
+Nationwide Vehicle Contracts,co_ceb1d762-32b5-4e3a-9f59-55312fa6cd93,cus_Sop2DLkHY3VR83,sub_1RtQJvKojVEYZPlXwxt4qTXO,199,,0.0,eur,month
+First Digit,co_f3dcc2b3-c4c3-4838-9f29-7a741a0c6aeb,cus_Sp5fazpqalbiSN,sub_1RtRX3KojVEYZPlXsLsh88hT,89,,0.0,eur,month
+Feather,co_9daac976-5337-436c-91ad-1b7ca7639f0a,cus_SoJJcKQZK1lxIT,sub_1RtSXiKojVEYZPlXj7IVG09A,89,,0.0,eur,month
+Medfin AI,co_9c6d6228-0a40-4b1c-b7c4-777b99f6dbae,cus_Sp9FyJcFyKzylC,sub_1RtV5mKojVEYZPlXY5seBS5I,89,,0.0,eur,month
+Smarty Marketing,co_3c2fb88d-2885-4d06-bb9a-d187c9f77472,cus_SobNzvVKioQlCZ,sub_1RtVyfKojVEYZPlXPp54HipF,0,,1.0,usd,month
+jefit,co_7981e564-5bbd-4fc8-a756-0da794b88730,cus_SmekfDO989VnzS,sub_1RtXlfKojVEYZPlXayN529i2,89,,0.0,usd,month
+QuotaPath,co_805a38ec-d25f-4f85-9074-27d210690032,cus_SpDP5V9rFcabkK,sub_1RtZ0iKojVEYZPlXEeoQeMhc,199,,0.0,eur,month
+Commit Agency,co_9ae87fd0-a155-4ce3-a95c-538cb03bab54,cus_SpEqwqHkQvH6TW,sub_1RtaMzKojVEYZPlXk9khXFjE,199,,0.0,eur,month
+Player,co_f99d80fc-fc09-44d0-83e5-35d3d2443473,cus_SojIObQZ86PfSf,sub_1RtlRlKojVEYZPlXwIXdrM1j,199,,0.0,eur,month
+Metrohm,co_56998606-a387-4472-a777-3c8c74c849d3,cus_Sojor0mGxUBKzF,sub_1RtmpnKojVEYZPlXzutMoABZ,199,,0.0,eur,month
+Bkomm GmbH,co_d53fa515-b7af-4e75-8702-c8eed21d6f42,cus_SpRyO9202KwVrc,sub_1RtnJTKojVEYZPlXFaLdKZ47,90,,0.0,eur,month
+Betfair,co_77d28452-c488-4a33-936d-fa206a65499c,cus_ScRSD4NOeUD4pk,sub_1RtnRQKojVEYZPlXcVJwQmKj,248,,0.0,eur,month
+Blueprint for Scale,co_065838fd-e145-4c7f-85be-24cdc7bd00f4,cus_SpTjYVHaRpXCd7,sub_1RtonTKojVEYZPlX1mwDYkvO,89,,0.0,eur,month
+Influ2,co_c0a3d211-4eab-4dc7-af08-760171964080,cus_SpZlUaXgINxmjQ,sub_1RtudVKojVEYZPlXsR7aw8cs,89,,0.0,usd,month
+Rangewell,co_b17ca94e-f52c-4eda-b125-3950a0b2eed8,cus_Spa0vAjpnKRPZN,sub_1RturHKojVEYZPlXntymaYwT,199,,0.0,eur,month
+Oyster,co_aa791942-38bc-4e67-b739-9895d6b56458,cus_SpeVQbCHuDzcyE,sub_1RtzEJKojVEYZPlXBbRwatTQ,199,,0.0,eur,month
+Main Clinic Supply,co_c6ba4588-fa28-444a-b28b-963323776097,cus_Spoa8wKh9vOdDT,sub_1Ru8zoKojVEYZPlXweW6ZkMr,199,,0.0,eur,month
+Lusha,co_036a5005-66d5-4b5d-bd74-6a0fdf471c17,cus_SqBeTqXvxYnVVG,sub_1RuVHIKojVEYZPlXAt70q8nH,199,,0.0,eur,month
+HLC,co_4d326e19-b7a8-44f3-9beb-0247a5ce875c,cus_SqGOZgoXdXHUNf,sub_1RuZtMKojVEYZPlXga2cooHZ,89,,0.0,eur,month
+Outrank,co_3727f542-b1c5-4088-b0ac-b7accc6b0e2f,cus_SqX9Ce07ttRkYY,sub_1Ruq5TKojVEYZPlX3OPNz2oZ,199,,0.0,eur,month
+SPA Deluxe GmbH,co_792e8742-e49c-4db4-a7cb-a9f585cdc704,cus_Sf0WZdrQPWoZ1p,sub_1Rur9nKojVEYZPlXio7E5DwA,89,,0.0,eur,month
+,,cus_SqYmIiGPbR2zs1,sub_1RurnDKojVEYZPlXtBO9nJtE,199,,0.0,eur,month
+EGP,co_c2628491-dfc4-4806-92ef-9127f24b639a,cus_SqaL3xXoqmphI4,sub_1RutBcKojVEYZPlX3o37JBeg,170,,0.0,eur,month
+Digitas GmbH,co_5ce13d04-411d-44e3-87b6-6857abfbe449,cus_SqZjEHCUg0aLDI,sub_1RutVwKojVEYZPlXkRw1OWTL,499,,0.0,eur,month
+Banani,co_fdfbdfc2-63e9-4a81-af5f-be1e58de15f1,cus_Sqahlx8DedNbBz,sub_1Ruu8iKojVEYZPlXkzPGoGzF,89,,0.0,eur,month
+Ship4wd,co_92c86534-5305-4f8f-8270-1fb26a87ecef,cus_SqbppFCd7POgPV,sub_1RuubWKojVEYZPlX9bUa3hDK,199,,0.0,eur,month
+Look Left Marketing,co_f3df5061-9922-471a-80b0-faf495585868,cus_SpBFzgKSJ3GURJ,sub_1RuwkPKojVEYZPlXvXOkcJSj,199,,0.0,eur,month
+Alkimi,co_6df7faeb-40d6-4abc-9f35-42bec8694174,cus_SqfGEIXzxo5SBF,sub_1RuxxHKojVEYZPlXLU0ay1iT,199,,0.0,eur,month
+Forum One,co_a53bfdb8-cb84-41bc-b2c1-9fe5f5ec5f3f,cus_SqiRSqPqKJAGlT,sub_1Rv13qKojVEYZPlXFdONglRT,1048,,0.0,eur,month
+Rablab,co_dc41984f-e1ba-49fe-a8e7-4087803aac09,cus_Sqq6N1BoT2jSsc,sub_1Rv8QjKojVEYZPlXUte7zXyM,89,,0.0,eur,month
+nuvo,co_e9abbe77-2074-4932-a5ee-537a57ea6bd2,cus_SqMsUlAv6RVUfj,sub_1RvEj5KojVEYZPlXMKseZqXs,199,,0.0,eur,month
+Our Own Brand,co_cac07d09-2335-43ab-827b-f59ea7613fd2,cus_SqxYu4aLk3EmSr,sub_1RvFhPKojVEYZPlX4LkvEDMo,89,,0.0,eur,month
+Moneypenny,co_3ba6e9b6-68d0-4475-8dfe-0aa7924e2e4a,cus_Sqz14O5HArHITK,sub_1RvH5MKojVEYZPlX88OeTnYf,248,,0.0,eur,month
+Harper James,co_025b0a1d-e90c-4c70-a0fd-322b1d0d763e,cus_Sr2galowxQOWj7,sub_1RvKbdKojVEYZPlXEkHB55Fb,499,,0.0,eur,month
+Functionize,co_0e34cffc-f0a5-4294-af90-dcd346447902,cus_SpB0gSArhfiPnp,sub_1RvL06KojVEYZPlX6cTGaGXo,199,,0.0,eur,month
+Flash Pack,co_cf708d5d-6d57-4b60-8e3e-ce2f8ee3884a,cus_Sr38YnJRmIwpPg,sub_1RvL3uKojVEYZPlXDCjz53BT,199,,0.0,eur,month
+Reporting Hub,co_b40c176a-ca93-47f8-b0e8-9292b6c8c9be,cus_Sr3rIVXhLWDtMP,sub_1RvLlPKojVEYZPlXZwkeQZuO,89,,0.0,usd,month
+Fluents,co_5e65cfed-82b1-41e7-b9ee-bf152f5633c4,cus_Slm869j1Rk1RM7,sub_1RvLluKojVEYZPlXUXZbGyW4,89,,0.0,eur,month
+Happy Cog,co_dad66da0-ef66-4927-93bc-8c3ef4165cb2,cus_Sr4trrdCmHTY29,sub_1RvMl2KojVEYZPlXfPTCveaB,487,,0.0,usd,month
+StoreLens,co_795db7ba-d16b-4056-a53d-def054cdef10,cus_Sr5q1mPJyyp8f3,sub_1RvNfdKojVEYZPlXJD8Pd53U,89,,0.0,eur,month
+dotCMS,co_a9ca523d-204e-493b-b8de-d00874d061b0,cus_Sr6Z8S8vfxM8kK,sub_1RvOMKKojVEYZPlXelNf8gMm,89,,0.0,usd,month
+Nixon,co_ac5e1c9e-e342-48ed-a51d-a55c1e97f1f8,cus_Sr78Y9Pc7X4q4A,sub_1RvOuPKojVEYZPlXw1jcXoDQ,199,,0.0,eur,month
+Bleuet,co_8bc1929d-2c1b-4c1d-bc7c-4edbdf8d3d4d,cus_SrB15eBTz5AiVO,sub_1RvSghKojVEYZPlXSyogrHf6,89,,0.0,usd,month
+Laynote,co_9cc6fa41-10e8-419b-a542-72489f5f0bf0,cus_SrFs9TFOvNOrlO,sub_1RvXPFKojVEYZPlX2lKykeza,89,,0.0,eur,month
+Zenphi,co_98bf237a-00f9-467a-99e7-b1c2f521bca7,cus_SrHedKQDqgtgg3,sub_1RvZRLKojVEYZPlX6rC4ptJs,89,,0.0,eur,month
+Moonshot,co_34b1e327-3e4a-44a4-aacf-054441f95667,cus_SrFYhUS3actcyh,sub_1RvZSCKojVEYZPlXKrxsovUh,89,,0.0,eur,month
+Condor,co_9cd9b952-0e50-4ae5-8e56-d195e3099259,cus_SrMIxsGpuanViu,sub_1Rvda2KojVEYZPlXgHvBNCNk,199,,0.0,eur,month
+FGS Global (Europe),co_3cdb1019-e744-4928-83e7-489b331dafdf,cus_SrN4yLBuN9HbXX,sub_1RveMcKojVEYZPlXTjeljtAk,499,,0.0,eur,month
+Prisma,co_b0c3923e-a085-48db-ada3-eb516baf6692,cus_SrNOhmZMyP0MYv,sub_1RvefDKojVEYZPlXXdW4rzeX,199,,0.0,eur,month
+Finanztip,co_2f39b682-68af-4870-8599-d35214398d63,cus_SrP15iNuJq68ra,sub_1RvgE9KojVEYZPlXG4ntqu5P,199,,0.0,eur,month
+Tepia ,co_d8f2852e-4aef-4dc4-82e7-0a1dee10b054,cus_So9LwfH8pZV733,sub_1RvgIqKojVEYZPlXO5DyUjqK,89,,0.0,usd,month
+Thrive Internet Marketing,co_f092ed84-543b-456c-acf7-55eb8b08e3a8,cus_SrP8HtqI4aYYR1,sub_1RvgUGKojVEYZPlXxsDK8hxa,800,,0.0,eur,month
+Doe-Anderson,co_c60552a6-5f02-48eb-98ed-9d41b0cd76af,cus_SrRmEjRfXKgQnT,sub_1RvixSKojVEYZPlXajOxhdZf,178,,0.0,usd,month
+Medianet,co_9ba81bc5-7e8b-4454-8c66-517b63f064d5,cus_SiNvoRVu10VYCP,sub_1RvnwDKojVEYZPlXfC28qo3E,90,,0.0,eur,month
+Bare,co_53406cff-b43c-4170-85c4-113eb9cee2f0,cus_SrYEljZXrCwh9i,sub_1RvpBJKojVEYZPlXmSXLnYcv,89,,0.0,eur,month
+Built In,co_182f64cc-950c-4588-986a-d6122f811a82,cus_SrjY0dEGPphTRt,sub_1Rw0CnKojVEYZPlXeS6IGqiQ,199,,0.0,usd,month
+XIAG,co_d703653b-6fd2-4eae-9e48-417182056bcf,cus_SriXXmcB1haCjJ,sub_1Rw0OnKojVEYZPlXQLT9QSfd,267,,0.0,eur,month
+Betsson Group,co_c311548d-0266-4e78-b499-0fa81f66dbc9,cus_SrkRaRC6ceAYhI,sub_1Rw0xkKojVEYZPlXh5b3sLhm,1125,,0.0,eur,month
+Text In Church,co_543369e9-5dca-4c71-9aac-c7921401ab90,cus_SrkfEpKt970hj0,sub_1Rw1AtKojVEYZPlXP5kOzB0L,77,919.0,0.0,eur,year
+autodoc,co_c9dc5adc-078a-4228-97fd-7a1620bccecf,cus_Srl8sQadRh1CiS,sub_1Rw1ecKojVEYZPlX7IfnJrN1,89,,0.0,eur,month
+Impactful Apartment Marketing,co_4a1b2b96-be27-4fc7-92ae-4f37a4dd5a8f,cus_SroQntkua09LJV,sub_1Rw4nHKojVEYZPlX9lKpYyN6,496,,0.0,eur,month
+Max Borges Agency,co_8812666e-9bfb-44fc-b252-b818cf4bf4f1,cus_SrpBTJqTewt12n,sub_1Rw5XNKojVEYZPlXZ3LmAlpG,199,,0.0,eur,month
+Photohuman,co_44fa32e0-06cf-48e4-a309-27d07fda6d57,cus_SrrTtE0nqEGcIj,sub_1Rw7m6KojVEYZPlXO7aKnHhU,89,,0.0,eur,month
+dblspc,co_ebbd9183-fb99-421e-85ca-88a0dca6c414,cus_SrrhOeMUhiQvmg,sub_1Rw7xoKojVEYZPlXSGIE6Ajl,200,,0.0,eur,month
+ScaleVisible,co_62471f9a-4398-4f57-9db3-93e980cb8c0e,cus_Srs4qLYpHorqTW,sub_1Rw8KoKojVEYZPlXFkSeLCgq,267,,0.0,usd,month
+Wonderwerk,co_e6c400a2-a967-492c-b71e-d013eaebe126,cus_Ss9cVHI8B4L5PQ,sub_1RwPLtKojVEYZPlXpTyHIhNf,89,,0.0,eur,month
+Alt Text Ai,co_03df17cb-11b6-4b31-b0f3-4ee5bbb425fb,cus_SsBTMirvURoe68,sub_1RwR6iKojVEYZPlXiCE8H4fZ,89,,0.0,usd,month
+AEO Sense,co_4d57eb58-e390-43b6-9ff5-91bd291946ba,cus_SsCZvNBZBIETre,sub_1RwSApKojVEYZPlXIgA5UzTm,189,,0.0,eur,month
+Digitale Konsorten,co_6085d774-5c4c-45db-997b-f037a1a9f24a,cus_Ssm6OMmeklJzfh,sub_1Rx0bpKojVEYZPlXQqwxcTaQ,279,,0.0,eur,month
+SYNQ,co_8374061b-0541-4554-9866-49b03251188d,cus_ScMjjeCAKqJfn2,sub_1RxNf2KojVEYZPlXXCL5PGrF,89,,0.0,eur,month
+Away Resorts,co_cad89851-1d32-4be5-9a30-a0543f2e2903,cus_StA5WZvDAibhhp,sub_1RxNwnKojVEYZPlXEXvv2sD4,199,,0.0,eur,month
+Advidera ,co_09c70ad0-fdf9-4db7-91bd-ab1de6cfb06c,cus_SlIwCD5jwx1a4L,sub_1RxObOKojVEYZPlX5Bkkjs84,89,,0.0,eur,month
+Ray Sono,co_06ab7ddb-431f-49b9-a57c-75410796256b,cus_StBec9FvAYEBYe,sub_1RxPKVKojVEYZPlX1CMIJCOM,89,,0.0,eur,month
+Frohraum,co_bb1e6348-76ae-49b0-a219-4e5e8dab90c0,cus_StEJVKgYT9xzWE,sub_1RxRuDKojVEYZPlXfq6fgmjf,89,,0.0,eur,month
+HiPeople,co_48d07326-d021-44cb-b9d3-a77698dc4ec8,cus_Sr9eVKtOUJJMeY,sub_1RxSMEKojVEYZPlXK558iqG9,89,,0.0,eur,month
+One Click Marketing,co_2f3cec2c-57fe-429a-a8ab-0ccb9deba21f,cus_SrODrasAaMilQH,sub_1RxT6pKojVEYZPlXIjlshqqZ,199,,0.0,eur,month
+Remedico,co_6b92dc8a-1a53-41c3-ae03-c28735caeb73,cus_StFfztb6YbDuxK,sub_1RxTAyKojVEYZPlXNFRq3EFx,89,,0.0,eur,month
+EOM.de,co_3fdb29b4-b2af-46b3-80f9-b0fce54422c6,cus_StGLbqgQBkcQmg,sub_1RxTqcKojVEYZPlXz97AN1ox,288,,0.0,eur,month
+Ellusion,co_e3704857-f9bd-45c5-9c23-07e334ec41ce,cus_StHRm7IHBq4ARk,sub_1RxUuTKojVEYZPlXCBZABfJY,89,,0.0,usd,month
+Lumio,co_b1bd4fc8-b9fa-40bc-8b8a-34b7fe4e082e,cus_SqALKUWtzDrz21,sub_1RxVT1KojVEYZPlXedr6JEAA,89,,0.0,eur,month
+American Songwriter,co_1bea8c93-3cd4-4420-92ca-cf88ff4ac8d0,cus_StGSziVrBgz6Kg,sub_1RxVTpKojVEYZPlXbJ4HAgDt,89,,0.0,usd,month
+Sephora,co_d3769b21-ecda-4ae3-a261-e9ef09763623,cus_StLkxNkPEs3KZz,sub_1RxZ3VKojVEYZPlXvhGFcqlM,199,,0.0,eur,month
+BIT Capital,co_4a21eafd-8a02-4177-8a0a-fb25f2e0bec2,cus_StXtjWSpXUR8ZS,sub_1Rxl6dKojVEYZPlX008VQacS,178,,0.0,eur,month
+Appleby Global,co_1706d827-d2c8-4afc-922f-d84c29619927,cus_StYtPmmBWk4eQc,sub_1Rxlq6KojVEYZPlX1vGcRFRp,169,2029.0,0.0,eur,year
+Scopic,co_9f2bd6d4-2377-4b1f-bb1b-3d21b419acc2,cus_StaWDQKUQfjkG1,sub_1RxnSrKojVEYZPlXVz5q1prg,89,,0.0,eur,month
+Ellusion GmbH,co_7f795cf7-c008-4dc5-9a96-e357e576114d,cus_StcX7tqx08exVx,sub_1RxpMGKojVEYZPlXHvZoPrG4,89,,0.0,eur,month
+Compa,co_90b43bec-5d95-4ed3-863d-0647c0226883,cus_SirZl3CK33Izq0,sub_1RxpaBKojVEYZPlXBzzMYIcS,89,,0.0,eur,month
+Tchibo,co_6867ea30-4027-4a08-befb-7017e0a24b22,cus_SjwIwqVZevtr31,sub_1RxqPqKojVEYZPlXsRvyofHE,199,,0.0,eur,month
+ex Ventures UG,co_094e5c7a-15a0-4994-9bfc-2490537a3695,cus_Sp7sfP7Odaxh5P,sub_1RxqTEKojVEYZPlXATU0crxb,89,,0.0,eur,month
+Soldo,co_75257962-7f55-421c-bef4-7ab810ea2dd3,cus_SjtdKNpgDjE657,sub_1RxqWuKojVEYZPlXJTLWMUVV,89,,0.0,eur,month
+Digitalkeys,co_255a39c7-6a26-4769-aa1a-46c5cdeac31f,cus_StdVGHsZQqy0P8,sub_1RxqlNKojVEYZPlXFuIC9Hgw,100,,0.0,eur,month
+Trinergy,co_a0fef98d-733b-4ec6-899d-5dac4f327d79,cus_StvYFUgLvQfV6K,sub_1Ry7kIKojVEYZPlXPHCHIniP,89,,0.0,eur,month
+Dash ,co_4b60422c-f529-42d7-afb4-abe38a34ac68,cus_SgWv2WHttz2t8K,sub_1Ry8XPKojVEYZPlXw9uDdRqi,199,,0.0,eur,month
+Techem ,co_32dd5ddb-9464-4dd6-901e-c63389d7b5fb,cus_StwhPioUDcmZw5,sub_1Ry8pGKojVEYZPlXyGn1wbke,89,,0.0,eur,month
+Beatstars,co_ec50cdda-078a-4571-b83b-cb78677695ce,cus_Su0AcnXXtxVe0w,sub_1RyCAPKojVEYZPlXJhoryylc,100,,0.0,eur,month
+Prostar,co_f23b6d93-6c91-484a-94a6-37ce9fc18ada,cus_Su1vbOPUqsmmlY,sub_1RyDrwKojVEYZPlXFAIb8Nmo,288,,0.0,eur,month
+commercetools - CPG & Retail,co_133f1c70-ec07-4460-9050-667fd3c316a7,cus_Su4SRu2ClzwtzZ,sub_1RyGKJKojVEYZPlXOQxxdElY,89,,0.0,usd,month
+Forgematic,co_7446b15b-6d10-453e-9317-fbf0aa70df3c,cus_Su50FXBVGySO4j,sub_1RyGqXKojVEYZPlXS6M7gn42,199,,0.0,eur,month
+Just Drive Media,co_8ed5b2fb-32d9-41e8-8d19-62380bca35ff,cus_Su5qVXOvx0p2Xj,sub_1RyHfiKojVEYZPlXp9O6yQJd,288,,0.0,eur,month
+ArticleHub,co_7e75f267-262b-427f-8597-cdcc7fdd37fa,cus_Su6TxTcLSNlMcR,sub_1RyIGaKojVEYZPlXHf5qF35H,100,,0.0,eur,month
+pdm solutions GmbH,co_accc2f65-2eea-429a-a1de-1824f36a951b,cus_SteWgJ5Sr4YVXS,sub_1RyUXSKojVEYZPlXsIy2YG0J,89,,0.0,eur,month
+Starfish,co_8fce8b58-2550-4deb-82d5-75c69df2fb86,cus_SuLZaJDQJcRvSy,sub_1RyWw3KojVEYZPlXHZ9UE8tM,178,,0.0,usd,month
+Besox,co_8f817e41-9429-4778-a172-880a6edd6491,cus_Su2EOPtFAODOqu,sub_1RyYkdKojVEYZPlXRlXaaR2M,89,,0.0,eur,month
+Mixbook,co_e1f59edd-968c-4242-97ed-9b6bfd873a46,cus_SuOnPkeUBtvkeh,sub_1Rya0bKojVEYZPlXT2WdMogP,199,,0.0,eur,month
+Brandnamic,co_e3662f82-79a6-4ece-ac5a-695df3bd4f01,cus_ShAW6ccTczlHbK,sub_1RybhaKojVEYZPlX8wLbncd5,200,,0.0,eur,month
+Holtzbrinck Buchverlage GmbH,co_1d75669d-86b4-4250-ae5e-c3038bebdb28,cus_SuaEnbxp3OoIJ3,sub_1Ryl6OKojVEYZPlXSmA2Arjp,496,,0.0,eur,month
+גמבורג הסעות rent a bus,co_0f6b9f0f-2dee-4799-935b-3cee9173bd91,cus_SudVF18pF8CkFK,sub_1RyoG6KojVEYZPlXPVHnqW70,199,,0.0,eur,month
+Property Inspect,co_59d359dd-6fce-417a-911f-68b87e6b4965,cus_SuhtKFy2jwjWSu,sub_1RysUyKojVEYZPlXWhcAqYGm,89,,0.0,eur,month
+Cellgo,co_4646b593-76d8-4232-b132-6cc6cc4aaf29,cus_SulEH7fll55mJc,sub_1RyviGKojVEYZPlXcS0xKNN0,89,,0.0,eur,month
+Prezent,co_e3c701dd-c03e-4221-9308-4af1df9704b6,cus_SulYAJbGgFityp,sub_1Ryw1uKojVEYZPlXLi8WYLes,89,,0.0,eur,month
+Leverage Way,co_f916fa82-89a3-4d5e-8725-9cad1feb8520,cus_Sup0UnhycIkqP1,sub_1RyzNzKojVEYZPlXCm5Aj3Ya,89,,0.0,usd,month
+Aaltra,co_6bc9ce4c-765b-4690-bfa5-c9dd12d23ee4,cus_SurkFYZjLcfAyo,sub_1Rz26oKojVEYZPlXkzOVMtMp,89,,0.0,eur,month
+Common Era Jewelry,co_8ff2b63d-bed9-45e1-8474-948fc4169455,cus_SvJJ3WvWuX7C2T,sub_1RzSi6KojVEYZPlXqHfYUK8y,89,,0.0,usd,month
+G-Squared Interactive,co_503627c2-2ffb-460e-beed-7164e64483c5,cus_SvUGn38UyCeYQ3,sub_1RzdJ6KojVEYZPlXKDZLr7Et,89,,0.0,usd,month
+,,cus_SYZWlcpT4DWgfk,sub_1Rzv0oKojVEYZPlXYsW0tIoS,193,2317.0,0.0,eur,year
+Hypofriend,co_f6ad909b-1f48-42f7-9fc3-948f72d61b83,cus_SuetoijCLbysvd,sub_1Rzv7fKojVEYZPlXtMQ0lqmx,89,,0.0,eur,month
+pixformance,co_efa515fe-c2c6-47ef-90b7-4a5daa76f0ea,cus_SvoEQMkLzAVqqy,sub_1RzwjvKojVEYZPlX8okYMnTO,89,,0.0,eur,month
+Brandwatch,co_80f1f25b-769d-40b5-ad40-f770df9af583,cus_Srekf1anwZW2Ip,sub_1RzxI7KojVEYZPlXxaj5nqQK,199,,0.0,eur,month
+Streamkap,co_cbc7b4ad-6c8a-44cc-9118-a652721ace94,cus_SvpMrl1W1Tc880,sub_1RzxhsKojVEYZPlXj7thvukx,199,,0.0,eur,month
+diva-e,co_ee123fcc-9463-4edc-b00c-e07ea329a02c,cus_SvtOKxTwWVvhNJ,sub_1S01cAKojVEYZPlXRni8phVj,199,,0.0,eur,month
+Stateshift,co_ff26bdaf-b05e-4fa0-ab26-506e2ca730e8,cus_Svu5Jwbnddb41t,sub_1S02IoKojVEYZPlXdpIAaqvh,89,,0.0,usd,month
+Level Agency,co_b662ff9c-a1b7-4bf9-90d5-b4d68e51650f,cus_SvuJ8qeqOzN8A5,sub_1S02VbKojVEYZPlXZJEH9eS9,199,,0.0,eur,month
+Yuno,co_b6ac1a8c-5a8e-404c-8449-5b07888d5102,cus_Selc5SeW8oMvQm,sub_1S02wtKojVEYZPlX2TgMID7y,89,,0.0,eur,month
+Human First Collective,co_a37f9c3c-e14f-43f5-94db-a2cd67dc76f1,cus_SwBh000wAll8DC,sub_1S0JTkKojVEYZPlXeloTwaQw,89,,0.0,eur,month
+Cafe Spice,co_d49999b4-c798-472b-a8e2-ba39a985388e,cus_SwFE77WdPkKiIX,sub_1S0MmdKojVEYZPlXWNmY0gOG,89,,0.0,usd,month
+Lola,co_963c8c77-81f3-41e9-bf0f-e9c31ae6432a,cus_SwGAPKvCYUFRG7,sub_1S0NgAKojVEYZPlXKgtG07Ej,90,,0.0,eur,month
+Fintel Connect,co_d0064b73-032c-4f78-9737-b49bebdcff8e,cus_SwIpUl5nrf4JMr,sub_1S0QR2KojVEYZPlXxYeHbrzH,199,,0.0,eur,month
+Upway,co_ae1eace4-208b-4f2e-9f4a-277e1aa3bab5,cus_SwNuEW4m4YgYAe,sub_1S0V8lKojVEYZPlXWm09KhV2,499,,0.0,eur,month
+cafecasino,co_0f74d684-2c92-438b-ac3f-2f17969037be,cus_SwUFe3OrRzljVN,sub_1S0bIgKojVEYZPlXpCV6mGXf,89,,0.0,eur,month
+ifeel,co_087bde52-7d11-4359-959b-72a0fce68dda,cus_Sp4Lf4OfxQAdGC,sub_1S0exeKojVEYZPlXgC4ZwQqY,89,,0.0,eur,month
+UAB Tvora,co_0c5a456b-2886-4f0b-8c19-77a4be754986,cus_Srj6E2Tjk0S5Px,sub_1S0fRkKojVEYZPlXUVHxEp88,89,,0.0,eur,month
+ATMO CLUB,co_d08cf987-d0f2-4d01-8849-4883aeae5362,cus_SwYimkuMDRGNaI,sub_1S0fd9KojVEYZPlXClE2rSCm,89,,0.0,eur,month
+inara schreibt,co_6cf65ff0-14bc-411f-9e86-33a2639ef6df,cus_SwaWXBnrhKxQn2,sub_1S0hNbKojVEYZPlXiaL36Dkf,89,,0.0,eur,month
+Noi Labs,co_82341fc7-1415-4be2-9200-1656a0541418,cus_SuMcUp2JK4poSt,sub_1S0iKoKojVEYZPlX5UpHfOnH,89,,0.0,eur,month
+Fightclub,co_cc460853-b5a9-4e29-84be-baad20ae00ef,cus_SwbpAGuPWrFaII,sub_1S0ifXKojVEYZPlX3dO22tJY,89,,0.0,eur,month
+DEPT,co_afe12250-2531-41d2-8863-bdef9244f20c,cus_St8Bt8inyHwcYR,sub_1S0j7lKojVEYZPlXXUd3vfJe,199,,0.0,eur,month
+Syzygy,co_eb5a0b94-9dbb-44ca-9d8a-5b4e296ce091,cus_SwcjmPhdXsLjQl,sub_1S0jUBKojVEYZPlXgsZtgium,1200,,0.0,eur,month
+Runway ,co_d04d449d-3287-491f-83ea-ef8cc1daf107,cus_SwRIquqytUwLek,sub_1S0k0LKojVEYZPlXwjxrIMBw,199,,0.0,eur,month
+QLINT,co_161262f5-2c1a-4366-9013-6dbb273c1d86,cus_SwdXjYlHPdSe4x,sub_1S0kIiKojVEYZPlXJdrLEEZP,89,,0.0,eur,month
+push,co_755fd026-ab6a-4587-8bcc-c6c75ac4bd6e,cus_SYgTU9A9r7F9LH,sub_1S0qHJKojVEYZPlX7iYgqoV4,199,,0.0,eur,month
+ranq.io,co_8a8d2154-4515-4300-894e-86c93a126fb0,cus_SwlXQMKz9ARvpd,sub_1S0s03KojVEYZPlXBjf7omba,89,,0.0,usd,month
+Ana Fernandez,co_790c23f0-ea85-41d9-a94d-c104e598b4f8,cus_SwmJhlyHXlicNs,sub_1S0sltKojVEYZPlXsk8l3sHZ,90,,0.0,eur,month
+UneeQ,co_23c2f467-498c-41f7-a6ef-076f9fb92917,cus_SwqG1x8MmBq6ie,sub_1S0xcdKojVEYZPlXK61pgIXn,167,,0.0,eur,month
+a11 global,co_da9411fc-f64b-4fec-a716-08f9ad360493,cus_SwswDwJ9V02ZDk,sub_1S0zCOKojVEYZPlXfaPfCyBt,200,,0.0,eur,month
+Growth X,co_69a775ec-091c-459e-8398-11b08136f296,cus_SuxcCuqyOw90fu,sub_1S10jNKojVEYZPlXafI3L2Nr,89,,0.0,usd,month
+Speed Communications,co_04314f46-570d-4ab4-9df8-c7d0a2d75fb9,cus_SlKsIxp9emIvGl,sub_1S10y7KojVEYZPlXJIkStZah,89,,0.0,eur,month
+Dawkes Music,co_fd865874-6b97-4bc1-a7a3-ad12ffdeecf4,cus_SrnE6QDubqy6Pn,sub_1S11HrKojVEYZPlXh2D6sg0E,89,,0.0,eur,month
+Cut Inside,co_3477597e-4de0-4bf1-8651-fb99e35c66bb,cus_SwxXVtUUOolj99,sub_1S13cRKojVEYZPlX7oHrUpJ6,200,,0.0,eur,month
+,,cus_SwyJ0AsnLdbhRE,sub_1S14Q9KojVEYZPlX2sw4FuEf,417,5000.0,0.0,eur,year
+Unic AG,co_40f53638-0128-4942-9187-efd9de6fb001,cus_SwyosXKcteGXU1,sub_1S153ZKojVEYZPlXAObUbBrW,89,,0.0,eur,month
+Operating,co_4f639472-d2a3-4196-97da-8008a62bc3ff,cus_SwyrJqJUHBUFeH,sub_1S15OHKojVEYZPlXU2Tcnird,89,,0.0,eur,month
+BURGA,co_be8b467a-0694-4462-ad5c-605693b5e40b,cus_SwzMXrAHGNGWnI,sub_1S15PSKojVEYZPlXSoVpi6tW,89,,0.0,eur,month
+Supio,co_5b50d43f-4f6f-404e-af23-0f4cea7164ed,cus_SwiYzeIwcjWbvI,sub_1S15yWKojVEYZPlXRAdhO8zu,89,,0.0,usd,month
+BotRank.ai,co_5fb642af-2065-40b3-97c5-064e6419744c,cus_Sx0s4iXQ1wt8H1,sub_1S16yrKojVEYZPlXNBgIbOg4,89,,0.0,eur,month
+AMA,co_d4114aa0-c730-4959-b250-4448ae8461a8,cus_Sx4HoAUuvFaxFo,sub_1S1A8eKojVEYZPlXyMorwoAd,499,,0.0,eur,month
+owlaw,co_68614cb6-3dc8-4cc8-b713-0c3428c7422f,cus_Sx4bL41DZgSBpU,sub_1S1AbYKojVEYZPlXUVT8Mej4,89,,0.0,eur,month
+Pixaura,co_96388a55-f071-4393-aba5-9c646a9e3cf7,cus_Sx4k6AGZyA1A6Y,sub_1S1AbmKojVEYZPlXpBy11Pbf,89,,0.0,usd,month
+SureCam,co_10c5ffb6-b51f-4fdb-aba8-0dd8ea6ccfcf,cus_SsKTmJOxvoHswP,sub_1S1BcIKojVEYZPlXEOaOCyrA,89,,0.0,usd,month
+Pixel2,co_70eed327-95cd-4d63-80d4-eec991045957,cus_SxAtQFSSxNfXfz,sub_1S1IZ4KojVEYZPlXc03tAfZb,89,,0.0,eur,month
+Beyond Academy,co_81a1e8aa-76a7-4232-917c-6a55f0d4e9b0,cus_SxJBT9d7datWtf,sub_1S1OjZKojVEYZPlXs3z6U9tm,89,,0.0,eur,month
+PIABO,co_c716639e-8e9e-4ed4-8bf5-305872947421,cus_SxJRQbr5l70jUh,sub_1S1RRtKojVEYZPlXtFfJZahu,498,,0.0,eur,month
+Smart Lemon,co_7d9d2966-99f7-4dc1-8526-8162c1e3b10a,cus_Sx0XlK7SoFTvB6,sub_1S1RcOKojVEYZPlXamlogBAl,299,,0.0,eur,month
+Flowla,co_e64a308b-1fc7-4a32-b0eb-486ebe7cf01e,cus_SxN7mc3AzXEuZ9,sub_1S1SP9KojVEYZPlXpAduuHxw,89,,0.0,eur,month
+Snap Finance,co_f888d816-fc51-4971-94be-7830f8112918,cus_SxNWdMqZoLP0iC,sub_1S1Sn2KojVEYZPlXVFxoa2pr,89,,0.0,usd,month
+Medal.tv,co_9765a361-b043-4d52-a993-15c8a03bc062,cus_SxOftQ3ECIeFmT,sub_1S1TtvKojVEYZPlXNp2XfdYK,199,,0.0,eur,month
+All In Advertising,co_b4ed926f-9d6f-49dc-b77d-8bbea19cd188,cus_SxOs5BPWRGl8Hu,sub_1S1U5XKojVEYZPlXfILzhNzw,89,,0.0,usd,month
+Simpalm,co_4a4a3cce-b614-481b-ab9a-edfbe0181f95,cus_Sx4mlqKp866WPp,sub_1S1XOYKojVEYZPlXimd8fmoU,89,,0.0,usd,month
+Study.com,co_68e7ea64-8248-4268-8af2-ac9a72a653c0,cus_SxSfvzeuIXietm,sub_1S1Xk4KojVEYZPlXHcRFGJER,1000,,0.0,eur,month
+LeadsPlease,co_50d9a719-2fdd-4f8c-95d3-2091e2950689,cus_Sxay18N4acFAEc,sub_1S1itPKojVEYZPlXRhxHSx5U,89,,0.0,eur,month
+CBH Homes,co_bac57e17-4120-4cef-8714-747aa38726b0,cus_SxnVeKcPoV4Hng,sub_1S1rvwKojVEYZPlXNLdZmuWj,89,,0.0,usd,month
+Blue Services LLC,co_f526268e-2026-4bcd-94e4-2d217094c16e,cus_SyMZQ0ZYQXcL4Z,sub_1S2Ps3KojVEYZPlXDv2M44E2,89,,0.0,usd,month
+,,cus_StdgDGr7BhGZjl,sub_1S2SHgKojVEYZPlX0EYc2Hdw,199,,0.0,eur,month
+eMagnetix,co_e7cd40a4-137c-4df0-bbda-a5706e7a2f4c,cus_SyPM6yUlTbSgZo,sub_1S2SYNKojVEYZPlXHURHZLh8,199,,0.0,eur,month
+MED-EL,co_3dfa13c3-f07a-4741-8a21-77543fdbb807,cus_SyMuycZpA4mLQO,sub_1S2T1bKojVEYZPlXqMc5Am1N,89,,0.0,eur,month
+Onewood,co_e3d08f5a-5ed9-42d4-ba7d-a9081ea3d0b7,cus_SrmwvQ5yxlwCWa,sub_1S2T4RKojVEYZPlXwDPTPJJv,89,,0.0,eur,month
+Advice Agency,co_1e70c254-6467-4db0-aaf2-c1b6dd1b5b39,cus_SyQ8VouWXhc62l,sub_1S2TIzKojVEYZPlXk2TOgeGX,199,,0.0,eur,month
+hp praski,co_d42b0faa-dfca-437a-b15e-c2ddf284d6a4,cus_SyQ8EMUhBDil21,sub_1S2TNCKojVEYZPlXIlKuOLtP,89,,0.0,eur,month
+orgavision,co_68451053-8c8e-4ba0-abe2-f12dfdce455c,cus_SyQcm7uCg2VTVI,sub_1S2U3tKojVEYZPlX8bAEK4yi,89,,0.0,eur,month
+interactive tools GmbH,co_dbf094a0-7308-4b2f-9e23-922a4b232b99,cus_SyRCfD0qjAfC11,sub_1S2UjFKojVEYZPlXAZEtMfDO,199,,0.0,eur,month
+Take3,co_71b00e8d-e135-495e-b696-3dadde878483,cus_SyUrmlDvfJLlqc,sub_1S2XrxKojVEYZPlXHmtPVJKh,400,,0.0,eur,month
+clockin,co_87129e65-185c-4fbf-9fb1-5bc99a961507,cus_SyWffE6DAZKjZf,sub_1S2ZdQKojVEYZPlXWFr4tQ8O,130,,0.0,eur,month
+Mersudin Forbes,co_fc3264ce-376c-4389-8710-3bc5b7f8189a,cus_SyXX7uAEIfV8CS,sub_1S2aTXKojVEYZPlX1xPXmDS5,199,,0.0,eur,month
+Gioielli di Valenza,co_5f3e984a-8abc-4d99-9f18-cf03cec82f64,cus_SyYfBfTMKE85dI,sub_1S2bYZKojVEYZPlXv2QyQThb,89,,0.0,eur,month
+Betmode,co_0233a730-6c30-4155-b1b1-742b6eda813c,cus_SydWtW8aT3NB0l,sub_1S2gFqKojVEYZPlXz2CxbgDq,199,,0.0,eur,month
+Paul Gordon,co_70bd5046-e20c-4799-a149-2e8f8eaedf87,cus_SynAlPiuObGPW5,sub_1S2pc1KojVEYZPlXNHpAX7kb,199,,0.0,eur,month
+Agicap,co_c212e773-99df-4efe-846c-fad684d800ad,cus_Syqo12EW0ZydZm,sub_1S2tQmKojVEYZPlXvMVK9QBd,199,,0.0,eur,month
+Lifeboost Coffee,co_a3adab33-254f-4d8b-a7d5-7d68ff778b91,cus_Sys3JxGNTLp3iC,sub_1S2ujXKojVEYZPlXIOuyxEhG,89,,0.0,usd,month
+Hatch,co_af3e3acf-1bdc-44a2-8d53-a365ca01ef98,cus_SysfODdgHVXTph,sub_1S2uuvKojVEYZPlXLvKGzuVm,89,,0.0,usd,month
+Engel & Völkers,co_2788fd0f-b799-4515-bd8f-1cdb1386d24b,cus_SyskgRYGW93UDv,sub_1S2uzYKojVEYZPlXgx3RtZHz,499,,0.0,eur,month
+Whale,co_940141ae-c291-4cd1-83db-37e390c39ffe,cus_Syt0dDpvU1Auug,sub_1S2vNaKojVEYZPlXo9mE2FEv,89,,0.0,eur,month
+TrueClicks,co_018bcf89-5317-4104-88df-9f6e77a52276,cus_SytMawkXSQzCwo,sub_1S2vbmKojVEYZPlX79pt2DcB,89,,0.0,eur,month
+Crossrope,co_9ab456a2-6d5e-4a58-9a2d-17578aa3260d,cus_SytwJ9H5RQxOqr,sub_1S2w9aKojVEYZPlX0em33eaW,89,,0.0,eur,month
+Kelsey Reaves,co_c152399f-4e6f-45c7-8ebb-bc3e2eb582b8,cus_ScAQ9SFxNCcWd2,sub_1S2x9GKojVEYZPlXNzfFG73u,89,,0.0,usd,month
+FrankCrum,co_dfa8f546-9b7b-4556-992f-014ad87b5a79,cus_SyygpGtfwW2J0y,sub_1S30jZKojVEYZPlXYnajYDCp,162,1945.22,0.0,eur,year
+SimplePractice,co_43c9eb15-95aa-48b9-9b07-1020e548c4b0,cus_SgbReaG9blYfUs,sub_1S31R1KojVEYZPlXyUjJfagW,199,,0.0,eur,month
+Tax Defense Network,co_3a4b9ae3-56e6-4fe1-be19-56a4c3639e7a,cus_SyzT4XTbDcEVst,sub_1S31VwKojVEYZPlXgq01UgqJ,189,,0.0,usd,month
+Brainlabs,co_9f83323d-41e3-4317-a919-9b7018f2d3ed,cus_Sz3h0mGyiwdtmh,sub_1S35ajKojVEYZPlXe8p3zUE8,200,,0.0,eur,month
+circuly,co_c711df2e-3e98-44ea-8f47-bf8bb77d99d0,cus_Sz9ZXMCLwncHGc,sub_1S3BGPKojVEYZPlXEF6jsR9j,199,,0.0,eur,month
+HelloBello,co_e044244c-15a8-431c-a31a-6081be5909a5,cus_SzASIofvqNjn88,sub_1S3CHlKojVEYZPlXRLLapsrB,89,,0.0,eur,month
+IBEX,co_47764dc5-5c43-4bde-9749-88fa16e00042,cus_Sz7FnkfcRXxXJK,sub_1S3Cb0KojVEYZPlXalCE4f3U,89,,0.0,eur,month
+Offbeat Projects,co_2f4ac820-3d76-44a6-ac5a-094c8702d79e,cus_SzEG6CVHRE8xWv,sub_1S3FonKojVEYZPlXpaacR96c,199,,0.0,eur,month
+Attention Fox,co_ff12b6c9-f6ea-455a-8e95-b503c5d32e8f,cus_SvsCctB3YYKBSa,sub_1S3GEcKojVEYZPlXjJcECgq6,89,,0.0,eur,month
+Fresh Egg,co_bf3c7a61-1470-4a82-9a11-130430c1b85e,cus_SzGzmZHXbHhLEJ,sub_1S3IRzKojVEYZPlXjUkyi3J4,200,,0.0,eur,month
+InTouchNow AI,co_9f7dd06a-4b22-4ce1-bee9-35ee9bde23e9,cus_SzKZaFr2WnncJB,sub_1S3LybKojVEYZPlXjRqS13xF,89,,0.0,eur,month
+Kontent.ai,co_71d8da4a-da2b-4b72-a02c-cc5eb1a3210d,cus_SzW9aOVyJrrUeC,sub_1S3X70KojVEYZPlX17MScdMw,89,,0.0,eur,month
+CloudAMQP,co_29f951c1-0887-4ce8-975a-8c6538e99465,cus_SzWnl81rgQRf1H,sub_1S3XmTKojVEYZPlXJfLuvdk5,89,,0.0,eur,month
+Webstars Ltd,co_dc419cde-f6d0-4e76-9fb0-b848dca66be9,cus_SzXnotU1IzCcgJ,sub_1S3Z3SKojVEYZPlXDFu7BykQ,89,,0.0,eur,month
+EnvisionUP,co_fe05f426-34f9-447b-95dd-f62151a68fd4,cus_SzbK2FpUrQyU2w,sub_1S3c9rKojVEYZPlXssJlRzmK,288,,0.0,eur,month
+Adzuna,co_eaebaaf1-c43d-4e3b-ac9a-ccfe6e9a4727,cus_SzFWOwo763RjeG,sub_1S3dh0KojVEYZPlXJMZx9Kc8,89,,0.0,eur,month
+,,cus_SzFm98jG6U6KRv,sub_1S3e83KojVEYZPlXW8Fzz4MP,199,,0.0,eur,month
+Hurricane,co_87e7c450-d127-461f-8982-c5d3b1813745,cus_Szdcg1pj5eoruu,sub_1S3eNNKojVEYZPlXLDJKNPjW,199,,0.0,eur,month
+Solo,co_d49118f5-124b-4019-bfe4-b0f189d429c9,cus_SzdotsVG1vSnYr,sub_1S3eYWKojVEYZPlXCJVwJdmR,89,,0.0,usd,month
+We. Communications UK,co_bacdc994-5e25-4a74-9962-57908345225c,cus_SzcfF6UFdPrBO3,sub_1S3fCKKojVEYZPlXGAklLEi1,199,,0.0,eur,month
+Web Focused,co_117f1bf6-995d-4b61-a482-bc8477194c81,cus_SzfE3qtj5kjnz8,sub_1S3fuJKojVEYZPlXfMDcvlTP,199,,0.0,eur,month
+One Cloud Inc,co_d0fce363-e009-4c81-a3de-90cec41b0c6b,cus_SziktkF7RZRqi8,sub_1S3jJrKojVEYZPlXjk4uqiaF,89,,0.0,usd,month
+Practice Better,co_0d0915cd-38a9-48e8-a0ef-6ca0c36a4cfe,cus_SzjH2Y6BF1BSB9,sub_1S3jooKojVEYZPlXfgCKXchx,89,,0.0,eur,month
+MJBLabs,co_4ce991b5-1910-4487-a968-c0231d580dec,cus_Szkvw25iRj1tCY,sub_1S3lQOKojVEYZPlXusT0o0iJ,89,,0.0,usd,month
+Sonnenpark Hotel GmbH & Co. KG,co_5969cc06-c486-4bd7-b34c-4cfc45e967e7,cus_SzuKtPTM5aE2Aj,sub_1S3uXjKojVEYZPlXtLrCo4Vl,89,,0.0,eur,month
+SH Digital,co_fb82409e-a0c8-4948-9edf-5ea00a71e85d,cus_SzuLScFlQjymjk,sub_1S3uXlKojVEYZPlX2KlN5fmy,77,919.0,0.0,eur,year
+People Data Labs,co_e54ebe59-264e-4a2b-bc90-1ab8abd13cdc,cus_Sr26hIV6Uf9IKk,sub_1S41G0KojVEYZPlXRaGHXuDJ,89,,0.0,eur,month
+Exodus,co_580c2d5b-effd-4eb0-b90a-809cf44a46cf,cus_T01Ek4GsQrRd0p,sub_1S41JqKojVEYZPlXheQQRh3S,199,,0.0,eur,month
+Ailistings,co_fd579d05-3905-494a-9e87-6410a54b4274,cus_T01KflSnDkUtgR,sub_1S41qwKojVEYZPlXVoVo75Sv,89,,0.0,eur,month
+Hello Audio,co_d75fa1f5-ad62-4c90-89fd-6de7b1b8ad09,cus_T078WWjZW9Oujy,sub_1S46vKKojVEYZPlX2fbI6t0W,89,,0.0,usd,month
+XBert,co_62e63b12-305e-431c-8a31-a78261e246d1,cus_T0CtswFhwAt4W9,sub_1S4ChCKojVEYZPlXxL6tjuDn,89,,0.0,eur,month
+CJ SEO Consultancy,co_5e59ffba-ae21-405e-a13e-8af5a00e4b9f,cus_T0FfA7Zlsp5eK8,sub_1S4FCDKojVEYZPlXsbg70Ms7,199,,0.0,eur,month
+The Dorm,co_da66f9d3-dd7d-4ab5-962b-85730aee1530,cus_T0nvPG8CCOKPkz,sub_1S4mNNKojVEYZPlX6KGP46sc,89,,0.0,eur,month
+Tiying Zhao,co_3d712f90-06e9-472f-b41c-c7748cf3a7b3,cus_T0w9DOv9LbNPO3,sub_1S4uKNKojVEYZPlXrptWT6sk,89,,0.0,usd,month
+Vera,co_506ec21a-036b-456c-8ee6-1ecd7a9da057,cus_SpWA58HFjCsqtc,sub_1S512vKojVEYZPlXujjUQ7DT,199,,0.0,eur,month
+get traction GmbH,co_5ac7f4de-566d-4305-b4d6-eeac12e40eed,cus_T13ATnW9hbj0M6,sub_1S516jKojVEYZPlXVx1PMMeP,278,,0.0,eur,month
+Steiner,co_67ce0d8c-e233-447c-a266-6bb06a316066,cus_T154KyrlAQtWpe,sub_1S52yAKojVEYZPlXx5O1LM9B,199,,0.0,eur,month
+Maschinensucher,co_400127e9-fe48-4283-bdfb-218aeddb055c,cus_T15r9yOkXiGJth,sub_1S53rqKojVEYZPlXXE8ScPHx,89,,0.0,eur,month
+Camedia,co_6f6a94ec-fd77-4faa-9ee7-bb59e9640a34,cus_T16rxWZyrrXtg6,sub_1S54eMKojVEYZPlXO8W8HMmc,199,,0.0,eur,month
+ithelps-digital.com,co_f8479069-72fe-498f-99b8-a73576c089f1,cus_T17TeM4KmFKnMA,sub_1S55FnKojVEYZPlXmjqpM7vn,100,,0.0,eur,month
+Allô,co_711cca46-df69-409c-ae51-a0f0a9762c60,cus_T17pOI8jegDRHg,sub_1S55aNKojVEYZPlXWNopVn3Q,199,,0.0,eur,month
+Spacedealer,co_564723ac-8490-414a-aefb-2b9ee38c052b,cus_T187OqRZ5H1ZX7,sub_1S55sIKojVEYZPlXgkzwwkPN,400,,0.0,eur,month
+Codeword,co_9380e877-f598-41c6-b7c8-c309c677c423,cus_T18iPTzPdBurVd,sub_1S56QiKojVEYZPlXOr0rLlb5,278,,0.0,eur,month
+Geeks360,co_f0f847f3-e8d9-4872-8296-40791b26105e,cus_T1AEq0UQ4NXkbm,sub_1S57ukKojVEYZPlXJR0q8myM,89,,0.0,usd,month
+Agency,co_0848bb62-50b1-4d78-9270-145624504c88,cus_SuGOfAl0tYA7dW,sub_1S5ITSKojVEYZPlXaLFG4aqa,89,,0.0,eur,month
+Dampsoft,co_b6db843b-2733-4344-819f-0433cb16447a,cus_T1PJqX5dmP6I8V,sub_1S5MVIKojVEYZPlXWF1d2rNh,89,,0.0,eur,month
+Formlabs,co_aa871086-a2fb-40c3-b771-164c2065ca57,cus_T1PFdKzkYfIY7R,sub_1S5MceKojVEYZPlXw55HriRV,199,,0.0,eur,month
+Apohem,co_5f08e076-4e2e-4494-aefd-1bd0a12f1e6b,cus_SbwBTuL0YiA9Bi,sub_1S5NJqKojVEYZPlXxDXQyWIe,89,,0.0,eur,month
+Multi Platform Content,co_650c6d39-922d-4a56-9ea5-2fbd92619eda,cus_SwhAsLvfij2Waj,sub_1S5Ok5KojVEYZPlXrWaUUGb7,199,,0.0,eur,month
+Bloom Search Marketing,co_07fe732d-b143-4193-91f0-02864963f4eb,cus_T1VSUXL86aPtin,sub_1S5SSpKojVEYZPlXv37Dy5Tf,89,,0.0,eur,month
+FSK,co_93626fad-7387-44f8-b89c-975b973bcf96,cus_SukrfOn3LY7D1Q,sub_1S5SWNKojVEYZPlXIrTULvwn,89,,0.0,eur,month
+Orbital x,co_f263f47a-b5d7-4bcc-80b2-d3212ed38c71,cus_T1WjIHWhjWVtk5,sub_1S5TioKojVEYZPlX7yantKIU,89,,0.0,eur,month
+DCAcar,co_34c35645-6e3d-4540-8a14-b90374244edb,cus_T1dZgUH9rlzGIB,sub_1S5aJXKojVEYZPlXln43yJLX,376,,0.0,eur,month
+Toasty Marketing,co_7e7d9bde-5116-4ead-808f-7142eb2e8c44,cus_T1fHe3BLEeru78,sub_1S5byXKojVEYZPlXABlvbXCB,178,,0.0,usd,month
+Foxglove,co_5e6c7ffb-6545-4439-860a-7c37d7a91c9c,cus_T1kzfvXH7HCsFg,sub_1S5hY8KojVEYZPlX3rR89nJf,89,,0.0,eur,month
+Seiten-Werk GmbH,co_efb5ab52-6603-414f-8e64-80589a129e8c,cus_T1lKOTaajyBUaV,sub_1S5hobKojVEYZPlX88bMDQOI,199,,0.0,eur,month
+Espace Concours,co_0def59b5-4a11-4bfa-ac2a-be374f587dcd,cus_T1UNHUpIUppI7x,sub_1S5kDdKojVEYZPlXHwTJNbwr,89,,0.0,eur,month
+Paddle Creative,co_34745fdf-13b1-497e-bcb2-9a9bf3fb9a9d,cus_T1nq4jdGa5VHlx,sub_1S5kFoKojVEYZPlXWmI3p3dt,89,,0.0,eur,month
+BIKE24,co_064b7a32-a600-479a-800f-bb9bc974a6f6,cus_SzvTWX7pMlYoIq,sub_1S5lXzKojVEYZPlXEzHMXoUy,199,,0.0,eur,month
+Profit.co,co_4e2c5a49-963c-4e19-8d15-e7d5f115aced,cus_T1pgaYZafXttux,sub_1S5m36KojVEYZPlXvhGgeiPU,199,,0.0,eur,month
+FOA,co_11710f50-63b6-403d-a626-d40bc1c099ba,cus_T1nPO8hfrb48nJ,sub_1S5mCjKojVEYZPlXvV2sevDx,89,,0.0,eur,month
+Treuenfels,co_1bc5b612-6ebe-480c-81f0-4f7c3607b191,cus_T1s0ZVsq9VfwJD,sub_1S5oMfKojVEYZPlX4cxm1biX,89,,0.0,eur,month
+JTL-Software-GmbH,co_a1082e2b-f9b9-44d1-b46d-3f91441bf137,cus_T1VB9nBea0DtWi,sub_1S5p5EKojVEYZPlXcH6ubDUB,169,2029.0,0.0,eur,year
+UiPath,co_c83c6e81-7d92-4b27-b4b9-86308394e677,cus_SwvIKKBfBqr0sv,sub_1S5pjmKojVEYZPlXkNlJbsPQ,199,,0.0,eur,month
+co:listic GmbH,co_788b0c1f-2d45-418f-8f4e-1cea9c0583c7,cus_T1s62QwyUEBn7q,sub_1S5pnjKojVEYZPlXe9YBd4PH,199,,0.0,eur,month
+NFM,co_04e2caf4-d7de-41cb-bf03-84c3a2a31360,cus_T1tZMtpHDgJkcw,sub_1S5pqSKojVEYZPlXinMbsFHR,89,,0.0,usd,month
+audibene,co_04dab04e-e0bc-4457-8eda-0a03c3f18a54,cus_T1uAVmM73krTyA,sub_1S5qNUKojVEYZPlX6yAEYike,199,,0.0,eur,month
+Signalchecker,co_406fbe22-a6a9-461f-a815-f1c2438cdd37,cus_T1uWrsiNEIuGBq,sub_1S5qjBKojVEYZPlX5khowbtE,89,,0.0,eur,month
+Jestor,co_45d81879-10f0-46a2-8bce-09570c6a7835,cus_T1v7e4Z06OYbJw,sub_1S5rK8KojVEYZPlXF6DvQRDp,89,,0.0,eur,month
+CFOshare,co_40e20607-9e38-40bf-bd34-30b11caa7d13,cus_T1vhlTURo5C5pW,sub_1S5rrOKojVEYZPlX5Eb6KhGy,89,,0.0,usd,month
+ActiveCampaign,co_47cbe445-a20b-4946-9e69-93091da3b5a1,cus_SavrImT0nG3me9,sub_1S5sZXKojVEYZPlXOKKpalox,199,,0.0,eur,month
+Zenoti,co_427ac2cc-5b6d-4143-9fcf-0848d5cb7d3c,cus_T1yJ1PBKqjEb2i,sub_1S5uOtKojVEYZPlXahnCZdde,89,,0.0,usd,month
+Novopath,co_46658acf-5d16-44db-81a2-afbc56778aba,cus_T1z1lWVmbS1yJ9,sub_1S5v3uKojVEYZPlX6N4QAaJu,499,,0.0,eur,month
+GTPZero,co_2db06a42-b113-4462-8c4d-289e79d7c146,cus_T23wjYvpi7Znmc,sub_1S5zpdKojVEYZPlXzDY86p5I,199,,0.0,eur,month
+Close Brothers Invoice Finance,co_aa6c504e-31f6-4cd1-aa4e-0924c043ca57,cus_T13QddiC7yYzDl,sub_1S62afKojVEYZPlXLfiaLSJQ,288,,0.0,eur,month
+Trenkwalder Österreich,co_9e4b3452-5850-4d7c-9c4a-2464406199fb,cus_T1OtwAFz35m4jO,sub_1S6BNXKojVEYZPlXOWNilhzt,89,,0.0,eur,month
+Nolte,co_6e789ec2-7c74-4afa-852f-021e5301c97d,cus_T2GyqgjR9Z1cy0,sub_1S6CrKKojVEYZPlXWf65UE4g,89,,0.0,eur,month
+Paage,co_c17904ae-827d-4711-a859-284f7eee2b41,cus_T2IpbkGTWavkkg,sub_1S6EG1KojVEYZPlX4CRy36mB,89,,0.0,eur,month
+Namespace,co_49f6c4cc-a94f-4eb3-8d96-4add61aba7ff,cus_T2KPSdFuCfVz3x,sub_1S6FluKojVEYZPlXQYFeQHc6,89,,0.0,eur,month
+Cowboy Pools,co_c99ea4e2-7e63-4c27-9ca0-2fa16dd074ce,cus_T2M6w2f6mjUsns,sub_1S6HOmKojVEYZPlXPdUmjpDf,89,,0.0,usd,month
+Attruby,co_2821fd5e-59cf-4a3e-9361-12fe4aef61b7,cus_Sm2Sn5jd88sL1A,sub_1S6I6IKojVEYZPlXixpxBOdP,199,,0.0,eur,month
+frank&dick,co_8cc4e705-9737-454f-a120-be8691e0a79b,cus_Sp35cwglA67sJ6,sub_1S6RDIKojVEYZPlXW2exWg36,199,,0.0,eur,month
+MADS,co_b8bac540-96b5-4aa6-9ad4-f89b6490e30e,cus_T2YPkDlsUOQYJM,sub_1S6TJIKojVEYZPlXJ5nhWZ8g,500,,0.0,eur,month
+Marks Uhren ,co_52bf5252-7c18-49bc-9007-fc3c730c5f44,cus_T2Z0OMea5MbSSX,sub_1S6U6SKojVEYZPlX0Z3PKm52,89,,0.0,eur,month
+Podbase,co_d3af8a82-8b9f-47ba-a755-6da5ea5967ad,cus_T2W5yKizmJzd42,sub_1S6UBvKojVEYZPlXFzGHewCI,89,,0.0,eur,month
+Echologger,co_7a3cb811-f40a-4726-8611-6af118f3f8c0,cus_T2Qc3njXyNnuGe,sub_1S6UoLKojVEYZPlXjzRR2K19,178,,0.0,eur,month
+Issanka,co_4f7d9eec-6c7a-4040-b083-992a3a9e179a,cus_T2bFpkbn77vi3D,sub_1S6W4fKojVEYZPlXGSiaJJ7S,90,,0.0,eur,month
+Barthet,co_0444b2c1-50b2-4b24-b347-1fbb7b3b1da5,cus_T2cJ1FlkA0M7Ca,sub_1S6X5cKojVEYZPlXjvo6jQei,89,,0.0,usd,month
+Team 4,co_9d299b09-3110-415f-83ef-7113d9199c7f,cus_Sc1IBxgTzc0gUg,sub_1S6YEYKojVEYZPlXVR0u0CGJ,299,,0.0,eur,month
+HiveMQ,co_3e949477-0336-47cd-b9a3-2780087bc58f,cus_T286OstATBsVy5,sub_1S6aUiKojVEYZPlXQqVS8Ceu,199,,0.0,eur,month
+Kiterocket ,co_6ae6c351-2c01-4401-9669-00385a030f9b,cus_T2dORjhMkj242s,sub_1S6gM2KojVEYZPlXgeAfpOM9,89,,0.0,usd,month
+Atomchat,co_f3f4c802-77d8-48de-afef-de7a0735be13,cus_T2RAUqnIE1Rie9,sub_1S710kKojVEYZPlXRHzxOSr9,89,,0.0,usd,month
+outmove,co_3651e8cd-de97-473c-ad30-306180e7d09e,cus_T3Madmv2LRqnw6,sub_1S7FtDKojVEYZPlXOrGP4lIi,199,,0.0,eur,month
+Hexaview,co_ed2ce32c-bd41-49cb-9ef0-d446e16ccd0c,cus_T3bhKkNTt5f6vV,sub_1S7VP2KojVEYZPlXDXxxnuwD,199,,0.0,eur,month
+PFH,co_5402cdbe-9b1a-4e81-8029-19fb0e0cfad6,cus_T2Zk0Z2lssYfHd,sub_1S7WXiKojVEYZPlXJlTjsumO,89,,0.0,eur,month
+digitalagenten,co_6bc0b693-3ae2-4000-bdf9-60b5adff3429,cus_T3eWwWjKAL3tId,sub_1S7XovKojVEYZPlXMTS4Mpf6,89,,0.0,eur,month
+maids.cc,co_f180debc-e6f9-4dcf-a087-361ce1ad9197,cus_T3gUzdWdqNa6Ca,sub_1S7Z8KKojVEYZPlXYmwnxnwS,109,,0.0,eur,month
+Media Intelligence,co_4b742878-049c-404c-a7d9-444bfaf2faa3,cus_T1NnE3XeP9p2kx,sub_1S7ZEHKojVEYZPlXpeydI7FN,199,,0.0,eur,month
+Red Freckles®,co_80785820-2919-47a2-bdc4-9319a88cafec,cus_T3iK5ZI65emYo9,sub_1S7awIKojVEYZPlXA8xfKCFP,199,,0.0,eur,month
+DeepMedia,co_a07cbeef-904d-472f-b80b-671a5950949b,cus_T3ithajeBUcb6K,sub_1S7bSPKojVEYZPlXoy83DstI,89,,0.0,eur,month
+prodress,co_c974dce6-d934-4cd6-8fca-a217a6498bac,cus_T3k2LJm1MXqkKE,sub_1S7ccIKojVEYZPlXqmHFWZVF,89,,0.0,eur,month
+Uxopian Software,co_84f2992d-806e-4c3a-b3c2-cad3d2bfb971,cus_T3o3yuq1Zvd5oX,sub_1S7gTcKojVEYZPlXcS2RffdQ,89,,0.0,eur,month
+Gymdesk,co_da28531c-dbde-4fee-b8f3-9a60ac19d15b,cus_SzKJFDwrz4MX9B,sub_1S7hcbKojVEYZPlXxKWjeABo,248,,0.0,eur,month
+Matador AI,co_ddc1951c-920f-4772-8f8c-c9a4ddb85124,cus_T3pWDP4DLyCAw9,sub_1S7i9AKojVEYZPlX59gyVoHL,89,,0.0,eur,month
+Magnetic North,co_0e5f23c3-5fc5-4ad7-bd10-3dd291df3f59,cus_T3tWIKut5EprKK,sub_1S7ljUKojVEYZPlX8ksFIZMa,495,,0.0,eur,month
+ STG Digital,co_74848d25-b3c1-4405-98c7-04041ad80d51,cus_T40WayWNVC9pWm,sub_1S7t2tKojVEYZPlX1k2ngnSB,199,,0.0,eur,month
+Equiti,co_da012d6a-e477-4596-b1c4-b0d65598af30,cus_SmDPLxKDxCZBp2,sub_1S7t7sKojVEYZPlXeoOi1PRA,199,,0.0,eur,month
+Yango - Ads,co_5576d671-ab21-4642-8a89-7f3b6fd8e298,cus_T41sytCz3PygYm,sub_1S7trJKojVEYZPlXWH85EttW,288,,0.0,eur,month
+Profit Media,co_7f439231-7f35-473f-9c7b-1eb190cce52b,cus_T45tiY9kjv4HHo,sub_1S7xoMKojVEYZPlXtVRGZ3cu,89,,0.0,eur,month
+CIPHR,co_686cc1b0-99d4-429b-b33e-f342f56bb8ca,cus_T47AhaqRUc4NKs,sub_1S7yxWKojVEYZPlXayU15EKx,77,919.0,0.0,eur,year
+justETF,co_8eb66ecd-bf37-4646-a9d6-bc378639c9e5,cus_SzdDTvy5ctISj7,sub_1S7zKkKojVEYZPlXM0j6pgKS,169,2029.0,0.0,eur,year
+Flip,co_b3d80d2a-72c3-423f-95a0-1438f138613c,cus_T2LfWvUbNVPhLs,sub_1S7zmiKojVEYZPlX4OdQj7iL,89,,0.0,eur,month
+Rightway Parking,co_a56398e0-412f-4d79-9149-f9398f0fb043,cus_T4D2azRtJod4ME,sub_1S84dTKojVEYZPlXrCc9rczA,89,,0.0,eur,month
+Kanha,co_702a40b2-aaeb-402d-89a6-1f54260fe0d8,cus_T3tz8hMhP9oySb,sub_1S891sKojVEYZPlX6y4cQgUR,89,,0.0,usd,month
+Art of Living,co_4454197c-3ae9-43a6-830a-7492a7cf7f6f,cus_Sz2vZXgh2pKHkS,sub_1S8A31KojVEYZPlXDUeYwZQo,89,,0.0,usd,month
+Catawiki,co_6e9342d5-e0e2-4553-b02e-81e47b58110f,cus_T4OulJ2dAbuzoC,sub_1S8G6dKojVEYZPlXlPF275w9,169,2029.0,0.0,eur,year
+Fire on the Hill,co_3a2fa76d-5153-44b7-9dc1-3a024c753035,cus_T4Pxmn3vzmXpWm,sub_1S8HB7KojVEYZPlXBxalxkM1,1280,,0.0,eur,month
+Lawtons,co_9e29fa94-da7c-4718-b117-bca70349b87e,cus_T4Qy6tecxvgKoE,sub_1S8I75KojVEYZPlXRBhISvJD,150,,0.0,eur,month
+eigenheads,co_d390821e-deb1-4c09-91b2-ac589f0c7628,cus_T4RhiXJQplq0z7,sub_1S8IqdKojVEYZPlXhTWK2WKN,89,,0.0,eur,month
+Webitics,co_e7708f84-73c4-41fa-b586-c91f62f10ef6,cus_T4RqOJ7KMBFEbd,sub_1S8Iy4KojVEYZPlX2djwu8Ov,89,,0.0,eur,month
+Dirk Schornstein Consulting,co_50be58da-a39c-442c-b33e-9edd079a82bd,cus_ScLgIhupVx24jG,sub_1S8KFpKojVEYZPlX4lXcwXyH,89,,0.0,eur,month
+Digisense SRL,co_ee191c29-3b64-4db5-b143-e2ef33423bc8,cus_T4TZiDFg7OujuQ,sub_1S8KgxKojVEYZPlX7oFqiphc,89,,0.0,eur,month
+RivalMind,co_0244f14e-478a-4554-8406-7eada3ae5523,cus_T4U7CHviUvCBko,sub_1S8L9dKojVEYZPlXlKUKcjum,199,,0.0,eur,month
+7aeo,co_165adb14-da98-47de-ada6-2157b5e813b0,cus_T4VAwRekn6n9LG,sub_1S8MA7KojVEYZPlXDkQumot6,200,,0.0,eur,month
+Butternut Box,co_da138573-50f1-4b2a-8b0e-f7aa929956b7,cus_T4VH0bzK2RYYpv,sub_1S8MHQKojVEYZPlXkiCQJ8pd,4320,,0.0,eur,month
+HeyJobs,co_659c0232-b47e-4af0-b0b9-98dc4e595e08,cus_SqzDjUg8jcSQ21,sub_1S8N3vKojVEYZPlXoc64oz05,199,,0.0,eur,month
+Eduki,co_6c4c0242-05a1-4d88-85a8-868e8476de49,cus_T4RXiZOyBMwaAB,sub_1S8NkWKojVEYZPlXT3CFGs1t,199,,0.0,eur,month
+Voy,co_405c9439-4e6f-4d59-91d4-2c334eadc803,cus_T4RCZmvqDTpeHJ,sub_1S8PbjKojVEYZPlXjVRjpM8W,89,,0.0,eur,month
+Verbatim,co_71438964-f2c3-4215-935f-ee7c5a1906a6,cus_T4dII8arS8aMv8,sub_1S8U4PKojVEYZPlXsPoExe4B,0,,1.0,usd,month
+Gentle Dental of New England,co_4df6184d-a1ba-4951-8b88-3eac6ec7093f,cus_SqZjrsGU6VMWPz,sub_1S8cmZKojVEYZPlXypS7HD2e,199,,0.0,eur,month
+codicem,co_fb9ed0a9-790d-4f4a-8ff4-c4dac2f1d63d,cus_SjqLmixqvHJWn3,sub_1S8eNIKojVEYZPlXQzXMwW4e,0,,1.0,eur,month
+test,co_17dd72f8-fc6e-4512-a50b-cbb60ab59b3b,cus_T4o3Jv58oTzb9T,sub_1S8eSVKojVEYZPlX2rqrEY3x,0,,1.0,eur,month
+Birch,co_6581d20a-33ec-495e-980e-5862dbb862d0,cus_T4oFMHaXZFgmvM,sub_1S8edPKojVEYZPlXrWbNlnB9,89,,0.0,eur,month
+cyanite,co_9f3cdcac-5104-446d-889d-2f1e9210ae7c,cus_T4oFMHaXZFgmvM,sub_1S8edPKojVEYZPlXrWbNlnB9,89,,0.0,eur,month
+Kindergartenakademie,co_b7aaba33-e5ca-44b1-8282-dc9ad7f7631c,cus_T4owBjHEkIi7Ls,sub_1S8fOiKojVEYZPlXMkKGkQGt,89,,0.0,eur,month
+NORDFABRIK AG,co_76f35668-20ac-48e6-962d-45488a9c0cd1,cus_T4nd7PkJ1zzHde,sub_1S8i03KojVEYZPlXeCKIXxm9,199,,0.0,eur,month
+Gigs,co_402d7833-e6e9-4b7f-bb77-7be6586d1a1e,cus_T4slNcZfPyIILp,sub_1S8j1xKojVEYZPlXGCFKYx9Q,199,,0.0,eur,month
+Plum,co_8a8f9c99-5e67-4082-b05c-6ab77bd9e80d,cus_T4tNd7FCKvUydD,sub_1S8jawKojVEYZPlXqDpFkGn1,199,,0.0,eur,month
+Crio Digital Ltd,co_bb18066e-09c4-4d26-b04e-9699483d5325,cus_T4tNi5sVM7jISh,sub_1S8jhfKojVEYZPlXr3AUKsPJ,89,,0.0,eur,month
+Siege,co_0feabcdb-0064-406a-a24e-ef728c55f9d0,cus_Sbl0y6zT1RW40j,sub_1S8n34KojVEYZPlX6R7xXMPv,1373,,0.0,usd,month
+EmberTribe,co_7c4df7e3-bfa2-448b-9717-1bd862f3b9c7,cus_Sr6xyiZByuWrBf,sub_1S8yWLKojVEYZPlX8cKJkeJt,76,,0.0,eur,month
+TEAM99,co_80a718df-cad6-4a8e-b40e-44fd0393b6fe,cus_T58y0l3rSipVs3,sub_1S8yhlKojVEYZPlXWNYGTpxn,89,,0.0,eur,month
+lovable,co_19c94fb9-cd55-43a9-9e56-9670ac90efc6,cus_T5903gkrWtoicu,sub_1S8z5oKojVEYZPlXmleJeSBG,89,,0.0,eur,month
+beFranz,co_710ffb18-5716-43a7-ac3f-ca82e0ff35d6,cus_T5AbeLS3fMmQ23,sub_1S90GzKojVEYZPlX2y0WMo6w,89,,0.0,eur,month
+Pan Macmillan,co_0bf59e5e-3209-4dc9-9155-fe4191a752d0,cus_SyTgWB5ja5jpHH,sub_1S90drKojVEYZPlXm0vYdRam,199,,0.0,eur,month
+TEAM99,co_24de99b4-6b98-46e8-a551-19fdd44ab597,cus_T5BRJjVKaiaFiK,sub_1S91A2KojVEYZPlX7yUJVWCh,89,,0.0,eur,month
+Twini,co_2b8527b5-7211-40f2-8250-52f729ff009a,cus_T5Eosb5kz7GtiK,sub_1S94MSKojVEYZPlXFPRu1bww,89,,0.0,eur,month
+Narrative Industries,co_0ce588ae-18c1-426a-b899-b1e666a70efa,cus_T5CofHZjbyMraQ,sub_1S953pKojVEYZPlXPMkSq6w1,89,,0.0,eur,month
+Brick Digital,co_965168f3-80c4-42a8-8f5e-95f4f86f2391,cus_T5GHLHXOJW1jQp,sub_1S95lAKojVEYZPlXhja6V4RC,199,,0.0,eur,month
+RH Blake,co_8feab397-b694-4d7c-ace7-70967d8830fe,cus_T5HSZ2mOb8p01q,sub_1S96v5KojVEYZPlXkIdRQKQu,89,,0.0,usd,month
+,,cus_Ss0pLukx75xbqE,sub_1S98ZvKojVEYZPlX4yHGPdCo,199,,0.0,eur,month
+DBMS,co_c98b937b-02e9-4921-8b7d-5adfbd0a8094,cus_T5JE0wJUltEzQA,sub_1S98jpKojVEYZPlX3fBPSqAH,89,,0.0,eur,month
+BeOne Medicines,co_a232f7d0-464b-411b-9358-cdb76591077c,cus_T5JNpJ9ywgjwnR,sub_1S98lUKojVEYZPlXK0jhP6yT,199,,0.0,eur,month
+Ramp,co_6d5de49f-8ba5-4ec3-8400-18f483985ef2,cus_T5L30bgMbBdcuP,sub_1S9AOYKojVEYZPlXlSzjGfEe,199,,0.0,eur,month
+Bildstark,co_d1e17a25-eb47-461b-a3d0-1b3ee3763894,cus_T5MVYQdPdN6qD6,sub_1S9C1UKojVEYZPlXy95cKMRr,109,,0.0,eur,month
+Dofollow Inc.,co_e0c1ad83-ca58-49a4-9d0c-9bf27a976bc6,cus_T5ZyYnbSzbNC7H,sub_1S9OovKojVEYZPlXWDL7HMP8,400,,0.0,eur,month
+Signal & Light,co_d6e88d53-90c3-4938-80a5-f2dc65e4400a,cus_T5pmP9Nqy28wXs,sub_1S9e7UKojVEYZPlXDTMC8dGj,89,,0.0,eur,month
+Aurora Expeditions,co_ce552b14-4291-416d-a04d-7d6b9429d322,cus_T68FiC6N9sTpYQ,sub_1SA0HbKojVEYZPlXYOxpq6sd,199,,0.0,eur,month
+ImageKit.io,co_ddfcd4dc-9f1e-4fbd-9fff-6175730b4405,cus_T6H01xvBRIQBek,sub_1SA4UGKojVEYZPlXV8WGUTUF,89,,0.0,eur,month
+Bonzer,co_b7ac4580-3c27-4061-a1c9-d45771132cb4,cus_T6Ibs3QB4FA2MN,sub_1SA60eKojVEYZPlXaKagiP71,1350,,0.0,eur,month
+ultrabold,co_e39d0fa6-9566-45ba-85bc-7948d80ab1bd,cus_T6Ixh3kqzoPIaV,sub_1SA6OTKojVEYZPlXYZC5XZQZ,89,,0.0,eur,month
+CGTrader,co_3aba6cd6-f364-43ce-89e4-47c699f17ee9,cus_T6K47G956rTfrQ,sub_1SA7QrKojVEYZPlXcVvzqQRA,199,,0.0,eur,month
+GeloMyrtol forte,co_d3747fae-c979-4dbd-ba76-45c51c5b90f1,cus_T6JlZhDHv5nPzn,sub_1SA7XqKojVEYZPlXy2dzeTlW,499,,0.0,eur,month
+Halper,co_bf4c392d-1290-4ca0-acde-35212ac7a116,cus_T6Ki4J0FlGQlUl,sub_1SA87LKojVEYZPlXeWJFn5Ng,89,,0.0,eur,month
+Glaut,co_d99cbbb7-2854-4abe-902c-3d0b710d3915,cus_T6LmKolqRwPe5D,sub_1SA96kKojVEYZPlXwerD7Jms,89,,0.0,eur,month
+Balderton,co_52a2565e-34fc-4a9d-acfe-c754c5e795fb,cus_T6MRbYZfAnR64D,sub_1SA9jUKojVEYZPlX8XVDMpz5,89,,0.0,eur,month
+ExRohr,co_56962a22-b3c7-483e-8579-d28f2c6f0d45,cus_T6MtWRYaamziCn,sub_1SAACiKojVEYZPlXasLsy6UC,89,,0.0,eur,month
+Verisure,co_c8abe540-f1e8-4742-828e-3033c187106d,cus_T6N3HZDOQRYtPr,sub_1SAAJnKojVEYZPlXP8E6Umh2,825,9900.0,0.0,eur,year
+Subgrowth.fyi,co_f34c1b12-54b3-4817-99ff-034ef716d80f,cus_T6NB1wA5NNGJKa,sub_1SAAS1KojVEYZPlXxzc5qcey,499,,0.0,eur,month
+MDPI,co_b641824a-a830-44c1-9cf7-ba2257782ac4,cus_T6NCI8HIGXpwV2,sub_1SAASJKojVEYZPlXQlOJa3sM,199,,0.0,eur,month
+Liquibase,co_ce422bb3-2ec2-4949-8ecf-3f6b5c360b25,cus_T4vjDwmY3LvJ0D,sub_1SABXqKojVEYZPlXXnJ7kckP,89,,0.0,usd,month
+Silicon Data,co_a07e2743-08d3-4e78-9f4c-4dfc9394b9d6,cus_T6Op11fQ63fq2Z,sub_1SAC3DKojVEYZPlXmgRnxWdB,89,,0.0,eur,month
+Hiltzik Strategies,co_89643d00-1e5a-4b1f-b087-1e2bc77e1aef,cus_T6PBu7IivbRAZa,sub_1SACNHKojVEYZPlXqhEW3fPK,199,,0.0,eur,month
+LBASAD,co_228bd1ed-2061-4fc9-88ce-f37be58bde3f,cus_T4uG0vz3pnVNLH,sub_1SADE2KojVEYZPlXtIFmysHL,89,,0.0,eur,month
+JJ Consulting,co_ffdf199e-3a22-4042-b364-4725202f0fd7,cus_T6QXj3tk2vtex9,sub_1SADigKojVEYZPlX42FPHiRq,89,,0.0,eur,month
+Inbound Scope,co_5b95e937-0f79-41a9-b2bb-34b771ab212b,cus_T6TE5F0qQYVB8W,sub_1SAGLcKojVEYZPlXUPYdWIDK,89,,0.0,eur,month
+Maniac,co_98708ff4-2525-4eb7-a444-156d921d4597,cus_T6TZpl6uc7t2E4,sub_1SAGqNKojVEYZPlXLJhyUS6d,89,,0.0,usd,month
+Linktree,co_63ca0887-be70-45c9-9ddd-4a3f69bd9c6a,cus_SeY17eBfvVzblN,sub_1SAOxRKojVEYZPlXk147AYnE,89,,0.0,eur,month
+Universität Siegen,co_0f1a9ad5-3e4f-4857-91da-f0a7b79b6303,cus_T6d0LcPKwY3WZQ,sub_1SAPmVKojVEYZPlXbeBbcmij,89,,0.0,eur,month
+PREMIUM LEADS,co_88906278-d735-4c73-b3dd-c1b1afe69635,cus_T6dkFmAgl3JksN,sub_1SAQYDKojVEYZPlX5rDQo6TK,199,,0.0,eur,month
+Hark,co_6abebe95-c8d3-466a-8c91-b3ba76513e3f,cus_T6dvexWBsXiP3b,sub_1SAR4RKojVEYZPlX7iPSCxjd,89,,0.0,eur,month
+Trade Stays,co_84b3bac7-3947-4e6c-ac92-c682e5e57764,cus_T6ehC8cBNq8Dlq,sub_1SARQcKojVEYZPlXjT85fzhw,89,,0.0,eur,month
+Omnisent,co_d2ca3a36-b8c3-4fd5-8b03-1b72bf74c6f1,cus_T6fACZKzebk3It,sub_1SARtLKojVEYZPlXaCeOw1aE,199,,0.0,eur,month
+Spaceshelf,co_4f584523-4fea-425e-995a-1d4b9a4d1447,cus_T6fQIirF5TAwmc,sub_1SAS7pKojVEYZPlXolyw2UGh,89,,0.0,eur,month
+SciChart,co_027e970c-943f-4457-99df-df1cce1f6e35,cus_T6fe2yPm2rOE7y,sub_1SASKWKojVEYZPlX9AhEsA4a,199,,0.0,eur,month
+ZenCheck.ai,co_896f5d29-2f2c-4a59-88e5-35a87e6f7aa8,cus_T6gWqwBWDlllMU,sub_1SATC7KojVEYZPlXXmcCRWq4,89,,0.0,eur,month
+STRAT7,co_346e5367-6533-4acc-9155-fa5af09ca4b0,cus_T6gf54jcJhcT4O,sub_1SATMoKojVEYZPlXynvbc6JW,89,,0.0,eur,month
+Growth Gauge Inc,co_f3fa2f59-42ec-4064-b5d0-5adc1906ff6b,cus_T6jfUepWBgFIGw,sub_1SAWCBKojVEYZPlXyjVp3AlK,356,,0.0,usd,month
+Remazing,co_4cf1bd93-4a96-4d64-ab4d-feb53e9bd841,cus_T6jQnjsJcOWcfi,sub_1SAWEsKojVEYZPlXQbzl8cYp,89,,0.0,eur,month
+e-dvertising,co_a859c314-a0f8-4c44-baed-9b4478a4f34c,cus_SfnXTI4YIEqEf3,sub_1SAWSRKojVEYZPlXahZZq6LC,77,919.0,0.0,eur,year
+Five Elms,co_949ecb85-fb02-457f-9387-b60ee7da2738,cus_T49a1ewvGIfPd9,sub_1SAX2kKojVEYZPlX4cHLfdY8,89,,0.0,usd,month
+Definition,co_8032686e-0be0-4fbd-ad3e-5a6e835a8dac,cus_T6kYV400ewDt1V,sub_1SAX4iKojVEYZPlXOq9pUE94,199,,0.0,eur,month
+Pod Digital,co_fba19c28-30c5-4e2e-80b4-76cd6074ddd0,cus_T6kBPeey12PHsg,sub_1SAX7WKojVEYZPlXSENUHUZY,199,,0.0,eur,month
+Convert,co_460bfad0-cdbe-4ed3-a870-da63a3f3de6e,cus_T6lIGtPzNAJ50X,sub_1SAXnhKojVEYZPlX52HjaHsj,89,,0.0,eur,month
+Edenly,co_58c0f2c4-63fb-4e39-96c0-23dfcb6d2aeb,cus_SqeqLqNAXx0ph9,sub_1SAYwhKojVEYZPlXF0tNkNHq,89,,0.0,eur,month
+nordiek.net GmbH,co_c4fdc4f1-63e2-4d87-9d5d-3fb55a402b07,cus_T6q3KEm51vUkVc,sub_1SAcPQKojVEYZPlXnNLD2DNB,89,,0.0,eur,month
+Sure Oak,co_d6783d08-952f-479c-929d-293f2ea2693c,cus_T6qCy63TKk56lv,sub_1SAcXCKojVEYZPlXZBg9ZmXK,89,,0.0,usd,month
+Wildgoose,co_3227f040-0d84-4106-924d-bae9d53793c2,cus_T6qLagsniYQfID,sub_1SAcgfKojVEYZPlXseO7C3lF,89,,0.0,eur,month
+Teamwire,co_c269936f-9351-48a2-876a-b82caf672d95,cus_T6gtKJRtq1Qrn1,sub_1SAleEKojVEYZPlXA6X1EFjZ,150,,0.0,eur,month
+44ai,co_e3a0463c-6f4f-4e44-92ab-6ca2f0d5a171,cus_T6nbg3BoT1r9PD,sub_1SAlq5KojVEYZPlXTnCu26qb,89,,0.0,eur,month
+Niels van Renselaar,co_acb49e30-42be-4f0a-b069-d92e2a297709,cus_T70yx52c6zwQP9,sub_1SAmxDKojVEYZPlXFOAdWbWa,89,,0.0,eur,month
+EM Haustechnik,co_27f84bf0-b960-4a72-95e0-72b918c555c1,cus_T72CckITOeTukW,sub_1SAo9zKojVEYZPlX5lQi9FjM,77,919.0,0.0,eur,year
+VRR AöR,co_38a587f1-dd84-45d4-8e11-0fc128a02a79,cus_StymEA8hmtYla2,sub_1SAoK8KojVEYZPlXX4NqVPaK,89,,0.0,eur,month
+,,cus_SeGA8dSwyus7a9,sub_1SAoh6KojVEYZPlXBanJDJqX,169,2029.8,0.0,eur,year
+Vercel,co_a7195611-94cf-49db-bbe5-6674928d3d93,cus_T73ZKkDsifyL3p,sub_1SApToKojVEYZPlXVsCv8yTV,89,,0.0,eur,month
+Kvinta,co_5965c6ef-09b0-40a5-85ac-928d72eb8922,cus_T74itSB4BiwRTt,sub_1SAqZwKojVEYZPlX3j105zyL,89,,0.0,eur,month
+Eurosender,co_27311eda-9f4f-46cf-94cb-41ff5e56c6b3,cus_T75A3kjjYsx021,sub_1SAr67KojVEYZPlX0pBtTeGZ,90,,0.0,eur,month
+Aroma-Zone,co_e15156d6-6fb8-49d7-ae69-c972fe1bfb78,cus_T75QTTT6DMHAn9,sub_1SArIXKojVEYZPlXpZbip18r,89,,0.0,eur,month
+Ably,co_5eac0393-2b01-4ba8-94ce-0fafbcc76e1a,cus_T777yNAjAOT04i,sub_1SAsxEKojVEYZPlXB7lPEbKo,89,,0.0,eur,month
+Olympus Lab,co_2e44e5e3-f6f9-42ec-a0ca-36cbe5c396dc,cus_T75Z8YzXGBcNA8,sub_1SAtIjKojVEYZPlXQuxrg4xq,89,,0.0,eur,month
+Upcraftq,co_e7e8f8ab-1478-4bc2-9b58-c918320b04db,cus_T77d2mx1Bhibq9,sub_1SAtOmKojVEYZPlXF8iEWefS,89,,0.0,usd,month
+Wizville,co_e0eb90aa-2c7d-4a02-901e-a0b2f4b185b7,cus_SmPjmXJ6kGqo42,sub_1SAubRKojVEYZPlXQ9X6VHp8,89,,0.0,eur,month
+1Komma5,co_5bfee81d-2fa5-450c-ba25-d4b4b845a58c,cus_T79BldMbmbXPOd,sub_1SAuyiKojVEYZPlXUxjcISMz,450,,0.0,eur,month
+Canopy Management,co_3a78423b-1121-4d3e-9159-51bf0719c78b,cus_T7B2oC5UkxJgcc,sub_1SAxITKojVEYZPlXWrMETEO8,89,,0.0,usd,month
+wknd,co_924b5511-76a3-4974-ab7d-82f5d1796e73,cus_T6WomuTmTs0kbn,sub_1SB31WKojVEYZPlXGTpNzQHz,199,,0.0,eur,month
+Digital Gravity,co_4b0af7a6-9df4-4cfa-a4f9-577f2ef0af82,cus_T776IBboYAbG5S,sub_1SB9f3KojVEYZPlXpvWr8oTA,89,,0.0,eur,month
+third of life gmbh,co_db937c74-36f9-4a95-bf5f-733876931936,cus_T6FyDqGP9kjOJo,sub_1SBAACKojVEYZPlXvhszyf2B,89,,0.0,eur,month
+Tomorrow.io,co_cc89e102-d4a3-40b7-87b9-909ea69314b6,cus_T7QA2kTQDRws4k,sub_1SBBLjKojVEYZPlXAsqW5XlC,89,,0.0,eur,month
+Digital PR,co_37d2c390-93a6-4e83-934f-9bd4002b24eb,cus_T7QbY6gNxKr9YJ,sub_1SBBmKKojVEYZPlXvwurk9Cp,89,,0.0,eur,month
+Statusbrew,co_c36c4521-ae76-4b1a-8bba-05fd85095f8d,cus_T73SRvPuZIjxMN,sub_1SBCf1KojVEYZPlXTRst7UGa,89,,0.0,eur,month
+Schlun & Elseven Rechtsanwälte,co_2c64f00a-096c-4b5b-b2fa-5e490ea80fb6,cus_T4tWarfEIDhOam,sub_1SBEeOKojVEYZPlXGuknP03G,299,,0.0,eur,month
+Pestana Hotel Group,co_1cb886d0-29b3-48b1-952e-1fcd722d3ff9,cus_T7UgkRAXA3H8Yo,sub_1SBFjfKojVEYZPlXM8inZooj,89,,0.0,eur,month
+Dosage,co_fe8067bd-c70d-4ff7-b2b1-33bfbd1cf6a4,cus_T7Vcu47ddaGjIV,sub_1SBGjhKojVEYZPlXZNuZU89j,89,,0.0,eur,month
+,,cus_T7VtYRZeKr43cq,sub_1SBGuSKojVEYZPlXf9TIOwVN,2420,,0.0,eur,month
+Tervene,co_6b26a6f0-4936-4014-af01-4e01ca9ef749,cus_T7W782HytBP7Wn,sub_1SBH68KojVEYZPlXqBB5UFlu,89,,0.0,eur,month
+Greenly,co_e8ac610b-8cdd-4ac5-ae4c-d537537d0017,cus_Sj9kXdJW8G33vN,sub_1SBHHVKojVEYZPlX4bj9mjcx,499,,0.0,eur,month
+NextTown AI,co_adad7640-8245-49bf-a4b3-8471302ea82e,cus_T5FPZGbpe7RezN,sub_1SBIvfKojVEYZPlXiLFzfEsB,199,,0.0,eur,month
+Young Drivers of Canada,co_9a232bae-2936-4bf2-a294-1c62d1e4991e,cus_T7ZAcnigTJ5pu3,sub_1SBLISKojVEYZPlX9xntpJpx,89,,0.0,eur,month
+SEO Galaxy,co_967c2d74-3207-4133-ae52-7a0c6cd7a7f1,cus_T1k7lQDc1lh8gz,sub_1SBLJfKojVEYZPlX2y0WHFkf,89,,0.0,eur,month
+Lessing-Flynn,co_aeccc91e-4340-4dd9-ac6b-31369d42ce6b,cus_T7Z0ktsm570Z0f,sub_1SBLJhKojVEYZPlXEwMNVR4n,89,,0.0,usd,month
+mindbodygreen,co_c8e847e8-1054-4ce0-aac0-58398135311a,cus_SpEHutznUnNA99,sub_1SBMMlKojVEYZPlXg3LB8XBn,199,,0.0,eur,month
+Go1,co_ac173267-31dc-4d01-8136-322187cd9ac5,cus_T6XFMj6jilNoUw,sub_1SBPBJKojVEYZPlXFHTQQZe3,89,,0.0,eur,month
+"Adaptive SEO Co., Ltd",co_da8674e8-991a-422e-a637-3f530c575dd9,cus_T7fDJaQCx1udhb,sub_1SBPwOKojVEYZPlXGQKz48ap,89,,0.0,eur,month
+Vsibl,co_4e7fb876-54be-48dd-8455-c1473046921c,cus_T7l8ZWPwKuKlRu,sub_1SBVcRKojVEYZPlX0zGNSLpB,400,,0.0,eur,month
+Openfort,co_eab0f30c-bccb-4740-8d20-506df8bf6771,cus_T7lf4V1yvSWUOl,sub_1SBWC4KojVEYZPlXoiENWP1A,199,,0.0,eur,month
+Bikemax,co_aeb26fab-b844-4736-ad3b-f380ce7c9fa7,cus_T7mq36wWP0sqlL,sub_1SBXdgKojVEYZPlXCGbzdpXC,89,,0.0,eur,month
+Noroff,co_9c6191a7-4bcf-4207-8bd9-a20d22f6d1aa,cus_T6gTNGOPWQBA0t,sub_1SBYrbKojVEYZPlXCvaTKZm1,89,,0.0,eur,month
+Atchai,co_6e96bde3-545e-42e2-b173-8f9e953c2eb0,cus_T7oR5egUX3gwHh,sub_1SBYuWKojVEYZPlXWmJ9EO2X,89,,0.0,eur,month
+MSL,co_65376c58-5f94-4fc0-bb68-d4e329919f4c,cus_T7opoBBsWCLsD6,sub_1SBZCQKojVEYZPlXB20jyCUP,600,,0.0,eur,month
+Spiky AI,co_e25368f9-ff01-4db4-8dc4-6c273c3bae44,cus_T7ouyxMVr9lJqE,sub_1SBZMKKojVEYZPlXL7q2wxcn,89,,0.0,eur,month
+Connective,co_e5da69e0-8eb8-454c-bc30-b004da0f042d,cus_T6OfM1biWBom62,sub_1SBc3wKojVEYZPlXLwzeqyJ9,499,,0.0,eur,month
+Settle,co_52bcbc44-bdcb-461b-8207-c4f027f434f8,cus_T7sXGmL4Qbq2h6,sub_1SBcoBKojVEYZPlXntAvfubz,199,,0.0,usd,month
+,,cus_T7sjSSMPIoigdI,sub_1SBcy7KojVEYZPlXe1aVq5z3,140,,0.0,eur,month
+Backroads,co_a0650b8c-a182-4f31-a647-66f82306c14b,cus_T5OZ2HUrEvyLbw,sub_1SBfHSKojVEYZPlXTvgB5n2y,103,,0.0,usd,month
+Osano,co_44141289-b199-494d-b4a0-7f20c376fcb4,cus_T4EtWzmsjbpBY8,sub_1SBfmGKojVEYZPlXLTVHLCst,89,,0.0,usd,month
+,,cus_T7wySch0wevxMW,sub_1SBh7kKojVEYZPlXWPrYl7cx,500,,0.0,eur,month
+3P.agency,co_812ce856-0c21-4ab0-9e09-d391e61609fb,cus_T7xehvz8aqOOm6,sub_1SBhkxKojVEYZPlXCRSVmnMC,199,,0.0,eur,month
+Conqueri Digital,co_0ac9e096-89a7-495c-9f5a-15902c1a0db6,cus_T7zzXI821L0Iy5,sub_1SBk0cKojVEYZPlXD42sGnYl,89,,0.0,eur,month
+Shift Agency,co_a4c4c8cb-778a-4b41-8bb6-8c271d10cb9c,cus_T8JZ0hBES2OVR6,sub_1SC2yeKojVEYZPlXHrb6joax,248,,0.0,eur,month
+OneBrand,co_1ba205f6-d64b-4c8a-acf6-ee374140146b,cus_T8dFiufXP72ahX,sub_1SCM0UKojVEYZPlX0wl2KRez,199,,0.0,eur,month
+Sticker Mule,co_6418af90-a7eb-4163-baeb-48f5b4075f07,cus_T8fQ8R30whX0tn,sub_1SCO6MKojVEYZPlXKACHSKGt,199,,0.0,eur,month
+Wrangle,co_d8d68286-3ae6-43d8-a144-03f3d37c0bdf,cus_T8iEUNhTDr6kXa,sub_1SCQp1KojVEYZPlXgV9YEiol,89,,0.0,usd,month
+SpotDraft,co_8928df78-494e-4d01-a25d-ae62962beeb4,cus_T76PxjzTuz4Zb3,sub_1SCcvPKojVEYZPlXpvHAxeVR,89,,0.0,eur,month
+Lebensraum Holz,co_5ac639c3-737f-44dc-a34d-800c9ddfa717,cus_T8uyKLyT2tB8FB,sub_1SCdHAKojVEYZPlXLKIvSGIv,89,,0.0,eur,month
+Smør,co_ee257e27-fbab-4be4-a9f0-93c4af126210,cus_T8v7LLsKkxz49P,sub_1SCdJwKojVEYZPlXDiyAzPR6,199,,0.0,eur,month
+Whimsy Games Group LTD,co_28a5e864-c74d-4fe9-90d5-8f8665a6a688,cus_T8tUzH8uWyoxqy,sub_1SCdV8KojVEYZPlXseKhbHVN,89,,0.0,eur,month
+Carolina Bucci,co_cf12733e-0793-43b7-8178-c76765331eac,cus_T8vo2GAvJi3WnY,sub_1SCdxoKojVEYZPlXGtZaJDiv,89,,0.0,eur,month
+Qida,co_865c7477-583e-4514-9811-90eff8b17677,cus_Sm4XaisQNc3bnK,sub_1SCeHTKojVEYZPlX7uTtiPHF,89,,0.0,eur,month
+CSW.AGENCY e.K.,co_afa150b3-0a7b-4af2-ad53-c886f5d9f3e1,cus_T8wVcl8K2vCPq4,sub_1SCeduKojVEYZPlXQHYSqCuG,89,,0.0,eur,month
+Gknordic,co_f086941d-ae93-4e1d-892e-5031d2a92bae,cus_Sp8IC7BQ2mpjv3,sub_1SCfYcKojVEYZPlX8vjGUu7O,89,,0.0,eur,month
+SWS,co_c8b59627-0a51-47a9-bc6b-2f33eb09f8c4,cus_T8xk8rDGirYy2m,sub_1SCfrDKojVEYZPlXjVy1AGHI,89,,0.0,eur,month
+SUBJCT,co_910b1406-a8d4-4c58-87b7-df6167569b47,cus_T90II1VhummswQ,sub_1SCiMWKojVEYZPlXQxYL04Vj,89,,0.0,eur,month
+Airalo,co_515b2ad7-8eda-4d4f-ae62-733c0e54f57b,cus_T94VSMeWEi0aL2,sub_1SCmNyKojVEYZPlXBLheXlC4,89,,0.0,eur,month
+The Langston Co.,co_f45c2e04-c6e3-45a0-a44d-9b5fe66063c5,cus_SwiP9QDFyzeQYA,sub_1SCoNPKojVEYZPlX1BUXX7fV,89,,0.0,usd,month
+Docker,co_dcc2a4f7-12b7-48a7-80e3-e37f88477756,cus_T99fwXULVKKtCC,sub_1SCrNzKojVEYZPlX4PfpeE1z,89,,0.0,usd,month
+Kalia,co_a0fb5ecc-81b0-4bb6-9ca3-4eeb809deb76,cus_T8qL2jBFeTcVD9,sub_1SCt93KojVEYZPlXOA3j1VxU,89,,0.0,usd,month
+Angeline,co_d1540b02-a23f-4167-b2bb-7568ae5e688d,cus_T4PtwqmojZCPUU,sub_1SCtAFKojVEYZPlXMEOFrorU,89,,0.0,eur,month
+Standards Store,co_08e316c4-72af-4b4f-9776-2ba74744203b,cus_T9CRWUdCfLPwrK,sub_1SCu4rKojVEYZPlXrcZUKpIv,89,,0.0,eur,month
+Orange Cyberdefense,co_c38a31b2-fe48-4b91-aa2f-ab3262b813d8,cus_T9FrNUMiqRdcVd,sub_1SCxObKojVEYZPlX4Odvvvck,199,,0.0,eur,month
+CapitalBox,co_f9480435-13a7-41af-96b5-14d916d0341d,cus_T9GtHGdqqWmM6M,sub_1SCyMAKojVEYZPlXszUxEck2,199,,0.0,eur,month
+Nerdoptimize,co_c289f71e-7309-4007-b8da-a5ff61d405bc,cus_T9I40LbIKjNq4N,sub_1SCzWiKojVEYZPlXfOvGmgxT,1500,,0.0,eur,month
+SEOschmiede,co_5094aac6-5b0c-4f2a-9efb-94e5de3cf510,cus_T9IrAzN3QlNnYZ,sub_1SD0IIKojVEYZPlXQ59itD0r,89,,0.0,eur,month
+Wickey,co_00e9c907-6659-4829-9a93-558923266790,cus_T40lDnXfwWLTJe,sub_1SD0bmKojVEYZPlXA2382RPf,199,,0.0,eur,month
+Argentum Event,co_d14cd19a-53c3-45da-b2b6-8cf11a5d63b2,cus_T9ITUPwnT8Nlk7,sub_1SD0jyKojVEYZPlXlXjlrYRN,89,,0.0,eur,month
+Claire Lagoutte Consulting,co_4ce58e44-cb4b-497a-8f04-424656b5610b,cus_Sp4j5OCtTl4ycy,sub_1SD1w4KojVEYZPlXJzhG9z00,89,,0.0,eur,month
+Newsflare,co_48766028-e231-4bc9-8b9b-8bf0d7a23af9,cus_T9LDzlJlUsLPpp,sub_1SD2YVKojVEYZPlXFcc82N7I,89,,0.0,eur,month
+Simform,co_0e98909d-5e96-42a8-bdd9-a38681713e69,cus_T9KVcYeG2yW72I,sub_1SD39bKojVEYZPlXcCjKtjAa,89,,0.0,eur,month
+,,cus_SUXEgFX6dXbK6B,sub_1SD4kJKojVEYZPlXlLC6Of7K,199,,0.0,eur,month
+Text App,co_ec7dd6a4-f054-49f2-8f5b-013172fcd7cb,cus_T9JWUlFI0XjmkN,sub_1SD5XOKojVEYZPlXNhERgVAk,89,,0.0,usd,month
+Lattice Publishing,co_4c13ccc1-e83c-4487-a325-0bb90c861186,cus_T9ObXv00cQQmPq,sub_1SD5oFKojVEYZPlX4PZLRl10,400,,0.0,eur,month
+Digitombs Ltd,co_477c1187-b297-492a-8283-5b6053f47e1d,cus_T9OkVrKS9pPVMc,sub_1SD606KojVEYZPlXd6OD3ee6,89,,0.0,eur,month
+Challenge Accepted,co_4bfb0a20-3c55-44cc-8158-ccfbe5b9f03b,cus_T6jZ4ynCx4OP3f,sub_1SD6k6KojVEYZPlXIaL3pKqx,89,,0.0,usd,month
+WellEasy,co_0f974f6f-d57b-4626-a2a7-0f1e42405d9a,cus_T9PzpFrNUWSpjs,sub_1SD7BsKojVEYZPlXu1uTCR30,89,,0.0,eur,month
+Jerasoft ,co_0b9bfa93-c59a-4c80-878d-cafa32004c40,cus_T9QNQF2Fh7redS,sub_1SD8P6KojVEYZPlXdig6B5VR,89,,0.0,eur,month
+Anteater,co_a520078c-072e-4e16-9002-4bfadfc81b96,cus_T9SPxT4EvbIKqu,sub_1SD9VkKojVEYZPlXQkLsKXCZ,89,,0.0,usd,month
+Arousr,co_c61f27ce-14f3-43af-9708-ed4c592ce56e,cus_T9SfVBWLxJz7XQ,sub_1SD9mIKojVEYZPlXTqUOpdw5,89,,0.0,eur,month
+TribeTokes,co_49711a09-9d79-4c42-9f4e-bf83923bf0ad,cus_T9TBkddundPp7A,sub_1SDAFyKojVEYZPlX2MpEo7fc,89,,0.0,usd,month
+Toko,co_9832b1d0-2aa0-4f90-813a-0be57b9775e8,cus_T9d2guJkbruv47,sub_1SDJqpKojVEYZPlXAKAJZQgM,89,,0.0,eur,month
+deskbird,co_7fec070a-60ff-4042-b449-e81a803f467b,cus_T9dwrb7LlLZIyq,sub_1SDKhHKojVEYZPlX9xN24aCF,89,,0.0,eur,month
+,,cus_T62FnIQ8UbNr1U,sub_1SDLolKojVEYZPlXNIZPBcXi,2750,33000.0,0.0,eur,year
+Brandness B.V.,co_25dc4afc-ffaa-40bc-8cb2-1164564a60c1,cus_T9flUbvdIdLOVm,sub_1SDMUbKojVEYZPlXyPrR1m3x,178,,0.0,eur,month
+,,cus_T9fxwuGmKbobaL,sub_1SDMbtKojVEYZPlX6BEQsTsm,89,,0.0,eur,month
+test,co_3b8ecf9d-6d4e-4dec-a919-7485907e6228,cus_T9g19qutoXpHNg,sub_1SDMgBKojVEYZPlXdcRW0X0H,0,,1.0,eur,month
+Skillshub,co_76b4b830-5afd-450c-81e5-b7ba4cc35272,cus_T9gDRo7dTyKi2J,sub_1SDMtdKojVEYZPlXTdmtUxA5,89,,0.0,eur,month
+LOTTO24,co_784e9c50-11cf-49ce-83a9-ba3624824394,cus_T4VZdCTQfE1VGF,sub_1SDMwDKojVEYZPlXtJkgWOfa,89,,0.0,eur,month
+andweekly,co_5ebd4b03-d302-4b8f-8ab5-72ea5f6874d7,cus_T9hHNIet5tiKFj,sub_1SDNvSKojVEYZPlX1Qt5XGHn,89,,0.0,eur,month
+TF Group S.p.A.,co_152f7cfe-0fa6-48ab-ad1b-d2761e20f9c5,cus_T9hHmq8pCxZmPX,sub_1SDNwaKojVEYZPlXL9KFAokf,89,,0.0,eur,month
+fischerAppelt,co_99fff481-5a0e-4a72-b412-fb01a36f1cad,cus_T9j6ZW5BSlI8RN,sub_1SDPq3KojVEYZPlX6MDU0xCQ,150,,0.0,eur,month
+Heldenmood,co_84c77a29-48fa-49f2-966e-35484dd7623a,cus_T9jvDugrs1fRHi,sub_1SDQTWKojVEYZPlXpruIEdHe,199,,0.0,eur,month
+My Agency Inc.,co_b67e1d08-ceb2-4cee-84ae-7fbfd84028c4,cus_T9jyLcP2yIeMOy,sub_1SDQUrKojVEYZPlXXbkjkPki,89,,0.0,eur,month
+GAIN,co_83fefafd-e156-4ce2-b44e-8be3acc8e8f8,cus_T9kL37rAtYaLqD,sub_1SDQrLKojVEYZPlXP5y0z0uq,499,,0.0,eur,month
+Feroot,co_5bfeb9bc-5ea7-44ca-a4a3-e15c3ddc13ee,cus_T9kOPqIW6eG9zU,sub_1SDQutKojVEYZPlX14IH05xK,89,,0.0,eur,month
+DELUCKS,co_0bb916da-019d-4e81-a501-3a44b0b83fed,cus_SeacJEX22g3wsV,sub_1SDRPHKojVEYZPlXcQuIq891,89,,0.0,eur,month
+Brick,co_e844f23a-8e40-4476-8067-dc027401eb20,cus_T8v4dtxLsbF5Te,sub_1SDRbDKojVEYZPlX26Xq1bCK,89,,0.0,eur,month
+EWR Digital,co_41b03ed0-e744-4b69-b227-cdbb36e2895d,cus_T9lwA5aMOZqZti,sub_1SDSPzKojVEYZPlXxaoecaLs,89,,0.0,usd,month
+Salience ,co_6de1d838-1ab0-49dc-be6c-85c4927e3cd9,cus_T9m6I47OJ69bi2,sub_1SDSbHKojVEYZPlXzeEdNlCI,199,,0.0,eur,month
+Leanware,co_b7ef5dc4-1f14-45d0-942a-f628ab324c6d,cus_T9pM3o64yemVxP,sub_1SDViuKojVEYZPlXH4VAw3Uj,89,,0.0,eur,month
+REI,co_d8955734-4efc-4ed7-ad93-7f2d8397c780,cus_T9pwIoGUXHytqj,sub_1SDWHSKojVEYZPlXWO6J3AhG,89,,0.0,usd,month
+Meaningful,co_30aebda9-b7f3-47bd-8db7-a36f7a773773,cus_T9riLft1wwq4Zi,sub_1SDY0ZKojVEYZPlX3MmAxlyh,400,,0.0,eur,month
+Travel Manitoba,co_07c332a3-cda6-467c-b1c0-2185b6973734,cus_T9t4mEvVEoR0c5,sub_1SDZL3KojVEYZPlXgDCc6EuG,89,,0.0,eur,month
+LCCC,co_3836f48c-42d4-43f8-b6e3-6a0d96d1af85,cus_T9yaQipfYMwtuX,sub_1SDehJKojVEYZPlXri8RZddt,89,,0.0,eur,month
+,,cus_TA0CPZm7MS7b8F,sub_1SDgDpKojVEYZPlX1JhYjyR7,445,,0.0,eur,month
+Mentor,co_508effb7-cb10-4ed9-ba2d-3e02ddd042c5,cus_TA0bhb5oGp9fYZ,sub_1SDggSKojVEYZPlXLktci05Y,199,,0.0,eur,month
+Beyondweb,co_4b99b11b-892f-48f7-bc4a-538f4e3b3b01,cus_SVepvnyROw4jdO,sub_1SDiIqKojVEYZPlXT9RtajJw,89,,0.0,eur,month
+Wolf Factoring,co_4e5d9239-a89a-4261-8468-6f1e628ef61f,cus_TA2MfcoOr8yQjh,sub_1SDiMtKojVEYZPlX3FGRjEPM,89,,0.0,eur,month
+RevenueHero,co_76470680-3fba-4913-800f-bcc7201f187c,cus_SddGQ7eRiYAOjB,sub_1SDj0aKojVEYZPlXj8Z7Sy6a,199,,0.0,eur,month
+web-netz GmbH,co_5d97c05c-656c-4467-9b20-bd4fad13f00b,cus_TA3HKQDwhSE3zp,sub_1SDjEaKojVEYZPlXTECxMsuA,248,,0.0,eur,month
+Tesla,co_233e31f9-67bd-4bc0-97b9-f5e368b305a1,cus_TA3oymUFegwfOB,sub_1SDjiLKojVEYZPlXkiA8xOsC,89,,0.0,eur,month
+Scalerrs,co_9a62d8a9-5de9-491a-a5b6-5b232e631d60,cus_TA6HZywTXzfXbi,sub_1SDm7GKojVEYZPlXm6ujlaSj,89,,0.0,eur,month
+Galaxy4Games,co_21f58056-966f-48da-954a-0c9880df4186,cus_TA1RtJ7TrFbojl,sub_1SDmcaKojVEYZPlXaqjlcpaZ,89,,0.0,eur,month
+WireMock,co_0e6ddb3d-0db4-437e-b310-87141b13129b,cus_TA7Ggif36XMwdN,sub_1SDn3UKojVEYZPlXG0L4XQOL,89,,0.0,eur,month
+Desquared,co_260cdac1-16d3-4cdc-bf82-d2404a1495d8,cus_TA7LQvD0z2cYoE,sub_1SDn7TKojVEYZPlXRGzCyUof,89,,0.0,eur,month
+CCM19,co_b81d6469-1fcf-4c1a-98a2-a0ace9b3a8fb,cus_T73vjbl54w3854,sub_1SDnMXKojVEYZPlXNL6VpV4L,89,,0.0,eur,month
+ IT GOAT,co_2f03a28e-9dca-476c-ba04-6049c20f70b9,cus_TAB1YpzcVq2ZrS,sub_1SDqlkKojVEYZPlXoq5eEwdm,90,,0.0,eur,month
+,,cus_TABA0IqUcxjUs1,sub_1SDqoiKojVEYZPlXWdodo2C3,199,,0.0,eur,month
+Chromatics AI,co_745d803c-c957-4357-92d8-ce65381a9759,cus_TABGw46HrdckjT,sub_1SDqv8KojVEYZPlXVUYJ9W2X,89,,0.0,usd,month
+Flying Cat,co_0066473d-9106-4e5f-b13c-7b756c207675,cus_T6T5U4MOGZ7ntZ,sub_1SDr10KojVEYZPlXy4X5spim,499,,0.0,eur,month
+C&R COMMUNICATIONS,co_999f8675-5003-4017-a15d-806e7d2b568e,cus_TAD3SCxollC4mL,sub_1SDsd6KojVEYZPlX4ttx23Kh,199,,0.0,eur,month
+Lub d,co_a211134d-c12f-44b6-b10b-c3468eb7729d,cus_SoHQ5M0lMG70F5,sub_1SE3arKojVEYZPlX8lO7hxtr,89,,0.0,eur,month
+Haribo,co_054b9a7b-7a35-48de-a9f2-337818467316,cus_TARBLzscmD2rr1,sub_1SE6KNKojVEYZPlXmdH6t30V,89,,0.0,eur,month
+Cegid,co_48c8bfde-3561-4a93-a322-381f71083d7b,cus_T3nAxCFRqWvqob,sub_1SE6dvKojVEYZPlXCk8z5mnO,199,,0.0,eur,month
+Bluebird,co_3be86c86-3cf4-4521-927b-d6864a30e9d2,cus_TASZ04BU8dJftW,sub_1SE7f6KojVEYZPlXlFutnfSC,400,,0.0,eur,month
+,,cus_T76zuzkbchxe5E,sub_1SE9n1KojVEYZPlXWGJePAPR,99,,0.0,usd,month
+Leadstream,co_3332f075-df1d-4a92-96f0-420e4d5feedf,cus_TAVNRfnov7XV9t,sub_1SEAMjKojVEYZPlX0gt88Slp,185,,0.0,eur,month
+,,cus_T7xehvz8aqOOm6,sub_1SEAq9KojVEYZPlXYJJNWbms,199,,0.0,eur,month
+Prozis,co_a942602b-d2ae-47ff-bc67-0cf0272d4a11,cus_TAPVymasTZl7IE,sub_1SEBoaKojVEYZPlXr4grNvYn,199,,0.0,eur,month
+Promptual.ai,co_48fbbbff-56ad-4a6e-ade1-3fb81bf761cb,cus_TAWyr4tuRoCJk2,sub_1SEBumKojVEYZPlXfW5cC6Cz,150,,0.0,eur,month
+The Show and Tell Agency,co_6a0eb72d-c885-43a8-a32e-73d280e6bcf4,cus_TAXfobKPa2imTJ,sub_1SECaGKojVEYZPlXZKOqSSay,89,,0.0,eur,month
+Digital Growth Core inc.,co_9284d107-2ce3-46e2-bd96-d54fd1a2d434,cus_TAXoRMXNHInMvV,sub_1SEClTKojVEYZPlXzaNAgHHX,89,,0.0,eur,month
+Character AI,co_0b1daf5f-075f-4896-8165-42ef0ba40aa7,cus_TAYjqTcDybwBqL,sub_1SEDddKojVEYZPlXi4Nm38ue,89,,0.0,usd,month
+Graphite,co_325a9e35-244d-476f-a090-1cac84a3b598,cus_TAaBZO43NGaZpW,sub_1SEF2kKojVEYZPlXW5csM8UQ,89,,0.0,usd,month
+Optimízación Online,co_f29e76b7-5856-4583-afdf-779330948dd9,cus_TAeAmOjro2aHBR,sub_1SEIujKojVEYZPlXzhhwUYUi,199,,0.0,eur,month
+space property agency,co_726ccef9-e17c-4020-904e-9931473e150b,cus_SqbRIouyDnco03,sub_1SEWChKojVEYZPlXp5ISxLZ3,89,,0.0,eur,month
+DomiSearch,co_6540e49d-2771-4d3c-8801-9455e243fe54,cus_TB4qmeXkqUbOWq,sub_1SEiiIKojVEYZPlXvI2mk85W,199,,0.0,eur,month
+,,cus_TB7NZQAWFGjvFG,sub_1SEl8PKojVEYZPlX49vCNikY,326,3910.0,0.0,eur,year
+test,co_a85eff80-cdeb-49db-bd6a-abd5dd4ee56a,cus_TB8gckbaidouah,sub_1SEmQlKojVEYZPlXUJy6bzlE,89,,0.0,eur,month
+MarvelXai,co_674e6cc5-286c-4984-a4f4-d5a6093d94a1,cus_TAs6zKtblr9jNC,sub_1SF0fvKojVEYZPlXj9CYiH6r,89,,0.0,eur,month
+Atria,co_12bb998c-a279-4682-ae9b-3c0e510435fb,cus_TBQCpGC5s2Aymd,sub_1SF3Q4KojVEYZPlXbN3kB0Wc,89,,0.0,usd,month
+Vero,co_0d9c3229-979f-420c-ac0f-31f12b85d984,cus_TBUfKZ01AKDXoN,sub_1SF7gTKojVEYZPlXtbEAR6yk,89,,0.0,eur,month
+Die Medialen GmbH,co_d5dc2f42-debf-4b4e-b855-5e2555b1c18a,cus_TBWrxidPwDdvqM,sub_1SF9qPKojVEYZPlX7eN47itb,77,919.0,0.0,eur,year
+Yes.inc,co_74164761-672d-4b08-9a0d-acfbd484f143,cus_SwEcTgDxizcYfb,sub_1SF9znKojVEYZPlXAEFxjnii,178,,0.0,eur,month
+Terratern,co_523eb0d0-6a1f-435f-b84f-6b245f2d0d7d,cus_TBWOfDpZXKUh4N,sub_1SFAKHKojVEYZPlXuBGjZzUz,89,,0.0,eur,month
+Growth Pro,co_c7f7e14d-1ab4-4385-888b-7af0da9ffa89,cus_TBXvNgXzaldsAS,sub_1SFAu1KojVEYZPlXLvF0AMWE,89,,0.0,eur,month
+GUURU Solutions AG,co_a9a39947-834b-460f-ba1b-33acc95a688c,cus_T8wCsSbsfa3mRh,sub_1SFBKcKojVEYZPlXaVxQv3dJ,288,,0.0,eur,month
+Cream Content,co_154bba77-4320-48c8-88e5-0d8a18add1e7,cus_TBGID7zIpL9cgP,sub_1SFBNcKojVEYZPlXQgKsR2bF,199,,0.0,eur,month
+Create Group,co_0c8ec0dd-1345-4b98-aae4-aa3216b77692,cus_TBbHJdrkcl5vil,sub_1SFE5DKojVEYZPlX6TSBuNAJ,1600,,0.0,eur,month
+Holiday Extras,co_77fefd46-1fe6-45ed-a43f-95354fe70e74,cus_TBbZUMu0EFbSiL,sub_1SFErEKojVEYZPlXn0LqtIb6,89,,0.0,eur,month
+Financial Modeling Prep,co_1e6dd946-ab04-46d2-b495-9f60e08082de,cus_TBcCFICzWnPktc,sub_1SFExlKojVEYZPlXHOqqv3vE,89,,0.0,eur,month
+Future PLC (Dell),co_d9e3c123-dde4-4fbd-9c8d-f4a9583e0100,cus_TBeNkloHR7TH4q,sub_1SFH5gKojVEYZPlXnxA8JsV4,2102,,0.0,eur,month
+Mad Fish Digital,co_bb63c052-1171-405d-b69d-91d7c75ad32f,cus_TBgrWsVfpnR4HR,sub_1SFJTiKojVEYZPlXi8777bO8,400,,0.0,eur,month
+directpartnerco,co_bb1144e7-6506-41cb-98c3-9c63077abc2d,cus_TBhEljjZN01ZJI,sub_1SFJqnKojVEYZPlXNOow2lZb,0,,1.0,eur,month
+Intrepid Digital ,co_529e771d-953a-4422-b44f-ed16f386dc3b,cus_TBhfJq9RCuNGB7,sub_1SFKGfKojVEYZPlX0GcclILV,499,,0.0,eur,month
+Milk Bar,co_9ea50748-4079-4ea0-b6a3-0ffe269194d5,cus_Si8lY9TfA4QU5U,sub_1SFKeEKojVEYZPlXiVGCzpWL,199,,0.0,eur,month
+Puzzle,co_1ba7320f-0d49-4776-9f8e-2aeaf0c9c8aa,cus_TBhxuDwiHFIaI4,sub_1SFMJOKojVEYZPlXZKjLfUTl,89,,0.0,usd,month
+Discovery Institute,co_58cf914c-52d7-4d64-9a2b-287d1d223573,cus_TBks8aHzsrWcDN,sub_1SFNNHKojVEYZPlXKUQ8XAPa,178,,0.0,usd,month
+AWi,co_d5686ce8-eb36-4753-8a35-878cc11af530,cus_TBv2LUf6oiSFLp,sub_1SFXEOKojVEYZPlXEVEfTnlA,199,,0.0,eur,month
+Choco,co_58d21818-e9c9-4310-9dc6-a6225f1cf570,cus_TBwrdQqBSDbSiI,sub_1SFYyZKojVEYZPlXZEgvL69t,299,,0.0,eur,month
+Karaca,co_e99b58af-efea-4d1c-a93b-f90ef82abaa6,cus_SqdA5P1B6ybHIZ,sub_1SFZPTKojVEYZPlXEDZjCABu,199,,0.0,eur,month
+Semrush,co_d59d8630-de19-4521-8851-6eaf24ee34fe,cus_Ss3YKsykJzhDlL,sub_1SFZUgKojVEYZPlXAcnwclZG,89,,0.0,eur,month
+Artefact,co_febe5f61-93ee-47d5-a75f-dcccb8e6a867,cus_T8uGuXNAlNuclL,sub_1SFaGHKojVEYZPlXiEWpXlWe,89,,0.0,eur,month
+Karhu Helsinki Inc.,co_71a3683f-1802-44ca-b1e3-828f59907581,cus_TBYyS3gy0kVHR9,sub_1SFac7KojVEYZPlXRsoAxTqY,89,,0.0,eur,month
+CEGLA Medizintechnik,co_fbbb7edd-2bcc-4f63-ae70-c25f8d490850,cus_TBz1tErHbrr4u7,sub_1SFb7MKojVEYZPlXVODCkTwa,89,,0.0,eur,month
+GorgonSEO,co_2c8c975a-a99b-4744-8ef5-0e5d4cafa5a4,cus_TC0DRanuWWh84e,sub_1SFcFyKojVEYZPlX31VJjRPJ,199,,0.0,eur,month
+Manhattan Street Capital,co_fc194ba5-888a-42d8-af0e-b748c4fbc8e4,cus_TC0xAuODxp0W28,sub_1SFcwEKojVEYZPlXRurL2W4n,89,,0.0,usd,month
+Jeremy Gardiner,co_5bf42e54-2c38-4c30-934f-6f7e1740360c,cus_SzE5tTsUrOJusO,sub_1SFd1vKojVEYZPlX4IPM9SmE,89,,0.0,eur,month
+33social,co_88042b4f-ab4f-4b09-bbae-a52258094548,cus_TC1e4v0ad7k2WQ,sub_1SFdbTKojVEYZPlXQuAv6Pze,199,,0.0,eur,month
+Optix,co_ac8173f4-3eee-459a-a113-45eafd1081e6,cus_T7GfoTl9fqY8FT,sub_1SFdenKojVEYZPlXEZ550nhF,89,,0.0,eur,month
+ocraig consulting,co_ad128df1-24cd-4e24-b5c3-9b0d488b98dc,cus_TC2DKzvz6gHrdA,sub_1SFeAIKojVEYZPlXTHDFVr52,178,,0.0,usd,month
+Hoxhunt,co_514bfec9-3e63-421d-8ca9-ea91c8e1eae8,cus_SrH8bGS01mHGop,sub_1SFeIYKojVEYZPlXbCbE8Ron,199,,0.0,eur,month
+rockin,co_98049ddf-47ae-4256-a235-196886dc06b5,cus_TC2RaUkpPBZA9t,sub_1SFeNOKojVEYZPlXxuo8ZvpQ,499,,0.0,eur,month
+SHRED,co_3ce5df94-c676-465f-8657-44e9c72e4d48,cus_TC2n1ZRYEyjRye,sub_1SFeieKojVEYZPlXRnOJeFAN,89,,0.0,usd,month
+Dahseo,co_a4b3084c-9e47-4df2-a44f-1d8e1f750e44,cus_TC58D5b5idgfUL,sub_1SFgyRKojVEYZPlXuyyDnA7K,89,,0.0,eur,month
+DKC,co_252c4574-b301-42db-a46d-51a42281a839,cus_TC6m0XJKt4mFIs,sub_1SFiZ9KojVEYZPlX74Mae2LF,1395,,0.0,eur,month
+Refract Group,co_39ddd482-70d9-4e0a-a8ea-5f80431f9a74,cus_TC8gDNyk3a2gH3,sub_1SFkPuKojVEYZPlXBbeCI9Tk,89,,0.0,eur,month
+Kitcast,co_e02d7856-40cc-4dbd-abfa-8cd8e7115dcd,cus_T1b5H1GHH2m0bh,sub_1SFkZfKojVEYZPlXDlGlDfWx,89,,0.0,usd,month
+red-engage,co_3ad63383-6e5f-4b16-969d-d4b65a5bb8d8,cus_TCEivIrwwqnF4k,sub_1SFqFkKojVEYZPlXAtqha2i0,200,,0.0,eur,month
+MySpeaker,co_33990cff-8950-4bd5-9e54-5a583cdec787,cus_TCEifSYs0jJrjE,sub_1SFrEyKojVEYZPlXGQKowkTe,89,,0.0,eur,month
+HomeQ,co_5c3c69e3-e9c5-4a1e-b757-01ed323cf806,cus_TCGSDbUCrHdjNo,sub_1SFrxMKojVEYZPlXptbxH1ls,89,,0.0,eur,month
+IconiqMinds,co_5eb4d419-771e-4c8d-96f4-7a400008af1d,cus_TCI33UQbj9NfLS,sub_1SFtVOKojVEYZPlXyrWMzPzZ,89,,0.0,eur,month
+Flexprice,co_54debb2b-e4a4-4a64-b38a-1aa354d0c39d,cus_SeLreBBq7FEQuR,sub_1SFtdmKojVEYZPlXovxA5YLl,89,,0.0,eur,month
+Mediacharge,co_ffd04c28-a26c-4133-8c17-59c7f024af10,cus_SdOQEZOojywRq3,sub_1SFuRzKojVEYZPlXvG4hZ2Sl,89,,0.0,eur,month
+Informa Connect,co_43aa3a3b-b16d-4595-9b78-3b21cdfcdfbc,cus_TCIwxP05ZhNufn,sub_1SFug9KojVEYZPlXvDjcNAol,169,2029.0,0.0,eur,year
+Distinctly,co_ffedd67a-c403-48bc-bb11-166295dc0ff6,cus_TCKMi8Kb2xP3JJ,sub_1SFviDKojVEYZPlXtNJ5PqOG,150,,0.0,eur,month
+scalar,co_fc94d388-e514-4b81-8078-3a32c3f65226,cus_TC3BUQ9WJLqTt2,sub_1SFwFTKojVEYZPlXYsjiXUgr,89,,0.0,eur,month
+LLYC,co_11700940-3bf8-4b6f-8e0f-11565b5f9e5c,cus_TCHvnz5bTvLOJr,sub_1SFxETKojVEYZPlXEmyzjlZz,89,,0.0,eur,month
+Wecandoo,co_5820b03b-e1df-4502-9b07-9a1fe886fe21,cus_TCMOMh1PgsIwgl,sub_1SFxlxKojVEYZPlXjvRyJUcN,89,,0.0,eur,month
+Future Marketing GmbH,co_d70871f2-b3f9-419e-ace9-ce4295f5c305,cus_T5BcMmdEN3T1C6,sub_1SFxy9KojVEYZPlXOMGQRNEu,398,,0.0,eur,month
+Advantic,co_c5c9a0d3-7e30-4485-bc5f-f2e1564e85dc,cus_T4wWD341RDkKqk,sub_1SFy45KojVEYZPlX2uN1FEKU,89,,0.0,eur,month
+Otché,co_09322b53-0422-410d-ab63-787f5fac7148,cus_Sge3YSDmad4qnz,sub_1SFy8lKojVEYZPlX5D2mIjNg,89,,0.0,eur,month
+P&C Global,co_759f4bbf-3bde-4d10-ac6c-a99e24ea5725,cus_TCMsTNgcMs08ZD,sub_1SFy9XKojVEYZPlXuQVGWtuN,199,,0.0,eur,month
+tradition des vosges,co_5d2c857d-862c-4bd5-ad8c-0f680b4d6fc1,cus_TCN2a8J1X1KA19,sub_1SFyKZKojVEYZPlXZlCrgqGQ,89,,0.0,eur,month
+frog,co_0a5c809f-2199-4c1c-b886-66fdda5438f4,cus_TCN5kh3798YzzU,sub_1SFyOdKojVEYZPlXOT1FmhKU,555,,0.0,eur,month
+La Growth Machine,co_1e4d2baa-6893-43b7-bfd2-af2613c042c7,cus_TCNOZnlqmVQcSq,sub_1SFyhvKojVEYZPlXSvW1SGbq,89,,0.0,eur,month
+Solokarpfen,co_f4bb2985-a013-46ea-ba63-66cde58006ff,cus_TCNmzOJgnxhM32,sub_1SFzBTKojVEYZPlXf7JDQC05,199,,0.0,eur,month
+Thrive Engine,co_50c1e490-12c9-4f5a-8c7e-8fc02359b7cc,cus_TCTrveOWyLeqjJ,sub_1SG4w7KojVEYZPlX0AwowpW7,89,,0.0,usd,month
+Expedia,co_14eecec1-3e20-4924-b3f1-64ac52d190ed,cus_TCUL4j2vzIIlZb,sub_1SG5OfKojVEYZPlXrb4lzPlC,199,,0.0,eur,month
+CFC CRM Consulting Ltd,co_8e5f1314-b9a1-47b0-bdab-4998c0b8a87f,cus_SrSmtOl7vodiNO,sub_1SG6AdKojVEYZPlXKP8J6M3e,89,,0.0,eur,month
+hear.com,co_7e2b3af1-ec39-4d98-ba37-dd89d1e7beaa,cus_TCVExz8PHyCXBF,sub_1SG6FGKojVEYZPlX7mxrp12q,89,,0.0,usd,month
+Mercari,co_6a4d9216-fcdf-4b91-ad25-25a1050f12bd,cus_SvmIaElovjwpMh,sub_1SGCPTKojVEYZPlX15qGqVKz,89,,0.0,usd,month
+Theobald Software,co_a0f8b19c-ea0e-4b95-b43f-481841c08d0a,cus_TCG6TVEIOjhCOM,sub_1SGEX2KojVEYZPlXQTB2yIz3,199,,0.0,eur,month
+Coding Ninjas,co_92926d68-29ab-4e37-b3ff-14a65012ac27,cus_SlkfmvXARW6sIJ,sub_1SGEkgKojVEYZPlXejhiUXbs,89,,0.0,eur,month
+Polarsteps,co_673bf840-c6f9-4774-af64-8c4abdb92c97,cus_TCeOqkxzEZx6Gr,sub_1SGFANKojVEYZPlXyrtbUWWr,89,,0.0,eur,month
+Policylead,co_07faf64f-3a23-4ca4-b61c-f8337e9757a9,cus_TCeiJ5BlCWh51S,sub_1SGFawKojVEYZPlXA35Z1s7m,89,,0.0,eur,month
+Factors.ai,co_fc032a35-3b00-4e62-bbaa-af6ea1712607,cus_TCgdRjfIFk1JKj,sub_1SGHHNKojVEYZPlXnFMTa9fj,89,,0.0,eur,month
+SCENTA,co_b6e420ae-722b-4901-a854-41cc8764c401,cus_TCgbEHnOfIcHfB,sub_1SGHKxKojVEYZPlXfw9OlxBz,89,,0.0,eur,month
+Happy V,co_867871f1-8a12-4299-9e31-91e49ce2d714,cus_TCgx8y48iLmBY4,sub_1SGHcAKojVEYZPlX5QWZg96M,89,,0.0,usd,month
+Alt ,co_6e73fd52-95a0-4d0a-b9ff-0d53b9e4f050,cus_SjACCtX83Wm3T5,sub_1SGKH0KojVEYZPlXozBgGnmd,199,,0.0,eur,month
+Circa Healthcare,co_acc253bf-d55a-4553-b61e-43c378950e11,cus_TCkC6EG1tXtnVU,sub_1SGKiDKojVEYZPlXl9GxaVsH,89,,0.0,usd,month
+B15 Media,co_9dfd604e-9eca-4e42-baef-15cc206569f2,cus_TCldjWku7enCIO,sub_1SGM8UKojVEYZPlXkQumLyah,199,,0.0,eur,month
+Sabai Design,co_6317ddf1-6c44-487c-b19e-bd9241662a3d,cus_TCm4KJJr4kNHmO,sub_1SGMX2KojVEYZPlX7QN0qzAH,89,,0.0,usd,month
+Rabbet,co_c97ffbb3-3e16-40ae-b07e-6e1decb9741d,cus_TCnI7pk6N6Mw5H,sub_1SGOqZKojVEYZPlXXKm96STF,199,,0.0,eur,month
+OpenUp,co_e236cb26-78a6-4afa-8a9d-c9bb638aa0c2,cus_TCoQyKioSDp7pz,sub_1SGOtaKojVEYZPlXupTHm7uo,89,,0.0,eur,month
+CiNKO,co_662dca8c-8c4c-4549-be55-782544805365,cus_TC5XBPND8NyE81,sub_1SGPWtKojVEYZPlXO2tSXoeP,89,,0.0,eur,month
+SFM,co_f1653551-bb7e-40ae-8cf1-66d96fde227a,cus_TCqJHaNuJ3LLll,sub_1SGQdcKojVEYZPlXkzmRPM6P,89,,0.0,usd,month
+Juara holding group ,co_b6522fae-0324-4b5e-9a06-e6a3644a8c46,cus_TCsK9wGMYoS20r,sub_1SGSbXKojVEYZPlXsaNKpICA,89,,0.0,eur,month
+dianin,co_8a93d534-ac1d-42ce-b2f6-a431fc2f1469,cus_T8zjPzK2cHRx3S,sub_1SGZZ8KojVEYZPlXEbOBmRb3,89,,0.0,eur,month
+Websupport,co_b55c87a9-f1b0-4c39-ad58-92b40f1a5b0e,cus_T4oXcJ0PpQ1Cmm,sub_1SGaVoKojVEYZPlXvU5Pe0HM,199,,0.0,eur,month
+Zitec,co_a1211c29-38d7-4c03-8208-c05da1034425,cus_T73CzWE55MV0M0,sub_1SGc6AKojVEYZPlXuYIZcPat,199,,0.0,eur,month
+basecamp.com,co_35c7670a-c2c8-4c92-8350-a845e7f9a528,cus_TD2J0cUetdkkng,sub_1SGcFnKojVEYZPlXT8dwqm4d,89,,0.0,eur,month
+vioma GmbH,co_f42dfd22-66ae-402a-9fdd-f04589168bbe,cus_TD2r4NeHya2diJ,sub_1SGcoHKojVEYZPlXGTVKRtVn,199,,0.0,eur,month
+Brightside AI,co_f28181b0-0a97-4dec-a29b-0ef659efa27e,cus_T9HivSDZHVKhYf,sub_1SGdTOKojVEYZPlX84jZnNkR,89,,0.0,eur,month
+Chantelle,co_2f0e9715-9925-4eea-839d-777fd9dd2c09,cus_TD5Weow5ThSZHv,sub_1SGfNpKojVEYZPlXdUna0tE3,199,,0.0,eur,month
+Bray Leino,co_2831e374-4866-4967-b876-43ff407d5f26,cus_SyS3AyR6LoJBN6,sub_1SGfcGKojVEYZPlXx0JepO2Y,199,,0.0,eur,month
+Dot Dash,co_01766115-a8ce-40f5-8dc4-b391fcee3db0,cus_T2bSdUiWSeuKVX,sub_1SGhkrKojVEYZPlXgxccGh4K,89,,0.0,usd,month
+Drake Cooper,co_6c14ed30-a862-4d42-918c-d5019a9494ad,cus_TDD0UdS16a4opc,sub_1SGmaUKojVEYZPlXarJ3A0Ob,89,,0.0,usd,month
+Dominik Zettler,co_a7237ecb-c6dc-4f16-9c0b-b0e68c99340b,cus_TDUhDKFCAuN9UJ,sub_1SH3laKojVEYZPlXaORzoYZW,89,,0.0,eur,month
+Reconcilio,co_5a7e2d5a-5ad3-442d-af0e-f7556a46f45b,cus_TDqsG4sa7kEIMd,sub_1SHPEKKojVEYZPlXj6rSdyYc,89,,0.0,eur,month
+Duvo.ai,co_a9c4f508-e2d9-40ff-b9df-82d6d6bf22dc,cus_TDvSSkS4AKfp4e,sub_1SHTf5KojVEYZPlXG7vz07v5,199,,0.0,eur,month
+NoOnes,co_fa142fdb-4e5a-4967-becb-7fc4137f7eee,cus_TDwCjEEq0kPYfZ,sub_1SHUMHKojVEYZPlX6PXRQju2,89,,0.0,eur,month
+Kadima,co_2ef93ce8-06db-484b-b7ee-38a1804e2044,cus_Swjo0aAdq4usga,sub_1SHVJMKojVEYZPlXNC0GXIk8,89,,0.0,usd,month
+Aiven,co_0e0ea959-55ba-41d4-9144-b14d3645c0c1,cus_TDynCCJiYzfhPo,sub_1SHWqQKojVEYZPlX4UL9AfNI,89,,0.0,eur,month
+WeBoost,co_90f2df47-4939-4354-ae3c-9eafed8b5d58,cus_TE1ninxm18ZPjJ,sub_1SHZlXKojVEYZPlXjg7VToPT,89,,0.0,eur,month
+Curogram,co_6597553c-42a6-4798-a05a-38d6c343239c,cus_T8qPnzu0XGz9Tv,sub_1SHcaAKojVEYZPlXV1HJPXd6,89,,0.0,eur,month
+Binder,co_cca12689-4d0f-4d07-8ace-2b85a445c5b8,cus_TE9jsEWuwzuCnQ,sub_1SHhbxKojVEYZPlX6oaexcpG,199,,0.0,eur,month
+BETTERHOMES,co_fc11d1a0-6823-486c-a39e-a129786d5a81,cus_SlK4ZMEi7YFxt5,sub_1SHiReKojVEYZPlX0nqGv7cN,89,,0.0,eur,month
+H&S Software AG,co_1d0b0254-8ede-4a01-b306-65192eeb9e5e,cus_TEBkLEWIWwKMtW,sub_1SHjtyKojVEYZPlXmG8TN69n,89,,0.0,eur,month
+,,cus_TEDYiCkJLLfnc6,sub_1SHl7kKojVEYZPlXrISQpH8f,199,,0.0,eur,month
+Design Cloud,co_cb49e0ec-ef24-41ab-9cdf-d7d8ccd885e6,cus_TEEiIK3IiuPQJu,sub_1SHmUTKojVEYZPlXuj12pwcA,89,,0.0,eur,month
+Lantech,co_496762dd-ba0a-4fd8-92e4-9663c13103b6,cus_TE0SFgw7qYSQLd,sub_1SHmXFKojVEYZPlXdbKNtuXb,89,,0.0,eur,month
+Emarketeers,co_144d757d-6461-4a06-95e7-b7c82ced9f43,cus_TCgmaPdPpQuNby,sub_1SHmpcKojVEYZPlXmeTEKnlp,89,,0.0,eur,month
+Rinkel,co_473077e8-c633-47a4-8709-c81fceb38049,cus_TCjeyq8Sm2DE5Q,sub_1SHpQUKojVEYZPlXs1nB8Rpn,199,,0.0,eur,month
+WP Ninjas,co_dcdfada0-5232-4dd8-bf93-24c217630a5f,cus_TEIBnlefsE8bNj,sub_1SHpckKojVEYZPlX3wfbp0JX,89,,0.0,eur,month
+Verisoul,co_7f638890-f63c-4580-8e4d-910059071001,cus_TEHOEftVDxYLUy,sub_1SHpkwKojVEYZPlXvfbA7jcJ,89,,0.0,usd,month
+,,cus_TEODRoU1h4sczL,sub_1SHvVSKojVEYZPlXFSdRoEFO,2625,,0.0,eur,month
+Reform Digital,co_a65047d0-8a33-46bd-b215-de4310558945,cus_TES0YCzV3gWEty,sub_1SHzG4KojVEYZPlXLP1EjOZH,199,,0.0,eur,month
+NeoGraf Solutions,co_e8190bc8-2985-4fe1-a8a6-9568a22509e1,cus_TDJPYxP1A20Fxd,sub_1SI1eiKojVEYZPlXbXiNhmca,199,,0.0,eur,month
+Timme Hosting GmbH & Co. KG,co_34882503-815f-4884-bd2d-da39ccaa1db7,cus_TEWcKYFkRqqfjd,sub_1SI3c8KojVEYZPlXhlFCGTQn,89,,0.0,eur,month
+Adone Conseil,co_558144bc-020b-40c4-a606-fc4eba6b20f3,cus_TEX8Yxr708TiuW,sub_1SI48EKojVEYZPlXno4CWBXC,199,,0.0,eur,month
+GoLeasy,co_e6abcd1a-0e72-43a8-9f3f-779c48b42a58,cus_TEXTqWtYuzKyeB,sub_1SI4Q8KojVEYZPlXfupX80x3,89,,0.0,eur,month
+RP Digital,co_c55f71b1-a955-44a2-b66f-e1fe7a95ba14,cus_TEX1y78i1FP5Ax,sub_1SI4weKojVEYZPlXedxu4udI,89,,0.0,eur,month
+envelio,co_a7b4accd-12be-4b16-8f7f-42d2a586648f,cus_TEYCaeq89xR6Z7,sub_1SI5JyKojVEYZPlX7nhUrMG4,89,,0.0,eur,month
+Seatfrog,co_d60b82b9-e0c9-48b0-978d-22c96413a9fa,cus_TEYidRCqRuozv6,sub_1SI62xKojVEYZPlXx69FCq5T,89,,0.0,eur,month
+Minty Digital,co_efd08b9b-f105-4dbe-8f1a-ee983973bae9,cus_TEZTlhNRpUZxE3,sub_1SI6N2KojVEYZPlXoksb8eFZ,89,,0.0,eur,month
+UK Web Host Review,co_2ee66f28-11f9-4b6e-8c15-436189560050,cus_TEZUygxUYkQhBE,sub_1SI6NyKojVEYZPlX4i3yvfKk,89,,0.0,eur,month
+Lazarev.agency,co_1f3387dd-83f6-4b06-9db7-1b46118d6f47,cus_TEZJZOeV9Sh0Gk,sub_1SI6xaKojVEYZPlXL0Y6fMw2,89,,0.0,eur,month
+esn,co_911c5ad4-2153-4897-964d-c07439d396d0,cus_TEFy8fU8DDOeoK,sub_1SI7JWKojVEYZPlX20iV4m8I,248,,0.0,eur,month
+Marketing Makers Agency,co_d68eeb76-2ba4-4125-8ad0-553864bc59af,cus_SjBLbNBNFCfoQ3,sub_1SI7hWKojVEYZPlXF8EyCebj,89,,0.0,eur,month
+Geear,co_086499ca-6703-4ab0-b117-3fa447fa0693,cus_TEaydhjw1LlpwE,sub_1SI7oMKojVEYZPlX1vjbfoMp,89,,0.0,usd,month
+Brandflow,co_61ecd742-5c8f-4f3c-b743-04f8dafb7807,cus_TEbafDZxvKNCS3,sub_1SI8VQKojVEYZPlXwTDojlYj,199,,0.0,eur,month
+koller.team GmbH,co_5085a0ea-8b9a-4920-a93a-cb6eebedbda0,cus_T2DhsApNVQEaTa,sub_1SI8WvKojVEYZPlXaKch2kjK,89,,0.0,eur,month
+Gold,co_82352b03-c114-4252-8dbb-390b6eea5175,cus_TD7qtN4CayENu3,sub_1SIAFwKojVEYZPlXhQnKn7Cb,89,,0.0,usd,month
+Sovra,co_b50916db-06ea-4bb9-9edc-2b8cee21d51c,cus_T7rPbiigtwjklZ,sub_1SIARqKojVEYZPlXl82nzAIB,89,,0.0,eur,month
+JCT Growth,co_c73617c7-6a73-4d32-aaa0-2d3fef8d16c5,cus_TEeAPY7CQEEmhy,sub_1SIAt1KojVEYZPlXXSt8Fzn8,210,,0.0,usd,month
+SevenRooms,co_d66c7519-c5be-43d6-b9b7-d32ae2c52d27,cus_TEezB1GsZ6nO1X,sub_1SIBjVKojVEYZPlX5q7PoZoL,199,,0.0,usd,month
+Bet105,co_0153aa6b-43b9-45e4-bd22-57f11eff0e90,cus_TELCxUaqbXsKy0,sub_1SIDWvKojVEYZPlXdBjZgl68,89,,0.0,eur,month
+Daffy,co_5f4580e9-8976-4c83-ac1e-0f2b83aff030,cus_T7M6J4bUtwurJo,sub_1SII6DKojVEYZPlXXaRnaAXR,89,,0.0,usd,month
+Pronto Marketing,co_c96bea31-f6c5-46f5-b54b-61ed35cbeb42,cus_TEVyg0j1Pam9iE,sub_1SIJ01KojVEYZPlXwST8MTLP,89,,0.0,eur,month
+wudao,co_632598b3-f21e-4800-b851-8a7cd7174b48,cus_TEpL9ten6Boy1v,sub_1SIMz1KojVEYZPlXIdNKmviR,89,,0.0,usd,month
+TAG24,co_e0c4f367-a2b1-45f7-8ce0-e695b1270860,cus_TEaX1MO56VyTlq,sub_1SIP4CKojVEYZPlXjuZjf5JF,89,,0.0,eur,month
+Uptoo,co_80019872-12f8-47cc-b0e7-1833f398fe98,cus_TEsp3ijFlXc6QN,sub_1SIP9mKojVEYZPlXhsYDFR1I,89,,0.0,eur,month
+SichtbarerWerden GmbH,co_a9be6321-8033-45f7-911b-5be308266acd,cus_TExlhcldiR44Bm,sub_1SITrGKojVEYZPlXBvSFBBwY,89,,0.0,eur,month
+Propel Software,co_5ea66179-96e1-4ddd-81f4-84e3d9f5d913,cus_TC35K6TLIy2jp4,sub_1SIU0iKojVEYZPlXaXCc94YJ,199,,0.0,eur,month
+running.COACH,co_4e17669e-577e-4c22-82b6-5b495a036a1d,cus_T9it6y3kg8SbbD,sub_1SIUA1KojVEYZPlXawy9KS20,89,,0.0,eur,month
+furrerhugi,co_6c47bb1c-4911-4648-8e1d-48a34b3965bc,cus_TEyc8CbZ8Jql7N,sub_1SIUlOKojVEYZPlXGlsR9TJp,89,,0.0,eur,month
+LHLK,co_9cb26576-1200-42b4-af0c-6684bb69dcba,cus_TEynjxg3ACIwkK,sub_1SIUuSKojVEYZPlXB55S7QGf,89,,0.0,eur,month
+,,cus_TEzA2588bAscFW,sub_1SIVDTKojVEYZPlXlysmCHGg,150,,0.0,eur,month
+Pioneer BevCom,co_abf0e944-8afd-45c1-a20b-5f1299802502,cus_TF0GxZL69GhYwu,sub_1SIWHrKojVEYZPlXuf54xPNL,199,,0.0,eur,month
+MYSA,co_9a74f1ba-92e6-435c-9447-bae2d784f2c7,cus_TF12rgYPbyDWjs,sub_1SIX1GKojVEYZPlXxFrMZpLp,89,,0.0,usd,month
+Legence,co_dfc3fb34-fbfd-453f-a10c-b23b3a346d5a,cus_TF1LVBNgBeDdxh,sub_1SIXIWKojVEYZPlXKTyB5lcu,579,,0.0,usd,month
+System & Soul,co_1256a1ae-f9ce-4b16-9adc-75a456d4c598,cus_TF1kBlCy2vD0GK,sub_1SIXj7KojVEYZPlXnPsujAE1,89,,0.0,usd,month
+Rokk Solutions,co_df2ffbb6-1b06-4e2e-9a75-370540b89908,cus_TF44voU7Q6xGSm,sub_1SIZwhKojVEYZPlXFGab9Ooc,499,,0.0,eur,month
+,,cus_T9doM65fiOX2b0,sub_1SIahvKojVEYZPlXh0peEidP,75,900.0,0.0,eur,year
+Digital Elevator,co_13202a9a-efc3-449b-95b7-5b570e4902b6,cus_TF5Jb7TPvX67RC,sub_1SIb9sKojVEYZPlXgyMeG7S6,89,,0.0,usd,month
+AIR PLUS,co_b6ce5f2b-2960-4e89-91ac-6124574f8918,cus_TF6fP3T2BXvf0Z,sub_1SIcYFKojVEYZPlXrrE5WlqV,89,,0.0,eur,month
+Stafferton Consulting,co_450ef2ee-b3ab-444a-ab5e-7f9134089935,cus_TF9fDd9TXW6UbT,sub_1SIfNHKojVEYZPlXakrC4OBY,89,,0.0,eur,month
+blueMARKETING GmbH & Co. KG,co_2a2a1bee-0004-4af9-b255-937f725e7d5f,cus_TFEfE6JJO1OVYw,sub_1SIkFzKojVEYZPlX56ijr1KS,89,,0.0,eur,month
+Uplead,co_2dd59d95-f212-4099-8049-e7e28987b468,cus_TFGbcmrDnTZoVu,sub_1SIm5QKojVEYZPlXzcHr9skw,89,,0.0,eur,month
+growthbox,co_02117bef-3b84-4a35-b92c-d70b254a3768,cus_TFGguymSwXaIbU,sub_1SImAOKojVEYZPlXauo9UQnn,89,,0.0,usd,month
+Webview Seo,co_a5ac9df8-6e7d-4560-974b-addde04447eb,cus_TFHKpu1r00sCRl,sub_1SImm6KojVEYZPlXA3mSnxW0,199,,0.0,eur,month
+F.A.Z. Kaufkompass,co_913c8f37-9f35-492e-9530-451ed2f4df6b,cus_TFFwFIDFJZiXdX,sub_1SImo0KojVEYZPlX5BsxpyDZ,89,,0.0,eur,month
+Useme,co_6a9e3356-11c6-4a6d-ab49-5d61450e8965,cus_TFJ3TaBDvrjd3N,sub_1SIoSwKojVEYZPlXf3nf3b4O,89,,0.0,eur,month
+SavvyNomad,co_997c393f-5373-40c1-9e5d-d2dda6902d87,cus_TFJ5JN83FtfK50,sub_1SIoULKojVEYZPlX3OT4Ri3u,89,,0.0,eur,month
+MyCamper,co_99b2b60c-3abf-4331-8090-e1a071563e41,cus_TFNBAum6ZQpwvq,sub_1SIsRTKojVEYZPlXUckOUDrp,89,,0.0,eur,month
+PayBee ,co_7d833363-7c9a-42b5-b25d-1be0e49836d1,cus_TFNTsFsGUQhjxH,sub_1SIsjUKojVEYZPlXNeK0bJFv,89,,0.0,usd,month
+Effy,co_4bdb85e2-1c3d-4f17-a14d-f220b7187c76,cus_TFNt6XHwdQiggh,sub_1SItF2KojVEYZPlX6j2xhz1w,199,,0.0,eur,month
+Halliburton,co_eb75e9f2-5b26-4d62-888d-ee53f2ad3139,cus_SjyCoDj6SWaC2U,sub_1SIu6rKojVEYZPlXoJCqZoJE,199,,0.0,eur,month
+SMAWAX GmbH,co_f86da068-ced6-4d92-ad17-74e57b19718f,cus_TFPJxTIO2Bp489,sub_1SIuVrKojVEYZPlXiB9ICOoG,499,,0.0,eur,month
+Honeycomb,co_7aff677e-763d-451b-bc09-6b2c2bbe2444,cus_TD8utwJtF6P5A9,sub_1SIvF1KojVEYZPlXQj0VxvLf,278,,0.0,eur,month
+Linkedist,co_567fe9e2-0b28-4a2b-a269-463ef6f9f20f,cus_TFQcLKYdMtV5TK,sub_1SIvoPKojVEYZPlXWWOubGtZ,199,,0.0,eur,month
+Omnia1 Analytics,co_97ef8231-483c-4cd6-a15f-af5109a36ea5,cus_TFT0g99xKlxWUi,sub_1SIyzFKojVEYZPlXJlh8Z5LT,89,,0.0,usd,month
+Aurora Solar,co_d7562a48-9419-4a59-9005-8ca5375bb833,cus_T6RABijrHxVofU,sub_1SIzunKojVEYZPlXjdHptSSq,89,,0.0,usd,month
+Store.is,co_ea0b6b0d-fee7-4769-b603-2da257141e7b,cus_TFcpwHhYHf4vAZ,sub_1SJ7c8KojVEYZPlXLHT4SvHa,765,,0.0,eur,month
+doctari,co_22843976-662f-4176-91a2-f6536b8dc7ee,cus_TFcoFq5G5grSrT,sub_1SJ8kHKojVEYZPlXbsXCvIfU,199,,0.0,eur,month
+Leapsly,co_3da3d9bc-e1e0-47fc-977e-4019a2794ae3,cus_SuJbz0pdFHEJsP,sub_1SJ9k1KojVEYZPlXC48Miwut,349,,0.0,eur,month
+Complaion,co_8e21be91-6308-47fd-9fdc-c793215d9fbb,cus_TFf3tg9CO6fuOK,sub_1SJ9omKojVEYZPlXKYilt81f,89,,0.0,eur,month
+steda,co_e5f75091-797c-4991-ab96-b704d30642ba,cus_TFfoAQWPQz6XG0,sub_1SJB6HKojVEYZPlXQF3vUXs9,89,,0.0,eur,month
+Lemlist,co_9820e359-7538-4d83-ba1f-f6a26fabc66b,cus_TFgrjMwn8cbDnV,sub_1SJBUNKojVEYZPlXjL4XhP4l,89,,0.0,eur,month
+WeTaktik,co_fec478b2-1138-4610-8d74-c1ba97f14192,cus_TEWQn0nIcoF7Kx,sub_1SJCu8KojVEYZPlXuHw8Mj8G,89,,0.0,eur,month
+Verseo,co_334609f6-92c9-4f61-b036-54ad5853da70,cus_TFiW0oljAK4r0J,sub_1SJD5CKojVEYZPlXFtGgz17q,825,,0.0,eur,month
+PartnerCentric,co_5cc5f424-6f59-4054-b009-229bf99542fe,cus_TFjnL9EnCnie5l,sub_1SJEJbKojVEYZPlXY5pEzgn6,579,,0.0,usd,month
+difrnt,co_c6d3732c-6d02-4634-818a-bbf8d7991cb5,cus_TFjxft9EK4oHF5,sub_1SJEUZKojVEYZPlX7fCcdWs6,199,,0.0,eur,month
+LangWatch,co_afe9557e-3d55-44be-92e6-b98f00f1eb4a,cus_TFkFZ06jie3v3B,sub_1SJElpKojVEYZPlXAio2VoWQ,89,,0.0,eur,month
+Alkemy,co_8c48e54c-bda0-4916-9bab-2396964ed1ad,cus_TFkI1wlz77YHf3,sub_1SJEo4KojVEYZPlX5OK3mrI8,199,,0.0,eur,month
+Denkwerk,co_5103188d-6db3-4c02-8c55-3d3e2c2573db,cus_TFkTQG75S035eD,sub_1SJEz8KojVEYZPlXWabkGBw4,199,,0.0,eur,month
+Canva,co_28005836-6450-4e5e-b392-f89c12dec6d2,cus_TFlDn1LpsmndVf,sub_1SJFiDKojVEYZPlXzgYZUBvn,89,,0.0,eur,month
+XPort,co_555d7862-b14b-427d-bc6f-967de43b036f,cus_TFlWYSRg3KZEAz,sub_1SJG0eKojVEYZPlXTCdNfkuq,199,,0.0,eur,month
+CFP Board,co_f5eb230b-64a6-4a63-85c1-1e617f206224,cus_TFpMOISfcYKeWi,sub_1SJJkLKojVEYZPlXeFzknEU2,178,,0.0,usd,month
+Comfy,co_cebb6e78-5ae3-48cf-9f68-83b3b5ef2a16,cus_TALZStXY0oOCLb,sub_1SJmRxKojVEYZPlXlmaMUOsV,89,,0.0,usd,month
+Medly AI,co_a790d32b-fe32-4970-92e9-72e13d79fd12,cus_TGb0AtVl2J1TTM,sub_1SK3pgKojVEYZPlX12zkjlMx,89,,0.0,eur,month
+Forza Transportation,co_51d5a34d-ec7e-406e-8d6a-1bad6c3fc74f,cus_TGcksvA9ejeJoB,sub_1SK5ddKojVEYZPlXoG6Qmcu2,89,,0.0,eur,month
+Blue World Studio,co_0db7216a-c9fe-465c-9109-4b6f56b4b5a3,cus_TGlBxXsi4DBbxb,sub_1SKDhLKojVEYZPlX7ZERa6Yo,199,,0.0,eur,month
+Rave Coffee,co_de477474-81ab-4b04-a3e9-d2ae8dd08ca9,cus_TGmPrel2AUbv2j,sub_1SKEsfKojVEYZPlXj6OSMpxx,89,,0.0,eur,month
+GuestReady,co_259ebd07-ede7-4242-aed3-a03c86edbc73,cus_TGn5IdW0qAJToO,sub_1SKFrVKojVEYZPlXsnYtw9ou,89,,0.0,eur,month
+Criteo,co_5fafcec6-92be-4a3f-a2c7-d7dbb455facb,cus_TGnaE64V7EYNxi,sub_1SKG0wKojVEYZPlXuwILNA1a,199,,0.0,eur,month
+City Experiences,co_5e5ce833-70bb-4126-b06e-0bef128177e6,cus_ShBwH7nGMBOhQ4,sub_1SKHoZKojVEYZPlXvLnfZEYo,199,,0.0,eur,month
+Pliant,co_dc2e6ea0-b71f-4fd3-a986-456680c68c25,cus_TGpoPN9VB2Fxpl,sub_1SKI9JKojVEYZPlXDe8jLv3S,499,,0.0,eur,month
+SCAILE,co_835b544b-5f4e-45da-9070-278d2588890b,cus_TGpyAUxPe8Xv8U,sub_1SKIO9KojVEYZPlX7Xzh4ahC,89,,0.0,eur,month
+Moininger IO,co_1e31f5f4-2ca4-4f55-99c1-f648dc3686a2,cus_TGq7f1zMO21Fkf,sub_1SKIVEKojVEYZPlXES0gGwDm,77,919.0,0.0,eur,year
+eDesk,co_80e8a6ae-f596-40ab-ab62-a357b0266ed2,cus_TGpqRfxbBEukwB,sub_1SKIyZKojVEYZPlXPp9vWZxX,89,,0.0,eur,month
+thortful,co_1e4809cf-c7b7-431f-ad9b-0f57f24dcfaa,cus_T6iCpcEgCtB4QL,sub_1SKKonKojVEYZPlXZ7g0B0Lw,89,,0.0,eur,month
+Xano,co_03277873-a2d4-4a7f-8fd5-4b4d6b6046ae,cus_TEF3qyyF8qa5gq,sub_1SKKtKKojVEYZPlXv69ptn3m,89,,0.0,usd,month
+Informed Iteration,co_a8a1cf20-be18-441d-aef3-8e199cac77bd,cus_TGvTiJ59etQ8OY,sub_1SKNcGKojVEYZPlXXD9PlTEg,129,,0.0,eur,month
+ContractSafe,co_fd9a2596-1433-4657-a496-65ce41c9e31a,cus_Sw6qaFlQPg9s1W,sub_1SKOHDKojVEYZPlXhgKZiXoE,199,,0.0,eur,month
+LAIRD Superfood,co_71a668ee-8fa3-487b-99a3-0343d5823c06,cus_TGun6Ud32rgWy3,sub_1SKOadKojVEYZPlXJ9tNNome,199,,0.0,eur,month
+Under 5'10,co_4aced6ee-b53a-4702-9510-0aa191ecd776,cus_T3s7im4GA7nDAG,sub_1SKPTQKojVEYZPlXk5iMzdh2,89,,0.0,usd,month
+ProRata.ai,co_0f04c607-592b-4b6b-b5c3-b484a857c487,cus_TGzA9MND7siO0M,sub_1SKRCfKojVEYZPlXwr6qnXUl,89,,0.0,usd,month
+SuperYacht Times,co_7416f23c-af3b-4992-8ad5-f4af20a89a22,cus_THAPx6yoOfodkf,sub_1SKc7CKojVEYZPlX6QJIBu2v,89,,0.0,eur,month
+flowkey,co_acb9880b-b726-44d8-a063-08c40296e942,cus_SyqKFZAHL42jJk,sub_1SKeRUKojVEYZPlXVLB582oV,89,,0.0,eur,month
+Leroy Merlin,co_727c1063-15e0-4fe7-81c4-e80f56ed7112,cus_THEPWbXy0Exwqo,sub_1SKg0DKojVEYZPlX2IxwtL4l,89,,0.0,eur,month
+C-Factor AG,co_890406c9-7dbd-4d14-8718-25b13037b319,cus_THGFAYoU4ifQMQ,sub_1SKhibKojVEYZPlXoeYSkEz0,199,,0.0,eur,month
+Kobase,co_769dffaa-c1bb-4c5d-a18e-e1f44b006b47,cus_THGjHUHTyQ6Yhu,sub_1SKiDHKojVEYZPlXu7x4ZdrG,89,,0.0,usd,month
+Archibald London,co_4cb026ca-6b5a-4098-b6ab-4285e9300bea,cus_THHNfVhjFozQwn,sub_1SKipdKojVEYZPlX7u2z19H1,89,,0.0,eur,month
+Ignite Marketing,co_0339bd05-fd16-4c33-b465-865fa9574828,cus_THHT1THStEBoXG,sub_1SKivfKojVEYZPlXphqTHkcF,89,,0.0,eur,month
+Slate,co_5f332de7-abb1-4f4d-ac0c-473f905a07f0,cus_THInhwoSWj3Tll,sub_1SKkCcKojVEYZPlXKoz7n7OF,89,,0.0,usd,month
+,,cus_SrO6v203UP2Cn7,sub_1SKkjKKojVEYZPlX7OGVdNdB,199,,0.0,eur,month
+Green Hearted,co_1d04901e-e952-43f5-a993-3f0dc7362226,cus_THKDUSvBnlJp72,sub_1SKlaVKojVEYZPlXR2K4HfC0,89,,0.0,usd,month
+UpClear,co_f9e07e48-c8e3-4e72-a183-99a1f9dddd07,cus_THKTfmW03f5tMk,sub_1SKlp1KojVEYZPlXJ5U3PsPp,89,,0.0,usd,month
+vondy,co_1d9e96ff-82d7-4f9c-86f3-851acbf4ae54,cus_THKy0lkHvi5QDg,sub_1SKmK6KojVEYZPlXhwm1ZVnn,199,,0.0,eur,month
+,,cus_THVYoRSm7hpdxT,sub_1SKwXgKojVEYZPlXd3LLLmwe,199,,0.0,eur,month
+Peack,co_9c0c48d5-5070-459a-bc72-fc2065a78ffd,cus_T16BOHySzBIUn4,sub_1SKwrzKojVEYZPlXCcPCzqvW,199,,0.0,eur,month
+Inessa,co_89467c29-cf23-41d7-98cb-71c2ba74e699,cus_THWmMw2lP7pbJJ,sub_1SKxqDKojVEYZPlXNPifzFBw,89,,0.0,eur,month
+HAI Digital,co_957d9184-c687-44d1-ada8-cfbde434834d,cus_THXHo9BXWF3HOY,sub_1SKyEuKojVEYZPlXBSTaCAlq,89,,0.0,eur,month
+Ryft Pay,co_b48520c6-d9ee-4ff9-bcb1-5bc7a511277b,cus_THY4SekopEZw6z,sub_1SKz8yKojVEYZPlXhpy9PLr7,89,,0.0,eur,month
+Prime One Global,co_28578c6c-aebb-49e1-9e6b-05ef0fd221ce,cus_THYPcUJMzGGRY3,sub_1SKzJ7KojVEYZPlX65OAVzkE,199,,0.0,eur,month
+teamgeist,co_0c0243e1-9f5c-47ed-8451-11056aa4f949,cus_THY4yS5KDg4PED,sub_1SKzNXKojVEYZPlXUdCaL700,89,,0.0,eur,month
+Sunlab GmbH,co_1ed52a35-8658-4eed-87d2-d650d5faaab6,cus_ScIQ37Y2p0o7eA,sub_1SL3BjKojVEYZPlXylUESAX0,199,,0.0,eur,month
+Vivobarefoot,co_6179cb26-90c7-4d7e-9f6a-3fbd06fce326,cus_THdP9CPofqMuht,sub_1SL4D7KojVEYZPlX6WzFMTMg,169,2029.0,0.0,eur,year
+Hive,co_7f4f9184-7b46-4964-a406-69f2ee512914,cus_TEcBHSEFzh8Fdr,sub_1SL4y2KojVEYZPlXcQdkl8ZZ,89,,0.0,eur,month
+Rebrandly,co_ebd758f9-e252-4739-951f-75a47855c90e,cus_SvvLsvMmh34EBj,sub_1SL7PCKojVEYZPlXJ8PuUhD6,199,,0.0,eur,month
+GenOptima,co_f7934588-6a11-41e6-a2cf-671644dcc326,cus_THrZ5zx781HsYM,sub_1SLHv6KojVEYZPlXP4Rphi0h,199,,0.0,eur,month
+Burnhard,co_5843d2ff-2d18-4595-a746-d43d86f00b9a,cus_THusfqgMr2zMpa,sub_1SLLnxKojVEYZPlXufEuZzCZ,89,,0.0,eur,month
+Xentral,co_4794382d-ea2b-43aa-ba99-05412f5a4525,cus_T6NLGwtle7opat,sub_1SLPjGKojVEYZPlX2RCVGIPp,199,,0.0,eur,month
+OAG,co_c52c0f24-eccc-4322-8ed7-d8486666fab1,cus_TI0b42zuOrmSSu,sub_1SLQfnKojVEYZPlXBsraH8Kf,199,,0.0,eur,month
+Crave Lab,co_d7d7a23b-67a0-4804-9fac-c71af12159e0,cus_TI9wqRlutiJflO,sub_1SLZdAKojVEYZPlX06P6a6rb,199,,0.0,eur,month
+Koninklijke Gazelle,co_abc11a7f-0e76-4a58-a52a-8c2ba6edc662,cus_TEcbCktDLE5vQ3,sub_1SLhQqKojVEYZPlX7lTKy4yo,169,2029.0,0.0,eur,year
+Praytell,co_ec9b2158-4a97-4bc1-af42-c5549e0eabdf,cus_TIP5SU2c9h5DQo,sub_1SLoH4KojVEYZPlXnHLbjRbW,599,,0.0,eur,month
+LustGF,co_9beca24f-b840-4e39-96f5-b5d488663608,cus_TJ18qW8VLRaFkn,sub_1SMP86KojVEYZPlXlj652m6U,89,,0.0,usd,month
+,,cus_TJ9hGFYPsEVySx,sub_1SMXXfKojVEYZPlXnvplcsEv,499,,0.0,eur,month
+c15n,co_f23735ba-497b-4135-bf15-ae021d2da740,cus_TJAycC1lD4Lcs9,sub_1SMYelKojVEYZPlXpEomoUUw,199,,0.0,eur,month
+Podean,co_65b7275f-bbdc-4a80-ad1c-b5594f63b9d3,cus_TEbpklh3tJE4Bw,sub_1SMcS3KojVEYZPlXIGSzrHiH,199,,0.0,usd,month
+AES International,co_8b959037-dfc5-469f-a47a-edfbbd4bf38d,cus_THXOaXUWghByWQ,sub_1SMiu7KojVEYZPlXuGOpDOcZ,89,,0.0,eur,month
+ICANIWILL,co_0f1ff71c-a1fd-42c3-88bf-68d7491d5bb3,cus_TJV8oBXNKeKpJJ,sub_1SMs9BKojVEYZPlXxZ83ojXw,199,,0.0,eur,month
+733Park,co_5d182f54-96c9-4824-8fcb-437702d1bc45,cus_TIMt6YNwA0dsuj,sub_1SMtIBKojVEYZPlXeOWeIgzs,89,,0.0,usd,month
+,,cus_TJWXpXxQ73fFk1,sub_1SMtyqKojVEYZPlXpDLPZSk7,443,,0.0,eur,month
+Lawfty,co_9db10569-955f-44c9-b468-cd5cf230121f,cus_TJZF87O4uRl1Gn,sub_1SMw7NKojVEYZPlXqqf0MKWn,612,,0.0,eur,month
+Spark Communications,co_e3eeb78b-e474-42af-b810-8fe536457501,cus_TJmmyVqlmcwJiW,sub_1SN9D4KojVEYZPlXKWHHlWDr,199,,0.0,eur,month
+Spot & Tango,co_6238f0cb-5228-47b7-979a-9ce4079ac710,cus_TJrQO7gNsYGcvQ,sub_1SNEzdKojVEYZPlX29Kdoi0y,199,,0.0,eur,month
+WPP Media,co_27c39cab-37b7-40bf-a082-317788ec5f91,cus_TJwUAXCMDgad93,sub_1SNIcGKojVEYZPlXcc1HaA4n,1000,,0.0,eur,month
+Overdose Digital,co_8faa24c5-c875-420f-b12d-72c36c4bd56e,cus_TJyLxk98uMqThC,sub_1SNKP0KojVEYZPlXyjCqMNot,599,,0.0,eur,month
+,,cus_TJxLetjVm2EAZN,sub_1SNWrHKojVEYZPlXWHT4HDpP,169,2029.0,0.0,eur,year
