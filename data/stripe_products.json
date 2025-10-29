@@ -782,7 +782,7 @@
     "active": true,
     "attributes": [],
     "created": 1747587202,
-    "default_price": "price_1RQASkKojVEYZPlXvY1tLcE7",
+    "default_price": "price_1RrjtnKojVEYZPlX3k3cZbGY",
     "description": null,
     "images": [
       "https://files.stripe.com/links/MDB8YWNjdF8xUW1jWFhLb2pWRVlaUGxYfGZsX2xpdmVfY29Cd2piM2IzZUpNVUt1OVZNRld3T1Mw00rJzcV0iR"
@@ -801,7 +801,7 @@
     "tax_code": "txcd_10103001",
     "type": "service",
     "unit_label": null,
-    "updated": 1760382571,
+    "updated": 1761726349,
     "url": null
   },
   {
